@@ -2,7 +2,7 @@
 titel: ENGAGE
 naam: ENGAGE
 konvent: wvk
-tags:
+themes:
   - naam: politiek-filosofisch
   - naam: lifestyle
 ---

@@ -17,6 +17,7 @@ Alle themas (op lijn beginnende met `themas:` )
 - streek
 - lifestyle
 - events
+- studentenraden
 
 Alle konventen (op lijn beginnende met `konvent:` )
 - WVK: Werkgroepen en Verenigingen

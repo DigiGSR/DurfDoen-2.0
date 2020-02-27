@@ -2,7 +2,7 @@
 titel: Verkeerd geparkeerd
 naam: Verkeerd geparkeerd
 konvent: wvk
-tags:
+themes:
   - name: diversiteit
   - name: lifestyle
 ---

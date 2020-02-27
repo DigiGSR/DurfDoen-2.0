@@ -2,6 +2,6 @@
 titel: Kajira
 naam: Kajira
 konvent: wvk
-tags:
+themes:
   - naam: lifestyle
 ---
