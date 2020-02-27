@@ -1,0 +1,49 @@
+<div class="details-container details-logo">
+    <img src="/assets/logos/<%= item[:logo] %>" alt="logo"> </img>
+</div>
+<div class="details-container details-contact">
+    <% if item[:deelname_link] %>
+        <a href="<%= item[:deelname_link] %>"><%= item[:deelname_link] %></a>
+    <% end %>
+    <div class="contact-container">
+        <p><a href="<%= item[:contact] %>"><%= item[:contact] %></a></p>
+        <p><a href="<%= item[:website] %>"><%= item[:website] %></a></p>
+    </div>
+    <div class="social-container">
+    <ul>
+        <% for social in item[:social] %>
+            <li class="social-<%= social[:platform] %>">
+            <a href="<%= social[:link] %>"><%= social[:link] %></a>
+            </li>
+        <% end %>
+    </ul>
+    </div>
+</div>
+<div class="details-container details-photo">
+    <div class="showcase-container">
+        <% for showcase_img in item[:showcase] %>
+            <div class="showcase-image">
+                <img src="<%= showcase_img[:photo]%>" alt="showcase img"></img>
+            </div>
+        <% end %>
+    </div>
+    <div class="thema-container">
+    <p><span class="thema-title">Thema's:</span>
+        <ul>
+            <% for thema in item[:themas] %>
+                <li><%= thema[:naam] %></li>
+            <% end %>
+        </ul>
+    </p>
+    </div>
+</div>
+<% if item[:verenigingen] %>
+<div class="details-container details-verenigingen">
+    <% for vereniging in item[:verenigingen] %>
+        <div class="vereninging-container">
+            <p><%= vereniging[:naam] %></p>
+            <img src="<%= vereniging[:photo] %>" alt="vereniging logo"></img>
+        </div>
+    <% end %>
+</div>
+<% end %>
