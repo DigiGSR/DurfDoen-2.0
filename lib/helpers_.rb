@@ -4,3 +4,4 @@ use_helper Nanoc::Helpers::ChildParent
 
 use_helper NavigationHelper
 use_helper VerenigingenLists
+use_helper FontAwesomeHelper
