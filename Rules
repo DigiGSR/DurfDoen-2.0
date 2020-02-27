@@ -7,6 +7,13 @@ compile '/verenigingen/*.md' do
   write ext: 'html'
 end
 
+compile '/quiz/*.md' do
+  filter :kramdown
+  layout '/partials/question.*'
+  layout '/default.*'
+  write ext: 'html'
+end
+
 compile '/homepage.md' do
   filter :kramdown
   layout '/homepage.*'
@@ -17,6 +24,13 @@ end
 compile '/verenigingen.md' do
   filter :kramdown
   layout '/verenigingen.*'
+  layout '/default.*'
+  write ext: 'html'
+end
+
+compile '/quiz.md' do
+  filter :kramdown
+  layout '/quiz.*'
   layout '/default.*'
   write ext: 'html'
 end
