@@ -2,17 +2,17 @@
 titel: VVN
 naam: VVN
 logo: placeholder.png
-contact: some_email@some_domain.bla
-website: www.somewebsite.bla
+contact: some_email@some_domain.com
+website: www.somewebsite.com
 social:
   - platform: facebook
-    link: www.link.bla
+    link: facebook-link
   - platform: twitter
-    link: www.link.bla
+    link: facebook-link
 showcase:
   - photo: image.png
 themas:
-  - naam: faking
+  - naam: thema1
 bestuur:
   - naam: Bastiaan Aelbrecht
     functie: Voorzitter
