@@ -1,4 +1,0 @@
----
-titel: Filologica
-naam: Filologica
----

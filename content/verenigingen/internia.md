@@ -1,4 +1,0 @@
----
-titel: Internia
-naam: Internia
----

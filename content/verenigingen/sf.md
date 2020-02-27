@@ -1,4 +1,0 @@
----
-titel: Studentenfanfare
-naam: Studentenfanfare
----

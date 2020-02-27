@@ -1,4 +1,0 @@
----
-titel: Kajira
-naam: Kajira
----

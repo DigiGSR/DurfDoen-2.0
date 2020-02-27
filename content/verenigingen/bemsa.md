@@ -1,4 +1,0 @@
----
-titel: BeMSA
-naam: BeMSA
----

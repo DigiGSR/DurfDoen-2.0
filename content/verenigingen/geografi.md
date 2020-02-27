@@ -1,4 +1,0 @@
----
-titel: Geografica
-naam: Geografica
----

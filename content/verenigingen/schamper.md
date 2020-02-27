@@ -1,4 +1,0 @@
----
-titel: Schamper
-naam: Schamper
----

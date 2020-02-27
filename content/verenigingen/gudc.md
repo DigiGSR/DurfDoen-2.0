@@ -1,4 +1,0 @@
----
-titel: GUDc
-naam: GUDc
----

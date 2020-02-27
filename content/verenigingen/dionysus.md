@@ -1,4 +1,0 @@
----
-titel: Dionysus
-naam: Dionysus
----
