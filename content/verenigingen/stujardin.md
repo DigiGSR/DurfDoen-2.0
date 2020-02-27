@@ -1,4 +1,0 @@
----
-titel: StuJardin
-naam: StuJardin
----

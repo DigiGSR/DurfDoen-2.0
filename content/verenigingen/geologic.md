@@ -1,4 +1,0 @@
----
-titel: Geologica
-naam: Geologica
----

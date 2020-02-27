@@ -1,4 +1,0 @@
----
-titel: MaCht
-naam: MaCht
----

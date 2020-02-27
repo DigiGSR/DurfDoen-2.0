@@ -1,4 +1,0 @@
----
-titel: Politeia
-naam: Politeia
----

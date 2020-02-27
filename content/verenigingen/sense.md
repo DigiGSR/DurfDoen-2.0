@@ -1,4 +1,0 @@
----
-titel: Sense
-naam: Sense
----

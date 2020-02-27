@@ -1,4 +1,0 @@
----
-titel: GUHO
-naam: GUHO
----

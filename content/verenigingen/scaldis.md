@@ -1,4 +1,0 @@
----
-titel: Scaldis
-naam: Scaldis
----

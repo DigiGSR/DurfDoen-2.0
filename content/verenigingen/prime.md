@@ -1,4 +1,0 @@
----
-titel: PRIME
-naam: PRIME
----

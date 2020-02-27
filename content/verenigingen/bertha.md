@@ -1,4 +1,0 @@
----
-titel: Home Bertha de Vriese
-naam: Home Bertha de Vriese
----

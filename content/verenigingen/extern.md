@@ -1,4 +1,0 @@
----
-titel: Extern
-naam: Extern
----

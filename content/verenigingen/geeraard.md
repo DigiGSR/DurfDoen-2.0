@@ -1,4 +1,0 @@
----
-titel: Geeraard
-naam: Geeraard
----

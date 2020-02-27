@@ -1,4 +1,0 @@
----
-titel: Westlandia
-naam: Westlandia
----

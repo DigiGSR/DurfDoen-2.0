@@ -1,4 +1,0 @@
----
-titel: GUSO
-naam: GUSO
----
