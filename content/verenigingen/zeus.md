@@ -1,6 +1,22 @@
 ---
 titel: Zeus WPI
 naam: Zeus WPI
+logo: placeholder.png
+contact: some_email@some_domain.bla
+website: www.somewebsite.bla
+social:
+  - platform: facebook
+    link: www.link.bla
+  - platform: twitter
+    link: www.link.bla
+showcase:
+  - photo: https://via.placeholder.com/300.png/09f/fff
+  - photo: https://via.placeholder.com/300.png/09f/fff
+  - photo: https://via.placeholder.com/300.png/09f/fff
+themas:
+  - naam: thema1
+  - naam: thema2
+  - naam: thema3
 bestuur:
   - functie: Voorzitter
     naam: Robbe Van Herck

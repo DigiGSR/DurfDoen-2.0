@@ -1,8 +1,9 @@
+<div class="content-wrapper">
 <h1> <%= item[:naam] %> </h1>
-<h2> Het bestuur: </h2>
-<ul>
-<% for persoon in item[:bestuur] %>
-    <li> <%= persoon[:functie] %>: <%= persoon[:naam] %> </li>
-<% end %>
-</ul>
-<%= yield %>
+<div class="details-wrapper">
+    <div class="details-container details-text">
+        <%= yield %>
+    </div>
+    <%= render '/partials/detail.*' %>
+</div>
+</div>
