@@ -1,16 +1,18 @@
-<h1>
-Themas
-</h1>
+<h1> Themas </h1>
 <ul>
     <% for vereniging in themes %>
-        <li> <%= vereniging %> </li>
+        <li> 
+            <%= "<img src=/assets/konventen/" ++ vereniging.tr(" ", "_") ++ ".png" ++ " alt='" ++ vereniging ++ " logo '" %></img>
+            <%= link_to(vereniging, "thema/"++vereniging.tr(" ", "_"))%>
+        </li>
     <% end %>
 </ul>
-<h1>
-Konventen en projecten
-</h1>
+<h1> Konventen en projecten </h1>
 <ul>
     <% for konvent in konvents %>
-        <li> <%= konvent %> </li>
+        <li>
+            <%= "<img src=/assets/konventen/" ++ konvent.tr(" ", "_") ++ ".png" ++ " alt='" ++ konvent ++ " logo '" %></img>
+            <%= link_to(konvent, "konventen/"++konvent.tr(" ", "_"))%>
+        </li>
     <% end %>
 </ul>
