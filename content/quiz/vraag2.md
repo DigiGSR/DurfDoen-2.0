@@ -1,20 +1,24 @@
 ---
 vraag: Zit je op een home?
 type: meerkeuze
-antwoord:
+antwoorden:
   - tekst: Ja
     vraag: Welke home?
-    antwoord:
+    antwoorden:
       - tekst: Home Astrid
-        vereniging:
-          - Astrid
+        verenigingen:
+          - naam: Home Astrid
       - tekst: Home Fabiola
-
+        verenigingen:
+          - naam: Home Fabiola
       - tekst: Home Bertha
-
+        verenigingen:
+          - naam: Home Bertha
       - tekst: Home Boudewijn
-
+        verenigingen:
+          - naam: Home Boudewijn
       - tekst: Home Vermeylen
-
+        verenigingen:
+          - naam: Home Vermeylen
   - tekst: Nee
 ---
