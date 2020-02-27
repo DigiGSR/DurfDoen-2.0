@@ -101,6 +101,11 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     ref (2.0.0)
+    sass (3.7.4)
+      sass-listen (~> 4.0.0)
+    sass-listen (4.0.0)
+      rb-fsevent (~> 0.9, >= 0.9.4)
+      rb-inotify (~> 0.9, >= 0.9.7)
     sassc (2.2.1)
       ffi (~> 1.9)
     shellany (0.0.1)
@@ -133,6 +138,7 @@ DEPENDENCIES
   mini_racer
   nanoc
   pdfkit
+  sass
   sassc
   slim
 
