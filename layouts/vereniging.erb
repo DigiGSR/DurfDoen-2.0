@@ -1,8 +1,10 @@
 <h1> <%= item[:naam] %> </h1>
 <h2> Het bestuur: </h2>
 <ul>
+<% if item[:bestuur] %>
 <% for persoon in item[:bestuur] %>
     <li> <%= persoon[:functie] %>: <%= persoon[:naam] %> </li>
+<% end %>
 <% end %>
 </ul>
 <%= yield %>
