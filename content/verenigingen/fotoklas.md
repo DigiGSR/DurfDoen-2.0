@@ -1,0 +1,4 @@
+---
+titel: Fotoklas
+naam: Fotoklas
+---
