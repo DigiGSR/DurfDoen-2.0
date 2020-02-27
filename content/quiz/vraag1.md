@@ -4,6 +4,7 @@ type: dropdown
 antwoorden:
   - tekst: Letteren en Wijsbegeerte
     vraag: Welke richting?
+    type: dropdown
     antwoorden:
       - tekst: Afrikaanse talen en culturen
         verenigingen:
@@ -51,6 +52,7 @@ antwoorden:
           - naam: KMF
   - tekst: Recht en criminologie
     vraag: Welke richting?
+    type: dropdown
     antwoorden:
       - tekst: Rechten
         verenigingen:
@@ -62,6 +64,7 @@ antwoorden:
           - naam: Lombrosiana
   - tekst: Wetenschappen
     vraag: Welke richting?
+    type: dropdown
     antwoorden:
       - tekst: Biochemie en biotechnologie
         verenigingen:
@@ -100,6 +103,7 @@ antwoorden:
           - naam: WiNA
   - tekst: Geneeskunde en gezondheidswetenschappen
     vraag: Welke richting?
+    type: dropdown
     antwoorden:
       - tekst: Biomedische wetenschappen
         verenigingen:
@@ -139,6 +143,7 @@ antwoorden:
           - naam: BeMSA
   - tekst: Ingenieurswetenschappen en architectuur
     vraag: Welke richting?
+    type: dropdown
     antwoorden:
       - tekst: iw - Bouwkunde
         verenigingen:
@@ -216,6 +221,7 @@ antwoorden:
           - naam: Hermes
   - tekst: Economie en bedrijfskude
     vraag: Welke richting?
+    type: dropdown
     antwoorden:
       - tekst: Handelsingenieur
         verenigingen:
@@ -247,6 +253,7 @@ antwoorden:
           - naam: VEK
   - tekst: Diergeneeskunde
     vraag: Welke richting?
+    type: dropdown
     antwoorden:
       - tekst: Diergeneeskunde
         verenigingen:
@@ -254,6 +261,7 @@ antwoorden:
           - naam: VDK
   - tekst: Psychologie en pedagogische wetenschappen
     vraag: Welke richting?
+    type: dropdown
     antwoorden:
       - tekst: Pedagogie - Klinische orthopedagogiek en disability studies
         verenigingen:
@@ -285,6 +293,7 @@ antwoorden:
           - naam: VPPK
   - tekst: Bio-ingenieurswetenschappen
     vraag: Welke richting?
+    type: dropdown
     antwoorden:
       - tekst: biw - Bos- en natuurbeheer
         verenigingen:
@@ -318,6 +327,7 @@ antwoorden:
           - naam: LILA
   - tekst: Farmaceutische wetenschappen
     vraag: Welke richting?
+    type: dropdown
     antwoorden:
       - tekst: Farmaceutische wetenschappen
         verenigingen:
@@ -326,6 +336,7 @@ antwoorden:
           - naam: BeMSA
   - tekst: Politieke en sociale wetenschappen
     vraag: Welke richting?
+    type: dropdown
     antwoorden:
       - tekst: Communicatiewetenschappen
         verenigingen:

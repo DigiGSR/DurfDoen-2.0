@@ -1,9 +1,10 @@
 ---
 vraag: Zit je op een home?
-type: meerkeuze
+type: dropdown
 antwoorden:
   - tekst: Ja
     vraag: Welke home?
+    type: dropdown
     antwoorden:
       - tekst: Home Astrid
         verenigingen:

@@ -1,5 +1,5 @@
 ---
-vraag: Wie wil je ontmoeten
+vraag: Wie wil je ontmoeten?
 type: meerkeuze
 antwoorden:
   - tekst: Studenten die uit dezelfde streek afkomstig zijn
@@ -15,34 +15,6 @@ antwoorden:
     vereningingen:
       - naam: ESN
       - naam: International students association gent
-  - tekst: Mensen met dezelfde politieke overtuiging
-    vraag: Welke overtuiging?
-    antwoorden:
-      - tekst: Vlaams-Nationalistisch en conservatief
-        verenigingen:
-          - naam: KVHV
-          - naam: NSV
-      - tekst: Antikapitalistisch
-        verenigingen:
-          - naam: ALS
-      - tekst: Christendemocraat
-        verenigingen:
-          - naam: CDS
-      - tekst: Zeer socialistisch
-        verenigingen:
-          - naam: Comac
-      - tekst: Groen en links
-        verenigingen:
-          - naam: Jong Groen StuGent
-      - tekst: Vlaams-republikeins
-        verenigingen:
-          - naam: Jong N-Va Ugent
-      - tekst: Socialistisch
-        verenigingen:
-          - naam: Jongsocialisten StuGent
-      - tekst: Liberaal
-        verenigingen:
-          - naam: LVSV
   - tekst: Ik ben holebistudent en zou graag andere holebistudenten ontmoeten
     verenigingen:
       - naam: Verkeerd Geparkeerd
