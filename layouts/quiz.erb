@@ -1,9 +1,12 @@
 <h1>Hallo</h1>
 <ul>
+
 <% @items.find_all("**/quiz/*").each_with_index do |x, i| %>
     <div id="question<%i%>" class="quistion">
-        <%= render '/partials/question.*', item: x %>
+        <%= render '/partials/question.*', question: x %>
     </div>
+
 <% end %>
+
 </ul>
-<%= yield %>
+<%#= yield %>
