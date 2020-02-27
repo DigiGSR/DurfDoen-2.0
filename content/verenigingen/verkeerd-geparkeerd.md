@@ -5,7 +5,4 @@ tags:
   - diversiteit
   - lifestyle
 konvent: Unknown
-bestuur:
-  - functie: Voorzitter
-    naam: /tmp
 ---
