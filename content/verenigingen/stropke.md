@@ -1,5 +1,5 @@
 ---
-titel: 't Stropke
-naam: 't Stropke
+titel: \'t Stropke
+naam: \'t Stropke
 konvent: sk
 ---
