@@ -1,0 +1,41 @@
+#!/usr/bin/env ruby
+
+compile '/verenigingen/*.md' do
+  filter :kramdown
+  layout '/vereniging.*'
+  layout '/default.*'
+  write ext: 'html'
+end
+
+compile '/homepage.md' do
+  filter :kramdown
+  layout '/homepage.*'
+  layout '/default.*'
+  write '/index.html'
+end
+
+compile '/verenigingen.md' do
+  filter :kramdown
+  layout '/verenigingen.*'
+  layout '/default.*'
+  write ext: 'html'
+end
+
+compile '/*.md' do
+  filter :kramdown
+  layout '/default.*'
+  write ext: 'html'
+end
+
+compile '/stylesheets/*.{sass,scss}' do
+  syntax = @item.identifier.ext.to_sym
+  filter :sass, syntax: syntax, style: :compact
+  write ext: 'css'
+end
+
+# Catch-all
+compile '/**/*' do
+  write item.identifier.to_s
+end
+
+layout '/**/*', :erb

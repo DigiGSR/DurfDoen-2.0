@@ -1,0 +1,11 @@
+<html>
+    <head>
+        <title> Durf Doen! - <%= item[:titel] || item.identifier.without_ext.split('/').last %> </title>
+        <link rel="stylesheet" href="/stylesheets/main.css">
+        <link rel="shortcut icon" href="/assets/favicon.png">
+    </head>
+    <body>
+        <%= render '/partials/navbar.*' %>
+        <%= yield %>
+    </body>
+</html>

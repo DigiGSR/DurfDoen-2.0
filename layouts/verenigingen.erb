@@ -1,0 +1,5 @@
+<ul>
+<% @items.find_all("**/verenigingen/*").sort_by {|x| x[:naam]}.each do |i| %>
+    <li> <%= link_to(i[:naam], i) %> </li>
+<% end %>
+<ul>
