@@ -1,29 +1,6 @@
 ---
 titel: VVN
 naam: VVN
-bestuur:
-  - naam: Bastiaan Aelbrecht
-    functie: Voorzitter
-  - naam: Fleur Hubau
-    functie: Ondervoorzitter
-  - naam: Jorden De Bolle
-    functie: Penningmeester
-  - naam: Jacob Lamers
-    functie: Secretaris
-  - naam: Dante De Ruwe
-    functie: PR Intern
-  - naam: Thibault Spiessens
-    functie: PR Intern/Webmaster
-  - naam: Julian De Vuyst
-    functie: PR Extern
-  - naam: Marco Deweirdt
-    functie: Reisleider
-  - naam: Bjorn Verstraeten
-    functie: Reisleider
-  - naam: Ian Bauwens
-    functie: Voorzitter werkgroep sterrenkunde
-  - naam: Lukas Devos
-    functie: Ondervoorzitter werkgroep sterrenkunde
 ---
 
 # Over ons
