@@ -1,8 +1,9 @@
 <h1>Hallo</h1>
 <ul>
-<% @items.find_all("**/quiz/*").each_with_index do |x, i| %>
-    <div id="question<%i%>" class="quistion">
-        <%= render '/partials/question.*', item: x %>
+<% @items.find_all("**/quiz/*").each_with_index do |quest, i| %>
+    <div id="question_<%=i%>" class="question">
+        <h2> <%= quest[:vraag] %> </h2>
+        <%= render '/partials/question.*', question: quest %>
     </div>
 <% end %>
 </ul>

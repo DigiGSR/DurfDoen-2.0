@@ -1,19 +1,19 @@
-<h1> <%= item[:vraag] %> </h1>
-<select id=<%= item[:vraag] %>>
-<% for a in item[:antwoord] %>
-    <option value=<%= a[:teskt] %>><%= a[:tekst] %></option>
-    <% if a[:vraag] != ""%>
-        <div id=<% a[:vraag]%>>
-            <%= render '/partials/question.*' %>
+<h1> <%= question[:vraag] %> </h1>
+<select id="<%= question[:vraag] %>">
+<% for a in question[:antwoord] %>
+    <option value="<%= a[:tekst] %>"><%= a[:tekst] %></option>
+    <% if a.key?("vraag") %>
+        <div id=<%= a[:vraag]%>>
+            <%= render '/partials/question.*', question: a  %>
         </div>
-    <% end %
+    <% end %>
 <% end %>
 </select>
+
 <script>
-    document.getElementById(<%= item[:vraag]%>).addEventListener('change', (event) => {
+   document.getElementById(<%= item[:vraag]%>).addEventListener('change', (event) => {
         var tekst = event.target.value;
         document.getElementById(<%= item[:vraag]%>)
         <%= render '/partials/question.*' %>
     })
 </script>
-<%= yield %>
