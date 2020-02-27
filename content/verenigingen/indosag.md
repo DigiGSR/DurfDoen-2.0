@@ -4,4 +4,5 @@ naam: Indonesian Students Association Ghent
 konvent: ik
 themas:
   - naam: diversiteit
+  - naam: internationaal
 ---
