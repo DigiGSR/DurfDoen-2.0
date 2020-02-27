@@ -2,7 +2,7 @@
 titel: Zeus WPI
 naam: Zeus WPI
 themas:
-  - wetenschap-techniek
+  - naam: wetenschap-techniek
 konvent: wvk
 bestuur:
   - functie: Voorzitter
