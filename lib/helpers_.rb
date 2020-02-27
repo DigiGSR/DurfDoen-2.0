@@ -3,3 +3,4 @@ use_helper Nanoc::Helpers::Rendering
 use_helper Nanoc::Helpers::ChildParent
 
 use_helper NavigationHelper
+use_helper VerenigingenLists

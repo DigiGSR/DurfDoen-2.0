@@ -1,5 +1,10 @@
 <ul>
-<% @items.find_all("**/verenigingen/*").sort_by {|x| x[:naam]}.each do |i| %>
-    <li> <%= link_to(i[:naam], i) %> </li>
-<% end %>
+    <% for vereniging in themes %>
+        <li> <%= vereniging %> </li>
+    <% end %>
+</ul>
 <ul>
+    <% for konvent in konvents %>
+        <li> <%= konvent %> </li>
+    <% end %>
+</ul>
