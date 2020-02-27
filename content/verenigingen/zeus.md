@@ -1,6 +1,9 @@
 ---
 titel: Zeus WPI
 naam: Zeus WPI
+themas:
+  - wetenschap-techniek
+konvent: WVK
 bestuur:
   - functie: Voorzitter
     naam: Robbe Van Herck

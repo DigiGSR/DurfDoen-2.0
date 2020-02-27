@@ -1,6 +1,9 @@
 ---
 titel: VVN
 naam: VVN
+themas:
+  - wetenschap-techniek
+konvent: WVK
 bestuur:
   - naam: Bastiaan Aelbrecht
     functie: Voorzitter
