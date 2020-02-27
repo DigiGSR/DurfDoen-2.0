@@ -4,4 +4,5 @@ naam: International Students of History Association
 konvent: ik
 themas:
   - naam: internationaal
+  - naam: cultuur
 ---
