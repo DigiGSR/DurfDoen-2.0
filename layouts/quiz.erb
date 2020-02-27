@@ -1,5 +1,9 @@
+<h1>Hallo</h1>
 <ul>
-<% @items.find_all("**/questions/*").each do |i| %>
-    <li> <%= link_to(i[:naam], i) %> </li>
+<% @items.find_all("**/quiz/*").each_with_index do |x, i| %>
+    <div id="question<%i%>" class="quistion">
+        <%= render '/partials/question.*', item: x %>
+    </div>
 <% end %>
-<ul>
+</ul>
+<%= yield %>
