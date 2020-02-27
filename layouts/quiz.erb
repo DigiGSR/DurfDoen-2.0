@@ -1,0 +1,5 @@
+<ul>
+<% @items.find_all("**/questions/*").each do |i| %>
+    <li> <%= link_to(i[:naam], i) %> </li>
+<% end %>
+<ul>
