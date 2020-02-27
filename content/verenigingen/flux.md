@@ -2,6 +2,7 @@
 titel: FLUX
 naam: FLUX
 konvent: wvk
-tags:
+themas:
+  - naam: event
   - naam: lifestyle
 ---
