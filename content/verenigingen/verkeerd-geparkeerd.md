@@ -2,7 +2,7 @@
 titel: Verkeerd geparkeerd
 naam: Verkeerd geparkeerd
 tags:
-  - diversiteit
-  - lifestyle
-konvent: Unknown
+  - name: diversiteit
+  - name: lifestyle
+konvent: WVK
 ---

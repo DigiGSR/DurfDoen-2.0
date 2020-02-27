@@ -2,7 +2,7 @@
 titel: ESN
 naam: Erasmus Student Network
 themas:
-  - diversiteit
-  - internationaal
+  - name: diversiteit
+  - name: internationaal
 konvent: ik
 ---
