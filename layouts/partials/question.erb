@@ -1,19 +1,22 @@
 <h1> <%= question[:vraag] %> </h1>
+
 <select id="<%= question[:vraag] %>">
-<% for a in question[:antwoord] %>
+<option value="empty">Selecteer een optie...</option>
+<% for a in question[:antwoorden] %>
     <option value="<%= a[:tekst] %>"><%= a[:tekst] %></option>
-    <% if a.key?("vraag") %>
-        <div id=<%= a[:vraag]%>>
-            <%= render '/partials/question.*', question: a  %>
-        </div>
+    <% if a[:vraag]%>
+       <div id="<% a[:vraag]%>">
+           <%#= render '/partials/question.*', question: a %>
+       </div>
     <% end %>
 <% end %>
 </select>
-
+<div id="subquestion">
+</div>
 <script>
-   document.getElementById(<%= item[:vraag]%>).addEventListener('change', (event) => {
-        var tekst = event.target.value;
-        document.getElementById(<%= item[:vraag]%>)
-        <%= render '/partials/question.*' %>
+    console.log("test");
+    document.getElementById("<%= question[:vraag] %>").addEventListener('change', (event) => {
+        console.log("change");
+        document.getElementById("subquestion").innerHTML = "<p>test</p>";
     })
 </script>
