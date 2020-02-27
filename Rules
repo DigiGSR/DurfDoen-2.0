@@ -7,6 +7,20 @@ compile '/verenigingen/*.md' do
   write ext: 'html'
 end
 
+compile '/events/*.md' do
+  filter :kramdown
+  layout '/event.*'
+  layout '/default.*'
+  write ext: 'html'
+end
+
+compile '/konventen/*.md' do
+  filter :kramdown
+  layout '/konvent.*'
+  layout '/default.*'
+  write ext: 'html'
+end
+
 compile '/homepage.md' do
   filter :kramdown
   layout '/homepage.*'
