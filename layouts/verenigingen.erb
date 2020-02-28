@@ -10,6 +10,6 @@
 <ul>
     <% for konvent in konvents %>
         <%= "<img src=/assets/konventen/" ++ konvent.tr(" ", "_") ++ ".png alt=" ++ konvent %>
-        <li> <%= link_to(konvent, "/thema/"++konvent.tr(" ", "_")) %>  </li>
+        <li> <%= link_to(konvent, "/konventen/"++konvent.tr(" ", "_")++".html") %>  </li>
     <% end %>
 </ul>
