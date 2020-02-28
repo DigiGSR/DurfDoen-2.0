@@ -3,7 +3,7 @@ titel: VVN
 naam: VVN
 themas:
   - wetenschap-techniek
-konvent: WVK
+konvent: wvk
 logo: placeholder.png
 contact: some_email@some_domain.com
 website: www.somewebsite.com
