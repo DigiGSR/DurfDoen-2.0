@@ -2,7 +2,7 @@
 titel: Zeus WPI
 naam: Zeus WPI
 themas:
-  - naam: wetenschap-techniek
+  -  wetenschap-techniek
 konvent: wvk
 logo: placeholder.png
 contact: some_email@some_domain.com

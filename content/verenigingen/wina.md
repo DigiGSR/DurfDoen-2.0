@@ -3,5 +3,5 @@ titel: WiNA
 naam: WiNA
 konvent: fk
 themas:
-  - naam: faculteiten
+  -  faculteiten
 ---

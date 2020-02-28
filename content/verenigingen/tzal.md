@@ -12,7 +12,7 @@ social:
   - platform: twitter
     link: https://twitter.com/tzalwelgaan
 themas:
-  - naam: politiek en filosofisch
+  -  politiek en filosofisch
 ---
 
 Het Taalminnend Studenten Genootschap 't Zal Wel Gaan werd in 1852 opgericht te Gent onder de leuze 'Klauwaard en Geus'. 't Zallers zijn de vrijdenkers van de UGent - ze staan vooral bekend om hun tegendraad-sheid, hun kritische geest en ja, hun historische strijd tegen de tsjeven.

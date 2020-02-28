@@ -1,5 +1,15 @@
+<h1> Themas </h1>
 <ul>
-<% @items.find_all("**/verenigingen/*").sort_by {|x| x[:naam]}.each do |i| %>
-    <li> <%= link_to(i[:naam], i) %> </li>
-<% end %>
+    <% for theme in themes %>
+        <%= "<img src=/assets/konventen/" ++ theme.tr(" ", "_") ++ ".png alt=" ++ theme %>
+        <li> <%= link_to(theme, "/thema/"++theme.tr(" ", "_")) %>  </li>
+    <% end %>
+</ul>
+
+<h1> Konventen en projecten </h1>
 <ul>
+    <% for konvent in konvents %>
+        <%= "<img src=/assets/konventen/" ++ konvent.tr(" ", "_") ++ ".png alt=" ++ konvent %>
+        <li> <%= link_to(konvent, "/thema/"++konvent.tr(" ", "_")) %>  </li>
+    <% end %>
+</ul>

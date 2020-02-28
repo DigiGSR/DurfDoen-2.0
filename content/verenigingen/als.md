@@ -3,7 +3,7 @@ titel: Actief Linkse Studenten
 naam: Actief Linkse Studenten
 konvent: pfk
 themas:
-  - naam: politiek en filosofisch
+  -  politiek en filosofisch
 website: https://actieflinks.be/
 contact: als@socialisme.be
 social:

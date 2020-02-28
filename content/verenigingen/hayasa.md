@@ -2,7 +2,7 @@
 titel: Hayasa
 naam: Hayasa
 themas:
-  - name: diversiteit
-  - name: internationaal
+  -  diversiteit
+  -  internationaal
 konvent: ik
 ---

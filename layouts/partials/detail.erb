@@ -10,40 +10,45 @@
         <p><a href="<%= item[:website] %>"><%= item[:website] %></a></p>
     </div>
     <div class="social-container">
-    <ul>
-        <% for social in item[:social] %>
-            <li class="social-<%= social[:platform] %>">
-            <a href="<%= social[:link] %>"><%= social[:link] %></a>
-            </li>
-        <% end %>
-    </ul>
+        <ul>
+            <% if item[:social] %>
+                <% for social in item[:social] %>
+                    <li class="social-<%= social[:platform] %>">
+                    <a href="<%= social[:link] %>"><%= social[:link] %></a>
+                    </li>
+                <% end %>
+            <% end %>
+        </ul>
     </div>
 </div>
 <div class="details-container details-photo">
     <div class="showcase-container">
+    <% if item[:showcase] %>
         <% for showcase_img in item[:showcase] %>
             <div class="showcase-image">
                 <img src="<%= showcase_img[:photo]%>" alt="showcase img"></img>
             </div>
         <% end %>
-    </div>
+    <% end %>
     <div class="thema-container">
     <p><span class="thema-title">Thema's:</span>
+    <% if item[:themas] %>
         <ul>
             <% for thema in item[:themas] %>
-                <li><%= thema[:naam] %></li>
+                <li><%= thema %></li>
             <% end %>
         </ul>
+    <% end %>
     </p>
     </div>
 </div>
 <% if item[:verenigingen] %>
-<div class="details-container details-verenigingen">
-    <% for vereniging in item[:verenigingen] %>
-        <div class="vereninging-container">
-            <p><%= vereniging[:naam] %></p>
-            <img src="<%= vereniging[:photo] %>" alt="vereniging logo"></img>
-        </div>
-    <% end %>
-</div>
+    <div class="details-container details-verenigingen">
+        <% for vereniging in item[:verenigingen] %>
+            <div class="vereninging-container">
+                <p><%= vereniging[:naam] %></p>
+                <img src="<%= vereniging[:photo] %>" alt="vereniging logo"></img>
+            </div>
+        <% end %>
+    </div>
 <% end %>

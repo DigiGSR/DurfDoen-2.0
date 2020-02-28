@@ -3,5 +3,5 @@ titel: Kring Moraal en Filosofie
 naam: Kring Moraal en Filosofie
 konvent: fk
 themas:
-  - naam: faculteiten
+  -  faculteiten
 ---
