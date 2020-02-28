@@ -8,7 +8,7 @@ naam: <naam van de vereniging>
 konvent: <afkoring van het konvent waartoe de vereniging behoort>
 themas:
   <één of meer lijnen van het volgende formaat om te vermelden in welke thema's de vereniging hoort>
-  - naam: <themanaam>
+  - <themanaam>
 website: <link naar de website van de vereniging>
 contact: <mailadres van de vereniging>
 social:

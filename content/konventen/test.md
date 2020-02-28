@@ -12,17 +12,17 @@ social:
   - platform: youtube
     link: youtube.com/
 themas:
-  - naam: thema1
-  - naam: thema2
-  - naam: thema3
+  -  thema1
+  -  thema2
+  -  thema3
 showcase:
   - photo: https://via.placeholder.com/300.png/09f/fff
   - photo: https://via.placeholder.com/300.png/09f/fff
   - photo: https://via.placeholder.com/300.png/09f/fff
 verenigingen:
-  - naam: vereniging1
+  -  vereniging1
     photo: https://via.placeholder.com/200.png/90f/fff
-  - naam: vereniging2
+  -  vereniging2
     photo: https://via.placeholder.com/200.png/90f/fff
 ---
 
