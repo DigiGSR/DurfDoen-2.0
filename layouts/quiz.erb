@@ -1,10 +1,7 @@
 <h1>Hallo</h1>
-<ul>
-<% @items.find_all("**/quiz/*").each_with_index do |quest, i| %>
+<% @items.find_all("/quiz/*").each_with_index do |quest, i| %>
     <div id="question_<%=i%>" class="question">
-        <h2> <%= quest[:vraag] %> </h2>
         <%= render '/partials/question.*', question: quest %>
     </div>
 <% end %>
-</ul>
 <%= yield %>

@@ -1,19 +1,28 @@
-<h1> <%= question[:vraag] %> </h1>
+<h2> <%= question[:vraag] %> </h2>
 <select id="<%= question[:vraag] %>">
-<% for a in question[:antwoord] %>
-    <option value="<%= a[:tekst] %>"><%= a[:tekst] %></option>
-    <% if a.key?("vraag") %>
-        <div id=<%= a[:vraag]%>>
-            <%= render '/partials/question.*', question: a  %>
+    <option value="" selected="selected disabled hidden">Maak uw keuze</option>
+    <% for answer in question[:antwoorden]%>
+        <option value="<%= answer[:tekst] %>">
+            <%= answer[:tekst] %>
+        </option>
+    <% end %>
+</select>
+<% for answer in question[:antwoorden]%>
+    <% if answer[:vraag] %>
+        <%# Should store all sub-questions with a reference to their parent question in the data-parent
+            attribute, however, these atrtibutes remain empty. %>
+        <div id=<%= answer[:vraag]%> style="display:none;" data-parent="<% question[:vraag] %>">
+            <%= render '/partials/question.*', question: answer  %>
         </div>
     <% end %>
 <% end %>
-</select>
 
 <script>
-   document.getElementById(<%= item[:vraag]%>).addEventListener('change', (event) => {
-        var tekst = event.target.value;
-        document.getElementById(<%= item[:vraag]%>)
-        <%= render '/partials/question.*' %>
+    document.getElementById("<%= question[:vraag] %>").addEventListener('change', (event) =>{
+        // find subquestions of this question and set display:initial;
+        console.log("<%= question[:vraag] %>");
+        // If the data-parent attributes would be filled, this would find the relevant sub-questions
+        // they could then be made visible again.
+        console.log(document.querySelectorAll('[data-parent="<%= question[:vraag] %>"]'));
     })
 </script>
