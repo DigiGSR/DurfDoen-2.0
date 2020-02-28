@@ -14,9 +14,9 @@ social:
     link: youtube.com/
 deelname_link: deelname-link
 themas:
-  - naam: thema1
-  - naam: thema2
-  - naam: thema3
+  - thema1
+  - thema2
+  - thema3
 showcase:
   - photo: https://via.placeholder.com/300.png/09f/fff
   - photo: https://via.placeholder.com/300.png/09f/fff

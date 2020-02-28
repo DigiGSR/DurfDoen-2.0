@@ -1,6 +1,9 @@
 ---
 titel: VVN
 naam: VVN
+themas:
+  - wetenschap-techniek
+konvent: WVK
 logo: placeholder.png
 contact: some_email@some_domain.com
 website: www.somewebsite.com
@@ -11,8 +14,6 @@ social:
     link: facebook-link
 showcase:
   - photo: image.png
-themas:
-  - naam: thema1
 ---
 
 # Over ons
