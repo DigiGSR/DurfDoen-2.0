@@ -20,9 +20,9 @@ showcase:
   - photo: https://via.placeholder.com/300.png/09f/fff
   - photo: https://via.placeholder.com/300.png/09f/fff
 verenigingen:
-  -  vereniging1
+  - naam: vereniging1
     photo: https://via.placeholder.com/200.png/90f/fff
-  -  vereniging2
+  - naam: vereniging2
     photo: https://via.placeholder.com/200.png/90f/fff
 ---
 
