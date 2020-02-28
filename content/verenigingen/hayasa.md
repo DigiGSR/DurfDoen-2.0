@@ -1,10 +1,8 @@
 ---
-titel: Hayaga
-naam: Hayaga
+titel: Hayasa
+naam: Hayasa
 themas:
-  - naam: diversiteit
-konvent:
-bestuur:
-  - functie: Voorzitter
-    naam: /tmp
+  -  diversiteit
+  -  internationaal
+konvent: ik
 ---

@@ -1,6 +1,9 @@
 ---
 titel: Zeus WPI
 naam: Zeus WPI
+themas:
+  -  wetenschap-techniek
+konvent: wvk
 logo: placeholder.png
 contact: some_email@some_domain.com
 website: www.somewebsite.com
@@ -11,10 +14,6 @@ social:
     link: twitter-link
   - platform: youtube
     link: youtube.com/
-themas:
-  - naam: thema1
-  - naam: thema2
-  - naam: thema3
 showcase:
   - photo: https://via.placeholder.com/300.png/09f/fff
   - photo: https://via.placeholder.com/300.png/09f/fff
