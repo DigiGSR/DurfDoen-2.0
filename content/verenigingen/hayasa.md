@@ -2,7 +2,7 @@
 titel: Hayaga
 naam: Hayaga
 themas:
-  - diversiteit
+  - naam: diversiteit
 konvent:
 bestuur:
   - functie: Voorzitter

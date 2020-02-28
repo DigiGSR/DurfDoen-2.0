@@ -14,7 +14,7 @@ module VerenigingenLists
     # A navigable item contains the :navigable attribute
     # Optionally contains an order attribute, determining the order in the navbar
     def themes
-        @items.find_all("**/verenigingen/*").map{|x| x[:themas]}.flatten.uniq.compact
+        @items.find_all("**/verenigingen/*").map{|x| x[:themas]}.flatten.uniq.compact.map{|x| x[:naam]}
     end
     def konvents
         @items.find_all("**/verenigingen/*").map{|x| x[:konvent]}.uniq.compact

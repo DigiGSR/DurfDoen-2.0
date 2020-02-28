@@ -6,4 +6,6 @@ konvent: TK
 bestuur:
   - functie: Voorzitter
     naam: /tmp
+themas:
+  - naam: thema1
 ---
