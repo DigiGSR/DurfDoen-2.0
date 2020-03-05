@@ -2,6 +2,18 @@
 titel: PKarus
 naam: PKarus
 konvent: wvk
+contact: hello@pkarus.be
+website: https://www.pkarus.be/
+social:
+  - platform: facebook
+    link: https://www.facebook.com/PKarus.Gent/
+  - platform: linkedin
+    link: https://www.linkedin.com/in/pkarus/
+  - platform: instagram
+    link: https://www.instagram.com/pkarusgent/
 themas:
   -  wetenschap en techniek
 ---
+
+PKarus is een vereniging door en voor studenten burgerlijk ingenieur werktuigkundig-elektrotechniek aan de UGent.
+Het doel van de vereniging is om de jonge ingenieurs, naast de brede opleiding aan de universiteit, ‘net iets meer’ mee te geven. De hoofdgedachte achter de oprichting van PKarus ligt in de omzetting van theorie in praktijk.
