@@ -5,33 +5,24 @@ themas:
   - wetenschap-techniek
 konvent: WVK
 logo: placeholder.png
-contact: some_email@some_domain.com
-website: www.somewebsite.com
+contact: vvn@student.ugent.be
+website: https://vvn.ugent.be/
 social:
   - platform: facebook
-    link: facebook-link
-  - platform: twitter
-    link: facebook-link
+    link: https://www.facebook.com/vvn.ugent
 showcase:
   - photo: image.png
 ---
 
 # Over ons
+De VVN: een studentenvereniging die zich inzet om wetenschap bij het grote publiek te brengen.
 
-Je zit thuis, op je kot, doelloos bladerend doorheen Facebook, op zoek naar iets diepers in het leven. Ergens in het sterrenbeeld Orion vond 723 jaar geleden een ware titanenstrijd plaats tussen zwaartekracht en gasdruk, waarna het onvermijdelijke Salomonsoordeel werd geveld: Betelgeuze implodeert tot een zwart gat, een singulariteit, een knip in de ruimte.
+Ben je het beu om doelloos door de Overpoort te lopen en alweer te eindigen met een Filippijnse en een nieuw huisdier? Zoek je wat diepgang in het goedkope studentenleven of wil je gewoon iets intellectueler overkomen bij de vrouwtjes/venten/onzijdigen? Dan heeft de Vereniging voor Natuurkunde (VVN) de ideale oplossing voor jou. De VVN organiseert namelijk door het jaar heen regelmatig populariserende lezingen in verband met fysica en sterrenkunde. Deze lezingen zijn ideaal om een bijdrage te kunnen leveren aan verschillende caféonderwerpen zoals Schrödingers kat, alternatieve tijdlijnen of klimaatopwarming. Daarnaast kunnen ze verhelderend werken bij verschillende films en series zoals Interstellar, Rick and Morty en The Big Bang Theory.
 
-De sterrenkundigen zien hun geliefde ster plots bevriezen. Aan de Zuidpool staat IceCube paraat voor zwermen (anti)neutrino’s. In Washington en Lousiano gaat LIGO naarstig op zoek naar gravitatiegolven, rimpelingen in de ruimtetijd die ons uitrekken en terug samenpersen. En ondertussen blijven ze aan het CERN lustig op zoek naar donkere materie. Donkere materie, die overal aanwezig is, doch onzichtbaar voor het oog. Zijn het de supersymetrische deeltjes van de snaartheoretici? Of zit ons Universum vol met bruine dwergen en zwarte sterren? De kosmologen breken hun hoofd over donkere energie, over de vorm van ons Universum, over het prille begin en het bittere eind.
+Na elke lezing is er ook een gelegenheid om het ethanolgehalte op een peil te houden dat een student waardig is. Daarbij is er ook de mogelijkheid om het nut van de lezingen te toetsen tijdens spontane oefenconversaties, die begeleid worden door fysici en/of burgelijk ingenieurs. Ook aan de enkele romantische ziel onder de studenten heeft de VVN gedacht. We organiseren sterrenkijkavonden bij maanlicht of blauw licht (afhankelijk van de speeldata van de Buffalo’s). Deze gelegenheid is ook ideaal voor spelers en mannenverslinders die `een scheun stukske vlees’ willen strikken.
 
-Supergeleiding op kamertemperatuur, de formidale kwantumcomputer, de werking van ons hart/brein, de klimaatverandering, de jacht op exoplaneten, kwantummechanische fase-overgangen, spintronica, kernfusie… Zovele vragen, zovele mysteries, zoveel Fun.
+We hebben onze blik echter niet alleen gericht op toekomstige relatiestatussen en succesvolle tinderdates, maar ook op het verdere voortbestaan van het studentenleven. Door het snode plan van de Chinezen om gezamenlijk de thermostaat hoger te zetten, zullen de Walen binnenkort een eigen strand ter beschikking hebben. Daarom gaat de VVN ook jaarlijks op ontdekkingsreis naar hoger gelegen locaties om te kijken of deze geschikt zijn voor verdere cognitieve ontwikkeling.
 
+Tijdens deze reis zal de VVN verblijven op een buitenlandse locatie die onze interesse voor fysica en aanverwanten aanwakkert. Tot slot heeft de VVN ook een trend ontdekt bij verschillende studentenverenigingen waarbij onschuldige activiteiten worden georganiseerd zoals spelletjesavond, quiz, enz. om hun imago op te krikken. Wij van de VVN vonden het dan ook geen slecht idee om dat ook eens te proberen, maar dan beter. Heb je interesse in deze unieke levenservaringen, volg dan onze Facebookbladzijde of bezoek onze site: vvn.ugent.be
 
-
-En jij, helemaal met verstomming geslagen, merkt de website van de Gentse Vereniging voor Natuurkunde op. Je krijgt spontaan een warm gevoel van binnen, gevoed door een vurig verlangen naar natuurkunde. Om deze honger naar waarheid en mystiek te voeden, hebben een aantal natuurkunde- en ingenieursstudenten in 1992 de VVN opgericht. De VVN is een studievereniging, die iedereen van boreling tot nestor, geïnteresseerd in natuurkunde, tracht te overkoepelen over de faculteitsgrenzen heen.
-
-Je zal bij ons geen Carapils kunnen verkrijgen, of een kiel en een lint, een cantushamer, een codex. Een praesidium of een schachtentemmer zal je bij ons ook niet vinden. Wel vind je een twintigtal gepassioneerde en leutige studenten die, louter uit idealisme, deze traditie van wetenschapspopularisatie met hartstocht voortzetten. Op welke manier doen we dit dan? Is de VVN dan gewoon twintig maal Sheldon Cooper? Op de tweede vraag kunnen we meteen antwoorden: ‘Ja, absoluut.’
-
-Ons grootste deel van de tijd gaat naar het organiseren van lezingen. Lezingen geschikt zowel voor de geïnteresseerde leek, als de doorgewinterde natuurfilosoof, als zij die pronken met A Brief History of Time in hun boekenkast. Wegens het ontbreken van een gelijkaardige vereniging aan de andere universiteiten, is de VVN voornamelijk hierom bekend in België. Maar wetenschapspopularisatie gaat verder dan slimme mensen een Powerpointpresentatie te laten maken. Met ons budget trachten we experimentele opstellingen aan te schaffen, zoals een trillende plaat, een railgun, een Stirlingmotor, een nevelkamer, een supergeleidende magneet en een ware ‘Elektriseermachine’. Hiermee beogen we iedereen warm te maken voor de wondere wereld van de natuurkunde en echte, coole fysica van dichtbij te laten ervaren. Bij heldere hemel nodigen we iedereen uit om op het dak van de S9 sterren te spotten door professionele telescopen, onder begeleiding van astronomen.
-
-
-
-Nu, zijn wij echt een groepje nerds? Welnee, de VVN brengt eigenlijk vooral mensen samen. Na al die lezingen staat er steeds een frisse pint en een nootje voor jullie klaar. En een heleboel gelijkgezinden waarmee je tot in de late uurtjes kan filosoferen.
+PS. De VVN wordt dan wel een ‘studentenvereniging’ genoemd, aan dopen en cantussen doen wij (voorlopig) niet. De VVN heeft dan ook geen leden noch lintjes, enkel een bestuur van studenten die bereid zijn zich een jaar in te zetten voor ons hoofddoel, zijnde wetenschapspopularisatie. Iedereen, student aan de UGent of niet, is welkom op onze gratis activiteiten.
