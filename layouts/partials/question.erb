@@ -18,24 +18,59 @@
 <% end %>
 
 <script>
-{
+(function() {
+    let last_answered = null;
+
     // Create list of all subquestions
     const sub_questions = {};
-    <% for answer in question[:antwoorden]%>
+    const question_answers = {};
+
+    <% for answer in question[:antwoorden] %>
         <% if answer[:vraag] %>
             sub_questions['<%= answer[:tekst] + answer[:vraag] %>'] = document.getElementById('<%= answer[:tekst] + answer[:vraag] %>');
         <% end %>
+
+        question_answers['<%= answer[:tekst] + (answer[:vraag] || "") %>'] = [];
+
+        <% if answer[:verenigingen] %>
+            <% for vereniging in answer[:verenigingen] %>
+                question_answers['<%= answer[:tekst] + (answer[:vraag] || "") %>'].push(
+                    '<%= vereniging[:naam] %>'
+                );
+            <% end %>
+        <% end %>
+
     <% end %>
 
-    document.getElementById("<%= question[:vraag] %>").addEventListener('change', (event) =>{
-        for (let t in sub_questions) {
-            sub_questions[t].style.display = "none";
+    console.log('<%= (question[:vraag] || "") + (question[:tekst] || "") %>');
+    console.log(question_answers);
+
+    document.getElementById("<%= question[:vraag] %>").addEventListener('change', (event) => {
+        if (last_answered && sub_questions[last_answered]) {
+            sub_questions[last_answered].style.display = "none";
         }
+
+        for (let ver of question_answers[event.target.value] || []) {
+            console.log(ver);
+            if (answer_values[ver]) {
+                answer_values[ver] += 1;
+            } else {
+                answer_values[ver] = 1;
+            }
+        }
+
+        for (let ver of question_answers[last_answered] || []) {
+            answer_values[ver] -= 1;
+        }
+
+        console.log(answer_values);
         
         const quest = sub_questions[event.target.value];
+        last_answered = event.target.value;
         if (quest) {
             delete quest.style.removeProperty("display");
         }
     });
-}
+
+})();
 </script>

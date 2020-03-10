@@ -1,8 +1,11 @@
-<h1>Hallo</h1>
+
+<script>
+    const answer_values = {};
+</script>
+
 <% @items.find_all("/quiz/*").each_with_index do |quest, i| %>
     <div id="question_<%=i%>" class="question">
         <%= render '/partials/question.*', question: quest %>
     </div>
-
 <% end %>
 <%= yield %>
