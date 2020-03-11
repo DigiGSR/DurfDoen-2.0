@@ -3,101 +3,101 @@ vraag: Wat zijn je interesses?
 type: meerkeuze
 antwoorden:
   - tekst: Andere studenten ondersteunen
-    vereniging:
+    verenigingen:
       - naam: FLUX
       - naam: Cultour
       - naam: Start to Talk
 
   - tekst: Archeologie
-    vereniging:
+    verenigingen:
       - naam: Archeologische werkgroep
 
   - tekst: Armenië
-    vereniging:
+    verenigingen:
       - naam: Hayasa
 
   - tekst: BDSM
-    vereniging:
+    verenigingen:
       - naam: Kajira
   - tekst: Consulting
 
-    vereniging:
+    verenigingen:
       - naam: 180 Degrees consulting
       - naam: Feunig
 
   - tekst: Dansen
-    vereniging:
+    verenigingen:
       - naam: GUDc
 
   - tekst: Dichtkunst en gesproken woord
-    vereniging:
+    verenigingen:
       - naam: Auw La
       - naam: Prometheus
 
   - tekst: Duurzaamheid
-    vereniging:
+    verenigingen:
       - naam: d'Urgent
 
   - tekst: Europese politiek
-    vereniging:
+    verenigingen:
       - naam: Minos
 
   - tekst: Evenementen helpen organiseren
-    vereniging:
+    verenigingen:
       - naam: 12UL
       - naam: Student Kickoff
 
   - tekst: Financiële markten
-    vereniging:
+    verenigingen:
       - naam: Capitant
 
   - tekst: Fotografie
-    vereniging:
+    verenigingen:
       - naam: Schamper
 
   - tekst: Fysica en sterrenkunde
-    vereniging:
-      - naam: Vereniging voor natuurkunde
+    verenigingen:
+      - naam: verenigingen voor natuurkunde
 
   - tekst: Informatica
-    vereniging:
+    verenigingen:
       - naam: Zeus WPI
 
   - tekst: Japan
-    vereniging:
+    verenigingen:
       - naam: Tomo no kai
 
   - tekst: Journalistiek
-    vereniging:
+    verenigingen:
       - naam: Schamper
       - naam: Urgent.fm
 
   - tekst: Kritisch denken en debat
-    vereniging:
+    verenigingen:
       - naam: ENGAGE
       - naam: t Zal wel gaan
 
   - tekst: land- en tuinbouw
-    vereniging:
+    verenigingen:
       - naam: Groene Kring
       - naam: Stujardin
 
   - tekst: Lay-out
-    vereniging:
+    verenigingen:
       - naam: Schamper
 
   - tekst: mentale gezondheid
-    vereniging:
+    verenigingen:
       - naam: Start to talk
 
   - tekst: Muziek spelen
-    vereniging:
+    verenigingen:
       - naam: GUHO
       - naam: GUSO
       - naam: Studentenfanfare
 
   - tekst: ondernemen
-    vereniging:
+    verenigingen:
       - naam: FLYSE
 
   - tekst: Politiek
@@ -105,85 +105,85 @@ antwoorden:
     type: dropdown
     antwoorden:
       - tekst: Vlaams-Nationalistisch en conservatief
-        verenigingen:
+        verenigingenen:
           - naam: KVHV
           - naam: NSV
 
       - tekst: Antikapitalistisch
-        verenigingen:
+        verenigingenen:
           - naam: ALS
 
       - tekst: Christendemocraat
-        verenigingen:
+        verenigingenen:
           - naam: CDS
 
       - tekst: Zeer socialistisch
-        verenigingen:
+        verenigingenen:
           - naam: Comac
 
       - tekst: Groen en links
-        verenigingen:
+        verenigingenen:
           - naam: Jong Groen StuGent
 
       - tekst: Vlaams-republikeins
-        verenigingen:
+        verenigingenen:
           - naam: Jong N-Va Ugent
 
       - tekst: Socialistisch
-        verenigingen:
+        verenigingenen:
           - naam: Jongsocialisten StuGent
 
       - tekst: Liberaal
-        verenigingen:
+        verenigingenen:
           - naam: LVSV
 
   - tekst: radio maken
-    vereniging:
+    verenigingen:
       - naam: Urgent.fm
 
   - tekst: Schilderen
-    vereniging:
+    verenigingen:
       - naam: Schildersatelier
 
   - tekst: Schrijven
-    vereniging:
+    verenigingen:
       - naam: Schamper
       - naam: Auw La
 
   - tekst: studentenvertegenwoordiging
-    vereniging:
+    verenigingen:
       - naam: GSR
 
   - tekst: Techniek
-    vereniging:
+    verenigingen:
       - naam: IEEE Student Branch Gent
       - naam: BEST
 
   - tekst: Theater
-    vereniging:
+    verenigingen:
       - naam: Matrak
 
   - tekst: Wereldpolitiek
-    vereniging:
+    verenigingen:
       - naam: VVN Youth
 
   - tekst: Wiskunde
-    vereniging:
+    verenigingen:
       - naam: PRIME
 
-  - tekst: Zingen 
-    vereniging:
+  - tekst: Zingen
+    verenigingen:
       - naam: GUK
 
   - tekst: Culturele Voorstellingen bijwonen
-    vereniging:
+    verenigingen:
       - naam: Cultour
 
   - tekst: economie
-    vereniging:
+    verenigingen:
       - naam: Rethinking economics
-      
+
   - tekst: Illusionisme
-    vereniging:
+    verenigingen:
       - naam: Illusiona
 ---

@@ -35,7 +35,7 @@
         <% if answer[:verenigingen] %>
             <% for vereniging in answer[:verenigingen] %>
                 question_results['<%= answer[:tekst] + (answer[:vraag] || "") %>'].push(
-                    '<%= vereniging[:naam] %>'
+                    "<%= vereniging[:naam] %>"
                 );
             <% end %>
         <% end %>
