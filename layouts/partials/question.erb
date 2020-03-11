@@ -1,5 +1,6 @@
 <h2> <%= question[:vraag] %> </h2>
-<select id="<%= (question[:tekst] || "") + (question[:vraag] || "") %>_option">
+<select <% if question[:type] == "meerkeuze" %> multiple="multiple" <% end %>
+    id="<%= (question[:tekst] || "") + (question[:vraag] || "") %>_option">
     <option value="" selected="selected disabled hidden">Maak uw keuze</option>
     <% for answer in question[:antwoorden]%>
         <option value='<%= answer[:tekst] + (answer[:vraag] || "") %>'>
@@ -19,7 +20,7 @@
 {
     // Reference back to the last selected option
     // This way we can 'deselect' the question results
-    let last_answered = null;
+    let last_answered = [];
 
     // Create list of all subquestions
     const sub_questions = {};
@@ -42,26 +43,31 @@
     <% end %>
 
     document.getElementById("<%= (question[:tekst] || "") + (question[:vraag] || "") %>_option").addEventListener('change', (event) => {
-        if (last_answered && sub_questions[last_answered]) {
-            sub_questions[last_answered].style.display = "none";
+        for (let la of last_answered) {
+            if (sub_questions[la]) {
+                sub_questions[la].style.display = "none";
 
-            // sub is the select dom element, that listens for changes
-            // When a parent is changed, it should notify it's last_answered child that it is changed
-            const sub = document.getElementById(last_answered+"_option");
-            if (sub) {
-                sub.value = null;
-                sub.dispatchEvent(new event.constructor(event.type, event));
+                // sub is the select dom element, that listens for changes
+                // When a parent is changed, it should notify it's last_answered child that it is changed
+                const sub = document.getElementById(la+"_option");
+                if (sub) {
+                    sub.value = null;
+                    sub.dispatchEvent(new event.constructor(event.type, event));
+                }
             }
         }
 
+        const selected = getSelectValues(event.target);
+
         // Update results
-        save_answers(question_results[event.target.value] || []);
-        del_answers(question_results[last_answered] || []);
+        save_answers(selected.flatMap(e => question_results[e] || []));
+        del_answers(last_answered.flatMap(e => question_results[e] || []));
+        print_answers();
 
         // Make possible sub question visible
-        const quest = sub_questions[event.target.value];
-        last_answered = event.target.value;
-        if (quest) {
+        const quests = selected.flatMap(e => sub_questions[e] || []);
+        last_answered = selected;
+        for (let quest of quests) {
             delete quest.style.removeProperty("display");
         }
     });
