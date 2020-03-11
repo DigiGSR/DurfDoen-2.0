@@ -1,6 +1,26 @@
 
 <script>
-    const answer_values = {};
+    const _save_answers = {};
+
+    function save_answers(vers) {
+        for (let ver of vers) {
+            if (_save_answers[ver]) {
+                _save_answers[ver] += 1;
+            } else {
+                _save_answers[ver] = 1;
+            }
+        }
+
+        console.log(_save_answers);
+    }
+
+    function del_answers(vers) {
+        for (let ver of vers) {
+            _save_answers[ver] -= 1;
+        }
+
+        console.log(_save_answers);
+    }
 </script>
 
 <% @items.find_all("/quiz/*").each_with_index do |quest, i| %>

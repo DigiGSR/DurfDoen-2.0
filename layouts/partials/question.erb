@@ -1,5 +1,5 @@
 <h2> <%= question[:vraag] %> </h2>
-<select id="<%= question[:vraag] %>">
+<select id="<%= (question[:tekst] || "") + (question[:vraag] || "") %>_option">
     <option value="" selected="selected disabled hidden">Maak uw keuze</option>
     <% for answer in question[:antwoorden]%>
         <option value='<%= answer[:tekst] + (answer[:vraag] || "") %>'>
@@ -9,68 +9,61 @@
 </select>
 <% for answer in question[:antwoorden]%>
     <% if answer[:vraag] %>
-        <%# Should store all sub-questions with a reference to their parent question in the data-parent
-            attribute, however, these atrtibutes remain empty. %>
-        <div id='<%= answer[:tekst] + answer[:vraag] %>' style="display:none;" data-parent="<% question[:vraag] %>">
+        <div id='<%= answer[:tekst] + answer[:vraag] %>' style="display:none;">
             <%= render '/partials/question.*', question: answer  %>
         </div>
     <% end %>
 <% end %>
 
 <script>
-(function() {
+{
+    // Reference back to the last selected option
+    // This way we can 'deselect' the question results
     let last_answered = null;
 
     // Create list of all subquestions
     const sub_questions = {};
-    const question_answers = {};
+    // Create list of all student organisations this answer entails
+    const question_results = {};
 
     <% for answer in question[:antwoorden] %>
         <% if answer[:vraag] %>
             sub_questions['<%= answer[:tekst] + answer[:vraag] %>'] = document.getElementById('<%= answer[:tekst] + answer[:vraag] %>');
         <% end %>
 
-        question_answers['<%= answer[:tekst] + (answer[:vraag] || "") %>'] = [];
-
+        question_results['<%= answer[:tekst] + (answer[:vraag] || "") %>'] = [];
         <% if answer[:verenigingen] %>
             <% for vereniging in answer[:verenigingen] %>
-                question_answers['<%= answer[:tekst] + (answer[:vraag] || "") %>'].push(
+                question_results['<%= answer[:tekst] + (answer[:vraag] || "") %>'].push(
                     '<%= vereniging[:naam] %>'
                 );
             <% end %>
         <% end %>
-
     <% end %>
 
-    console.log('<%= (question[:vraag] || "") + (question[:tekst] || "") %>');
-    console.log(question_answers);
-
-    document.getElementById("<%= question[:vraag] %>").addEventListener('change', (event) => {
+    document.getElementById("<%= (question[:tekst] || "") + (question[:vraag] || "") %>_option").addEventListener('change', (event) => {
         if (last_answered && sub_questions[last_answered]) {
             sub_questions[last_answered].style.display = "none";
-        }
 
-        for (let ver of question_answers[event.target.value] || []) {
-            console.log(ver);
-            if (answer_values[ver]) {
-                answer_values[ver] += 1;
-            } else {
-                answer_values[ver] = 1;
+            // sub is the select dom element, that listens for changes
+            // When a parent is changed, it should notify it's last_answered child that it is changed
+            const sub = document.getElementById(last_answered+"_option");
+            if (sub) {
+                sub.value = null;
+                sub.dispatchEvent(new event.constructor(event.type, event));
             }
         }
 
-        for (let ver of question_answers[last_answered] || []) {
-            answer_values[ver] -= 1;
-        }
+        // Update results
+        save_answers(question_results[event.target.value] || []);
+        del_answers(question_results[last_answered] || []);
 
-        console.log(answer_values);
-        
+        // Make possible sub question visible
         const quest = sub_questions[event.target.value];
         last_answered = event.target.value;
         if (quest) {
             delete quest.style.removeProperty("display");
         }
     });
-
-})();
+}
 </script>
