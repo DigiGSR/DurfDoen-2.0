@@ -1,5 +1,6 @@
 ---
 titel: Zeus WPI
+id: zeus
 naam: Zeus WPI
 themas:
   -  wetenschap-techniek

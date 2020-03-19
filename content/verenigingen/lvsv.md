@@ -1,5 +1,6 @@
 ---
 titel: LVSV
+id: lvsv
 naam: LVSV
 konvent: pfk
 themas:

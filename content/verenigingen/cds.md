@@ -1,5 +1,6 @@
 ---
 titel: CDS
+id: cds
 naam: CDS
 konvent: pfk
 website: http://www.cdsnationaal.be/

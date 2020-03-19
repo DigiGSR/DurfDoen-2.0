@@ -1,5 +1,6 @@
 ---
 titel: test konvent
+id: test
 naam: test konvent
 logo: placeholder.png
 contact: some_email@some_domain.com

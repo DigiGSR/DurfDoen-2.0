@@ -1,5 +1,6 @@
 ---
 titel: ESN
+id: esn
 naam: Erasmus Student Network
 themas:
   -  diversiteit

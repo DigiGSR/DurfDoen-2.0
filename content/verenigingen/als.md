@@ -1,5 +1,6 @@
 ---
 titel: Actief Linkse Studenten
+id: als
 naam: Actief Linkse Studenten
 konvent: pfk
 themas:

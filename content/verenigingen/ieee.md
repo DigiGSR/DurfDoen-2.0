@@ -1,5 +1,6 @@
 ---
 titel: IEEE SB
+id: ieee
 naam: IEEE SB
 konvent: wvk
 themas:

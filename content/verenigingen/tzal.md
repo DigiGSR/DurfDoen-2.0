@@ -1,5 +1,6 @@
 ---
 titel: \'t Zal Wel Gaan
+id: tzal
 naam: \'t Zal Wel Gaan
 konvent: pfk
 contact: info@tzalwelgaan.be
