@@ -12,16 +12,16 @@ antwoorden:
 
   - tekst: Eender wie, onafhankelijk van interesses, studies of andere aspecten
     verenigingen:
-      - naam: Moeder Theepot
+      - naam: theepot
 
   - tekst: Internationale studenten
     vereningingen:
-      - naam: ESN
+      - naam: esn
       - naam: International students association gent
 
   - tekst: Ik ben holebistudent en zou graag andere holebistudenten ontmoeten
     verenigingen:
-      - naam: Verkeerd Geparkeerd
+      - naam: vg
 
   - tekst: Ik heb een migratieachtergond en zou graag mensen met eenzelfde achtergrond als mezelf ontmoeten
     vraag: Je gaf aan een migratieachtergrond te hebben en graag andere studenten te ontmoeten met dezelfde achtergrond. Wat is jouw culturele achtergrond?
@@ -29,26 +29,25 @@ antwoorden:
     antwoorden:
       - tekst: China
         verenigingen:
-          - naam: Chinese Student Organization
+          - naam: chisag
 
       - tekst: Armenië
         verenigingen:
-          - naam: Hayasa
+          - naam: hayasa
 
       - tekst: Indonesië
         verenigingen:
-          - naam: Indonesion Students Association
+          - naam: indosag
 
       - tekst: Japan
         verenigingen:
-        - naam: Tomo no kai
+        - naam: tnok
 
       - tekst: Vietnam
         verenigingen:
-          - naam: Vinasag
+          - naam: vinasag
 
       - tekst: Sub-Sahara Afrika
         verenigingen:
-          - naam: Umoya
 
 ---

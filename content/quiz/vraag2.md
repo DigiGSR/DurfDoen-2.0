@@ -8,23 +8,23 @@ antwoorden:
     antwoorden:
       - tekst: Home Astrid
         verenigingen:
-          - naam: Home Astrid
+          - naam: astrid
 
       - tekst: Home Fabiola
         verenigingen:
-          - naam: Home Fabiola
+          - naam: fabiola
 
       - tekst: Home Bertha
         verenigingen:
-          - naam: Home Bertha
+          - naam: bertha
 
       - tekst: Home Boudewijn
         verenigingen:
-          - naam: Home Boudewijn
+          - naam: boudewijn
 
       - tekst: Home Vermeylen
         verenigingen:
-          - naam: Home Vermeylen
+          - naam: vermeyl
           
   - tekst: Nee
 ---

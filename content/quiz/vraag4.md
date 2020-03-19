@@ -4,101 +4,100 @@ type: meerkeuze
 antwoorden:
   - tekst: Andere studenten ondersteunen
     verenigingen:
-      - naam: FLUX
-      - naam: Cultour
-      - naam: Start to Talk
+      - naam: flux
+      - naam: cultour
+      - naam: bemsa
 
   - tekst: Archeologie
     verenigingen:
-      - naam: Archeologische werkgroep
+      - naam: aw
 
   - tekst: Armenië
     verenigingen:
-      - naam: Hayasa
+      - naam: hayasa
 
   - tekst: BDSM
     verenigingen:
-      - naam: Kajira
+      - naam: kajira
   - tekst: Consulting
 
     verenigingen:
-      - naam: 180 Degrees consulting
-      - naam: Feunig
+      - naam: oedc
+      - naam: feunig
 
   - tekst: Dansen
     verenigingen:
-      - naam: GUDc
+      - naam: gudc
 
   - tekst: Dichtkunst en gesproken woord
     verenigingen:
-      - naam: Auw La
-      - naam: Prometheus
+      - naam: auwla
+      - naam: prometheus
 
   - tekst: Duurzaamheid
     verenigingen:
-      - naam: d'Urgent
+      - naam: urgent
 
   - tekst: Europese politiek
     verenigingen:
-      - naam: Minos
+      - naam: minos
 
   - tekst: Evenementen helpen organiseren
     verenigingen:
-      - naam: 12UL
-      - naam: Student Kickoff
+      - naam: vtk
 
   - tekst: Financiële markten
     verenigingen:
-      - naam: Capitant
+      - naam: capitant
 
   - tekst: Fotografie
     verenigingen:
-      - naam: Schamper
+      - naam: schamper
 
   - tekst: Fysica en sterrenkunde
     verenigingen:
-      - naam: verenigingen voor natuurkunde
+      - naam: vvn
 
   - tekst: Informatica
     verenigingen:
-      - naam: Zeus WPI
+      - naam: zeus
 
   - tekst: Japan
     verenigingen:
-      - naam: Tomo no kai
+      - naam: tnok
 
   - tekst: Journalistiek
     verenigingen:
-      - naam: Schamper
-      - naam: Urgent.fm
+      - naam: schamper
+      - naam: urgent
 
   - tekst: Kritisch denken en debat
     verenigingen:
-      - naam: ENGAGE
-      - naam: t Zal wel gaan
+      - naam: engage
+      - naam: tzal
 
   - tekst: land- en tuinbouw
     verenigingen:
-      - naam: Groene Kring
-      - naam: Stujardin
+      - naam: gk
+      - naam: stujardin
 
   - tekst: Lay-out
     verenigingen:
-      - naam: Schamper
+      - naam: schamper
 
   - tekst: mentale gezondheid
     verenigingen:
-      - naam: Start to talk
+      - naam: bemsa
 
   - tekst: Muziek spelen
     verenigingen:
-      - naam: GUHO
-      - naam: GUSO
-      - naam: Studentenfanfare
+      - naam: guho
+      - naam: guso
+      - naam: sf
 
   - tekst: ondernemen
     verenigingen:
-      - naam: FLYSE
+      - naam: flyse
 
   - tekst: Politiek
     vraag: Welke overtuiging?
@@ -106,84 +105,85 @@ antwoorden:
     antwoorden:
       - tekst: Vlaams-Nationalistisch en conservatief
         verenigingenen:
-          - naam: KVHV
-          - naam: NSV
+          - naam: kvhv
+          - naam: nsv
 
       - tekst: Antikapitalistisch
         verenigingenen:
-          - naam: ALS
+          - naam: als
 
       - tekst: Christendemocraat
         verenigingenen:
-          - naam: CDS
+          - naam: cds
 
       - tekst: Zeer socialistisch
         verenigingenen:
-          - naam: Comac
+          - naam: comac
 
       - tekst: Groen en links
         verenigingenen:
-          - naam: Jong Groen StuGent
+          - naam: jgroen
 
       - tekst: Vlaams-republikeins
         verenigingenen:
-          - naam: Jong N-Va Ugent
+          - naam: jongnva
 
       - tekst: Socialistisch
         verenigingenen:
-          - naam: Jongsocialisten StuGent
+          - naam: js
 
       - tekst: Liberaal
         verenigingenen:
-          - naam: LVSV
+          - naam: lvsv
 
   - tekst: radio maken
     verenigingen:
-      - naam: Urgent.fm
+      - naam: urgent
 
   - tekst: Schilderen
     verenigingen:
-      - naam: Schildersatelier
+      - naam: schilder
 
   - tekst: Schrijven
     verenigingen:
-      - naam: Schamper
-      - naam: Auw La
+      - naam: schamper
+      - naam: auwla
 
   - tekst: studentenvertegenwoordiging
     verenigingen:
-      - naam: GSR
+      - naam: gsr
 
   - tekst: Techniek
     verenigingen:
-      - naam: IEEE Student Branch Gent
-      - naam: BEST
+      - naam: ieee
+      - naam: best
 
   - tekst: Theater
     verenigingen:
-      - naam: Matrak
+      - naam: matrak
 
   - tekst: Wereldpolitiek
     verenigingen:
-      - naam: VVN Youth
+      - naam: vvny
 
   - tekst: Wiskunde
     verenigingen:
-      - naam: PRIME
+      - naam: prime
 
   - tekst: Zingen
     verenigingen:
-      - naam: GUK
+      - naam: guk
 
   - tekst: Culturele Voorstellingen bijwonen
     verenigingen:
-      - naam: Cultour
+      - naam: cultour
 
-  - tekst: economie
+  - tekst: Economie
     verenigingen:
-      - naam: Rethinking economics
+      - naam: flyse
+      - naam: capitant
 
   - tekst: Illusionisme
     verenigingen:
-      - naam: Illusiona
+      - naam: illusiona
 ---

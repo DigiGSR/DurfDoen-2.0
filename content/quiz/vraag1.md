@@ -8,57 +8,57 @@ antwoorden:
     antwoorden:
       - tekst: Afrikaanse talen en culturen
         verenigingen:
-          - naam: StuArt
-          - naam: OAK
+          - naam: stura
+          - naam: oak
 
       - tekst: Archeologie
         verenigingen:
-          - naam: StuArt
-          - naam: Archeologische werkgroep
-          - naam: KHK
+          - naam: stura
+          - naam: aw
+          - naam: khk
 
       - tekst: Geschiedenis
         verenigingen:
-          - naam: StuArt
-          - naam: Vlaamse Geschiedkundige Kring
-          - naam: International students of History Association
+          - naam: stura
+          - naam: vgkflwi
+          - naam: isha
 
       - tekst: Kunstwetenschappen
         verenigingen:
-          - naam: StuArt
-          - naam: KHK
+          - naam: stura
+          - naam: khk
 
       - tekst: Moraalwetenschappen
         verenigingen:
-          - naam: StuArt
-          - naam: KMF
+          - naam: stura
+          - naam: kmf
 
       - tekst: Oosterse talen en culturen
         verenigingen:
-          - naam: StuArt
-          - naam: OAK
-          - naam: Tomo no kai
+          - naam: stura
+          - naam: oak
+          - naam: tnok
 
       - tekst: Oost- Europese talen en culturen
         verenigingen:
-          - naam: StuArt
-          - naam: Slavia
+          - naam: stura
+          - naam: slavia
 
       - tekst: Taal- en letterkunde
         verenigingen:
-          - naam: StuArt
-          - naam: Klassieke Kring
-          - naam: Filologica
+          - naam: stura
+          - naam: kk
+          - naam: filologica
 
       - tekst: Toegepaste taalkunde
         verenigingen:
-          - naam: StuArt
-          - naam: Veto Gent
+          - naam: stura
+          - naam: veto
 
       - tekst: Wijsbegeerte
         verenigingen:
-          - naam: StuArt
-          - naam: KMF
+          - naam: stura
+          - naam: kmf
 
   - tekst: Recht en criminologie
     vraag: Welke richting?
@@ -66,13 +66,13 @@ antwoorden:
     antwoorden:
       - tekst: Rechten
         verenigingen:
-          - naam: StuReC
-          - naam: VRG
+          - naam: fre
+          - naam: vrg
 
       - tekst: Criminologische wetenschappen
         verenigingen:
-          - naam: StuReC
-          - naam: Lombrosiana
+          - naam: fre
+          - naam: lombro
 
   - tekst: Wetenschappen
     vraag: Welke richting?
@@ -80,46 +80,46 @@ antwoorden:
     antwoorden:
       - tekst: Biochemie en biotechnologie
         verenigingen:
-          - naam: StuW
-          - naam: Chemica
+          - naam: stuw
+          - naam: chemica
 
       - tekst: Biologie
         verenigingen:
-          - naam: StuW
-          - naam: GBK
+          - naam: stuw
+          - naam: gbk
 
       - tekst: Chemie
         verenigingen:
-          - naam: StuW
-          - naam: Chemica
+          - naam: stuw
+          - naam: chemica
       - tekst: Fysica en de sterrenkunde
 
         verenigingen:
-          - naam: StuW
-          - naam: Vereniging voor natuurkunde
-          - naam: WiNA
+          - naam: stuw
+          - naam: vvn
+          - naam: wina
 
       - tekst: Geografie en de geomatica
         verenigingen:
-          - naam: StuW
-          - naam: Geografica
+          - naam: stuw
+          - naam: geografi
 
       - tekst: Geologie
         verenigingen:
-          - naam: StuW
-          - naam: Geologica
+          - naam: stuw
+          - naam: geologic
 
       - tekst: Informatica
         verenigingen:
-          - naam: StuW
-          - naam: Zeus WPI
-          - naam: WiNA
+          - naam: stuw
+          - naam: zeus
+          - naam: wina
 
       - tekst: Wiskunde
         verenigingen:
-          - naam: StuW
-          - naam: PRIME
-          - naam: WiNA
+          - naam: stuw
+          - naam: prime
+          - naam: wina
 
   - tekst: Geneeskunde en gezondheidswetenschappen
     vraag: Welke richting?
@@ -127,46 +127,46 @@ antwoorden:
     antwoorden:
       - tekst: Biomedische wetenschappen
         verenigingen:
-          - naam: StuGG - BSR
-          - naam: BEAM
-          - naam: BeMSA
-          - naam: VBK
+          - naam: stugg
+          - naam: beam
+          - naam: bemsa
+          - naam: vbk
 
       - tekst: Geneeskunde
         verenigingen:
-          - naam: StuGG - SWOP
-          - naam: Vlaamse Geneeskundige Kring
-          - naam: BeMSA
+          - naam: stugg
+          - naam: vgkfgen
+          - naam: bemsa
 
       - tekst: Lichamelijke opvoeding en de bewegingswetenschappen
         verenigingen:
-          - naam: StuGG - HILO
-          - naam: HILOK
-          - naam: BeMSA
+          - naam: stugg
+          - naam: hilok
+          - naam: bemsa
 
       - tekst: Audiologie
         verenigingen:
-          - naam: StuGG - Stula
-          - naam: VLAK
-          - naam: BeMSA
+          - naam: stugg
+          - naam: vlak
+          - naam: bemsa
 
       - tekst: Logopedie
         verenigingen:
-          - naam: StuGG - Stula
-          - naam: VLAK
-          - naam: BeMSA
+          - naam: stugg
+          - naam: vlak
+          - naam: bemsa
 
       - tekst: Revalidatiewetenschappen en de kinesitherapie
         verenigingen:
-          - naam: StuGG - SRK
-          - naam: HILOK
-          - naam: BeMSA
+          - naam: stugg
+          - naam: hilok
+          - naam: bemsa
 
       - tekst: Tandheelkunde
         verenigingen:
-          - naam: StuGG - StuDent
-          - naam: Dentalia
-          - naam: BeMSA
+          - naam: stugg
+          - naam: dentalia
+          - naam: bemsa
 
   - tekst: Ingenieurswetenschappen en architectuur
     vraag: Welke richting?
@@ -174,92 +174,92 @@ antwoorden:
     antwoorden:
       - tekst: iw - Bouwkunde
         verenigingen:
-          - naam: FRiS
-          - naam: Hermes
+          - naam: fris
+          - naam: hermes
 
       - tekst: iw - Chemie
         verenigingen:
-          - naam: FRiS
-          - naam: Hermes
+          - naam: fris
+          - naam: hermes
 
       - tekst: iw - Elektronica-ICT
         verenigingen:
-          - naam: FRiS
-          - naam: Zeus WPI
-          - naam: Hermes
+          - naam: fris
+          - naam: zeus
+          - naam: hermes
 
       - tekst: iw - Elektromechanica
         verenigingen:
-          - naam: FRiS
-          - naam: Hermes
+          - naam: fris
+          - naam: hermes
 
       - tekst: iw - Informatica
         verenigingen:
-          - naam: FRiS
-          - naam: Zeus WPI
-          - naam: Hermes
+          - naam: fris
+          - naam: zeus
+          - naam: hermes
 
       - tekst: ir - Architectuur
         verenigingen:
-          - naam: FRiS
-          - naam: De loeiende koe
-          - naam: VTK
+          - naam: fris
+          - naam: dlk
+          - naam: vtk
 
       - tekst: ir - Bouwkunde
         verenigingen:
-          - naam: FRiS
+          - naam: fris
           - naam: Poutrix
-          - naam: VTK
+          - naam: vtk
 
       - tekst: ir - Chemische technologie en materiaalkunde
         verenigingen:
-          - naam: FRiS
-          - naam: MaChT
-          - naam: VTK
+          - naam: fris
+          - naam: macht
+          - naam: vtk
 
       - tekst: ir - Computerwetenschappen
         verenigingen:
-          - naam: FRiS
-          - naam: CenEka
-          - naam: IEEE Student Branch Gent
-          - naam: Zeus WPI
-          - naam: VTK
+          - naam: fris
+          - naam: ceneka
+          - naam: ieee
+          - naam: zeus
+          - naam: vtk
 
       - tekst: ir - Elektrotechniek
         verenigingen:
-          - naam: FRiS
-          - naam: CenEka
-          - naam: IEEE Student Branch Gent
-          - naam: VTK
+          - naam: fris
+          - naam: ceneka
+          - naam: ieee
+          - naam: vtk
 
       - tekst: ir - Toegepaste natuurkunde
         verenigingen:
-          - naam: FRiS
-          - naam: VTK
+          - naam: fris
+          - naam: vtk
 
       - tekst: ir - Werktuigkunde-elektrotechniek
         verenigingen:
-          - naam: FRiS
-          - naam: CenEka
-          - naam: IEEE Student Branch Gent
-          - naam: PKarus
-          - naam: VTK
+          - naam: fris
+          - naam: ceneka
+          - naam: ieee
+          - naam: pkarus
+          - naam: vtk
 
       - tekst: ir - Biomedische ingenieurstechnieken
         verenigingen:
-          - naam: FRiS
-          - naam: BEAM
-          - naam: VTK
-          
+          - naam: fris
+          - naam: beam
+          - naam: vtk
+
       - tekst: iw - Industrieel ontwerpen
         verenigingen:
-          - naam: FRiS
-          - naam: Hermes
+          - naam: fris
+          - naam: hermes
 
       - tekst: iw - Machine- en productieautomatisering
         verenigingen:
-          - naam: FRiS
-          - naam: Hermes
+          - naam: fris
+          - naam: hermes
 
   - tekst: Economie en bedrijfskude
     vraag: Welke richting?
@@ -267,36 +267,36 @@ antwoorden:
     antwoorden:
       - tekst: Handelsingenieur
         verenigingen:
-          - naam: Stuveco
-          - naam: Capitant
-          - naam: FLYSE
-          - naam: VEK
+          - naam: stuveco
+          - naam: capitant
+          - naam: flyse
+          - naam: vek
 
       - tekst: Bestuurskunde en het publiek management
         verenigingen:
-          - naam: Stuveco
-          - naam: Moeder Lies
+          - naam: stuveco
+          - naam: lies
 
       - tekst: Economische wetenschappen
         verenigingen:
-          - naam: Stuveco
-          - naam: Capitant
-          - naam: FLYSE
-          - naam: VEK
+          - naam: stuveco
+          - naam: capitant
+          - naam: flyse
+          - naam: vek
 
       - tekst: Handelswetenschappen
         verenigingen:
-          - naam: Stuveco
-          - naam: Capitant
-          - naam: FLYSE
-          - naam: Moeder Lies
+          - naam: stuveco
+          - naam: capitant
+          - naam: flyse
+          - naam: lies
 
       - tekst: Toegepaste economische wetenschappen
         verenigingen:
-          - naam: Stuveco
-          - naam: Capitant
-          - naam: FLYSE
-          - naam: VEK
+          - naam: stuveco
+          - naam: capitant
+          - naam: flyse
+          - naam: vek
 
   - tekst: Diergeneeskunde
     vraag: Welke richting?
@@ -304,8 +304,8 @@ antwoorden:
     antwoorden:
       - tekst: Diergeneeskunde
         verenigingen:
-          - naam: DSR
-          - naam: VDK
+          - naam: fde
+          - naam: vdk
 
   - tekst: Psychologie en pedagogische wetenschappen
     vraag: Welke richting?
@@ -313,38 +313,38 @@ antwoorden:
     antwoorden:
       - tekst: Pedagogie - Klinische orthopedagogiek en disability studies
         verenigingen:
-          - naam: PPSR
-          - naam: VPPK
+          - naam: ppsr
+          - naam: vppk
 
       - tekst: Pedagogie - Pedagogiek en onderwijskunde
         verenigingen:
-          - naam: PPSR
-          - naam: VPPK
+          - naam: ppsr
+          - naam: vppk
 
       - tekst: Pedagogie - Sociale agogiek
         verenigingen:
-          - naam: PPSR
-          - naam: VPPK
+          - naam: ppsr
+          - naam: vppk
 
       - tekst: Psychologie - Bedrijfspsychologie en personeelsbeleid
         verenigingen:
-          - naam: PPSR
-          - naam: VPPK
+          - naam: ppsr
+          - naam: vppk
 
       - tekst: Psychologie - Klinische psychologie
         verenigingen:
-          - naam: PPSR
-          - naam: VPPK
+          - naam: ppsr
+          - naam: vppk
 
       - tekst: Psychologie - onderwijs
         verenigingen:
-          - naam: PPSR
-          - naam: VPPK
+          - naam: ppsr
+          - naam: vppk
 
       - tekst: Psychologie - Theoretische en experimentele psychologie
         verenigingen:
-          - naam: PPSR
-          - naam: VPPK
+          - naam: ppsr
+          - naam: vppk
 
   - tekst: Bio-ingenieurswetenschappen
     vraag: Welke richting?
@@ -352,40 +352,40 @@ antwoorden:
     antwoorden:
       - tekst: biw - Bos- en natuurbeheer
         verenigingen:
-          - naam: StuBio
-          - naam: VLK
+          - naam: fbw
+          - naam: vlk
 
       - tekst: biw - cel- en genbiotechnologie
         verenigingen:
-          - naam: StuBio
-          - naam: VLK
+          - naam: fbw
+          - naam: vlk
 
       - tekst: biw - Chemie en voedingstechnologie
         verenigingen:
-          - naam: StuBio
-          - naam: VLK
+          - naam: fbw
+          - naam: vlk
 
       - tekst: biw - Landbouwkunde
         verenigingen:
-          - naam: StuBio
-          - naam: VLK
-          - naam: Groene kring
-          - naam: IAAS
+          - naam: fbw
+          - naam: vlk
+          - naam: gk
+          - naam: iaas
 
       - tekst: biw - Land- en waterbeheer
         verenigingen:
-          - naam: StuBio
-          - naam: VLK
+          - naam: fbw
+          - naam: vlk
 
       - tekst: biw - Milieutechnologie
         verenigingen:
-          - naam: StuBio
-          - naam: VLK
+          - naam: fbw
+          - naam: vlk
 
       - tekst: Biowetenschappen
         verenigingen:
-          - naam: StuBio
-          - naam: LILA
+          - naam: fbw
+          - naam: lila
 
   - tekst: Farmaceutische wetenschappen
     vraag: Welke richting?
@@ -393,9 +393,9 @@ antwoorden:
     antwoorden:
       - tekst: Farmaceutische wetenschappen
         verenigingen:
-          - naam: StuFF
-          - naam: GFK
-          - naam: BeMSA
+          - naam: stuff
+          - naam: bfk
+          - naam: bemsa
 
   - tekst: Politieke en sociale wetenschappen
     vraag: Welke richting?
@@ -403,16 +403,16 @@ antwoorden:
     antwoorden:
       - tekst: Communicatiewetenschappen
         verenigingen:
-          - naam: Stura
-          - naam: Politeia
+          - naam: stura
+          - naam: politeia
 
       - tekst: Politieke wetenschappen
         verenigingen:
-          - naam: Stura
-          - naam: Politeia
-          
+          - naam: stura
+          - naam: politeia
+
       - tekst: Sociologie
         verenigingen:
-          - naam: Stura
-          - naam: Politeia
+          - naam: stura
+          - naam: politeia
 ---
