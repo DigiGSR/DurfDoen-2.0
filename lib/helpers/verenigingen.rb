@@ -11,4 +11,12 @@ module VerenigingenHelper
     def konvents
         @items.find_all("**/verenigingen/*").map{|x| x[:konvent]}.uniq.compact
     end
+    def verenigingen
+        @items.find_all("**/verenigingen/*").map{|x| {
+            "titel" => x[:titel],
+            "naam" => x[:naam],
+            "konvent" => x[:konvent],
+            "themas" => x[:themas]
+        }}.to_a
+    end
   end

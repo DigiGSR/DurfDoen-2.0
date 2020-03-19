@@ -48,6 +48,7 @@ compile '/stylesheets/*.{sass,scss}' do
 end
 
 compile '/*.erb' do
+  filter :erb
   write item.identifier.without_ext
 end
 
