@@ -62,7 +62,7 @@
         // Update results
         save_answers(selected.flatMap(e => question_results[e] || []));
         del_answers(last_answered.flatMap(e => question_results[e] || []));
-        print_answers();
+        finish_answers();
 
         // Make possible sub question visible
         const quests = selected.flatMap(e => sub_questions[e] || []);

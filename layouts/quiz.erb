@@ -1,6 +1,30 @@
 
+<div style="display: flex">
+    <div style="width: 70vw;">
+    <% @items.find_all("/quiz/*").each_with_index do |quest, i| %>
+        <div id="question_<%=i%>" class="question">
+            <%= render '/partials/question.*', question: quest %>
+        </div>
+    <% end %>
+    </div>
+
+    <div style="width: 28vw;" style="display: flex; flex-direction: column;">
+        <% all_groups().each do |group| %>
+        <div id="d_<%= group[:id] %>" style="display: none;">
+            <%= render '/partials/group_small.*', group: group %>
+        </div>
+        <% end %>
+    </div>
+</div>
+
 <script>
+    const _groups = {};
+    <% all_groups().each do |group| %>
+    _groups["d_<%= group[:id] %>"] = document.getElementById("d_<%= group[:id] %>");
+    <% end %>
     const _save_answers = {};
+
+    console.log(_groups);
 
     function save_answers(vers) {
         for (let ver of vers) {
@@ -16,10 +40,18 @@
         for (let ver of vers) {
             _save_answers[ver] -= 1;
         }
-
     }
 
-    function print_answers() {
+    function finish_answers() {
+        for (let ver in _save_answers) {
+            console.log(ver);
+            if (_save_answers[ver] == 0) {
+                _groups["d_"+ver].style.display = "none";
+            } else {
+                _groups["d_"+ver].style.display = "block";
+                _groups["d_"+ver].style.order = -1 * _save_answers[ver];
+            }
+        }
         console.log(_save_answers);
     }
 
@@ -32,16 +64,11 @@
         opt = options[i];
 
         if (opt.selected) {
-        result.push(opt.value || opt.text);
+            result.push(opt.value || opt.text);
         }
     }
     return result;
     }
 </script>
 
-<% @items.find_all("/quiz/*").each_with_index do |quest, i| %>
-    <div id="question_<%=i%>" class="question">
-        <%= render '/partials/question.*', question: quest %>
-    </div>
-<% end %>
 <%= yield %>

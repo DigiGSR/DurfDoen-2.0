@@ -11,4 +11,7 @@ module VerenigingenHelper
     def konvents
         @items.find_all("**/verenigingen/*").map{|x| x[:konvent]}.uniq.compact
     end
+    def all_groups
+        @items.find_all("**/verenigingen/*") + @items.find_all("**/konventen/*")
+    end
   end
