@@ -28,6 +28,16 @@ compile '/homepage.md' do
   write '/index.html'
 end
 
+compile '/faq/*' do
+  filter :kramdown
+end
+
+compile '/faq.erb' do
+  filter :erb
+  layout '/default.*'
+  write '/faq/index.html'
+end
+
 compile '/verenigingen.md' do
   filter :kramdown
   layout '/verenigingen.*'
