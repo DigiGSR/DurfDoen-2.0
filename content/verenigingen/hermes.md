@@ -2,6 +2,14 @@
 titel: Hermes
 naam: Hermes
 konvent: fk
+website: https://www.hermesgent.be
+social: 
+  - platform: linkedin
+    link: https://www.linkedin.com/company/hermesgentvzw/
+  - platform: instagram
+    link: https://www.instagram.com/hermesgent/
+  - platform: facebook
+    link: https://www.facebook.com/Hermesgent/
 themas:
   -  faculteiten
 ---
