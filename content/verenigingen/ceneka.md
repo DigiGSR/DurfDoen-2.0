@@ -2,6 +2,15 @@
 titel: CenEka
 naam: CenEka
 konvent: wvk
+website: www.ceneka.be
+contact: info@ceneka.be
+social:
+  - platform: facebook
+    link: https://www.facebook.com/CenEkaGent/
+  - platform: instagram
+    link: https://www.instagram.com/cenekagent/
+  - platform: linkedin
+    link: https://www.linkedin.com/company/ceneka/
 themas:
   -  wetenschap en techniek
 ---
