@@ -1,5 +1,6 @@
 ---
-titel: Studentenraad Dierengeneeskunde
-naam: Studentenraad Dierengeneeskunde
+titel: DSR
+naam: DSR: Facultaire Studentenraad Dierengeneeskunde
+
 konvent: gsr
 ---
