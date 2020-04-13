@@ -1,6 +1,6 @@
 ---
-titel: JGroen StuGent
-naam: JGroen StuGent
+titel: Jong Groen StuGent
+naam: Jong Groen StuGent
 konvent: pfk
 contact: stugent@jonggroen.be
 website: https://www.jonggroen.be/stugent?fbclid=IwAR0_aFj5Eus_o6-9Lr77uoRBJ7gd5s5vVCoLWSZUThtGHpdZRK0YAt0FCuc
