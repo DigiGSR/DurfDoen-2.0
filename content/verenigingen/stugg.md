@@ -2,7 +2,7 @@
 titel: StuGG
 naam: StuGG
 konvent: gsr
-website.www.stugg.be
+website: www.stugg.be
 contact: info@stugg.be
 social:
   - platform: facebook
