@@ -3,11 +3,7 @@ titel: Stuveco
 naam: Stuveco
 konvent: gsr
 website: stuveco.ugent.be
-contact: stuw@ugent.be
-social:
-  - platform: facebook
-    link: https://www.facebook.com/stuwugent/
 themes:
   -  studentenraad
 ---
-StuW is de Studentenraad van de Faculteit Wetenschappen. Wij vertegenwoordingen studenten op zowel facultair als universitair niveau. Dit laatste gebeurt via de Gentse Studentenraad (GSR). Op facultair niveau proberen wij studenten te verenigingen die zetelen in een van de vele commissies en raden die de universiteit en faculteit rijk is. Enkele voorbeelden hiervan zij de faculteitsraad, de bibliotheekcommissies en de vele opleidings commissies.
+Stuveco is de studentenraad van de faculteit Economie en Bedrijfskunde. Onze studentenvertegenwoordigers zitten in verschillende raden en commissies waar we samen met professoren en assistenten de faculteit mee besturen. We waken er over jouw belangen en kaarten er problemen aan. Zo ijveren we voor goede lesgevers, eerlijke examens, voldoende studentenvoorzieningen, enz.
