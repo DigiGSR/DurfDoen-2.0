@@ -10,4 +10,4 @@ social:
 themas:
   -  streek
 ---
-Iepr, Veurne en Poperinge
+Ieper, Veurne en Poperinge
