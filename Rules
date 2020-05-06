@@ -57,9 +57,15 @@ compile '/stylesheets/*.{sass,scss}' do
   write ext: 'css'
 end
 
+compile '/*.erb' do
+  filter :erb
+  write item.identifier.without_ext
+end
+
+layout '/**/*', :erb
+
 # Catch-all
 compile '/**/*' do
   write item.identifier.to_s
 end
 
-layout '/**/*', :erb
