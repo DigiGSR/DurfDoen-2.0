@@ -1,0 +1,17 @@
+---
+titel: FAQ
+navigable: true
+order: 3
+---
+<h1>FAQ — Vaakgevraagdevragen</h1>
+<% @items.find_all('/faq/*').each do |question| %>
+  <details>
+    <summary>
+      <%= question[:vraag] %>
+    </summary>
+    <p>
+      <%= question.compiled_content %>
+    </p>
+  </details>
+<% end %>
+<p>Geen antwoord gevonden op jouw vraag? <a href="mailto:durfdoen@gentsestudentenraad.be?Subject=Vraag Durf Doen">Contacteer ons!</a></p>
