@@ -1,5 +1,5 @@
 <div class="details-container details-logo">
-    <img src="https://dsa.ugent.be/verenigingen/details/<%= abbreviation(item) %>/logo?size=huge" alt="<%= item[:naam] %>">
+    <img src="https://dsa.ugent.be/api/verenigingen/<%= abbreviation(item) %>/logo?size=huge" alt="<%= item[:naam] %>">
 </div>
 <div class="details-container details-contact">
     <% if item[:deelname_link] %>
