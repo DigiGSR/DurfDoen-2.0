@@ -19,4 +19,7 @@ module VerenigingenHelper
             "themas" => x[:themas]
         }}.to_a
     end
+    def abbreviation(item)
+        item.identifier.without_ext.split('/')[2]
+    end
   end

@@ -9,7 +9,7 @@
 <h1> Konventen en projecten </h1>
 <ul>
     <% for konvent in konvents %>
-        <%= "<img src=/assets/konventen/" ++ konvent.tr(" ", "_") ++ ".png alt=" ++ konvent %>
+        <img src="https://dsa.ugent.be/verenigingen/details/<%= konvent.tr(" ", "_") %>/logo?size=medium" alt="<%= konvent %>">
         <li> <%= link_to(konvent, "/konventen/"++konvent.tr(" ", "_")++".html") %>  </li>
     <% end %>
 </ul>
