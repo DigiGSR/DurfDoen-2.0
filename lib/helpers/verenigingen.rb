@@ -20,6 +20,6 @@ module VerenigingenHelper
         }}.to_a
     end
     def abbreviation(item)
-        item.identifier.without_ext.split('/')[2]
+        item.identifier.without_ext.split('/').last
     end
   end
