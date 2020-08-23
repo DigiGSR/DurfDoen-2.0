@@ -1,0 +1,134 @@
+:root{
+    --darkblue: #013E7A;
+    --lightblue: #1A77D3;
+    --cyan: #AAEEFF;
+    --yellow: #FED318;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    width: 1280px;
+    margin: 0 auto;
+    font-family: futura, Avenir Next, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    position: relative;
+    height: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: futura, Avenir Next, Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--darkblue);
+    padding: 0 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+h2{
+    font-family: futura, Avenir Next, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3.4rem;
+    width: 30rem;
+    color: var(--darkblue);
+}
+
+.studentZijn {
+    padding-top: 4rem;
+    padding-left: 3rem;
+}
+
+.scroll {
+    position: absolute;
+    bottom: 2rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    font-size: 1.4rem;
+    text-decoration: underline;
+    color: var(--darkblue);
+}
+
+.hidden {
+    display: none;
+}
+
+.quote p{
+    font-size: 1.5rem;
+    width: 25rem;
+    font-family: Avenir Next, Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    padding-left: 2rem;
+}
+
+.quote {
+    display: flex;
+}
+
+.randomVerenigingen {
+    position: absolute;
+    bottom: 5rem;
+    right: 0;
+    text-align: right;
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 0;
+    color: var(--lightblue);
+}
+
+.aside_blueSquare {
+    
+    right: 3rem;
+    height: 100%;
+    width: 20%;
+    
+}
+
+.backgroundSquare {
+    z-index: -1;
+    position: absolute;
+    background-color: var(--cyan);
+}
+
+.header_blueSquare {
+    left: -15rem;
+    height: 45%;
+    width: 80%;
+    opacity: 0.2;
+}
+
+
+
+.randomVerenigingen p:nth-child(odd) {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: var(--lightblue);
+    color: transparent;
+}
+
+.randomVerenigingen p{
+    text-transform: uppercase;
+}
+
+.underline, .active_link{
+    padding-bottom: -2rem;
+    margin-bottom: -2rem;
+    box-shadow: inset 0 -8px 0 var(--yellow);
+}

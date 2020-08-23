@@ -1,1 +1,36 @@
-<%= yield %>
+ <article>
+    <h1 class="hidden">Durf Doen</h1>
+    <h2 class="studentZijn"><span class="underline">Student</span> zijn is <span class="underline">meer</span> dan
+      studeren</h2>
+    <div class="quote"><img src="/assets/durfdoenlogo.png" alt="">
+      <p>Lorem ipsum dolor zie van hier da ik latijn ga beginnen spreken Lorem ipsum dolor zie van hier da ik latijn ga
+        beginnen spreken</p></div>
+  </article>
+  <aside class="randomVerenigingen">
+    <div class="aside_blueSquare backgroundSquare"></div>
+    <% for vereniging in verenigingen_random(6) %>
+    <p><%= vereniging["naam"] %></p>
+    <% end %>
+  </aside>
+  <div>
+    <p class="scroll">Scroll naar beneden</p>
+  </div>
+</header>
+
+<main>
+  <article>
+    <%= yield %>
+  </article>
+  <article>
+    <h2>Doe hier <span class="underline">de test</span></h2>
+    <p>Wil je weten welke studentenclub, werkgroep of kring het beste bij jou past? Doe onze test en vindt het uit</p>
+  </article>
+  <article>
+    <h2><span class="underline">Uitgelichte</span> Verenigingen</h2>
+    <section>
+      <h3>Zeus WPI</h3>
+      <p>Hier stond een tekst die niet online mocht komen omdat het over niet politiek correcte dingen ging</p>
+      <a href="#">belijk de vereniging</a>
+    </section>
+  </article>
+</main>

@@ -1,3 +1,22 @@
-<% for i in navigables %>
-    <%= link_to(i[:titel], i) %>
-<% end %>
+<nav>
+  <img src="/assets/OmdatHetDurfDoenLogoSuckt.png" alt="">
+  <ul>
+    <% for i in navigables %>
+      <li><%= link_to(i[:titel], i, class: "nav_link") %></li>
+    <% end %>
+    <script>
+      const nav_links = document.querySelectorAll(".nav_link");
+      nav_links.forEach(nav_link => {
+        if (nav_link.getAttribute("href") === window.location.pathname) {
+          nav_link.classList.add("active_link");
+        }
+      })
+    </script>
+
+  </ul>
+  <div>
+    <input type="text" placeholder="Zeus WPI">
+    <button>search</button>
+    <button>NL</button>
+  </div>
+</nav>
