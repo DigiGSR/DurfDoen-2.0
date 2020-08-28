@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 # Helpers for data
-module VerenigingenLists
+module VerenigingenHelper
   # Helpers for navbar partial
   def current_child_of(item)
     child_of(item, @item)
