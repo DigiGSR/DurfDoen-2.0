@@ -53,8 +53,12 @@ h1 {
     flex-basis: 100%;
     border-top: 2px solid black;
   }
-  .details-verenigingen{
+  .details-verenigingen {
     order: 4;
     flex-basis: 100%;
   }
+}
+
+.hidden {
+  display: none;
 }

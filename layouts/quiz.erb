@@ -1,74 +1,144 @@
-
-<div style="display: flex">
-    <div style="width: 70vw;">
-    <% @items.find_all("/quiz/*").each_with_index do |quest, i| %>
-        <div id="question_<%=i%>" class="question">
-            <%= render '/partials/question.*', question: quest %>
-        </div>
-    <% end %>
+<div style="margin: auto; width: 70%;">
+  <% @items.find_all("/quiz/*").each_with_index do |quest, i| %>
+    <div id="question_<%=i+1%>" class="question hidden">
+      <%= render '/partials/question.*', question: quest %>
     </div>
-
-    <div style="width: 28vw;" style="display: flex; flex-direction: column;">
-        <% all_groups().each do |group| %>
-        <div id="d_<%= group[:id] %>" style="display: none;">
-            <%= render '/partials/group_small.*', group: group %>
-        </div>
-        <% end %>
-    </div>
+  <% end %>
 </div>
-
+<div id="resultWrapper" style="width: 28vw;" style="display: flex; flex-direction: column;" class="hidden">
+  <% all_groups().each do |group| %>
+    <div id="d_<%= group[:id] %>" style="display: none;">
+      <%= render '/partials/group_small.*', group: group %>
+    </div>
+  <% end %>
+</div>
+<div style="width: 70%; margin: auto; display: flex; justify-content: space-between;">
+  <button id="previousButton" onclick="goPrevious()">
+    Vorige!
+  </button>
+  <button id="nextButton" onclick="goNext()">
+    Volgende!
+  </button>
+</div>
 <script>
-    const _groups = {};
-    <% all_groups().each do |group| %>
-    _groups["d_<%= group[:id] %>"] = document.getElementById("d_<%= group[:id] %>");
-    <% end %>
-    const _save_answers = {};
-
-    console.log(_groups);
-
-    function save_answers(vers) {
-        for (let ver of vers) {
-            if (_save_answers[ver]) {
-                _save_answers[ver] += 1;
-            } else {
-                _save_answers[ver] = 1;
-            }
+  const params = (function(url) {
+    if(!url) return {};
+    const params = {};
+    for(let currentVar of url.substring(1).split("&")) {
+        var pair = currentVar.split('=');
+      params[pair[0]] = decodeURIComponent(pair[1]);
+    }
+  
+    return params;
+  })(window.location.search);
+  
+  const questionIndex = 'vraag' in params ? parseInt(params['vraag']) : 1;
+  const questionId = "question_"+questionIndex;
+  
+  const currentQuestion = document.getElementById(questionId);
+  const _save_answers = {};
+  
+  function createUrl(questionIndex) {
+    const queryStart = window.location.href.indexOf("?");
+  
+    const url = queryStart >= 0 ? window.location.href.substring(0, queryStart) : window.location.href;
+  
+    return url + "?vraag="+questionIndex;
+  }
+  
+  const _groups = (function() {
+      const groups = {};
+      <% all_groups().each do |group| %>
+        groups["d_<%= group[:id] %>"] = document.getElementById("d_<%= group[:id] %>");
+      <% end %>
+    return groups;
+  })();
+  
+  
+  (function showCorrectElements() {
+    if(questionIndex == 1) {
+      document.getElementById("previousButton").disabled = true;
+    }
+  
+    if(!currentQuestion) {
+      document.getElementById("nextButton").disabled = true;
+      document.getElementById("resultWrapper").classList.remove("hidden");
+  
+      const result = {};
+      for(let question of document.getElementsByClassName("question")) {
+        const div = window.sessionStorage[question.id];
+        if(!div) continue;
+        console.log(div);
+  
+  
+        const resultObj = JSON.parse(div);
+        for (let key in resultObj) {
+          if (!(key in result)) result[key] = 0;
+          result[key] += resultObj[key];
         }
+      }
+  
+      show_result(result);
+    } else {
+      currentQuestion.classList.remove("hidden");
     }
-
-    function del_answers(vers) {
-        for (let ver of vers) {
-            _save_answers[ver] -= 1;
-        }
-    }
-
-    function finish_answers() {
-        for (let ver in _save_answers) {
-            console.log(ver);
-            if (_save_answers[ver] == 0) {
-                _groups["d_"+ver].style.display = "none";
-            } else {
-                _groups["d_"+ver].style.display = "block";
-                _groups["d_"+ver].style.order = -1 * _save_answers[ver];
-            }
-        }
-        console.log(_save_answers);
-    }
-
-  function getSelectValues(select) {
-    var result = [];
-    var options = select && select.options;
-    var opt;
-
-    for (var i=0, iLen=options.length; i<iLen; i++) {
-        opt = options[i];
-
-        if (opt.selected) {
-            result.push(opt.value || opt.text);
-        }
-    }
-    return result;
-    }
+  })();
+  
+  function save_answers(vers) {
+      console.log(vers);
+      for (let ver of vers) {
+          if (_save_answers[ver]) {
+              _save_answers[ver] += 1;
+          } else {
+              _save_answers[ver] = 1;
+          }
+      }
+  }
+  
+  function del_answers(vers) {
+      for (let ver of vers) {
+          _save_answers[ver] -= 1;
+      }
+  }
+  
+  function show_result(result) {
+      for (let ver in result) {
+          if (result[ver] == 0) {
+              _groups["d_"+ver].style.display = "none";
+          } else {
+              _groups["d_"+ver].style.display = "block";
+              _groups["d_"+ver].style.order = -1 * result[ver];
+          }
+      }
+  
+      console.log(result);
+  }
+  
+  function save_state() {
+    window.sessionStorage.setItem(questionId, JSON.stringify(_save_answers));
+  }
+  
+    function getSelectValues(select) {
+      var result = [];
+      var options = select && select.options;
+      var opt;
+  
+      for (var i=0, iLen=options.length; i<iLen; i++) {
+          opt = options[i];
+  
+          if (opt.selected) {
+              result.push(opt.value || opt.text);
+          }
+      }
+      return result;1
+  }
+  
+  function goNext() {
+    window.location.replace(createUrl(questionIndex+1));
+  }
+  
+  function goPrevious() {
+      window.location.replace(createUrl(questionIndex-1));
+  }
 </script>
-
 <%= yield %>
