@@ -1,6 +1,6 @@
 ---
-titel: Vlaamse Geneeskundige Kring
 naam: Vlaamse Geneeskundige Kring
+verkorte_naam: Vlaamse Geneeskundige Kring
 konvent: fk
 website: www.vgk.be
 contact: vgk@vgk.be

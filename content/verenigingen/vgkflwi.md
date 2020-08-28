@@ -1,6 +1,6 @@
 ---
-titel: Vlaamse Geschiedkundige Kring
 naam: Vlaamse Geschiedkundige Kring
+verkorte_naam: Vlaamse Geschiedkundige Kring
 konvent: fk
 website: www.vgkgent.be
 contact: vgkgent@gmail.com

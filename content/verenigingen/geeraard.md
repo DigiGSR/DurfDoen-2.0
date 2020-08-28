@@ -1,6 +1,6 @@
 ---
-titel: Geeraard
 naam: Geeraard
+verkorte_naam: Geeraard
 konvent: sk
 website: www.degeeraard.be
 social:

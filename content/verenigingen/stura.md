@@ -1,6 +1,6 @@
 ---
-titel: StuRa
 naam: StuRa
+verkorte_naam: StuRa
 konvent: gsr
 website: https://stura.ugent.be/
 social: 

@@ -1,6 +1,6 @@
 ---
-titel: d'Urgent
 naam: d'Urgent
+verkorte_naam: d'Urgent
 konvent: wvk
 website: https://www.greencommunity.be/durgent
 social:

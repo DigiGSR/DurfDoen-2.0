@@ -1,6 +1,6 @@
 ---
-titel: Limburgia
 naam: Limburgia
+verkorte_naam: Limburgia
 konvent: sk
 website: http://limburgia.skghendt.be/
 social:

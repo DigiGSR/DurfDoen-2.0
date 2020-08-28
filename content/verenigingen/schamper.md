@@ -1,6 +1,6 @@
 ---
-titel: Schamper
 naam: Schamper
+verkorte_naam: Schamper
 konvent: schamper
 website: schamper.ugent.be
 contact: kernredactie@schamper.be

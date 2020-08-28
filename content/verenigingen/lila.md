@@ -1,6 +1,6 @@
 ---
-titel: LILA
-naam: Landbouwindustrieën en landbouw
+naam: LILA
+verkorte_naam: Landbouwindustrieën en landbouw
 konvent: fk
 contact: praesidiumlila@gmail.com
 website: https://studentenclublila.be/

@@ -1,6 +1,6 @@
 ---
-titel: Vlaamse Diergeneeskundige Kring
 naam: Vlaamse Diergeneeskundige Kring
+verkorte_naam: Vlaamse Diergeneeskundige Kring
 konvent: fk
 website: http://www.vlaamsdiergeneeskundigekring.be/
 contact: VDK@fkserv.ugent.be

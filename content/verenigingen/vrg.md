@@ -1,6 +1,6 @@
 ---
-titel: Vlaamse Rechtsgenootschap
 naam: Vlaamse Rechtsgenootschap
+verkorte_naam: Vlaamse Rechtsgenootschap
 konvent: fk
 website: www.vrg-gent.be
 contact: praeses@vrg-gent.be

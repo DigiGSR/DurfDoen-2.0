@@ -1,6 +1,6 @@
 ---
-titel: Brugse Universitaire Kring
 naam: Brugse Universitaire Kring
+verkorte_naam: Brugse Universitaire Kring
 konvent: sk
 website: https://www.buk-leeft.be/
 social:

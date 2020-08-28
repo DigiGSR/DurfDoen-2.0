@@ -1,6 +1,6 @@
 ---
-titel: GUDc
 naam: GUDc
+verkorte_naam: GUDc
 konvent: kultk
 contact: info@gudc.be
 website: http://gudc.be/

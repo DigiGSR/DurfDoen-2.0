@@ -1,6 +1,6 @@
 ---
-titel: Auw La
 naam: Auw La
+verkorte_naam: Auw La
 konvent: kultk
 contact: auwlagent@gmail.com
 social:

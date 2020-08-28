@@ -1,6 +1,6 @@
 ---
-titel: Vlaamse Logopedische en Audiologische Kring
 naam: Vlaamse Logopedische en Audiologische Kring
+verkorte_naam: Vlaamse Logopedische en Audiologische Kring
 konvent: fk
 website: www.vlak.be
 contact: vlak@vlak.be

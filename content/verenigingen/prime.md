@@ -1,6 +1,6 @@
 ---
-titel: PRIME
 naam: PRIME
+verkorte_naam: PRIME
 konvent: wvk
 website: http://prime.ugent.be/
 contact: bestuur@prime.ugent.be

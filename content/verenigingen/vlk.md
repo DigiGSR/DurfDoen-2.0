@@ -1,6 +1,6 @@
 ---
-titel: Vlaamse Levenstechnische Kring
 naam: Vlaamse Levenstechnische Kring
+verkorte_naam: Vlaamse Levenstechnische Kring
 konvent: fk
 website: www.boerekot.be
 contact: info@boerekot.be

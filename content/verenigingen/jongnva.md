@@ -1,6 +1,6 @@
 ---
-titel: Jong N-VA UGent
 naam: Jong N-VA UGent
+verkorte_naam: Jong N-VA UGent
 konvent: pfk
 contact: ugent@jongnva.be
 website: https://ugent.jongnva.be/?fbclid=IwAR3HDiuLzHBQANtpWip_P3xbSxIQeeRiSD_MdMG_t5sIIQTzRr25m_3kM84

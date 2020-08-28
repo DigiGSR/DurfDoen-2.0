@@ -1,6 +1,6 @@
 ---
-titel: Groene Kring
 naam: Groene Kring
+verkorte_naam: Groene Kring
 konvent: wvk
 social:
   - platform: facebook

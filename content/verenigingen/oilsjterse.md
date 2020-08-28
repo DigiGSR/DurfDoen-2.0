@@ -1,6 +1,6 @@
 ---
-titel: Moeder Oilsjterse
 naam: Moeder Oilsjterse
+verkorte_naam: Moeder Oilsjterse
 konvent: sk
 website: http://www.moederoilsjterse.be/
 themas:

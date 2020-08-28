@@ -1,6 +1,6 @@
 ---
-titel: Politeia
 naam: Politeia
+verkorte_naam: Politeia
 konvent: fk
 website: http://www.politeia-gent.be/
 contact: praeses@politeia-gent.be

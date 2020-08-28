@@ -1,6 +1,6 @@
 ---
-titel: Filologica
 naam: Filologica
+verkorte_naam: Filologica
 konvent: fk
 contact: presidium@filologica.be
 website: http://www.filologica.be

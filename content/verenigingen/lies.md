@@ -1,6 +1,6 @@
 ---
-titel: Moeder lies
 naam: Moeder lies
+verkorte_naam: Moeder lies
 konvent: fk
 contact: praeses@moederlies.be
 website: http://www.moederlies.be

@@ -1,6 +1,6 @@
 ---
-titel: Hermes
 naam: Hermes
+verkorte_naam: Hermes
 konvent: fk
 website: https://www.hermesgent.be
 social: 

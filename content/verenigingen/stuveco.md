@@ -1,6 +1,6 @@
 ---
-titel: Stuveco
 naam: Stuveco
+verkorte_naam: Stuveco
 konvent: gsr
 website: stuveco.ugent.be
 themes:

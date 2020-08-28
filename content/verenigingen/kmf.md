@@ -1,6 +1,6 @@
 ---
-titel: Kring Moraal en Filosofie
 naam: Kring Moraal en Filosofie
+verkorte_naam: Kring Moraal en Filosofie
 konvent: fk
 contact: kmf.presidium@gmail.com
 website: https://kringmoraalenfilosofie.wordpress.com/

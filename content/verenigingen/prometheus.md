@@ -1,6 +1,6 @@
 ---
-titel: Prometheus
 naam: Prometheus
+verkorte_naam: Prometheus
 konvent: kultk
 contact: prometheusgent@gmail.com
 website: https://prometheusgent.wordpress.com/

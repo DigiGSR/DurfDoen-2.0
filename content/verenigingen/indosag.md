@@ -1,6 +1,6 @@
 ---
-titel: Indonesian Students Association Ghent
 naam: Indonesian Students Association Ghent
+verkorte_naam: Indonesian Students Association Ghent
 konvent: ik
 contact: IndoSAG@student.ugent.be
 website: https://ppigentbelgia.wordpress.com/

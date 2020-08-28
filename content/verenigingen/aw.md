@@ -1,6 +1,6 @@
 ---
-titel: Archeologische Werkgroep
 naam: Archeologische Werkgroep
+verkorte_naam: Archeologische Werkgroep
 konvent: wvk
 contact: aw.ugent@gmail.com
 website: http://aw-ugent.be/

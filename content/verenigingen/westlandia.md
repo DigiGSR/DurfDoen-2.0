@@ -1,6 +1,6 @@
 ---
-titel: Westlandia
 naam: Westlandia
+verkorte_naam: Westlandia
 konvent: sk
 website: http://www.westlandia-gent.be
 contact: westlandia.gent@gmail.com

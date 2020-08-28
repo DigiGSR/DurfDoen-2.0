@@ -1,6 +1,6 @@
 ---
-titel: StuReC
 naam: StuReC
+verkorte_naam: StuReC
 website: sturec.ugent.be
 contact: sturec@ugent.be
 social:

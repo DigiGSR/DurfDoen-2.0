@@ -1,6 +1,6 @@
 ---
-titel: Sd'A Gent
 naam: Sd'A Gent
+verkorte_naam: Sd'A Gent
 konvent: sk
 website: http://www.sdagent.be/
 contact: sda_gent@outlook.com

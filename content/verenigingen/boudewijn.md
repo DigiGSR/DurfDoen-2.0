@@ -1,6 +1,6 @@
 ---
-titel: Home Boudewijn
 naam: Home Boudewijn
+verkorte_naam: Home Boudewijn
 konvent: hk
 website: https://www.homeboudewijn.be/
 social:

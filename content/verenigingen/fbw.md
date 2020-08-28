@@ -1,6 +1,6 @@
 ---
-titel: StuBio
 naam: StuBio
+verkorte_naam: StuBio
 konvent: gsr
 website: stubio.ugent.be
 contact: stubio@ugent.be

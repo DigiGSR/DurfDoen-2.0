@@ -1,6 +1,6 @@
 ---
-titel: PKarus
 naam: PKarus
+verkorte_naam: PKarus
 konvent: wvk
 contact: hello@pkarus.be
 website: https://www.pkarus.be/

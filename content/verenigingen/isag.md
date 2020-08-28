@@ -1,6 +1,6 @@
 ---
-titel: ISAG
 naam: ISAG
+verkorte_naam: ISAG
 konvent: ik
 contact: ugent.isag@gmail.com
 website: https://isagugent.wordpress.com/

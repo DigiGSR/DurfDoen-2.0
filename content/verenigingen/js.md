@@ -1,6 +1,6 @@
 ---
-titel: Jongsocialisten StuGent
 naam: Jongsocialisten StuGent
+verkorte_naam: Jongsocialisten StuGent
 konvent: pfk
 contact: jongsocialisten_stugent@gmail.com
 social:

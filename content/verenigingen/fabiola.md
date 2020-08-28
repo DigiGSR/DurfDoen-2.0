@@ -1,6 +1,6 @@
 ---
-titel: Home Fabiola
 naam: Home Fabiola
+verkorte_naam: Home Fabiola
 konvent: hk
 social:
   - platform: twitter

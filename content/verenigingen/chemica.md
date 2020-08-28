@@ -1,6 +1,6 @@
 ---
-titel: Chemica
 naam: Chemica
+verkorte_naam: Chemica
 konvent: fk
 contact: chemica.praeses@gmail.com
 website: https://chemica.fkgent.be/

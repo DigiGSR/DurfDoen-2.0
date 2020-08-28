@@ -1,6 +1,6 @@
 ---
-titel: StuFF
 naam: StuFF
+verkorte_naam: StuFF
 konvent: gsr
 website: https://stuff.ugent.be/
 social:

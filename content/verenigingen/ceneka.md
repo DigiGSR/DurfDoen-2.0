@@ -1,6 +1,6 @@
 ---
-titel: CenEka
 naam: CenEka
+verkorte_naam: CenEka
 konvent: wvk
 website: www.ceneka.be
 contact: info@ceneka.be

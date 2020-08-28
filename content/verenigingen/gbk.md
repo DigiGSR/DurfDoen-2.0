@@ -1,6 +1,6 @@
 ---
-titel: Gentse Biologische Kring
 naam: Gentse Biologische Kring
+verkorte_naam: Gentse Biologische Kring
 konvent: fk
 contact: praesidium@biologie-gent.be
 themas:

@@ -1,6 +1,6 @@
 ---
-titel: KVHV
 naam: KVHV
+verkorte_naam: KVHV
 konvent: pfk
 website: https://gent.kvhv.org/
 social:

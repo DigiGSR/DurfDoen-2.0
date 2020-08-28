@@ -1,6 +1,6 @@
 ---
-titel: Deliria
 naam: Deliria
+verkorte_naam: Deliria
 konvent: sk
 contact: deliriagent@gmail.com
 website: www.deliriagent.be

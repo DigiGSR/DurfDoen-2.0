@@ -1,6 +1,6 @@
 ---
-titel: Home Astrid
 naam: Home Astrid
+verkorte_naam: Home Astrid
 konvent: hk
 website: http://astrid.ugent.be/
 social:

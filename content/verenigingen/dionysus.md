@@ -1,6 +1,6 @@
 ---
-titel: Dionysus
 naam: Dionysus
+verkorte_naam: Dionysus
 konvent: sk
 website: http://dionysus.skghendt.be/
 contact: studentenclub.dionysus@gmail.com

@@ -1,6 +1,6 @@
 ---
-titel: HSC De Dijlebrassers
 naam: HSC De Dijlebrassers
+verkorte_naam: HSC De Dijlebrassers
 konvent: sk
 website: http://www.dijlebrassers.be
 social:

@@ -1,6 +1,6 @@
 ---
-titel: tags uitleg enzo
 naam: tags uitleg enzo
+verkorte_naam: tags uitleg enzo
 ---
 
 Alle themas (op lijn beginnende met `themas:` )

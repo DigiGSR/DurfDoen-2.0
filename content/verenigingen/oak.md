@@ -1,6 +1,6 @@
 ---
-titel: Oosterse Afrikaanse Kring
 naam: Oosterse Afrikaanse Kring
+verkorte_naam: Oosterse Afrikaanse Kring
 konvent: fk
 contact: oak.blandijn@gmail.com
 website: https://oak.fkgent.be/

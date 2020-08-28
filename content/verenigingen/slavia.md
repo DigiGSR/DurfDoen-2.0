@@ -1,6 +1,6 @@
 ---
-titel: Slavia
 naam: Slavia
+verkorte_naam: Slavia
 konvent: fk
 contact: Slavia.gent@gmail.com
 themas:

@@ -1,6 +1,6 @@
 ---
-titel: Board of European Students of Technology Ghent
 naam: Board of European Students of Technology Ghent
+verkorte_naam: Board of European Students of Technology Ghent
 contact: ghent-board@best.eu.org
 website: https://vtk.ugent.be/best/
 social:

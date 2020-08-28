@@ -1,6 +1,6 @@
 ---
-titel: Rodenbach
 naam: Rodenbach
+verkorte_naam: Rodenbach
 konvent: sk
 themas:
   -  streek

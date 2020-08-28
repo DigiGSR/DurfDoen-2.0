@@ -1,6 +1,6 @@
 ---
-titel: PPSR
 naam: PPSR
+verkorte_naam: PPSR
 konvent: gsr
 themes:
   -  studentenraad

@@ -1,6 +1,6 @@
 ---
-titel: MaCht
 naam: MaCht
+verkorte_naam: MaCht
 konvent: wvk
 website: http://macht.ugent.be/
 social:

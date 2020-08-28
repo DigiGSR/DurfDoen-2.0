@@ -1,6 +1,6 @@
 ---
-titel: Vinasag
 naam: Vinasag
+verkorte_naam: Vinasag
 konvent: ik
 contact: sivibi.gent@gmail.com
 website: http://student.ugent.be/vinasag/

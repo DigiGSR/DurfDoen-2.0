@@ -1,6 +1,6 @@
 ---
-titel: Moeder Theepot
 naam: Moeder Theepot
+verkorte_naam: Moeder Theepot
 konvent: wvk
 website: https://www.moedertheepot.com/
 social:

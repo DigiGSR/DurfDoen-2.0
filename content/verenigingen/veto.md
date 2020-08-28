@@ -1,6 +1,6 @@
 ---
-titel: Veto Gent
 naam: Veto Gent
+verkorte_naam: Veto Gent
 konvent: fk
 website: https://vetogent.fkgent.be/
 contact: presidium@vetogent.be

@@ -1,6 +1,6 @@
 ---
-titel: Home Bertha de Vriese
 naam: Home Bertha de Vriese
+verkorte_naam: Home Bertha de Vriese
 konvent: hk
 website: http://bertha.ugent.be/
 social:

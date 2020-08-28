@@ -1,6 +1,6 @@
 ---
-titel: NSV! Gent
 naam: NSV! Gent
+verkorte_naam: NSV! Gent
 konvent: pfk
 contact: nsv.gent@gmail.com
 social:

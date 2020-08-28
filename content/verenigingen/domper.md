@@ -1,6 +1,6 @@
 ---
-titel: Moeder Domper
 naam: Moeder Domper
+verkorte_naam: Moeder Domper
 konvent: sk
 social: 
   - platform: facebook

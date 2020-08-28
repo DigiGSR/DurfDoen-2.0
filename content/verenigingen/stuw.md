@@ -1,6 +1,6 @@
 ---
-titel: StuW
 naam: StuW
+verkorte_naam: StuW
 konvent: gsr
 website: https://stuw.ugent.be/
 contact: stuw@ugent.be

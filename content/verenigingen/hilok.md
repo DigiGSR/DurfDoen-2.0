@@ -1,6 +1,6 @@
 ---
-titel: HILOK
 naam: HILOK
+verkorte_naam: HILOK
 konvent: fk
 contact: praeses.hilok@gmail.com
 website: http://hilok-gent.be

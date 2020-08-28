@@ -1,6 +1,6 @@
 ---
-titel: Kunsthistorische kring
 naam: Kunsthistorische kring
+verkorte_naam: Kunsthistorische kring
 konvent: fk
 contact: khkgent@gmail.com
 website: http://www.khkgent.be/

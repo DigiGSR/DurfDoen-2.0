@@ -1,6 +1,6 @@
 ---
-titel: Matrak
 naam: Matrak
+verkorte_naam: Matrak
 konvent: kultk
 contact: matrak_theater@hotmail.com
 website: http://student.ugent.be/matrak/index.html

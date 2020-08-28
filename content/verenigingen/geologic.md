@@ -1,6 +1,6 @@
 ---
-titel: Geologica
 naam: Geologica
+verkorte_naam: Geologica
 konvent: fk
 contact: geologica.gent@gmail.com
 social: 

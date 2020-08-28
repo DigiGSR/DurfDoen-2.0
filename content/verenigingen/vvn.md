@@ -1,6 +1,6 @@
 ---
-titel: VVN
 naam: VVN
+verkorte_naam: VVN
 themas:
   - wetenschap-techniek
 konvent: WVK

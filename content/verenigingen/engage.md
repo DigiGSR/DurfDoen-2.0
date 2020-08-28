@@ -1,6 +1,6 @@
 ---
-titel: ENGAGE
 naam: ENGAGE
+verkorte_naam: ENGAGE
 konvent: wvk
 contact: engagefchange@gmail.com 
 website: http://engage4change.be/

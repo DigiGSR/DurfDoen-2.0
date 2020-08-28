@@ -1,6 +1,6 @@
 ---
-titel: International Students of History Association
 naam: International Students of History Association
+verkorte_naam: International Students of History Association
 konvent: ik
 contact: Ghent.Isha@gmail.com
 website: https://ishaghent.weebly.com/

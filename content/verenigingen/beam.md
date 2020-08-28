@@ -1,6 +1,6 @@
 ---
-titel: BEAM
 naam: BEAM
+verkorte_naam: BEAM
 konvent: wvk
 contact: beam.ugentvub@gmail.be
 website: https://www.beam-ugentvub.com/

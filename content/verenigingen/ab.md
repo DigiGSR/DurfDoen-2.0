@@ -1,6 +1,6 @@
 ---
-titel: Antwerpen Boven
 naam: Antwerpen Boven
+verkorte_naam: Antwerpen Boven
 konvent: sk
 website: http://www.antwerpenboven.be/
 social:

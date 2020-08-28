@@ -1,6 +1,6 @@
 ---
-titel: LVSV
 naam: LVSV
+verkorte_naam: LVSV
 konvent: pfk
 contact: voorzitter@lvsvgent.be
 website: https://www.lvsvgent.be/

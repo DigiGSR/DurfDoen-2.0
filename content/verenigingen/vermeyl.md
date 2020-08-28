@@ -1,6 +1,6 @@
 ---
-titel: Home Vermeylen
 naam: Home Vermeylen
+verkorte_naam: Home Vermeylen
 konvent: hk
 contact: homeraadvermeylen@gmail.com
 website: http://vermeylen.ugent.be/

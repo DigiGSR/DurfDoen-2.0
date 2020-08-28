@@ -1,6 +1,6 @@
 ---
-titel: Geografica
 naam: Geografica
+verkorte_naam: Geografica
 konvent: fk
 contact: info@geografica.be
 website: http://www.geografica.be

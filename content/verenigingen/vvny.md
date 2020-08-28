@@ -1,6 +1,6 @@
 ---
-titel: Vereniging voor de Verenigde Naties Youth
 naam: Vereniging voor de Verenigde Naties Youth
+verkorte_naam: Vereniging voor de Verenigde Naties Youth
 konvent: pfk
 contact: unya.gent@gmail.com
 website: http://www.vvn.be/vvn-youth/?fbclid=IwAR0qdIWR8qXlc7TGzzWGwtBznIf79hQPcSXFrO8AhoyXo0b3-xbL_0zzxME

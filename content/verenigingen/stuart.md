@@ -1,6 +1,6 @@
 ---
-titel: StuArt
 naam: StuArt
+verkorte_naam: StuArt
 konvent: gsr
 website: stuart.ugent.be
 contact: stuart@ugent.be

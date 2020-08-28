@@ -1,6 +1,6 @@
 ---
-titel: Laetitia
 naam: Laetitia
+verkorte_naam: Laetitia
 konvent: sk
 website: www.laetitia-gent.be
 social:

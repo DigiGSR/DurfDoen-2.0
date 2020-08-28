@@ -1,6 +1,6 @@
 ---
-titel: FLYSE
 naam: FLYSE
+verkorte_naam: FLYSE
 konvent: wvk
 contact: info@flyse.be
 website: www.flyse.be

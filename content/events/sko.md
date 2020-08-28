@@ -1,6 +1,6 @@
 ---
-titel: Student Kick-Off
 naam: Student Kick-Off
+verkorte_naam: Student Kick-Off
 konvent: gsr
 themas:
   -  event

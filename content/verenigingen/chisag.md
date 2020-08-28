@@ -1,6 +1,6 @@
 ---
-titel: ChiSAG
 naam: ChiSAG
+verkorte_naam: ChiSAG
 konvent: ik
 contact: Chisag.gent@yahoo.com
 website: https://ugent.club/

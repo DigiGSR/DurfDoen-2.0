@@ -1,6 +1,6 @@
 ---
-titel: \'t Stropke
 naam: \'t Stropke
+verkorte_naam: \'t Stropke
 konvent: sk
 website: http://tstropke.be/
 social:

@@ -1,6 +1,6 @@
 ---
-titel: GUHO
 naam: GUHO
+verkorte_naam: GUHO
 konvent: kultk
 contact: info@guho.be
 website: http://www.guho.be/

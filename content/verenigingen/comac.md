@@ -1,6 +1,6 @@
 ---
-titel: Comac
 naam: Comac
+verkorte_naam: Comac
 konvent: pfk
 website: https://www.comac-studenten.be/
 themas:

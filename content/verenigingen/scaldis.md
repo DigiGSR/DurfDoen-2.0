@@ -1,6 +1,6 @@
 ---
-titel: Scaldis
 naam: Scaldis
+verkorte_naam: Scaldis
 konvent: sk
 website: https://scaldis.skghendt.be/
 social:

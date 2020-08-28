@@ -1,6 +1,6 @@
 ---
-titel: 180 degrees consulting 
 naam: 180 degrees consulting 
+verkorte_naam: 180 degrees consulting 
 konvent: wvk
 website: http://www.180dc.org/ghent
 social:

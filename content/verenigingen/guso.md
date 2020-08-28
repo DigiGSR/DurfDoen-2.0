@@ -1,6 +1,6 @@
 ---
-titel: GUSO
 naam: GUSO
+verkorte_naam: GUSO
 konvent: kultk
 contact: info@guso.be
 website: http://guso.be/

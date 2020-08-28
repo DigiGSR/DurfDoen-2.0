@@ -1,6 +1,6 @@
 ---
-titel: Gents Universitair Koor
 naam: Gents Universitair Koor
+verkorte_naam: Gents Universitair Koor
 konvent: kultk
 website: http://gentsuniversitairkoor.be/
 social: 

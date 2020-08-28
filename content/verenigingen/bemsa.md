@@ -1,6 +1,6 @@
 ---
-titel: BeMSA
 naam: BeMSA
+verkorte_naam: BeMSA
 konvent: wvk
 contact: info@bemsa-gent.be
 website: https://bemsa-gent.be/

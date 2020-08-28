@@ -1,6 +1,6 @@
 ---
-titel: Urgent.fm
 naam: Urgent.fm
+verkorte_naam: Urgent.fm
 konvent: urgent
 website: www.urgent.fm
 social:

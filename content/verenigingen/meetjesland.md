@@ -1,6 +1,6 @@
 ---
-titel: Moeder Meetjesland
 naam: Moeder Meetjesland
+verkorte_naam: Moeder Meetjesland
 konvent: sk
 website: www.moeder-meetjesland.be
 social:

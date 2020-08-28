@@ -1,6 +1,6 @@
 ---
-titel: Moeder Egmont
 naam: Moeder Egmont
+verkorte_naam: Moeder Egmont
 konvent: sk
 website: www.moederegmont.be
 contact: studentenclubmoederegmont@gmail.com

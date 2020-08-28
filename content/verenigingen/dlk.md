@@ -1,6 +1,6 @@
 ---
-titel: De Loeiende Koe
 naam: De Loeiende Koe
+verkorte_naam: De Loeiende Koe
 konvent: wvk
 contact: dlk@ugent.be
 website: https://www.dlk.ugent.be/

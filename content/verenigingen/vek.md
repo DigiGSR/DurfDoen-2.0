@@ -1,6 +1,6 @@
 ---
-titel: Vlaamse Economische Kring
 naam: Vlaamse Economische Kring
+verkorte_naam: Vlaamse Economische Kring
 konvent: fk
 website: http://www.vek.be/
 contact: praeses@vek.be

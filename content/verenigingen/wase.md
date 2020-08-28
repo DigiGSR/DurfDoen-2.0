@@ -1,6 +1,6 @@
 ---
-titel: Wase Club
 naam: Wase Club
+verkorte_naam: Wase Club
 konvent: sk
 website: http://www.waseclub.be/
 social:

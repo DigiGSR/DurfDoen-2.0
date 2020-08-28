@@ -1,6 +1,6 @@
 ---
-titel: FRiS
 naam: FRiS
+verkorte_naam: FRiS
 konvent: gsr
 contact: fris@ugent.be
 website: fris.ugent.be

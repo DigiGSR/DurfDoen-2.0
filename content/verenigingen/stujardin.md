@@ -1,6 +1,6 @@
 ---
-titel: StuJardin
 naam: StuJardin
+verkorte_naam: StuJardin
 konvent: gsr
 contact: http://stujardin@gmail.com/
 website: http://student.ugent.be/stujardin/

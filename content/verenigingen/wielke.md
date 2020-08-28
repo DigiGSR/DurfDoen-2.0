@@ -1,6 +1,6 @@
 ---
-titel: \'t Wielke
 naam: \'t Wielke
+verkorte_naam: \'t Wielke
 konvent: sk
 website: http://www.wielke.be
 social:

@@ -1,6 +1,6 @@
 ---
-titel: Zeus WPI
 naam: Zeus WPI
+verkorte_naam: Zeus WPI
 themas:
   -  wetenschap-techniek
 konvent: wvk

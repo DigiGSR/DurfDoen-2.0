@@ -1,6 +1,6 @@
 ---
-titel: IEEE SB
 naam: IEEE SB
+verkorte_naam: IEEE SB
 konvent: wvk
 website: http://www.student.ugent.be/ieee/
 social: 

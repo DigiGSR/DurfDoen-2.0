@@ -1,6 +1,6 @@
 ---
-titel: Studentenfanfare
 naam: Studentenfanfare
+verkorte_naam: Studentenfanfare
 konvent: kultk
 contact: info@sfghendt.be
 website: http://www.sfghendt.be/

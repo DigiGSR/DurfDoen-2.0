@@ -1,6 +1,6 @@
 ---
-titel: Klassieke Kring
 naam: Klassieke Kring
+verkorte_naam: Klassieke Kring
 konvent: wvk
 website: http://www.klassiekekring.be/
 social:

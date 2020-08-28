@@ -1,6 +1,6 @@
 ---
-titel: AIESEC
 naam: AIESEC
+verkorte_naam: AIESEC
 konvent: ik
 contact: membership.gent@aiesec.be
 website: https://aiesec.org/

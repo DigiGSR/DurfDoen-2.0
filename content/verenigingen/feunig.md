@@ -1,6 +1,6 @@
 ---
-titel: Feunig
 naam: Feunig
+verkorte_naam: Feunig
 konvent: wvk
 social:
   - platform: facebook

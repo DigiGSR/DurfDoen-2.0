@@ -1,6 +1,6 @@
 ---
-titel: Capitant Gent
 naam: Capitant Gent
+verkorte_naam: Capitant Gent
 konvent: wvk
 contact: info@capitant.be
 website: https://capitant.be/

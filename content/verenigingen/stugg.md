@@ -1,6 +1,6 @@
 ---
-titel: StuGG
 naam: StuGG
+verkorte_naam: StuGG
 konvent: gsr
 website: www.stugg.be
 contact: info@stugg.be

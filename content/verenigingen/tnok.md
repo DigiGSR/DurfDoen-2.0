@@ -1,6 +1,6 @@
 ---
-titel: Tomo No Kai
 naam: Tomo No Kai
+verkorte_naam: Tomo No Kai
 konvent: ik
 contact: Tnok.kern@gmail.com
 website: http://student.ugent.be/tnok/

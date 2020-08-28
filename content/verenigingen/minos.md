@@ -1,6 +1,6 @@
 ---
-titel: Minos Gent
 naam: Minos Gent
+verkorte_naam: Minos Gent
 konvent: pfk
 contact: info@minosgent.gmail.com
 website: https://minosgent.com/

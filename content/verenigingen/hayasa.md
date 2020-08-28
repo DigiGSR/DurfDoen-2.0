@@ -1,6 +1,6 @@
 ---
-titel: Hayasa
 naam: Hayasa
+verkorte_naam: Hayasa
 contact: hayasa@student.ugent.be
 website: http://www.hayasa.be/
 social: 

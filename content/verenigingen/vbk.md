@@ -1,6 +1,6 @@
 ---
-titel: Vlaamse Biomedische Kring
 naam: Vlaamse Biomedische Kring
+verkorte_naam: Vlaamse Biomedische Kring
 konvent: fk
 website: https://www.vlaamsebiomedischekring.be/
 contact: vbkgent@gmail.com

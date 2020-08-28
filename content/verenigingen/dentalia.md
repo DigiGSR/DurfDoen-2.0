@@ -1,6 +1,6 @@
 ---
-titel: Dentalia
 naam: Dentalia
+verkorte_naam: Dentalia
 konvent: fk
 contact: dentaliaghent@gmail.com
 website: www.dentalia.be

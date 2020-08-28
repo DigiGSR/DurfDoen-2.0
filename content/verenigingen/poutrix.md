@@ -1,6 +1,6 @@
 ---
-titel: Poutrix
 naam: Poutrix
+verkorte_naam: Poutrix
 konvent: wvk
 contact:  info@poutrix.be
 website: https://www.poutrix.be/

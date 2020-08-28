@@ -1,6 +1,6 @@
 ---
-titel: Kajira
 naam: Kajira
+verkorte_naam: Kajira
 konvent: wvk
 website: https://kajira.ugent.be/
 social:

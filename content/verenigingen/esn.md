@@ -1,6 +1,6 @@
 ---
-titel: ESN
-naam: Erasmus Student Network
+naam: ESN
+verkorte_naam: Erasmus Student Network
 contact: esn.gent@gmail.com
 website: http://www.esngent.org/
 social:

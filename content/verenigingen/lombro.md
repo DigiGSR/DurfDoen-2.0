@@ -1,6 +1,6 @@
 ---
-titel: Lombrosiana
 naam: Lombrosiana
+verkorte_naam: Lombrosiana
 konvent: fk
 contact: praeses@lombrosiana.be
 website: http://www.lombrosiana.be

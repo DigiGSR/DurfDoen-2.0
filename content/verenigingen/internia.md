@@ -1,6 +1,6 @@
 ---
-titel: Internia
 naam: Internia
+verkorte_naam: Internia
 konvent: sk
 website: https://internia.be/
 social: 
