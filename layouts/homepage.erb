@@ -1,49 +1,46 @@
-<div class="header_blueSquare backgroundSquare"></div>
-
 <div class="beforeTheFold">
-  <header>
+  <header class="align">
     <%= render '/partials/navbar.*' %>
   </header>
 
-  <article class="intro">
+  <div class="header_photo backgroundSquare"></div>
+
+  <article class="align">
     <h1 class="hidden">Durf Doen</h1>
-    <h2 class="studentZijn">
-      <span class="underline">Student</span> zijn is
-      <span class="underline">meer</span> dan studeren
-    </h2>
+    <div class="intro">
+      <div class="header_blueSquare backgroundSquare"></div>
+      <h2 class="studentZijn">
+        <span class="underline">Student</span> zijn is
+        <span class="underline">meer</span> dan studeren
+      </h2>
+    </div>
     <div class="quote">
       <div>
         <img src="/assets/durfdoenlogo.png" alt="">
       </div>
       <div>
         <p>Durf Doen wil jou de vereniging laten kennen die je op het lijf geschreven is.</p>
-        <p>Btw Facebook is onethisch. Geef ze geen geld.</p>
+        <p>Btw geef Facebook geen geld pls :(</p>
+        <div class="quizSpotlight">
+          <a href="test">Doe de test</a>
+        </div>
       </div>
     </div>
   </article>
 
-  <div class="quizSpotlight">
-    <a href="test">Doe de test</a>
+  <div class="scroll">
+    <a href="#main">Scroll naar beneden</a>
   </div>
 
-  <div>
-    <a href="#main" class="scroll">Scroll naar beneden</a>
-  </div>
+  <div class="shade"></div>
 </div>
 
-<main id="main">
+<main id="main" class="align">
   <article>
-    <%= yield %>
-  </article>
-  <article>
-    <h2>Doe hier <span class="underline">de test</span></h2>
-    <p>Wil je weten welke studentenclub, werkgroep of kring het beste bij jou past? Ontdek het</p>
-  </article>
-  <article>
-    <h2><span class="underline">Random</span> Verenigingen</h2>
+    <h2><span class="underline">Uitgelichte</span> vereniging</h2>
 
     <section class="randomVerenigingen">
-      <% for vereniging in verenigingen_random(6) %>
+      <% for vereniging in verenigingen_random(1) %>
       <p><%= vereniging["naam"] %></p>
       <% end %>
     </section>
