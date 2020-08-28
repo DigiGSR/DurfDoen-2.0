@@ -7,9 +7,9 @@ compile '/verenigingen/*.md' do
   write ext: 'html'
 end
 
-compile '/events/*.md' do
+compile '/evenementen/*.md' do
   filter :kramdown
-  layout '/event.*'
+  layout '/evenement.*'
   layout '/default.*'
   write ext: 'html'
 end
@@ -59,7 +59,7 @@ end
 
 compile '/*.erb' do
   filter :erb
-  write item.identifier.without_ext
+  write item.identifier.without_ext + '/index.html'
 end
 
 layout '/**/*', :erb
