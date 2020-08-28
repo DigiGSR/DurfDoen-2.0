@@ -14,4 +14,15 @@ module VerenigingenHelper
     def all_groups
         @items.find_all("**/verenigingen/*") + @items.find_all("**/konventen/*")
     end
+    def verenigingen
+        @items.find_all("**/verenigingen/*").map{|x| {
+            "titel" => x[:titel],
+            "naam" => x[:naam],
+            "konvent" => x[:konvent],
+            "themas" => x[:themas]
+        }}.to_a
+    end
+    def abbreviation(item)
+        item.identifier.without_ext.split('/').last
+    end
   end

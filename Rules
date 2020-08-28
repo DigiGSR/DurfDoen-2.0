@@ -28,6 +28,16 @@ compile '/homepage.md' do
   write '/index.html'
 end
 
+compile '/faq/*' do
+  filter :kramdown
+end
+
+compile '/faq.erb' do
+  filter :erb
+  layout '/default.*'
+  write '/faq/index.html'
+end
+
 compile '/verenigingen.md' do
   filter :kramdown
   layout '/verenigingen.*'
@@ -54,9 +64,15 @@ compile '/stylesheets/*.{sass,scss}' do
   write ext: 'css'
 end
 
+compile '/*.erb' do
+  filter :erb
+  write item.identifier.without_ext
+end
+
+layout '/**/*', :erb
+
 # Catch-all
 compile '/**/*' do
   write item.identifier.to_s
 end
 
-layout '/**/*', :erb

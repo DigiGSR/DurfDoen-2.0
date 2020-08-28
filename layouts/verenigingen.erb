@@ -1,15 +1,15 @@
 <h1> Themas </h1>
 <ul>
     <% for theme in themes %>
-        <%= "<img src=/assets/konventen/" ++ theme.tr(" ", "_") ++ ".png alt=" ++ theme %>
-        <li> <%= link_to(theme, "/thema/"++theme.tr(" ", "_")) %>  </li>
+    <%= "<img src=/assets/themas/" ++ theme.tr(" ", "_") ++ ".png alt=" ++ theme %>
+    <li> <%= link_to(theme, "/thema/"++theme.tr(" ", "_")) %>  </li>
     <% end %>
 </ul>
 
 <h1> Konventen en projecten </h1>
 <ul>
     <% for konvent in konvents %>
-        <%= "<img src=/assets/konventen/" ++ konvent.tr(" ", "_") ++ ".png alt=" ++ konvent %>
+        <img src="https://dsa.ugent.be/api/verenigingen/<%= konvent.tr(" ", "_") %>/logo?size=medium" alt="<%= konvent %>">
         <li> <%= link_to(konvent, "/konventen/"++konvent.tr(" ", "_")++".html") %>  </li>
     <% end %>
 </ul>
