@@ -1,7 +1,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title> Durf Doen! - <%= item[:titel] || item.identifier.without_ext.split('/').last %> </title>
+        <title> Durf Doen! - <%= item[:titel] || abbreviation(item) %> </title>
 
         <link rel="stylesheet" href="/stylesheets/main.css">
         <link rel="shortcut icon" href="/assets/favicon.png">
