@@ -1,0 +1,14 @@
+---
+titel: Evenementen
+navigable: true
+order: 2
+---
+<h1> Evenementen </h1>
+<ul>
+    <% for evenement in evenementen %>
+      <li>
+      <%= image_tag evenement %>
+      <%= link_to evenement[:naam], evenement %>
+      </li>
+    <% end %>
+</ul>

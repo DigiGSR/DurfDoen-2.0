@@ -2,7 +2,7 @@
 naam: Temp
 verkorte_naam: Temp
 tags: tem,p
-konvent: TK
+konvent: TempConvent
 bestuur:
   - functie: Voorzitter
     verkorte_naam: /tmp

@@ -1,6 +1,8 @@
 <html>
     <head>
-        <title> Durf Doen! - <%= item[:naam] || item.identifier.without_ext.split('/').last %> </title>
+        <meta charset="UTF-8">
+        <title> Durf Doen! - <%= item[:naam] || abbreviation(item) %> </title>
+
         <link rel="stylesheet" href="/stylesheets/main.css">
         <link rel="shortcut icon" href="/assets/favicon.png">
         <%= item[:head] %>
