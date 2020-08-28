@@ -1,6 +1,6 @@
 ---
-titel: test event
 naam: test event
+verkorte_naam: test event
 organiser: test organisator
 logo: placeholder.png
 contact: some_email@some_domain.com
