@@ -31,15 +31,15 @@
         <% end %>
     <% end %>
     <div class="thema-container">
-    <p><span class="thema-title">Thema's:</span>
     <% if item[:themas] %>
-        <ul>
-            <% for thema in item[:themas] %>
-                <li><%= thema %></li>
-            <% end %>
-        </ul>
+        <p><span class="thema-title">Thema's:</span>
+            <ul>
+                <% for thema in item[:themas] %>
+                    <li><%= thema %></li>
+                <% end %>
+            </ul>
+        </p>
     <% end %>
-    </p>
     </div>
 </div>
 <% if item[:verenigingen] %>

@@ -1,10 +1,5 @@
----
-naam: tags uitleg enzo
-verkorte_naam: tags uitleg enzo
----
-
-Alle themas (op lijn beginnende met `themas:` )
-
+## Alle themas 
+(op lijn beginnende met `themas:` )
 - diversiteit
 - politiek-filosofisch
 - internationaal
@@ -19,7 +14,8 @@ Alle themas (op lijn beginnende met `themas:` )
 - events
 - studentenraden
 
-Alle konventen (op lijn beginnende met `konvent:` )
+## Alle konventen 
+(op lijn beginnende met `konvent:` )
 - WVK: Werkgroepen en Verenigingen
 - IK: Internationaal
 - KK: Kultuur

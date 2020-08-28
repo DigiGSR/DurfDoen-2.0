@@ -1,6 +1,5 @@
 ---
-naam: DSR
-verkorte_naam: DSR: Facultaire Studentenraad Dierengeneeskunde
-
+naam: Facultaire Studentenraad Dierengeneeskunde
+verkorte_naam: DSR
 konvent: gsr
 ---
