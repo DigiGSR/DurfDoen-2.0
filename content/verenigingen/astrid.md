@@ -8,39 +8,7 @@ social:
     link: http://www.facebook.com/groups/167090666639265/
 themas:
   -  home
-bestuur:
-  - functie: praeses
-    naam: Lisa Dangreau
-  - functie: vice-praeses
-    naam: Elien Verbrugge
-  - functie: penning
-    naam: Thibeau Margo
-  - functie: secretaris
-    naam: Michelle Borra
-  - functie: cultuur
-    naam: Lemmy De Wolf
-  - functie: cultuur
-    naam: Tibo Vanheule
-  - functie: feest
-    naam: Michiel Demeyere
-  - functie: feest
-    naam: Minne De Clercq
-  - functie: milieu
-    naam: Emily Ruilova
-  - functie: milieu
-    naam: Heike Krenn
-  - functie: schachtentemmer
-    naam: Akalemwa De Waegeneire
-  - functie: sport
-    naam: Joeri Verschoren
-  - functie: sport
-    naam: Robbe Adriaans
-  - functie: pr
-    naam: Ranald Vandersteene
-  - functie: meter
-    naam: Kaat Van der Haegen
-  - functie: peter
-    naam: Bart Van Balkom
+
 ---
 
 Gelegen aan het hectische verkeersknooppunt van de Sterre, lijkt de Astrid een oase van rust in het Gentse.
