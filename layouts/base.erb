@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> Durf Doen! - <%= item[:titel] || abbreviation(item) %> </title>
+
+  <link rel="stylesheet" href="/stylesheets/main.css">
+  <link rel="shortcut icon" href="/assets/favicon.png">
+
+  <%#= item[:head] %>
+</head>
+<body>
+
+<%= yield %>
+
+<footer>
+  <div>
+    <img src="" alt="">
+    <img src="" alt="">
+    <img src="" alt="">
+    <img src="" alt="">
+    <img src="" alt="">
+    <img src="" alt="">
+    <img src="" alt="">
+  </div>
+  <p>©2020 Gentse studentenraad</p>
+  <div lang="en">
+    <p>Made with ♥ by</p>
+    <img src="" alt="">
+  </div>
+</footer>
+</body>
+</html>

@@ -1,24 +1,25 @@
-:root{
-    --darkblue: #013E7A;
-    --lightblue: #1A77D3;
-    --cyan: #AAEEFF;
-    --yellow: #FED318;
+:root {
+    --white: #ffffff;
+    --darkblue: #013e7a;
+    --lightblue: #1a77d3;
+    --cyan: #aaeeff;
+    --yellow: #fed318;
 }
 
-html, body{
-    width: 100%;
+html, body {
     height: 100%;
 }
 
-body{
-    width: 1280px;
+body {
     margin: 0 auto;
+    padding: 0 1em;
+    max-width: 1280px;
     font-family: futura, Avenir Next, Verdana, Geneva, Tahoma, sans-serif;
 }
 
-header{
+.beforeTheFold, main {
     position: relative;
-    height: 100%;
+    min-height: 100%;
 }
 
 nav a {
@@ -41,19 +42,21 @@ nav {
     padding: 1rem 0;
 }
 
-h2{
+h2 {
     font-family: futura, Avenir Next, Verdana, Geneva, Tahoma, sans-serif;
     font-size: 3.4rem;
-    width: 30rem;
     color: var(--darkblue);
+}
+.beforeTheFold h2 {
+    max-width: 30rem;
 }
 
 .studentZijn {
-    padding-top: 4rem;
-    padding-left: 3rem;
+    padding: 4rem 0 2rem 3rem;
 }
 
 .scroll {
+    display: block;
     position: absolute;
     bottom: 2rem;
     left: 0;
@@ -69,37 +72,51 @@ h2{
     display: none;
 }
 
-.quote p{
-    font-size: 1.5rem;
-    width: 25rem;
-    font-family: Avenir Next, Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic;
-    font-weight: lighter;
-    padding-left: 2rem;
-}
-
 .quote {
     display: flex;
 }
+.quote img {
+    width: 103px;
+    height: 185px;
+    margin-right: 2rem;
+}
 
-.randomVerenigingen {
-    position: absolute;
-    bottom: 5rem;
-    right: 0;
+.quote p {
+    max-width: 25rem;
+    font-size: 1.5rem;
+    font-family: Avenir Next, Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    margin: 0.5em 0;
+}
+
+.quizSpotlight {
     text-align: right;
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    line-height: 0;
     color: var(--lightblue);
 }
 
+@media (min-width: 1000px) and (max-width: 1000px) {
+   .quizSpotlight {
+       position: absolute;
+       bottom: 5rem;
+       right: 0;
+   }
+}
+
+.quizSpotlight a {
+   text-decoration: none;
+   color: var(--white);
+   background-color: var(--lightblue);
+   padding: 1rem;
+}
+
 .aside_blueSquare {
-    
     right: 3rem;
     height: 100%;
     width: 20%;
-    
 }
 
 .backgroundSquare {
@@ -123,11 +140,11 @@ h2{
     color: transparent;
 }
 
-.randomVerenigingen p{
+.randomVerenigingen p {
     text-transform: uppercase;
 }
 
-.underline, .active_link{
+.underline, .active_link {
     padding-bottom: -2rem;
     margin-bottom: -2rem;
     box-shadow: inset 0 -8px 0 var(--yellow);
