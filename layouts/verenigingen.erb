@@ -1,15 +1,31 @@
-<h1> Themas </h1>
-<ul>
-    <% for theme in themes %>
-    <%= "<img src=/assets/themas/" ++ theme.tr(" ", "_") ++ ".png alt=" ++ theme %>
-    <li> <%= link_to(theme, "/thema/"++theme.tr(" ", "_")) %>  </li>
-    <% end %>
-</ul>
+<div class="flex-horz">
+  <div class="horz-child">
+    <h1> Themas </h1>
+    <ul>
+      <% for thema in themas %>
+        <img src="<%= image_url(thema) %>" alt="<%= thema[:naam] %>">
+        <li> <%= link_to(thema[:naam], thema) %> </li>
+      <% end %>
+    </ul>
+  </div>
+  <div class="horz-child">
+    <h1> Konventen en projecten </h1>
+    <ul>
+      <% for item in konventen_and_projecten %>
+        <img src="<%= image_url(item) %>" alt="<%= item[:naam] %>">
+        <li> <%= link_to(item[:naam], item) %> </li>
+      <% end %>
+    </ul>
+  </div>
+</div>
 
-<h1> Konventen en projecten </h1>
-<ul>
-    <% for konvent in konvents %>
-        <img src="https://dsa.ugent.be/api/verenigingen/<%= konvent.tr(" ", "_") %>/logo?size=medium" alt="<%= konvent %>">
-        <li> <%= link_to(konvent, "/konventen/"++konvent.tr(" ", "_")++".html") %>  </li>
-    <% end %>
-</ul>
+<style>
+  .flex-horz {
+    display: flex; /* or inline-flex */
+    flex-direction: row;
+  }
+  .horz-child {
+    flex-basis: auto;
+    flex-grow: 1;
+  }
+</style>

@@ -1,6 +1,6 @@
 ---
-titel: test konvent
 naam: test konvent
+verkorte_naam: test konvent
 logo: placeholder.png
 contact: some_email@some_domain.com
 website: www.somewebsite.com
@@ -20,9 +20,9 @@ showcase:
   - photo: https://via.placeholder.com/300.png/09f/fff
   - photo: https://via.placeholder.com/300.png/09f/fff
 verenigingen:
-  - naam: vereniging1
+  - verkorte_naam: vereniging1
     photo: https://via.placeholder.com/200.png/90f/fff
-  - naam: vereniging2
+  - verkorte_naam: vereniging2
     photo: https://via.placeholder.com/200.png/90f/fff
 ---
 

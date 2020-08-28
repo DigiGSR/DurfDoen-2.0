@@ -1,19 +1,15 @@
 ---
-titel: Zeus WPI
 naam: Zeus WPI
+verkorte_naam: Zeus WPI
 themas:
   -  wetenschap-techniek
 konvent: wvk
 logo: placeholder.png
-contact: some_email@some_domain.com
-website: www.somewebsite.com
+contact: bestuur@zeus.ugent.be
+website: https://zeus.ugent.be/
 social:
   - platform: facebook
-    link: facebook-link
-  - platform: twitter
-    link: twitter-link
-  - platform: youtube
-    link: youtube.com/
+    link: https://www.facebook.com/zeus.wpi/
 showcase:
   - photo: https://via.placeholder.com/300.png/09f/fff
   - photo: https://via.placeholder.com/300.png/09f/fff

@@ -1,6 +1,6 @@
 ---
-titel: CDS
 naam: CDS
+verkorte_naam: CDS
 konvent: pfk
 website: http://www.cdsnationaal.be/
 social:
