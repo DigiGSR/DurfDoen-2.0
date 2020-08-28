@@ -11,6 +11,9 @@ module VerenigingenHelper
     def konvents
         @items.find_all("**/verenigingen/*").map{|x| x[:konvent]}.uniq.compact
     end
+    def evenementen
+      @items.find_all("**/evenementen/*")
+    end
     def verenigingen
         @items.find_all("**/verenigingen/*").map{|x| {
             "titel" => x[:titel],
@@ -22,4 +25,16 @@ module VerenigingenHelper
     def abbreviation(item)
         item.identifier.without_ext.split('/').last
     end
-  end
+
+    def image_url(item)
+      if item[:image].nil?
+        "https://dsa.ugent.be/api/verenigingen/#{ abbreviation item }/logo?size=medium"
+      else
+        item[:image]
+      end
+    end
+
+    def image_tag(item)
+      "<img src='#{ image_url item }' alt='#{ item[:name] } logo' />"
+    end
+end
