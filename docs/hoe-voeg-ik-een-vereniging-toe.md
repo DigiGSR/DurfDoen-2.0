@@ -3,8 +3,8 @@
 2. vul dit bestand in met volgende template
 ```
 ---
-titel: <naam van de vereniging>
 naam: <naam van de vereniging>
+verkorte_naam: <verkorte naam van de vereniging>
 konvent: <afkoring van het konvent waartoe de vereniging behoort>
 themas:
   <één of meer lijnen van het volgende formaat om te vermelden in welke thema's de vereniging hoort>
