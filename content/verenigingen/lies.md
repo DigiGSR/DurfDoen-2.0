@@ -12,7 +12,7 @@ social:
   - platform: youtube
     link: https://www.youtube.com/channel/UCE_KfYgxZN6NmyaGPMyLmXA
 themas:
-  -  faculteiten
+  -  faculteit
 ---
 
 Met trots stellen wij onze studentenkring Moeder Lies voor. Moeder lies
