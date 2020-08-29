@@ -15,3 +15,9 @@ prune:
 data_sources:
   - type: filesystem
     encoding: utf-8
+
+checking:
+  enabled_checks:
+    - external_links
+    - internal_links
+    - stale

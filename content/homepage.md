@@ -1,5 +1,5 @@
 ---
-titel: Home
+naam: Home
 navigable: true
 order: 1
 ---

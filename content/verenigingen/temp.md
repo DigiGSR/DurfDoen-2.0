@@ -1,11 +1,11 @@
 ---
-titel: Temp
 naam: Temp
+verkorte_naam: Temp
 tags: tem,p
-konvent: tk
+konvent: TempConvent
 bestuur:
   - functie: Voorzitter
-    naam: /tmp
+    verkorte_naam: /tmp
 themas:
   -  thema1
 ---

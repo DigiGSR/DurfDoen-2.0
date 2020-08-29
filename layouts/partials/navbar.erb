@@ -2,7 +2,7 @@
   <img src="/assets/OmdatHetDurfDoenLogoSuckt.png" alt="">
   <ul>
     <% for i in navigables %>
-      <li><%= link_to(i[:titel], i, class: "nav_link") %></li>
+      <li><%= link_to(i[:naam], i, class: "nav_link") %></li>
     <% end %>
     <script>
       const nav_links = document.querySelectorAll(".nav_link");

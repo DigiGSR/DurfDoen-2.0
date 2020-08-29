@@ -1,5 +1,5 @@
 <div class="details-container details-logo">
-    <img src="/assets/logos/<%= item[:logo] %>" alt="logo"> </img>
+    <img src="https://dsa.ugent.be/api/verenigingen/<%= abbreviation(item) %>/logo?size=huge" alt="<%= item[:naam] %>">
 </div>
 <div class="details-container details-contact">
     <% if item[:deelname_link] %>
@@ -31,15 +31,15 @@
         <% end %>
     <% end %>
     <div class="thema-container">
-    <p><span class="thema-title">Thema's:</span>
     <% if item[:themas] %>
-        <ul>
-            <% for thema in item[:themas] %>
-                <li><%= thema %></li>
-            <% end %>
-        </ul>
+        <p><span class="thema-title">Thema's:</span>
+            <ul>
+                <% for thema in item[:themas] %>
+                    <li><%= thema %></li>
+                <% end %>
+            </ul>
+        </p>
     <% end %>
-    </p>
     </div>
 </div>
 <% if item[:verenigingen] %>

@@ -12,6 +12,7 @@ gem 'pdfkit'
 gem 'sass'
 gem 'sassc'
 gem 'slim'
+gem 'nokogiri'
 
 group :nanoc do
   gem 'guard-nanoc'

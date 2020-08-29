@@ -1,6 +1,6 @@
 ---
-titel: Actief Linkse Studenten
 naam: Actief Linkse Studenten
+verkorte_naam: Actief Linkse Studenten
 konvent: pfk
 themas:
   -  politiek en filosofisch

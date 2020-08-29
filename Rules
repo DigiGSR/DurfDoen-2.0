@@ -1,6 +1,21 @@
 #!/usr/bin/env ruby
 
-compile '/verenigingen/*.md' do
+preprocess do
+  # Fetch a list of theme names from all items and construct items from them
+  themas = @items.map { |i| i[:themas] }.flatten.uniq.compact
+  themas.each do |thema|
+    content = ''
+    attributes = {
+        naam: thema,
+        verenigingen: @items.filter{|i| i[:themas] and i[:themas].include?(thema)}.flatten.uniq.compact
+    }
+    identifier = "/themas/#{thema}"
+
+    @items.create(content, attributes, identifier)
+  end
+end
+
+compile '/{verenigingen,projecten}/*.md' do
   filter :kramdown
   layout '/vereniging.*'
   layout '/default.*'
@@ -8,9 +23,9 @@ compile '/verenigingen/*.md' do
   write ext: 'html'
 end
 
-compile '/events/*.md' do
+compile '/evenementen/*.md' do
   filter :kramdown
-  layout '/event.*'
+  layout '/evenement.*'
   layout '/default.*'
   layout '/base.*'
   write ext: 'html'
@@ -21,6 +36,12 @@ compile '/konventen/*.md' do
   layout '/konvent.*'
   layout '/default.*'
   layout '/base.*'
+  write ext: 'html'
+end
+
+compile '/themas/*' do
+  layout '/thema.*'
+  layout '/default.*'
   write ext: 'html'
 end
 
@@ -65,7 +86,7 @@ end
 
 compile '/*.erb' do
   filter :erb
-  write item.identifier.without_ext
+  write item.identifier.without_ext + '/index.html'
 end
 
 layout '/**/*', :erb
