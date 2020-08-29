@@ -12,7 +12,7 @@ social:
   - platform: instagram
     link: https://instagram.com/beam.ugentvub/
 themas:
-  -  wetenschap en techniek
+  -  wetenschap-techniek
 ---
 
 Biomedical Engineering And More
