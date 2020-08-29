@@ -4,7 +4,7 @@ verkorte_naam: Gentse Biologische Kring
 konvent: fk
 contact: praesidium@biologie-gent.be
 themas:
-  -  faculteiten
+  -  faculteit
 ---
 
 De Gentse Biologische Kring is een kleine maar hechte vriendengroep rond de richting Biologie, die ervoor zorgt dat de studenten zich daar zo welkom mogelijk voelen.
