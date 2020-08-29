@@ -10,7 +10,8 @@ social:
 - platform: facebook
   link: https://www.facebook.com/AIESECinBelgium/
 themas:
-  -  economie, development
+  - economie-development
+  - internationaal
 ---
 
 AIESEC is the biggest youth organization worldwide. We provide opportunities for young people to develop their leadership skills through cross-cultural exchanges. Our offers in exchange include paid and volunteer internships.
