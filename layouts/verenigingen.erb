@@ -3,7 +3,7 @@
     <h1> Thema's </h1>
     <ul>
       <% for thema in themas %>
-        <img src="<%= image_url(thema) %>" alt="<%= thema[:naam] %>">
+        <%= image_tag thema %>
         <li> <%= link_to(thema[:naam], thema) %> </li>
       <% end %>
     </ul>
@@ -12,7 +12,7 @@
     <h1> Konventen en projecten </h1>
     <ul>
       <% for item in konventen_and_projecten %>
-        <img src="<%= image_url(item) %>" alt="<%= item[:naam] %>">
+        <%= image_tag item %>
         <li> <%= link_to(item[:naam], item) %> </li>
       <% end %>
     </ul>
