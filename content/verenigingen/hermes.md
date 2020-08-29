@@ -11,7 +11,7 @@ social:
   - platform: facebook
     link: https://www.facebook.com/Hermesgent/
 themas:
-  -  faculteiten
+  -  faculteit
 ---
 
 Studeer je Industriële Wetenschappen, dan heb je ons zeker al zien passeren. We voorzien jullie cursussen, zorgen voor nuttige infoavonden en een groot job- en stage-event.
