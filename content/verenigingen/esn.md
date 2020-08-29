@@ -13,7 +13,6 @@ social:
   - platform: twitter
     link: https://twitter.com/esngent
 themas:
-  -  diversiteit
   -  internationaal
 konvent: ik
 ---
