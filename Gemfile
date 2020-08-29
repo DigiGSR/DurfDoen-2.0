@@ -10,8 +10,6 @@ gem 'mini_racer'
 gem 'nanoc'
 gem 'pdfkit'
 gem 'sass'
-gem 'sassc'
-gem 'slim'
 gem 'nokogiri'
 
 group :nanoc do
