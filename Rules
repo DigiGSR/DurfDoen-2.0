@@ -19,6 +19,7 @@ compile '/{verenigingen,projecten}/*.md' do
   filter :kramdown
   layout '/vereniging.*'
   layout '/default.*'
+  layout '/base.*'
   write ext: 'html'
 end
 
@@ -26,6 +27,7 @@ compile '/evenementen/*.md' do
   filter :kramdown
   layout '/evenement.*'
   layout '/default.*'
+  layout '/base.*'
   write ext: 'html'
 end
 
@@ -33,6 +35,7 @@ compile '/konventen/*.md' do
   filter :kramdown
   layout '/konvent.*'
   layout '/default.*'
+  layout '/base.*'
   write ext: 'html'
 end
 
@@ -45,7 +48,7 @@ end
 compile '/homepage.md' do
   filter :kramdown
   layout '/homepage.*'
-  layout '/default.*'
+  layout '/base.*'
   write '/index.html'
 end
 
@@ -56,6 +59,7 @@ end
 compile '/faq.erb' do
   filter :erb
   layout '/default.*'
+  layout '/base.*'
   write '/faq/index.html'
 end
 
@@ -63,12 +67,14 @@ compile '/verenigingen.md' do
   filter :kramdown
   layout '/verenigingen.*'
   layout '/default.*'
+  layout '/base.*'
   write ext: 'html'
 end
 
 compile '/*.md' do
   filter :kramdown
   layout '/default.*'
+  layout '/base.*'
   write ext: 'html'
 end
 

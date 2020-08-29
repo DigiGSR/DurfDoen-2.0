@@ -1,14 +1,5 @@
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title> Durf Doen! - <%= item[:naam] || abbreviation(item) %> </title>
+<header>
+  <%= render '/partials/navbar.*' %>
+</header>
 
-        <link rel="stylesheet" href="/stylesheets/main.css">
-        <link rel="shortcut icon" href="/assets/favicon.png">
-        <%= item[:head] %>
-    </head>
-    <body>
-        <%= render '/partials/navbar.*' %>
-        <%= yield %>
-    </body>
-</html>
+<%= yield %>

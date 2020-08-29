@@ -1,1 +1,46 @@
-<%= yield %>
+<div class="beforeTheFold">
+  <header class="align">
+    <%= render '/partials/navbar.*' %>
+  </header>
+
+  <div class="header_photo backgroundSquare"></div>
+
+  <article class="align">
+    <h1 class="hidden">Durf Doen</h1>
+    <div class="intro">
+      <div class="header_blueSquare backgroundSquare"></div>
+      <h2 class="studentZijn">
+        <span class="underline">Student</span> zijn is
+        <span class="underline">meer</span> dan studeren
+      </h2>
+    </div>
+    <div class="quote">
+      <div>
+        <img src="/assets/durfdoenlogo.png" alt="">
+      </div>
+      <div>
+        <p>Durf Doen wil je helpen de vereniging te vinden waar jij je thuis zal voelen.</p>
+        <div class="quizSpotlight">
+          <a href="test">Doe de test</a>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <div class="scroll">
+    <a href="#main">Of scroll naar beneden voor meer info</a>
+  </div>
+
+  <div class="shade"></div>
+</div>
+
+<main id="main" class="align">
+  <article>
+    <h2>Kende je bijvoorbeeld deze vereniging al?</h2>
+
+    <section class="randomVereniging">
+      <h3>Weus ZPI</h3>
+      <p>Weus ZPI is de studentenvereniging voor InFoRmAtIcA aan de UGent. Ons doel is een bullshitty omgeving te bullshitten voor bullshitted studenten die hun bullshit willen uitbreiden door zich te engageren voor bullshitprojecten.</p>
+    </section>
+  </article>
+</main>
