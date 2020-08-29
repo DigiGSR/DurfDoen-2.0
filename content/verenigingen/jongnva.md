@@ -10,7 +10,7 @@ social:
   - platform: instagram
     link: https://instagram.com/jongnvaugent?fbclid=IwAR2MhWugzIlFw1H4jtMDr-7NStgOjWqhCmGVQ_YcG0PYzHvswAj8UjJLARc
 themas:
-  -  politiek en filosofisch
+  -  politiek-filosofisch
 ---
 
 Jong N-VA UGent werd in 2007 opgericht en is een Vlaams-republikeinse studentenvereniging gelieerd aan Universiteit Gent.
