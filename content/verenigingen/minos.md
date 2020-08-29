@@ -10,7 +10,8 @@ social:
   - platform: instagram
     link: www.instagram.com/minosgent
 themas:
-  -  politiek en filosofisch
+  -  politiek-filosofisch
+  - internationaal
 ---
 
 Minos? Ja, Minos! Ons doel, als vereniging, is om Europa op politiek en cultureel vlak dichter bij de student te brengen.
