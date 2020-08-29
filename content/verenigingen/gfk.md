@@ -10,7 +10,7 @@ social:
   - platform: instagram
     link: https://www.instagram.com/gentsefarmakring/
 themas:
-  -  faculteiten
+  -  faculteit
 ---
 
 Faculteitskring voor de studenten farmaceutische wetenschappen
