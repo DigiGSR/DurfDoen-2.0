@@ -63,6 +63,6 @@ module VerenigingenHelper
   end
 
   def image_tag(item)
-    "<img src='#{ image_url item }' alt='#{ item[:name] } logo' />"
+    "<img src='#{ image_url item }' alt='#{ item[:naam] } logo' />"
   end
 end
