@@ -11,8 +11,7 @@
 - cultuur
 - streek
 - lifestyle
-- events
-- studentenraden
+- engagement
 
 ## Alle konventen 
 (op lijn beginnende met `konvent:` )
