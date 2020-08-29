@@ -8,7 +8,7 @@ social:
   - platform: instagram
     link: https://www.instagram.com/lombrosiana/?hl=nl
 themas:
-  -  faculteiten
+  -  faculteit
 ---
 
 Lombrosiana is de faculteitskring van de opleiding criminologie. Ze bieden een gevarieerd aanbod van fuiven, cultuur, sport, studie en dit alles aan studentikoze prijzen. Op elk vlak is Lombrosiana wel vertegenwoordigd onder het motto ‘Lombrosiana boven en dat voor altijd, wij willen elkander voor nimmer meer kwijt.'
