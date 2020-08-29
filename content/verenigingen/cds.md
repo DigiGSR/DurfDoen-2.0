@@ -7,7 +7,7 @@ social:
   - platform: facebook
     link: https://www.facebook.com/cds.gent/
 themas:
-  -  politiek en filosofisch
+  -  politiek-filosofisch
 ---
 
 CDS Gent is een politieke studentenvereniging aan de UGent, gegrondvest op de principes van de christendemocratie en het personalisme.
