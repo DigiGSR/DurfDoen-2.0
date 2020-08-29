@@ -9,6 +9,9 @@ social:
     link: http://facebook.com/deloeiendekoe/
   - platform: instagram
     link: http://www.instagram.com/deloeiendekoe/
+themas:
+  - wetenschap-techniek
+  - cultuur
 ---
 
 We schrijven 1995, het ontstaan van een werkgroep op initiatief van de vakgroep Architectuur & Stedenbouw die als dialoog moet dienen tussen leerlingen en leermeesters binnen het architectuuronderwijs.
