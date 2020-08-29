@@ -10,7 +10,7 @@ social:
   - platform: instagram
     link: https://www.instagram.com/filologica/
 themas:
-  -  faculteiten
+  -  faculteit
 ---
 
 FACULTEITSKRING VAN DE STUDENTEN TAAL- EN LETTERKUNDE.
