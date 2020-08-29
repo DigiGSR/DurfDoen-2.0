@@ -10,7 +10,7 @@ social:
   - platform: facebook
     link: https://www.facebook.com/ChemicaGent/
 themas:
-  -  faculteiten
+  -  faculteit
 ---
 
 Chemica is dé faculteitskring voor alle studenten Chemie en Biochemie & Biotechnologie aan de UGent. Deze studentenvereniging heeft als voornaamste doel het studentenleven aangenamer te maken adhv. leuke activiteiten en studiehulp. Iedereen met een lidkaart van Chemica kan meteen meegenieten van onze voordelen!
