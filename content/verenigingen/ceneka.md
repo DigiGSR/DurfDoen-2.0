@@ -12,7 +12,7 @@ social:
   - platform: linkedin
     link: https://www.linkedin.com/company/ceneka/
 themas:
-  -  wetenschap en techniek
+  -  wetenschap-techniek
 ---
 
 De naam CenEka past binnen het rijtje van alle grote (digitale) platformen aan de UGent die hun inspiratie halen in de klassieke oudheid. Enkel de spelling is twee millennia later wat anders: de C staat voor de Computerwetenschappen en de E voor Elektrotechniek. Ook wij willen een platform zijn voor studenten burgerlijk ingenieur met een interesse voor elektronica, ICT, en alle digitale trends. Dit doen we met verschillende lezingen, bedrijfsbezoeken en workshops, alsook informele activiteiten om het groepsgevoel te versterken.
