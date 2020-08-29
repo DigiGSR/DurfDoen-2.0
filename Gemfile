@@ -3,7 +3,6 @@ source 'https://rubygems.org'
 
 gem 'adsf'
 gem 'autoprefixer-rails'
-gem 'byebug'
 gem 'htmlcompressor'
 gem 'kramdown'
 gem 'mini_racer'
@@ -15,4 +14,8 @@ gem 'nokogiri'
 group :nanoc do
   gem 'guard-nanoc'
   gem 'guard-livereload'
+end
+
+group :development do
+  gem 'byebug'
 end
