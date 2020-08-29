@@ -7,6 +7,9 @@ website: http://aw-ugent.be/
 social:
   - platform: facebook
     link: https://www.facebook.com/groups/72122457656/?fref=ts
+themas:
+  - cultuur
+  - wetenschap-techniek
 ---
 
 De Archeologische Werkgroep is een vereniging die zich vooral richt op de studenten archeologie. Voor hen proberen we allerlei activiteiten te organiseren, of toegankelijker te maken, die aansluitend en verruimend zijn voor onze studies! Deze activiteiten houden onder andere in dat we musea, archeologische sites en andere historische plaatsen bezoeken tijdens onze leuke uitstapjes. Ook door belangrijke lezingen en contactdagen toegankelijker te maken helpen we studenten om op de hoogte te blijven van de laatste onderzoeken binnen het vakgebied.
