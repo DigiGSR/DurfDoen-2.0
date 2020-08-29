@@ -10,7 +10,7 @@ social:
   - platform: instagram
     link: https://www.instagram.com/dentalia_gent/
 themas:
-  -  faculteiten
+  -  faculteit
 ---
 
 Dentalia, opgericht in 1941, is de Gentse Studentenvereniging der Tandheelkunde.
