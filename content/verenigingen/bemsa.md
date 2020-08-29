@@ -10,7 +10,7 @@ social:
   - platform: instagram
     link: https://www.instagram.com/bemsa_gent/
 themas:
-  -  wetenschap en techniek
+  -  wetenschap-techniek
 ---
 
 We zijn de Gentse afdeling van BeMSA, de “Belgian Medical Students Association”, een Belgische organisatie voor en door studenten uit de medische sector.
