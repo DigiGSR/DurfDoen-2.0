@@ -36,7 +36,7 @@ button, input {
     font-size: inherit;
     font-family: inherit;
     color: inherit;
-    background-color: var(--white);
+    background-color: transparent;
 }
 button {
     border: 0.15em solid var(--darkblue);
