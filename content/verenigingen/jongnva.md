@@ -3,12 +3,12 @@ naam: Jong N-VA UGent
 verkorte_naam: Jong N-VA UGent
 konvent: pfk
 contact: ugent@jongnva.be
-website: https://ugent.jongnva.be/?fbclid=IwAR3HDiuLzHBQANtpWip_P3xbSxIQeeRiSD_MdMG_t5sIIQTzRr25m_3kM84
+website: https://ugent.jongnva.be/
 social:
   - platform: facebook
     link: https://www.facebook.com/JNVAUGent/
   - platform: instagram
-    link: https://instagram.com/jongnvaugent?fbclid=IwAR2MhWugzIlFw1H4jtMDr-7NStgOjWqhCmGVQ_YcG0PYzHvswAj8UjJLARc
+    link: https://instagram.com/jongnvaugent
 themas:
   -  politiek-filosofisch
 ---
