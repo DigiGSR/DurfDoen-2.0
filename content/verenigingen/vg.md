@@ -3,7 +3,7 @@ naam: Verkeerd geparkeerd
 verkorte_naam: Verkeerd geparkeerd
 konvent: wvk
 contact: info@verkeerdgeparkeerd.be
-website: http://www.verkeerdgeparkeerd.be/?fbclid=IwAR3_IDeGGYvHmFFtt4HzYeaB-rP08E0MzTOJ1gInXXUdsl7qca2h2g9NS-k
+website: http://www.verkeerdgeparkeerd.be/
 social:
   - platform: facebook
     link: https://www.facebook.com/verkeerdgeparkeerd/
