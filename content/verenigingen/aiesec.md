@@ -7,9 +7,9 @@ konvent: ik
 contact: membership.gent@aiesec.be
 website: https://aiesec.org/
 social:
-- platform: instagram
-- platform: facebook
-  link: https://www.facebook.com/AIESECinBelgium/
+  - platform: instagram
+  - platform: facebook
+    link: https://www.facebook.com/AIESECinBelgium/
 themas:
   - economie-development
   - internationaal
