@@ -17,5 +17,8 @@ social:
 themas:
   -  faculteiten
 ---
-De Vlaamse Technische Kring is de overkoepelende kring voor alle studenten burgerlijk ingenieur en burgerlijk ingenieur-architect aan de universiteit van Gent.
-Voor mensen die graag actief zijn bij een sterke vereniging die veel belang hecht aan interessante jobmogelijkheden is de Vlaamse Technische Kring zeker interessant! Deze ambitieuze vereniging organiseert verschillende grootse activiteiten, zoals bijvoorbeeld de VTK Jobfair. Dit is de ultieme plaats om de eerste belangrijke contacten te leggen met een hele reeks bedrijven en waar je misschien je toekomstige job zal vinden.
+De Vlaamse Technische Kring is de overkoepelende kring voor alle studenten burgerlijk ingenieur en burgerlijk ingenieur-architect aan de universiteit van Gent. Jaarlijks worden er tal van evenementen georganiseerd. Deze kunnen zowel cultureel, feestelijk, sportief alsook educatief en job-gerelateerd zijn.
+
+Zo is de Vlaamse Technische Kring zeker interessant voor mensen die veel belang hechten aan interessante jobmogelijkheden! Deze ambitieuze vereniging organiseert verschillende grootse activiteiten, zoals bijvoorbeeld de VTK Jobfair. Dit is de ultieme plaats om de eerste belangrijke contacten te leggen met een hele reeks bedrijven en waar je misschien je toekomstige job zal vinden.
+
+Daarbovenop blinkt VTK ook uit met hun eigen café in het hartje van overpoort, Delta. Hier worden er niet alleen talrijke feestjes georganiseerd maar ook gezellige winetastings in de lounge. Tot slot verzorgt VTK ook de boekenverkoop. Meer info? Surf naar www.vtk.ugent.be.'
