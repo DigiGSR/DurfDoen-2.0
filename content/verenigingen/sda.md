@@ -1,4 +1,6 @@
 ---
+titel: Sd'A Gent
+id: sda
 naam: Sd'A Gent
 verkorte_naam: Sd'A Gent
 konvent: sk

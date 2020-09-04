@@ -1,4 +1,6 @@
 ---
+titel: 180 degrees consulting 
+id: oedc
 naam: 180 degrees consulting 
 verkorte_naam: 180 degrees consulting 
 konvent: wvk

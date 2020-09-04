@@ -1,4 +1,6 @@
 ---
+titel: Vlaamse Biomedische Kring
+id: vbk
 naam: Vlaamse Biomedische Kring
 verkorte_naam: Vlaamse Biomedische Kring
 konvent: fk

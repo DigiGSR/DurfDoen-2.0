@@ -1,12 +1,14 @@
 ---
 naam: Jong Groen StuGent
 verkorte_naam: Jong Groen StuGent
+titel: JGroen StuGent
+id: jgroen
+naam: JGroen StuGent
 konvent: pfk
 contact: stugent@jonggroen.be
 website: https://www.jonggroen.be/stugent
 social:
   - platform: facebook
-    link: https://www.facebook.com/pg/Jong-Groen-StuGent-794541110577767/about/?ref=page_internal
 themas:
   -  politiek-filosofisch
 ---

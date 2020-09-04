@@ -1,4 +1,6 @@
 ---
+titel: Jongsocialisten StuGent
+id: js
 naam: Jongsocialisten StuGent
 verkorte_naam: Jongsocialisten StuGent
 konvent: pfk

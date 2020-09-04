@@ -1,4 +1,6 @@
 ---
+titel: Zeus WPI
+id: zeus
 naam: Zeus WPI
 verkorte_naam: Zeus WPI
 themas:

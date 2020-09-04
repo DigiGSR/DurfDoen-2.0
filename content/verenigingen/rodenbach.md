@@ -1,4 +1,6 @@
 ---
+titel: Rodenbach
+id: rodenbach
 naam: Rodenbach
 verkorte_naam: Rodenbach
 konvent: sk

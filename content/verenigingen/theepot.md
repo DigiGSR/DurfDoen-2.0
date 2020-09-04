@@ -1,4 +1,6 @@
 ---
+titel: Moeder Theepot
+id: theepot
 naam: Moeder Theepot
 verkorte_naam: Moeder Theepot
 konvent: wvk

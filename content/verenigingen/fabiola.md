@@ -1,4 +1,6 @@
 ---
+titel: Home Fabiola
+id: fabiola
 naam: Home Fabiola
 verkorte_naam: Home Fabiola
 konvent: hk

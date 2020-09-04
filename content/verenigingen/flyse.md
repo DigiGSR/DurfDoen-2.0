@@ -1,4 +1,6 @@
 ---
+titel: FLYSE
+id: flyse
 naam: FLYSE
 verkorte_naam: FLYSE
 konvent: wvk

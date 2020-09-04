@@ -1,4 +1,6 @@
 ---
+titel: Chemica
+id: chemica
 naam: Chemica
 verkorte_naam: Chemica
 konvent: fk

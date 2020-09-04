@@ -6,6 +6,9 @@ contact: sturec@ugent.be
 social:
   - platform: facebook
     link: https://www.facebook.com/sturecfaculteitrechtencriminologie/
+titel: Facultaire studentenraad rechtsgeleerdheid
+id: fre
+naam: Facultaire studentenraad rechtsgeleerdheid
 konvent: gsr
 themas:
   - engagement

@@ -1,4 +1,6 @@
 ---
+titel: NSV! Gent
+id: nsv
 naam: NSV! Gent
 verkorte_naam: NSV! Gent
 konvent: pfk

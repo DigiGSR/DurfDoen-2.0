@@ -1,4 +1,6 @@
 ---
+titel: ChiSAG
+id: chisag
 naam: ChiSAG
 verkorte_naam: ChiSAG
 konvent: ik

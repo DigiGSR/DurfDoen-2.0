@@ -1,4 +1,6 @@
 ---
+titel: ISAG
+id: isag
 naam: ISAG
 verkorte_naam: ISAG
 konvent: ik

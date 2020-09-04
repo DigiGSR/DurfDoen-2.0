@@ -1,0 +1,184 @@
+<div style="margin: auto; width: 70%;">
+  <% @items.find_all("/quiz/*").each_with_index do |quest, i| %>
+    <div id="question_<%=i+1%>" class="question hidden">
+      <%= render '/partials/question.*', question: quest %>
+    </div>
+  <% end %>
+</div>
+<div id="resultWrapper" style="width: 28vw;" style="display: flex; flex-direction: column;" class="hidden">
+  <% all_groups().each do |group| %>
+    <div id="d_<%= group[:id] %>" style="display: none;">
+      <%= render '/partials/group_small.*', group: group %>
+    </div>
+  <% end %>
+</div>
+<div style="width: 70%; margin: auto; display: flex; justify-content: space-between;">
+  <button id="previousButton" onclick="window.history.back()">
+    Vorige!
+  </button>
+  <button id="nextButton" onclick="goNext()">
+    Volgende!
+  </button>
+</div>
+<script>
+  // This is always the same, like a static macro
+  const _groups = (function resetGroups() {
+      const groups = {};
+      <% all_groups().each do |group| %>
+        groups["d_<%= group[:id] %>"] = document.getElementById("d_<%= group[:id] %>");
+      <% end %>
+    return groups;
+  })();
+  
+  // This keeps the state of the current question/result
+  // So navigating between questions works without reload
+  const state = {
+    'question': {
+      'index': 0,
+      'id': "",
+      'element': undefined
+    },
+    'answers': {},
+    'allQuestions': document.getElementsByClassName("question"),
+  };
+  
+  var depth = 0;
+  const previousButton = document.getElementById("previousButton");
+  const nextButton = document.getElementById("nextButton");
+  const resultWrapper = document.getElementById("resultWrapper");
+  
+  function reset() {
+    const params = getParams();
+  
+    state.question.index = 'vraag' in params ? parseInt(params['vraag']) : 1;
+    state.question.id = "question_"+state.question.index;
+    state.question.element = document.getElementById(state.question.id);
+  
+    state.answers = {};
+  
+    save_state();
+    showCorrectElements();
+  }
+  
+  function getParams() {
+    const url = window.location.search;
+    if(!url) return {};
+    const paramsBuilder = {};
+    for(let currentVar of url.substring(1).split("&")) {
+      var pair = currentVar.split('=');
+      paramsBuilder[pair[0]] = decodeURIComponent(pair[1]);
+    }
+  
+    return paramsBuilder;
+  }
+  
+  function createRelativeUrl(newQuestionIndex) {
+    return window.location.pathname + "?vraag="+newQuestionIndex;
+  }
+  
+  function showCorrectElements() {
+    // This part resets to the original state;
+    for(let question of state.allQuestions) {
+      question.classList.add("hidden");
+    }
+    resultWrapper.classList.add("hidden");
+  
+    if(state.question.index == 1) {
+      previousButton.disabled = true;
+    } else {
+      previousButton.disabled = false;
+    }
+  
+    if(!state.question.element) {
+      nextButton.disabled = true;
+      resultWrapper.classList.remove("hidden");
+  
+      const result = {};
+      for(let question of state.allQuestions) {
+        const div = window.sessionStorage[question.id];
+        if(!div) continue;
+  
+        const resultObj = JSON.parse(div);
+        for (let key in resultObj) {
+          if (!(key in result)) result[key] = 0;
+          result[key] += resultObj[key];
+        }
+      }
+  
+      show_result(result);
+    } else {
+      nextButton.disabled = false;
+      state.question.element.classList.remove("hidden");
+    }
+  };
+  
+  function save_answers(vers) {
+    for (let ver of vers) {
+      if (state.answers[ver]) {
+          state.answers[ver] += 1;
+      } else {
+          state.answers[ver] = 1;
+      }
+    }
+  }
+  
+  function del_answers(vers) {
+      for (let ver of vers) {
+          state.answers[ver] -= 1;
+      }
+  }
+  
+  function show_result(result) {
+      for (let ver in result) {
+          if (result[ver] == 0) {
+              _groups["d_"+ver].style.display = "none";
+          } else {
+              _groups["d_"+ver].style.display = "block";
+              _groups["d_"+ver].style.order = -1 * result[ver];
+          }
+      }
+  }
+  
+  function save_state() {
+    window.sessionStorage.setItem(state.question.id, JSON.stringify(state.answers));
+  }
+  
+  function getSelectValues(select) {
+    var result = [];
+    var options = select && select.options;
+    var opt;
+  
+    for (var i=0, iLen=options.length; i<iLen; i++) {
+        opt = options[i];
+  
+        if (opt.selected) {
+            result.push(opt.value || opt.text);
+        }
+    }
+    return result;
+  }
+  
+  function goNext() {
+    window.history.pushState("object or string", "", createRelativeUrl(state.question.index + 1));
+    depth += 1;
+  
+    reset();
+  }
+  
+  function goPrevious() {
+    if(depth > 1) {
+      depth -= 1;
+      window.history.replaceState("", "", createRelativeUrl(state.question.index - 1));
+    }
+  
+    reset();
+  }
+  
+  window.addEventListener("popstate", e => {
+    e.preventDefault();
+    goPrevious();
+  });
+  
+  reset();
+</script>
+<%= yield %>

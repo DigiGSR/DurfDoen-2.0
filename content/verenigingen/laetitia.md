@@ -1,4 +1,6 @@
 ---
+titel: Laetitia
+id: laetitia
 naam: Laetitia
 verkorte_naam: Laetitia
 konvent: sk

@@ -1,4 +1,6 @@
 ---
+titel: Wase Club
+id: wase
 naam: Wase Club
 verkorte_naam: Wase Club
 konvent: sk

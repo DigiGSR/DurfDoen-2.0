@@ -1,4 +1,6 @@
 ---
+titel: Gentse Farma Kring
+id: gfk
 naam: Gentse Farma Kring
 verkorte_naam: Gentse Farma Kring
 konvent: fk

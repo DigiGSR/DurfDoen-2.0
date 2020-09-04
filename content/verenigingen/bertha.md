@@ -1,11 +1,12 @@
 ---
+titel: Home Bertha de Vriese
+id: bertha
 naam: Home Bertha de Vriese
 verkorte_naam: Home Bertha de Vriese
 konvent: hk
 website: http://bertha.ugent.be/
 social:
   - platform: facebook
-    link: https://www.facebook.com/berthadevriese/?fref=ts
 themas:
   -  home
 ---

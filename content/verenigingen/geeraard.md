@@ -1,11 +1,12 @@
 ---
+titel: Geeraard
+id: geeraard
 naam: Geeraard
 verkorte_naam: Geeraard
 konvent: sk
 website: www.degeeraard.be
 social:
   - platform: instagram
-    link: https://www.instagram.com/degeeraard/?hl=nl
   - platform: facebook
     link: https://www.facebook.com/De-Geeraard-869042639872298/
 themas:

@@ -1,6 +1,9 @@
 ---
 naam: PPSR
 verkorte_naam: PPSR
+titel: De Psychologische en Pedagogische StudentenRaad
+id: ppsr
+naam: De Psychologische en Pedagogische StudentenRaad
 konvent: gsr
 themes:
   -  studentenraad

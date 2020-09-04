@@ -1,4 +1,6 @@
 ---
+titel: Comac
+id: comac
 naam: Comac
 verkorte_naam: Comac
 konvent: pfk

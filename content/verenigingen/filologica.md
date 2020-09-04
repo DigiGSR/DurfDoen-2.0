@@ -1,4 +1,6 @@
 ---
+titel: Filologica
+id: filologica
 naam: Filologica
 verkorte_naam: Filologica
 konvent: fk

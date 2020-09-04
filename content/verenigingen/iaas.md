@@ -1,4 +1,6 @@
 ---
+titel: International Association of students in Agricultural or related Sciences
+id: iaas
 naam: International Association of students in Agricultural or related Sciences
 verkorte_naam: IAAS
 konvent: ik
@@ -8,7 +10,6 @@ social:
   - platform: facebook
     link: https://www.facebook.com/IAASGhent/
   - platform: instagram
-    link: https://www.instagram.com/iaas.belgium/?hl=en
   - platform: linkedin
     link: https://www.linkedin.com/in/iaas-belgium-2b086115b/
   - platform: twitter

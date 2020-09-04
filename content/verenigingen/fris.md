@@ -1,6 +1,9 @@
 ---
 naam: FRiS
 verkorte_naam: FRiS
+titel: Faculteitsraad Ingenieurswetenschappen en Architectuur
+id: fris
+naam: Faculteitsraad Ingenieurswetenschappen en Architectuur
 konvent: gsr
 contact: fris@ugent.be
 website: fris.ugent.be

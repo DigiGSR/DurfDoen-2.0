@@ -1,4 +1,6 @@
 ---
+titel: GUDc
+id: gudc
 naam: GUDc
 verkorte_naam: GUDc
 konvent: kultk

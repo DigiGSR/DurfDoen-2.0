@@ -1,4 +1,6 @@
 ---
+titel: Antwerpen Boven
+id: ab
 naam: Antwerpen Boven
 verkorte_naam: Antwerpen Boven
 konvent: sk

@@ -1,4 +1,6 @@
 ---
+titel: GUHO
+id: guho
 naam: GUHO
 verkorte_naam: GUHO
 konvent: kultk

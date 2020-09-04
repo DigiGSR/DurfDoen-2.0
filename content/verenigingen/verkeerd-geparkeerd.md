@@ -1,4 +1,6 @@
 ---
+titel: Verkeerd geparkeerd
+id: verkeerd-geparkeerd
 naam: Verkeerd geparkeerd
 verkorte_naam: Verkeerd geparkeerd
 konvent: wvk

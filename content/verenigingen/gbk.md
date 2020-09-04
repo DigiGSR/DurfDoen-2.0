@@ -1,4 +1,6 @@
 ---
+titel: Gentse Biologische Kring
+id: gbk
 naam: Gentse Biologische Kring
 verkorte_naam: Gentse Biologische Kring
 konvent: fk

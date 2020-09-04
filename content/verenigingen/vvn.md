@@ -1,4 +1,6 @@
 ---
+titel: VVN
+id: vvn
 naam: VVN
 verkorte_naam: VVN
 themas:

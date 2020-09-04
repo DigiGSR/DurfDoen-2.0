@@ -1,4 +1,6 @@
 ---
+titel: BeMSA
+id: bemsa
 naam: BeMSA
 verkorte_naam: BeMSA
 konvent: wvk

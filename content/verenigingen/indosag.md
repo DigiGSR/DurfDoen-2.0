@@ -1,4 +1,6 @@
 ---
+titel: Indonesian Students Association Ghent
+id: indosag
 naam: Indonesian Students Association Ghent
 verkorte_naam: Indonesian Students Association Ghent
 konvent: ik
@@ -8,7 +10,6 @@ social:
   - platform: facebook
     link: https://www.facebook.com/groups/ppigent/
   - platform: instagram
-    link: https://www.instagram.com/ppi_ghent_belgia/?hl=en
 themas:
   -  diversiteit
   -  internationaal

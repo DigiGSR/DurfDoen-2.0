@@ -7,11 +7,13 @@ social:
   - platform: facebook
     link: https://www.facebook.com/esn.gent/%E2%80%8B
   - platform: instagram
-    link: https://www.instagram.com/esngent/?hl=en
   - platform: linkedin
     link: https://www.linkedin.com/company/erasmus-student-network-gent/about/
   - platform: twitter
     link: https://twitter.com/esngent
+titel: ESN
+id: esn
+naam: Erasmus Student Network
 themas:
   -  internationaal
 konvent: ik

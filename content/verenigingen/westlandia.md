@@ -1,4 +1,6 @@
 ---
+titel: Westlandia
+id: westlandia
 naam: Westlandia
 verkorte_naam: Westlandia
 konvent: sk

@@ -1,4 +1,6 @@
 ---
+titel: CenEka
+id: ceneka
 naam: CenEka
 verkorte_naam: CenEka
 konvent: wvk

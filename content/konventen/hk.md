@@ -1,4 +1,6 @@
 ---
+titel: Home Konvent
+id: hk
 naam: Home Konvent
 verkorte_naam: Home Konvent
 konvent: hk

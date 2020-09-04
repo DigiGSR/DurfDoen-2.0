@@ -1,4 +1,6 @@
 ---
+titel: Vlaamse Rechtsgenootschap
+id: vrg
 naam: Vlaamse Rechtsgenootschap
 verkorte_naam: Vlaamse Rechtsgenootschap
 konvent: fk

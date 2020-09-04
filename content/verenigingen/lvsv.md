@@ -1,4 +1,6 @@
 ---
+titel: LVSV
+id: lvsv
 naam: LVSV
 verkorte_naam: LVSV
 konvent: pfk

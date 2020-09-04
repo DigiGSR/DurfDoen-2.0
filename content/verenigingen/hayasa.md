@@ -1,4 +1,6 @@
 ---
+titel: Hayasa
+id: hayasa
 naam: Hayasa
 verkorte_naam: Hayasa
 contact: hayasa@student.ugent.be

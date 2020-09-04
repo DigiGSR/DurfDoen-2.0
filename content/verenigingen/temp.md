@@ -1,4 +1,6 @@
 ---
+titel: Temp
+id: temp
 naam: Temp
 verkorte_naam: Temp
 tags: tem,p

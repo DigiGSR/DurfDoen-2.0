@@ -1,4 +1,6 @@
 ---
+titel: Studentenfanfare
+id: sf
 naam: Studentenfanfare
 verkorte_naam: Studentenfanfare
 konvent: kultk

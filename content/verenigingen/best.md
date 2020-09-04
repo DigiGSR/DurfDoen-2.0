@@ -1,13 +1,13 @@
 ---
+titel: Board of European Students of Technology Ghent
+id: best
 naam: Board of European Students of Technology Ghent
 verkorte_naam: Board of European Students of Technology Ghent
 contact: ghent-board@best.eu.org
 website: https://vtk.ugent.be/best/
 social:
   - platform: facebook
-    link: https://www.facebook.com/BESTGhent/?ref=br_rs
   - platform: instagram
-    link: https://www.instagram.com/bestghent/?hl=en
   - platform: linkedin
     link: https://www.linkedin.com/company/board-of-european-students-of-technology-ghent/about/?
 konvent: ik

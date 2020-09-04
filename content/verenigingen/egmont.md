@@ -1,4 +1,6 @@
 ---
+titel: Moeder Egmont
+id: egmont
 naam: Moeder Egmont
 verkorte_naam: Moeder Egmont
 konvent: sk
@@ -6,7 +8,6 @@ website: www.moederegmont.be
 contact: studentenclubmoederegmont@gmail.com
 social: 
   - platform: facebook
-    link: https://www.facebook.com/moederegmont/?fref=ts
 themas:
   -  streek
 ---

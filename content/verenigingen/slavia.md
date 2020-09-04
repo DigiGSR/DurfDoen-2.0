@@ -1,4 +1,6 @@
 ---
+titel: Slavia
+id: slavia
 naam: Slavia
 verkorte_naam: Slavia
 konvent: fk

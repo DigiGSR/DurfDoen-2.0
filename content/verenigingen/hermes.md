@@ -1,4 +1,6 @@
 ---
+titel: Hermes
+id: hermes
 naam: Hermes
 verkorte_naam: Hermes
 konvent: fk

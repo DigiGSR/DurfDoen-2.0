@@ -1,4 +1,6 @@
 ---
+titel: CDS
+id: cds
 naam: CDS
 verkorte_naam: CDS
 konvent: pfk

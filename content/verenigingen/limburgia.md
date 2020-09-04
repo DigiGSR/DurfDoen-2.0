@@ -1,11 +1,12 @@
 ---
+titel: Limburgia
+id: limburgia
 naam: Limburgia
 verkorte_naam: Limburgia
 konvent: sk
 website: http://limburgia.skghendt.be/
 social:
   - platform: facebook
-    link: https://www.facebook.com/gent.limburgia?ref=br_tf
   - platform: instagram
     link: https://www.instagram.com/limburgiagent/
 themas:

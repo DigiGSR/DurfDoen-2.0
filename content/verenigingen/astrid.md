@@ -1,4 +1,6 @@
 ---
+titel: Home Astrid
+id: astrid
 naam: Home Astrid
 verkorte_naam: Home Astrid
 konvent: hk

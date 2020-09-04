@@ -1,4 +1,6 @@
 ---
+titel: IEEE SB
+id: ieee
 naam: IEEE SB
 verkorte_naam: IEEE SB
 konvent: wvk

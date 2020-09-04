@@ -1,4 +1,6 @@
 ---
+titel: Internia
+id: internia
 naam: Internia
 verkorte_naam: Internia
 konvent: sk

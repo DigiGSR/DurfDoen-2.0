@@ -1,4 +1,6 @@
 ---
+titel: Moeder Oilsjterse
+id: oilsjterse
 naam: Moeder Oilsjterse
 verkorte_naam: Moeder Oilsjterse
 konvent: sk

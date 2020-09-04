@@ -1,4 +1,6 @@
 ---
+titel: Tomo No Kai
+id: tnok
 naam: Tomo No Kai
 verkorte_naam: Tomo No Kai
 konvent: ik
@@ -8,7 +10,6 @@ social:
   - platform: facebook
     link: https://www.facebook.com/TnokGent/
   - platform: instagram
-    link: https://www.instagram.com/tomonokai/?hl=en
 themas:
   -  diversiteit
   -  internationaal

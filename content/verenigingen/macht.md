@@ -1,11 +1,12 @@
 ---
+titel: MaCht
+id: macht
 naam: MaCht
 verkorte_naam: MaCht
 konvent: wvk
 website: http://macht.ugent.be/
 social:
   - platform: facebook
-    link: https://www.facebook.com/macht.gent/?fref=ts
   - platform: linkedin
     link: https://www.linkedin.com/company/macht/
 themas:

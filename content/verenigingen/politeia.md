@@ -1,4 +1,6 @@
 ---
+titel: Politeia
+id: politeia
 naam: Politeia
 verkorte_naam: Politeia
 konvent: fk

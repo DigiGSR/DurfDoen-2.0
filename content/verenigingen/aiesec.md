@@ -1,4 +1,6 @@
 ---
+titel: AIESEC
+id: aiesec
 naam: AIESEC
 verkorte_naam: AIESEC
 konvent: ik
@@ -6,7 +8,6 @@ contact: membership.gent@aiesec.be
 website: https://aiesec.org/
 social:
 - platform: instagram
-  link: https://www.instagram.com/aiesecglobal/?hl=en
 - platform: facebook
   link: https://www.facebook.com/AIESECinBelgium/
 themas:

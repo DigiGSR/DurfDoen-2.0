@@ -1,4 +1,6 @@
 ---
+titel: Klassieke Kring
+id: kk
 naam: Klassieke Kring
 verkorte_naam: Klassieke Kring
 konvent: wvk

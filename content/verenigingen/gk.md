@@ -1,4 +1,6 @@
 ---
+titel: Groene Kring
+id: gk
 naam: Groene Kring
 verkorte_naam: Groene Kring
 konvent: wvk

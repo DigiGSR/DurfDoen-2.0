@@ -1,4 +1,6 @@
 ---
+titel: \'t Zal Wel Gaan
+id: tzal
 naam: \'t Zal Wel Gaan
 verkorte_naam: \'t Zal Wel Gaan
 konvent: pfk

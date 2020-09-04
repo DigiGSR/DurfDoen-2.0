@@ -1,4 +1,6 @@
 ---
+titel: BEAM
+id: beam
 naam: BEAM
 verkorte_naam: BEAM
 konvent: wvk

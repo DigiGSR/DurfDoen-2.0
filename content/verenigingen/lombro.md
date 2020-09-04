@@ -1,4 +1,6 @@
 ---
+titel: Lombrosiana
+id: lombro
 naam: Lombrosiana
 verkorte_naam: Lombrosiana
 konvent: fk
@@ -6,7 +8,6 @@ contact: praeses@lombrosiana.be
 website: http://www.lombrosiana.be
 social:
   - platform: instagram
-    link: https://www.instagram.com/lombrosiana/?hl=nl
 themas:
   -  faculteit
 ---

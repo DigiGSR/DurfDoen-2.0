@@ -45,6 +45,10 @@ module VerenigingenHelper
     item.identifier.without_ext.split('/').last
   end
 
+  def all_groups
+    @items.find_all("**/verenigingen/*") + @items.find_all("**/konventen/*")
+  end
+
   def image_url(item)
     if item[:image].nil?
       "https://dsa.ugent.be/api/verenigingen/#{ abbreviation item }/logo?size=medium"

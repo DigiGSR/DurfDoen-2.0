@@ -1,4 +1,6 @@
 ---
+titel: Archeologische Werkgroep
+id: aw
 naam: Archeologische Werkgroep
 verkorte_naam: Archeologische Werkgroep
 konvent: wvk
@@ -6,7 +8,6 @@ contact: aw.ugent@gmail.com
 website: http://aw-ugent.be/
 social:
   - platform: facebook
-    link: https://www.facebook.com/groups/72122457656/?fref=ts
 themas:
   - cultuur
   - wetenschap-techniek

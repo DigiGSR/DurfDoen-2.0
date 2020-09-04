@@ -1,4 +1,6 @@
 ---
+titel: Minos Gent
+id: minos
 naam: Minos Gent
 verkorte_naam: Minos Gent
 konvent: pfk

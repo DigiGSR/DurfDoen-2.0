@@ -1,4 +1,6 @@
 ---
+titel: Vlaamse Technische Kring
+id: vtk
 naam: Vlaamse Technische Kring
 verkorte_naam: Vlaamse Technische Kring
 konvent: fk
@@ -6,7 +8,6 @@ website: vtk.ugent.be
 contact: vtk@vtk.ugent.be
 social:
   - platform: facebook
-    link: https://www.facebook.com/VTK.Gent/?ref=br_rs
   - platform: instagram
     link: https://www.instagram.com/vtkgent/
   - platform: linkedin

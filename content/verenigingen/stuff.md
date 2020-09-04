@@ -1,6 +1,9 @@
 ---
 naam: StuFF
 verkorte_naam: StuFF
+titel: Studentenraad Faculteit Farmaceutische Wetenschappen
+id: stuff
+naam: Studentenraad Faculteit Farmaceutische Wetenschappen
 konvent: gsr
 website: https://stuff.ugent.be/
 social:

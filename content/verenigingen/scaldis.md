@@ -1,11 +1,12 @@
 ---
+titel: Scaldis
+id: scaldis
 naam: Scaldis
 verkorte_naam: Scaldis
 konvent: sk
 website: https://scaldis.skghendt.be/
 social:
   - platform: facebook
-    link: https://www.facebook.com/StudentenclubScaldis/?fref=ts
 themas:
   -  streek
 ---

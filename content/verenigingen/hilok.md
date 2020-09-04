@@ -1,4 +1,6 @@
 ---
+titel: HILOK
+id: hilok
 naam: HILOK
 verkorte_naam: HILOK
 konvent: fk

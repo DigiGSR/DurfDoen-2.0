@@ -1,4 +1,6 @@
 ---
+titel: Auw La
+id: auwla
 naam: Auw La
 verkorte_naam: Auw La
 konvent: kultk

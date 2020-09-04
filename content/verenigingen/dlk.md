@@ -1,4 +1,6 @@
 ---
+titel: De Loeiende Koe
+id: dlk
 naam: De Loeiende Koe
 verkorte_naam: De Loeiende Koe
 konvent: wvk

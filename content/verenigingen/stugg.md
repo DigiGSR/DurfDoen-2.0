@@ -1,6 +1,9 @@
 ---
 naam: StuGG
 verkorte_naam: StuGG
+titel: Studentenraad Geneeskunde en Gezondheidswetenschappen
+id: stugg
+naam: Studentenraad Geneeskunde en Gezondheidswetenschappen
 konvent: gsr
 website: www.stugg.be
 contact: info@stugg.be

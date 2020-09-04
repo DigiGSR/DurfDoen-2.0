@@ -1,11 +1,12 @@
 ---
+titel: Geologica
+id: geologic
 naam: Geologica
 verkorte_naam: Geologica
 konvent: fk
 contact: geologica.gent@gmail.com
 social: 
   - platform: facebook
-    link: https://www.facebook.com/geologica.gent/?fref=ts
   - platform: instagram
     link: https://www.instagram.com/geologica.ugent/
 website: http://www.fkgent.be/geologica/

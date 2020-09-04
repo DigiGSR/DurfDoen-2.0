@@ -1,4 +1,6 @@
 ---
+titel: Dionysus
+id: dionysus
 naam: Dionysus
 verkorte_naam: Dionysus
 konvent: sk

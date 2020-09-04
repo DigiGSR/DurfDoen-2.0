@@ -1,4 +1,6 @@
 ---
+titel: Dentalia
+id: dentalia
 naam: Dentalia
 verkorte_naam: Dentalia
 konvent: fk

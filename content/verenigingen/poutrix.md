@@ -1,4 +1,6 @@
 ---
+titel: Poutrix
+id: poutrix
 naam: Poutrix
 verkorte_naam: Poutrix
 konvent: wvk

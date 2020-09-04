@@ -1,4 +1,6 @@
 ---
+titel: HSC De Dijlebrassers
+id: dijlebrassers
 naam: HSC De Dijlebrassers
 verkorte_naam: HSC De Dijlebrassers
 konvent: sk

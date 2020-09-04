@@ -1,4 +1,6 @@
 ---
+titel: Capitant Gent
+id: capitant
 naam: Capitant Gent
 verkorte_naam: Capitant Gent
 konvent: wvk

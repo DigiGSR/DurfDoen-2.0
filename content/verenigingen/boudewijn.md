@@ -1,4 +1,6 @@
 ---
+titel: Home Boudewijn
+id: boudewijn
 naam: Home Boudewijn
 verkorte_naam: Home Boudewijn
 konvent: hk

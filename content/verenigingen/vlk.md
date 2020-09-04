@@ -1,4 +1,6 @@
 ---
+titel: Vlaamse Levenstechnische Kring
+id: vlk
 naam: Vlaamse Levenstechnische Kring
 verkorte_naam: Vlaamse Levenstechnische Kring
 konvent: fk

@@ -1,4 +1,6 @@
 ---
+titel: \'t Wielke
+id: wielke
 naam: \'t Wielke
 verkorte_naam: \'t Wielke
 konvent: sk

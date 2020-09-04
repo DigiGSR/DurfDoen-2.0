@@ -64,6 +64,13 @@ compile '/verenigingen.md' do
   write '/verenigingen/index.html'
 end
 
+compile '/quiz.md' do
+  filter :kramdown
+  layout '/quiz.*'
+  layout '/default.*'
+  write ext: 'html'
+end
+
 compile '/*.md' do
   filter :kramdown
   layout '/default.*'

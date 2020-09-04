@@ -1,6 +1,9 @@
 ---
 naam: StuRa
 verkorte_naam: StuRa
+titel: StudentenRaad Politieke en Sociale Wetenschappen
+id: stura
+naam: StudentenRaad Politieke en Sociale Wetenschappen
 konvent: gsr
 website: https://stura.ugent.be/
 social: 

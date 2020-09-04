@@ -1,6 +1,9 @@
 ---
 naam: Stuveco
 verkorte_naam: Stuveco
+titel: Studentenraad Faculteit Economie en Bedrijfskunde
+id: stuveco
+naam: Studentenraad Faculteit Economie en Bedrijfskunde
 konvent: gsr
 website: stuveco.ugent.be
 themes:

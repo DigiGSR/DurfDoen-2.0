@@ -1,0 +1,74 @@
+<h2> <%= question[:vraag] %> </h2>
+<select <% if question[:type] == "meerkeuze" %> multiple="multiple" <% end %>
+    id="<%= (question[:tekst] || "") + (question[:vraag] || "") %>_option">
+  <option value="" selected="selected disabled hidden">Maak uw keuze</option>
+  <% for answer in question[:antwoorden]%>
+    <option value='<%= answer[:tekst] + (answer[:vraag] || "") %>'>
+      <%= answer[:tekst] %>
+    </option>
+  <% end %>
+</select>
+<% for answer in question[:antwoorden]%>
+  <% if answer[:vraag] %>
+    <div id='<%= html_escape(answer[:tekst] + answer[:vraag]) %>' style="display:none;">
+      <%= render '/partials/question.*', question: answer  %>
+    </div>
+  <% end %>
+<% end %>
+<script>
+  {
+      // Reference back to the last selected option
+      // This way we can 'deselect' the question results
+      let last_answered = [];
+  
+      // Create list of all subquestions
+      const sub_questions = {};
+      // Create list of all student organisations this answer entails
+      const question_results = {};
+  
+      <% for answer in question[:antwoorden] %>
+          <% if answer[:vraag] %>
+              sub_questions['<%= html_escape(answer[:tekst] + answer[:vraag]) %>'] = document.getElementById('<%= html_escape(answer[:tekst] + answer[:vraag]) %>');
+          <% end %>
+  
+          question_results['<%= answer[:tekst] + (answer[:vraag] || "") %>'] = [];
+          <% if answer[:verenigingen] %>
+              <% for vereniging in answer[:verenigingen] %>
+                  question_results['<%= answer[:tekst] + (answer[:vraag] || "") %>'].push(
+                      "<%= vereniging[:naam] %>"
+                  );
+              <% end %>
+          <% end %>
+      <% end %>
+  
+      document.getElementById("<%= (question[:tekst] || "") + (question[:vraag] || "") %>_option").addEventListener('change', (event) => {
+          for (let la of last_answered) {
+              if (sub_questions[la]) {
+                  sub_questions[la].style.display = "none";
+  
+                  // sub is the select dom element, that listens for changes
+                  // When a parent is changed, it should notify it's last_answered child that it is changed
+                  const sub = document.getElementById(la+"_option");
+                  if (sub) {
+                      sub.value = null;
+                      sub.dispatchEvent(new event.constructor(event.type, event));
+                  }
+              }
+          }
+  
+          const selected = getSelectValues(event.target);
+  
+          // Update results
+          save_answers(selected.flatMap(e => question_results[e] || []));
+          del_answers(last_answered.flatMap(e => question_results[e] || []));
+          save_state();
+  
+          // Make possible sub question visible
+          const quests = selected.flatMap(e => sub_questions[e] || []);
+          last_answered = selected;
+          for (let quest of quests) {
+              delete quest.style.removeProperty("display");
+          }
+      });
+  }
+</script>

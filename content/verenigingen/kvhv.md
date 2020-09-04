@@ -1,4 +1,6 @@
 ---
+titel: KVHV
+id: kvhv
 naam: KVHV
 verkorte_naam: KVHV
 konvent: pfk

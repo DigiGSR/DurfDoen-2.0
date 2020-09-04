@@ -1,4 +1,6 @@
 ---
+titel: Veto Gent
+id: veto
 naam: Veto Gent
 verkorte_naam: Veto Gent
 konvent: fk

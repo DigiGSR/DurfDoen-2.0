@@ -1,6 +1,9 @@
 ---
 naam: Verkeerd geparkeerd
 verkorte_naam: Verkeerd geparkeerd
+titel: Verkeerd Geparkeerd
+id: vg
+naam: Verkeerd Geparkeerd
 konvent: wvk
 contact: info@verkeerdgeparkeerd.be
 website: http://www.verkeerdgeparkeerd.be/

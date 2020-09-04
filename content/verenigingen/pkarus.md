@@ -1,4 +1,6 @@
 ---
+titel: PKarus
+id: pkarus
 naam: PKarus
 verkorte_naam: PKarus
 konvent: wvk

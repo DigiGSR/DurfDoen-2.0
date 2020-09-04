@@ -1,6 +1,9 @@
 ---
 naam: StuW
 verkorte_naam: StuW
+titel: Studentenraad Faculteit Wetenschappen
+id: stuw
+naam: Studentenraad Faculteit Wetenschappen
 konvent: gsr
 website: https://stuw.ugent.be/
 contact: stuw@ugent.be

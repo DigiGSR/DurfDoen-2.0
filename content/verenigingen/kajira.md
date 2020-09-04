@@ -1,4 +1,6 @@
 ---
+titel: Kajira
+id: kajira
 naam: Kajira
 verkorte_naam: Kajira
 konvent: wvk

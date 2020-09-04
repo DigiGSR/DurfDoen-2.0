@@ -1,4 +1,6 @@
 ---
+titel: Deliria
+id: deliria
 naam: Deliria
 verkorte_naam: Deliria
 konvent: sk
@@ -6,7 +8,6 @@ contact: deliriagent@gmail.com
 website: www.deliriagent.be
 social:
   - platform: facebook
-    link: https://www.facebook.com/Deliria-Gent-899883966713902/?fref=ts
 themas:
   -  streek
 ---

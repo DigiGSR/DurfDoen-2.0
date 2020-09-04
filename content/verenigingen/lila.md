@@ -1,6 +1,9 @@
 ---
 naam: LILA
 verkorte_naam: Landbouwindustrieën en landbouw
+titel: Levenslange Inzet voor Leute en Ambiance
+id: lila
+naam: Levenslange Inzet voor Leute en Ambiance
 konvent: fk
 contact: praesidiumlila@gmail.com
 website: https://studentenclublila.be/

@@ -1,4 +1,6 @@
 ---
+titel: Kunsthistorische kring
+id: khk
 naam: Kunsthistorische kring
 verkorte_naam: Kunsthistorische kring
 konvent: fk
@@ -8,7 +10,6 @@ social:
   - platform: facebook
     link: https://www.facebook.com/Kunst-Historische-Kring-1393134794349013/timeline/
   - platform: instagram
-    link: https://www.instagram.com/kunsthistorische_kring/?hl=nl
 themas:
   -  faculteit
 ---

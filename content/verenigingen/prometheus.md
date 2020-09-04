@@ -1,4 +1,6 @@
 ---
+titel: Prometheus
+id: prometheus
 naam: Prometheus
 verkorte_naam: Prometheus
 konvent: kultk

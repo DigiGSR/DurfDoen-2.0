@@ -1,4 +1,6 @@
 ---
+titel: GUSO
+id: guso
 naam: GUSO
 verkorte_naam: GUSO
 konvent: kultk

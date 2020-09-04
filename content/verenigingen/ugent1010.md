@@ -1,11 +1,13 @@
 ---
 naam: d'Urgent
 verkorte_naam: d'Urgent
+titel: UGent1010
+id: ugent1010
+naam: UGent1010
 konvent: wvk
 website: https://www.greencommunity.be/durgent
 social:
   - platform: youtube
-    link: https://www.youtube.com/channel/UC-vGzoFTMdWDDWbyW_AhaaA/videos?disable_polymer=1
   - platform: facebook
     link: https://www.facebook.com/durgentduurzaamdoorstudenten/
   - platform: instagram

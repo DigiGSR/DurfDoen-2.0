@@ -1,4 +1,6 @@
 ---
+titel: PRIME
+id: prime
 naam: PRIME
 verkorte_naam: PRIME
 konvent: wvk

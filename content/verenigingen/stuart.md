@@ -1,6 +1,9 @@
 ---
 naam: StuArt
 verkorte_naam: StuArt
+titel: Studentenraad Faculteit Letteren en Wijsbegeerte
+id: stuart
+naam: Studentenraad Faculteit Letteren en Wijsbegeerte
 konvent: gsr
 website: stuart.ugent.be
 contact: stuart@ugent.be

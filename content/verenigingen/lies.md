@@ -1,4 +1,6 @@
 ---
+titel: Moeder lies
+id: lies
 naam: Moeder lies
 verkorte_naam: Moeder lies
 konvent: fk

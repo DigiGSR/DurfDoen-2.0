@@ -1,4 +1,6 @@
 ---
+titel: \'t Stropke
+id: stropke
 naam: \'t Stropke
 verkorte_naam: \'t Stropke
 konvent: sk

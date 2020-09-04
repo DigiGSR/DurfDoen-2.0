@@ -1,4 +1,6 @@
 ---
+titel: Vlaamse Diergeneeskundige Kring
+id: vdk
 naam: Vlaamse Diergeneeskundige Kring
 verkorte_naam: Vlaamse Diergeneeskundige Kring
 konvent: fk
