@@ -12,7 +12,7 @@ social:
 themas:
   -  wetenschap-techniek
 showcase:
-  - photo: IMG_7480.jpg
+  - photo: /assets/logos/IMG_7480.jpg
 ---
 
 We zijn de Gentse afdeling van BeMSA, de “Belgian Medical Students Association”, een Belgische organisatie voor en door studenten uit de medische sector.
