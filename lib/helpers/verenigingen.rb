@@ -37,9 +37,18 @@ module VerenigingenHelper
         "naam" => x[:naam],
         "verkorte_naam" => x[:verkorte_naam],
         "konvent" => x[:konvent],
-        "themas" => x[:themas]
+        "themas" => x[:themas],
+        "postcodes" => x[:postcodes].to_a,
     } }.to_a
   end
+
+  def postcodes_per_vereniging
+    @items.find_all("**/verenigingen/*").map { |x| {
+      "postcodes" => x[:postcodes],
+      "id" => x[:id]
+    } }.flatten.to_a
+  end
+  
 
   def abbreviation(item)
     item.identifier.without_ext.split('/').last

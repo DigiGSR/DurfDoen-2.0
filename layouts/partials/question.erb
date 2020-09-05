@@ -3,8 +3,7 @@
   <p>
     Geef je postcode in
   </p>
-  <input id="postcodeField" type=number value="9000">
-</input>
+  <input id="postcodeField" type=number>
 <%else%>
   <select <% if question[:type] == "meerkeuze" %> multiple="multiple" <% end %>
     id="<%= (question[:tekst] || "") + (question[:vraag] || "") %>_option">
@@ -15,38 +14,51 @@
       </option>
     <% end %>
   </select>
-<% end %>
-<% for answer in question[:antwoorden]%>
-  <% if answer[:vraag] %>
-    <div id='<%= html_escape(answer[:tekst] + answer[:vraag]) %>' style="display:none;">
-      <%= render '/partials/question.*', question: answer  %>
-    </div>
+  <% for answer in question[:antwoorden]%>
+    <% if answer[:vraag] %>
+      <div id='<%= html_escape(answer[:tekst] + answer[:vraag]) %>' style="display:none;">
+        <%= render '/partials/question.*', question: answer  %>
+      </div>
+    <% end %>
   <% end %>
 <% end %>
-<script>
+  <script>
+<% if question[:type] == "specialCase1" %>
+  (function setupPostCodeField() {
+    const postcodes = (function genpostcodes() {
+      const postcodes = {};
+
+      for(let ver of <%= postcodes_per_vereniging.to_json %> ) {
+        for(let post of ver["postcodes"] || []) {
+          if(!(post in postcodes)) postcodes[post+""] = [];
+
+          postcodes[post+""].push(ver["id"]);
+        }
+      }
+
+      return postcodes;
+    })();
+
+    let last_answered = [];
+
+    const postcodeField = document.getElementById("postcodeField");
+
+    const handler = () => {
+      const selected = postcodes[postcodeField.value] || [];
+      
+      // Update results
+      save_answers(selected);
+      del_answers(last_answered);
+      save_state();
+
+      last_answered = selected;
+    };
+
+    postcodeField.addEventListener("past", handler, false);
+    postcodeField.addEventListener("input", handler, false);
+  })();
+<%else%>
   {
-      (function setupPostCodeField() {
-        const postCodes = (function genPostCodes() {
-
-          console.log("Running postcodes");
-          const postCodes = {};
-
-          <% verenigingen().each do |ver| %>
-            console.log("<%=ver[:naam]%>");
-
-            <% if ver[:postcodes] %>
-            <% for postcode in ver[:postcodes] %>
-              console.log("<%=postcode%>");
-            <% end %>
-            <% end %>
-          <% end %>
-        })();
-
-        console.log("Running");
-
-        // const postField =
-      })();
-
       // Reference back to the last selected option
       // This way we can 'deselect' the question results
       let last_answered = [];
@@ -88,6 +100,8 @@
 
           const selected = getSelectValues(event.target);
 
+          console.log(event.target);
+
           // Update results
           save_answers(selected.flatMap(e => question_results[e] || []));
           del_answers(last_answered.flatMap(e => question_results[e] || []));
@@ -101,4 +115,5 @@
           }
       });
   }
+<%end%>
 </script>
