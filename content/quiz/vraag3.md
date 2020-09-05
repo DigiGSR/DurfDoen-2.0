@@ -4,7 +4,7 @@ type: meerkeuze
 antwoorden:
   - tekst: Studenten die uit dezelfde streek afkomstig zijn
     vraag: Uit welke streek ben jij afkomstig?
-    type: dropdown
+    type: specialCase1
     antwoorden:
       - tekst: TODO
         verenigingen:
@@ -41,7 +41,7 @@ antwoorden:
 
       - tekst: Japan
         verenigingen:
-        - naam: tnok
+          - naam: tnok
 
       - tekst: Vietnam
         verenigingen:
@@ -49,5 +49,4 @@ antwoorden:
 
       - tekst: Sub-Sahara Afrika
         verenigingen:
-
 ---

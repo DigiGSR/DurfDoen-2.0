@@ -1,227 +1,240 @@
 :root {
-    --white: hsl(0, 0%, 98%);
-    --darkblue: #013e7a;
-    --lightblue: #1a77d3;
-    --cyan: hsl(192, 100%, 83%);
-    --lightCyan: hsl(192, 100%, 94%);
-    --yellow: #fed318;
+  --white: hsl(0, 0%, 98%);
+  --darkblue: #013e7a;
+  --lightblue: #1a77d3;
+  --cyan: hsl(192, 100%, 83%);
+  --lightCyan: hsl(192, 100%, 94%);
+  --yellow: #fed318;
 }
 
-html, body {
-    padding: 0;
-    margin: 0;
+html,
+body {
+  padding: 0;
+  margin: 0;
 }
 
 html {
-    background: var(--white);
-    height: 100%;
+  background: var(--white);
+  height: 100%;
 }
 
 body {
-    height: 100%;
-    font-family: futura, Avenir Next, Verdana, Geneva, Tahoma, sans-serif;
+  height: 100%;
+  font-family: futura, Avenir Next, Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .align {
-    margin: 0 auto;
-    max-width: 1280px;
-    padding: 0 1em;
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 0 1em;
 }
 
-.beforeTheFold, main {
-    position: relative;
-    min-height: 100%;
+.beforeTheFold,
+main {
+  position: relative;
+  min-height: 100%;
 }
 
-button, input {
-    font-size: inherit;
-    font-family: inherit;
-    color: inherit;
-    background-color: transparent;
+button,
+input {
+  font-size: inherit;
+  font-family: inherit;
+  color: inherit;
+  background-color: transparent;
 }
 button {
-    border: 0.15em solid var(--darkblue);
+  border: 0.15em solid var(--darkblue);
 }
 input {
-    border: none;
-    border-bottom: 0.15em solid var(--darkblue);
-    padding: 0.1em 0.3em;
+  border: none;
+  border-bottom: 0.15em solid var(--darkblue);
+  padding: 0.1em 0.3em;
 }
 
 header {
-    position: relative;
-    background-color: var(--lightCyan);
+  position: relative;
+  background-color: var(--lightCyan);
 }
 header.homepage {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 nav a {
-    text-decoration: none;
-    font-family: futura, Avenir Next, Verdana, Geneva, Tahoma, sans-serif;
-    color: var(--darkblue);
-    padding: 1rem 2rem;
-    margin: 0 1rem;
+  text-decoration: none;
+  font-family: futura, Avenir Next, Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--darkblue);
+  padding: 1rem 2rem;
+  margin: 0 1rem;
 }
 
 nav ul {
-    list-style: none;
-    justify-content: space-between;
+  list-style: none;
+  justify-content: space-between;
 }
 nav li {
-    display: inline-block;
+  display: inline-block;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
 }
 
 header .logo {
-    width: 79px;
-    height: 83px;
+  width: 79px;
+  height: 83px;
 }
 
 h2 {
-    font-family: futura, Avenir Next, Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 3.4rem;
-    color: var(--darkblue);
+  font-family: futura, Avenir Next, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 3.4rem;
+  color: var(--darkblue);
 }
 .beforeTheFold h2 {
-    max-width: 30rem;
+  max-width: 30rem;
 }
 
 .intro {
-    position: relative;
+  position: relative;
 }
 
 .studentZijn {
-    margin: 4rem 0 2rem 3rem;
-    margin: 11vh 0 2rem 3rem;
+  margin: 4rem 0 2rem 3rem;
+  margin: 11vh 0 2rem 3rem;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 .quote {
-    margin-top: 3rem;
-    display: flex;
-    position: relative;
-    z-index: 2;
+  margin-top: 3rem;
+  display: flex;
+  position: relative;
+  z-index: 2;
 }
 .quote img {
-    width: 103px;
-    height: 185px;
-    margin-right: 2rem;
+  width: 103px;
+  height: 185px;
+  margin-right: 2rem;
 }
 
 .quote p {
-    max-width: 25rem;
-    font-size: 1.5rem;
-    font-family: Avenir Next, Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic;
-    font-weight: 500;
-    margin: 0.5em 0;
+  max-width: 25rem;
+  font-size: 1.5rem;
+  font-family: Avenir Next, Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  margin: 0.5em 0;
 }
 
 .quizSpotlight {
-    margin-top: 2rem;
-    font-size: 2rem;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 
 .quizSpotlight a {
-    position: relative;
-    text-decoration: none;
-    background: var(--white);
-    color: var(--darkblue);
-    border: 0.4rem solid var(--darkblue);
-    padding: 1rem 2rem;
-    margin-right: 3rem;
+  position: relative;
+  text-decoration: none;
+  background: var(--white);
+  color: var(--darkblue);
+  border: 0.4rem solid var(--darkblue);
+  padding: 1rem 2rem;
+  margin-right: 3rem;
 }
 .quizSpotlight a:hover {
-    background-color: var(--lightblue);
-    border: 0.4rem solid var(--lightblue);
-    color: var(--white);
+  background-color: var(--lightblue);
+  border: 0.4rem solid var(--lightblue);
+  color: var(--white);
 }
 
 .scroll {
-    display: block;
-    position: absolute;
-    bottom: 0.5rem;
-    left: 0;
-    right: 0;
-    text-align: center;
-    z-index: 1;
+  display: block;
+  position: absolute;
+  bottom: 0.5rem;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 1;
 }
 .scroll a {
-    display: inline-block;
-    color: var(--darkblue);
-    font-size: 1.1rem;
-    text-decoration: none;
-    padding: 0.7rem 1.1rem;
-    font-weight: 500;
-    text-shadow:
-        0 0 1em hsla(0, 0%, 100%, 1),
-        0 0 1em hsla(0, 0%, 100%, 1),
-        0 0 0.1em hsla(0, 0%, 100%, 1);
+  display: inline-block;
+  color: var(--darkblue);
+  font-size: 1.1rem;
+  text-decoration: none;
+  padding: 0.7rem 1.1rem;
+  font-weight: 500;
+  text-shadow: 0 0 1em hsla(0, 0%, 100%, 1), 0 0 1em hsla(0, 0%, 100%, 1),
+    0 0 0.1em hsla(0, 0%, 100%, 1);
 }
 
 .shade {
-    z-index: -1;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 7rem;
-    background: linear-gradient(
-        hsla(0, 0%, 100%, 0),
-        hsla(0, 0%, 100%, 0.6)
-    );
+  z-index: -1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 7rem;
+  background: linear-gradient(hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, 0.6));
 }
 
 .backgroundSquare {
-    z-index: -2;
-    position: absolute;
-    background-color: var(--lightCyan);
+  z-index: -2;
+  position: absolute;
+  background-color: var(--lightCyan);
 }
 
 .header_blueSquare {
-    right: 20%;
-    left: -1000px;
-    left: -100vw;
-    top: -1000px;
-    top: -100vw;
-    bottom: -1rem;
+  right: 20%;
+  left: -1000px;
+  left: -100vw;
+  top: -1000px;
+  top: -100vw;
+  bottom: -1rem;
 
-    z-index: -3;
+  z-index: -3;
 }
 
 .header_photo {
-    background: url(/assets/placeholder.jpg) center center;
-    background-size: cover;
-    right: 0;
-    left: 50%;
-    bottom: 0;
-    top: 20%;
+  background: url(/assets/placeholder.jpg) center center;
+  background-size: cover;
+  right: 0;
+  left: 50%;
+  bottom: 0;
+  top: 20%;
 }
 
-
-
 .randomVerenigingen p:nth-child(odd) {
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: var(--lightblue);
-    color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: var(--lightblue);
+  color: transparent;
 }
 
 .randomVerenigingen p {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
-.underline, .active_link {
-    box-shadow: inset 0 -0.15em 0 var(--yellow);
+.underline,
+.active_link {
+  box-shadow: inset 0 -0.15em 0 var(--yellow);
+}
+
+#postcodeField {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#postcodeField::-webkit-outer-spin-button,
+#postcodeField::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+#postcodeField[type="number"] {
+  -moz-appearance: textfield;
 }
