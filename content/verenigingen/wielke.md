@@ -1,8 +1,8 @@
 ---
-titel: \'t Wielke
+titel: "'t Wielke"
 id: wielke
-naam: \'t Wielke
-verkorte_naam: \'t Wielke
+naam: "'t Wielke"
+verkorte_naam: "'t Wielke"
 konvent: sk
 website: http://www.wielke.be
 social:

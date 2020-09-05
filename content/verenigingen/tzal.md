@@ -1,8 +1,8 @@
 ---
-titel: \'t Zal Wel Gaan
+titel: "'t Zal Wel Gaan"
 id: tzal
-naam: \'t Zal Wel Gaan
-verkorte_naam: \'t Zal Wel Gaan
+naam: "'t Zal Wel Gaan"
+verkorte_naam: "'t Zal Wel Gaan"
 konvent: pfk
 contact: info@tzalwelgaan.be
 website: http://tzalwelgaan.be/
