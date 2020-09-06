@@ -242,7 +242,7 @@ h2 {
 fieldset {
     max-height: 60vh;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     overflow-y: auto;
     margin: auto;
 }
@@ -253,4 +253,11 @@ fieldset p {
 
 fieldset p label input {
     margin-right: 10px;
+}
+
+.buttons { 
+    width: 70%; 
+    margin: 20px auto; 
+    display: flex; 
+    justify-content: space-between;
 }
