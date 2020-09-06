@@ -29,6 +29,10 @@ body {
   padding: 0 1em;
 }
 
+.align .large {
+  max-width: 1500px;
+}
+
 .beforeTheFold,
 main {
   position: relative;
@@ -92,6 +96,8 @@ h2 {
   font-size: 3.4rem;
   color: var(--darkblue);
 }
+
+
 .beforeTheFold h2 {
   max-width: 30rem;
 }
@@ -245,6 +251,10 @@ fieldset {
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     overflow-y: auto;
     margin: auto;
+}
+
+fieldset p label {
+  display: flex;
 }
 
 fieldset p {

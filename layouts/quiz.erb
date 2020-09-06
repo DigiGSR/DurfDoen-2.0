@@ -1,11 +1,11 @@
-<div style="margin: auto; width: 70%;">
+<div>
   <% @items.find_all("/quiz/*").each_with_index do |quest, i| %>
     <div id="question_<%=i+1%>" class="question hidden">
       <%= render '/partials/question.*', question: quest, number: i.to_s %>
     </div>
   <% end %>
 </div>
-<div id="resultWrapper" style="width: 28vw;" style="display: flex; flex-direction: column;" class="hidden">
+<div id="resultWrapper" class="hidden">
   <% all_groups().each do |group| %>
     <div id="d_<%= group[:id] %>" style="display: none;">
       <%= render '/partials/group_small.*', group: group %>

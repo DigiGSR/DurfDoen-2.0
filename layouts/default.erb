@@ -1,13 +1,21 @@
-<html>
-  <head>
-    <title> Durf Doen! - <%= item[:titel] || item.identifier.without_ext.split('/').last %> </title>
-    <link rel="stylesheet" href="/stylesheets/main.css">
-    <link rel="shortcut icon" href="/assets/favicon.png">
-    <meta charset="UTF-8">
-    <%= item[:head] %>
-  </head>
-  <body>
-    <%= render '/partials/navbar.*' %>
-    <%= yield %>
-  </body>
-</html>
+<header class="align homepage">
+  <%= render '/partials/navbar.*' %>
+</header>
+<div class="align large">
+<%= yield %>
+</div>
+<footer class="align">
+  <div>
+    <img src="" alt="">
+    <img src="" alt="">
+    <img src="" alt="">
+    <img src="" alt="">
+    <img src="" alt="">
+    <img src="" alt="">
+    <img src="" alt="">
+  </div>
+  <p>©2020 Gentse studentenraad</p>
+  <div lang="en">
+    <p>Made with ♥ by <a href="https://zeus.gent">Zeus WPI</a></p>
+  </div>
+</footer>

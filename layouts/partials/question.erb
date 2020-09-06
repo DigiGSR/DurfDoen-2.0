@@ -1,4 +1,4 @@
-<h2> <%= question[:vraag] %> </h2>
+<h3> <%= question[:vraag] %> </h3>
 <% if question[:type] == "specialCase1" %>
   <p>
     Geef je postcode in
@@ -9,7 +9,7 @@
   <fieldset>
   <% question[:antwoorden].each_with_index do |answer, idx| %>
     <p>
-    <label style="display:flex">
+    <label>
         <input type=<% if question[:type] == "meerkeuze" %>"checkbox"<% else %>"radio"<% end %>
           value='<%=number+"#"+idx.to_s%>' name=<%= number %> >
         <%= answer[:tekst] %>

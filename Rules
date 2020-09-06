@@ -68,6 +68,7 @@ compile '/quiz.md' do
   filter :kramdown
   layout '/quiz.*'
   layout '/default.*'
+  layout '/base.*'
   write ext: 'html'
 end
 
