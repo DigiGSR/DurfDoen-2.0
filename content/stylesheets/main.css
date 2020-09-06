@@ -238,3 +238,19 @@ h2 {
 #postcodeField[type="number"] {
   -moz-appearance: textfield;
 }
+
+fieldset {
+    max-height: 60vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    overflow-y: auto;
+    margin: auto;
+}
+
+fieldset p {
+    margin: 15px 10px;
+}
+
+fieldset p label input {
+    margin-right: 10px;
+}

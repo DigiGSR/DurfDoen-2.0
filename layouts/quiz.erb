@@ -1,7 +1,7 @@
 <div style="margin: auto; width: 70%;">
   <% @items.find_all("/quiz/*").each_with_index do |quest, i| %>
     <div id="question_<%=i+1%>" class="question hidden">
-      <%= render '/partials/question.*', question: quest %>
+      <%= render '/partials/question.*', question: quest, number: i.to_s %>
     </div>
   <% end %>
 </div>

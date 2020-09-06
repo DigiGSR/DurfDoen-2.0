@@ -104,36 +104,36 @@ antwoorden:
     type: dropdown
     antwoorden:
       - tekst: Vlaams-Nationalistisch en conservatief
-        verenigingenen:
+        verenigingen:
           - naam: kvhv
           - naam: nsv
 
       - tekst: Antikapitalistisch
-        verenigingenen:
+        verenigingen:
           - naam: als
 
       - tekst: Christendemocraat
-        verenigingenen:
+        verenigingen:
           - naam: cds
 
       - tekst: Zeer socialistisch
-        verenigingenen:
+        verenigingen:
           - naam: comac
 
       - tekst: Groen en links
-        verenigingenen:
+        verenigingen:
           - naam: jgroen
 
       - tekst: Vlaams-republikeins
-        verenigingenen:
+        verenigingen:
           - naam: jongnva
 
       - tekst: Socialistisch
-        verenigingenen:
+        verenigingen:
           - naam: js
 
       - tekst: Liberaal
-        verenigingenen:
+        verenigingen:
           - naam: lvsv
 
   - tekst: radio maken
