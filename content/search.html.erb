@@ -1,0 +1,110 @@
+<div class="search">
+    <div class="search__main">
+        <form id="search_form">
+            <label>Test field: <input type="text"></label>
+            <button type="submit">Submit form</button>
+        </form>
+    </div>
+    <div id="search_wrapper" class="search__result"></div>
+</div>
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+
+<script>
+function clearDiv(element) {
+    while (element.lastElementChild) {
+        element.removeChild(element.lastElementChild);
+    }
+}
+
+function myFunction(event) {
+    doSearch(event.target[0].value);
+    event.preventDefault();
+}
+
+const wrapper = document.getElementById("search_wrapper");
+const form = document.getElementById('search_form');
+form.addEventListener('submit', myFunction);
+
+var doSearch = (e) => {};
+
+function parseUrlParams () {
+    const url = window.location.search;
+    if(!url) return {};
+    const paramsBuilder = {};
+    for(let currentVar of url.substring(1).split("&")) {
+      var pair = currentVar.split('=');
+      paramsBuilder[pair[0]] = decodeURIComponent(pair[1]);
+    }
+
+    return paramsBuilder;
+};
+
+function resetFromUrl() {
+    const urlParams = parseUrlParams();
+
+    if(urlParams["q"]) {
+        doSearch(urlParams["q"]);
+        form[0].value = urlParams["q"];
+    } else {
+        form[0].value = "";
+        clearDiv(wrapper);
+    }
+}
+
+function ready() {
+    function render_results(div, partials) {
+        const create_wrapper= document.createElement('div');
+        for(let partial of partials) {
+            let html = "";
+            switch (partial.kind) {
+                case "vereniging":
+                    html = `<div class="search__partial" onclick="location.href='${partial.url}';">
+                        <p class="search__partial__titel">${partial.titel}</p>` +
+                        (partial.themas ? `<p class="search__partial__themas"> Themas: ${(partial.themas || []).join(", ")}</p>` : "") +
+                        `</div>`;
+                    break;
+                case "konvent":
+                    html = `<div class="search__partial" onclick="location.href='${partial.url}';">
+                        <p class="search__partial__titel">${partial.titel}</p>
+                    </div>`;
+                    break;
+                default:
+                    break;
+            }
+
+            if(html) {
+                create_wrapper.innerHTML = html;
+
+                div.appendChild(create_wrapper.firstChild);
+            }
+        }
+    }
+
+    const documents = <%=  CreateFullTextIndex.new(@items.find_all("**/verenigingen/*") + @items.find_all("**/konventen/*")).call.to_json %>;
+    const partials = <%= Hash[(partial_konventen + partial_verenigingen).map { |x| [x[:url], x] }].to_json  %>;
+
+    const index = lunr(function () {
+        this.field('id', {boost: 15});
+        this.field('title', {boost: 10});
+        this.field('verkort', {boost: 8});
+        this.field('konvent', {boost: 3});
+        this.field('body');
+        this.ref('url');
+
+        documents.forEach(function(i) { this.add(i); }, this);
+    });
+
+    doSearch = (query) => {
+        clearDiv(wrapper);
+        render_results(wrapper, index.search(query).map(i => partials[i.ref]));
+
+        window.history.pushState("search state", "", window.location.pathname + "?q="+query);
+    };
+
+    resetFromUrl();
+}
+
+document.addEventListener("DOMContentLoaded", ready);
+window.addEventListener("popstate", resetFromUrl);
+
+</script>

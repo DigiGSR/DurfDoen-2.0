@@ -5,3 +5,4 @@ use_helper Nanoc::Helpers::ChildParent
 use_helper NavigationHelper
 use_helper VerenigingenHelper
 use_helper FontAwesomeHelper
+use_helper SearchHelper

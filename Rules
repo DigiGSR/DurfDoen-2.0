@@ -72,6 +72,13 @@ compile '/quiz.md' do
   write ext: 'html'
 end
 
+compile '/search.html.erb' do
+  filter :erb
+  layout '/default.*'
+  layout '/base.*'
+  write ext: 'html'
+end
+
 compile '/*.md' do
   filter :kramdown
   layout '/default.*'
@@ -98,4 +105,3 @@ layout '/**/*', :erb
 compile '/**/*' do
   write item.identifier.to_s
 end
-
