@@ -6,3 +6,4 @@ use_helper NavigationHelper
 use_helper VerenigingenHelper
 use_helper FontAwesomeHelper
 use_helper SearchHelper
+use_helper UtilHelper

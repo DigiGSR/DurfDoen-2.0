@@ -1,0 +1,13 @@
+<div class="link" onclick="window.location.href = '<%= item.path %>'">
+    <div class="link__img">
+        <img src="https://dsa.ugent.be/api/verenigingen/<%= abbreviation(item) %>/logo?size=small" alt="<%= item[:naam] %>">
+    </div>
+    <div class="link__content">
+        <h3 class="link__title">
+            <%= item[:titel] %>
+        </h3>
+        <p class="link__text">
+            <%= make_some(truncate(item.compiled_content)) %>
+        </p>
+    </div>
+</div>

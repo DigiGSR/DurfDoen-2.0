@@ -97,7 +97,6 @@ h2 {
   color: var(--darkblue);
 }
 
-
 .beforeTheFold h2 {
   max-width: 30rem;
 }
@@ -246,11 +245,11 @@ h2 {
 }
 
 fieldset {
-    max-height: 60vh;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    overflow-y: auto;
-    margin: auto;
+  max-height: 60vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  overflow-y: auto;
+  margin: auto;
 }
 
 fieldset p label {
@@ -258,16 +257,46 @@ fieldset p label {
 }
 
 fieldset p {
-    margin: 15px 10px;
+  margin: 15px 10px;
 }
 
 fieldset p label input {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
-.buttons { 
-    width: 70%; 
-    margin: 20px auto; 
-    display: flex; 
-    justify-content: space-between;
+.buttons {
+  width: 70%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  display: grid;
+  grid-template-columns: minmax(min-content, 20%) 80%;
+
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+
+  margin: 30px auto;
+
+  gap: 20px;
+}
+
+.link:hover {
+  cursor: pointer;
+}
+
+.link__img {
+  justify-self: center;
+  align-self: center;
+
+  min-width: 100px;
+}
+
+@media only screen and (max-width: 400px) {
+  .link {
+    grid-template-columns: auto;
+  }
 }
