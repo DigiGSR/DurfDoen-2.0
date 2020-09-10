@@ -2,5 +2,9 @@
 titel: FLUX
 id: flux
 naam: FLUX
-konvent: sk
+verkorte_naam: FLUX
+konvent: wvk
+contact: flux@student.ugent.be
+themas:
+  -  lifestyle
 ---
