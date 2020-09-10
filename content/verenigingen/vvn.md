@@ -4,7 +4,7 @@ id: vvn
 naam: VVN
 verkorte_naam: VVN
 themas:
-  - wetenschap-techniek
+  - wetenschap en techniek
 konvent: wvk
 logo: placeholder.png
 contact: vvn@student.ugent.be

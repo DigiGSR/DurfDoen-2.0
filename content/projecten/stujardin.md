@@ -8,7 +8,7 @@ social:
   - platform: facebook
     link: https://www.facebook.com/stujardin/
 themas:
-  -  duurzaamheid, groen
+  -  duurzaamheid en groen
 ---
 
 StuJardin teelt samen met studenten groenten, fruit en kruiden in de stad. Hiermee willen we studenten overtuigen dat stadstuinieren plezierig en noodzakelijk is. Het project is een stap naar een stedelijke samenleving die meer berust op zelfvoorziening en korte keten.

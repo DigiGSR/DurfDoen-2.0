@@ -12,7 +12,7 @@ social:
   - platform: instagram
     link: www.instagram.com/minosgent
 themas:
-  -  politiek-filosofisch
+  -  politiek en filosofisch
   - internationaal
 ---
 

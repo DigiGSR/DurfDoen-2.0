@@ -4,5 +4,5 @@ id: stujardin
 naam: StuJardin
 konvent: gsr
 themas:
-  -  duurzaamheid, groen
+  -  duurzaamheid en groen
 ---

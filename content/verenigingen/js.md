@@ -9,7 +9,7 @@ social:
   - platform: facebook
     link: https://www.facebook.com/js.stugent/
 themas:
-  -  politiek-filosofisch
+  -  politiek en filosofisch
 ---
 
 Het studentennetwerk "Jongsocialisten Student" is opgericht om gezamenlijke actie tussen de verschillende studentenafdelingen op te zetten. Het is een ontmoetingsplek waar studenten uit de verschillende steden elkaar beter kunnen leren kennen.

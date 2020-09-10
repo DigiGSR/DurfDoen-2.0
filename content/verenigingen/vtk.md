@@ -15,7 +15,7 @@ social:
   - platform: youtube
     link: https://www.youtube.com/channel/UCkVWU6oSMq0IZWHbOa7WrVw
 themas:
-  -  faculteiten
+  -  faculteit
 ---
 De Vlaamse Technische Kring is de overkoepelende kring voor alle studenten burgerlijk ingenieur en burgerlijk ingenieur-architect aan de universiteit van Gent. Jaarlijks worden er tal van evenementen georganiseerd. Deze kunnen zowel cultureel, feestelijk, sportief alsook educatief en job-gerelateerd zijn.
 

@@ -4,7 +4,7 @@ id: zeus
 naam: Zeus WPI
 verkorte_naam: Zeus WPI
 themas:
-  - wetenschap-techniek
+  - wetenschap en techniek
 konvent: wvk
 logo: placeholder.png
 contact: bestuur@zeus.ugent.be

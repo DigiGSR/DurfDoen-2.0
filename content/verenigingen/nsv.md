@@ -9,7 +9,7 @@ social:
   - platform: facebook
     link: https://www.facebook.com/NationalistischeStudentenverenigingGent/
 themas:
-  -  politiek-filosofisch
+  -  politiek en filosofisch
 ---
 
 De Nationalistische Studentenvereniging ontstond in de jaren '70. Zoals de naam doet vermoeden is onze missie om het nationalisme op een principiële en radicale manier uit te dragen. Als NSV! kiezen we resoluut voor de Vlaamse onafhankelijkheid. Elk volk heeft immers het recht om haar eigen lot te bepalen. Elk volk heeft het recht op een eigen natie. Ook het onze.

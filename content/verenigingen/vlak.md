@@ -12,7 +12,7 @@ social:
   - platform: facebook
     link: https://www.facebook.com/VlaamseLogopedischeenAudiologischeKring/
 themas:
-  -  faculteiten
+  -  faculteit
 ---
 VLAK (Vlaamse Logopedische Audiologische Kring) is een Gentse studentenvereniging voor de studenten logopedische en audiologische wetenschappen van de Universiteit van Gent.
 Wij zijn opgericht door T. Proost in 2001 en worden elk jaar wat groter.

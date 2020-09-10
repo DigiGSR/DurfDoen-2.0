@@ -13,7 +13,7 @@ social:
 konvent: ik
 themas:
   -  internationaal
-  -  wetenschap-techniek
+  -  wetenschap en techniek
 ---
 
 BEST is an international student organisation uniting technology students from all over Europe. Our goal is to develop activities for those students in order to help them become more internationally minded.

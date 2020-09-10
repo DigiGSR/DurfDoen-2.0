@@ -6,7 +6,7 @@ verkorte_naam: Comac
 konvent: pfk
 website: https://www.comac-studenten.be/
 themas:
-  -  politiek-filosofisch
+  -  politiek en filosofisch
 ---
 
 Comac is de nationale studentenbeweging van de PVDA, dat wil zeggen dat we zowel aan Vlaamse als Waalse universiteiten actief zijn.

@@ -7,7 +7,7 @@ konvent: fk
 website: www.vrg-gent.be
 contact: praeses@vrg-gent.be
 themas:
-  -  faculteiten
+  -  faculteit
 ---
 Speelde jij vroeger al voor advocaatje? Win jij elke discussie met een vurig pleidooi? Weet jij iedereen te overtuigen met je retorisch talent? Jij klinkt als een toekomstige jurist! Voor de Gentse juristen in spe is er het Vlaams Rechtsgenootschap. Het VRG is de grootste studentenvereniging van Gent, waar iedereen terecht kan voor inspanning én ontspanning.
 Natuurlijk is er elk jaar onze grootse openingsTD in de Vooruit, waar we met meer dan 1000 confraters uit de bol gaan. In... maart doen we dat nog eens over op het galabal. Maar ook sporters komen aan hun trekken op de vele wedstrijden en tornooien waaraan het VRG deelneemt. Cultuurliefhebbers kunnen genieten van een jaarlijks toneel of revue, of van verschillende andere uitstappen zoals de cultuurreis.
