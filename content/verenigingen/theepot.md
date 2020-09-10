@@ -12,7 +12,7 @@ social:
     link: https://twitter.com/moedertheepot
   - platform: instagram
     link: https://instagram.com/moeder.theepot
-themes:
+themas:
   -  lifestyle
 ---
 
