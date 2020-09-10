@@ -7,6 +7,6 @@ konvent: fk
 website: www.vppk.be
 contact: praeses@vppk.be
 themas:
-  -  faculteiten
+  -  faculteit
 ---
 FACULTAIRE KRING DER STUDENTEN PSYCHOLOGIE & PEDAGOGISCHE WETENSCHAPPEN.
