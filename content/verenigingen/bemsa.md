@@ -14,7 +14,7 @@ social:
 themas:
   -  wetenschap-techniek
 showcase:
-  - photo: /assets/logos/BemsaA.jpg
+  - photo: /assets/logos/bemsaA.jpg
   - photo: /assets/logos/BemsaB.jpg
   - photo: /assets/logos/BemsaC.jpg
 ---
