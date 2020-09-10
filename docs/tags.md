@@ -22,7 +22,5 @@
 - SK: Steden en streekclubs enzo
 - HK: Homes
 - PFK: Politiek en filosofisch
-- Massa: massacantus
 - Schamper
 - Urgentfm
-- 12UL: 12urenloop
