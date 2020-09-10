@@ -314,11 +314,20 @@ fieldset p label input {
   }
 }
 
-.tile-grid {
+.tile-grid--flex {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.tile-grid {
+  display: grid;
+  gap: 0.5rem;
+
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: repeat(3, minmax(33%, 12vw));
 }
 
 .tile {
@@ -333,12 +342,12 @@ fieldset p label input {
 
 .tile--small {
   min-width: 50px;
-  max-width: 100px;
+  max-width: 50px;
 }
 
 .tile--medium {
   min-width: 150px;
-  max-width: 200px;
+  max-width: 33%;
 }
 
 .tile::before {
@@ -387,4 +396,40 @@ fieldset p label input {
 .clickable:hover {
   cursor: pointer;
   transform: scale(1.05);
+}
+
+.split-2 {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: space-evenly;
+}
+
+.split-2-1,
+.split-2-2 {
+  min-width: 400px;
+  flex-basis: 1;
+}
+
+.split-2-2 {
+  width: 45%;
+}
+
+.split-title {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .tile-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 0.1rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .tile-grid {
+    grid-template-columns: auto;
+
+    gap: 0.1rem;
+  }
 }
