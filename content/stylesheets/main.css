@@ -7,6 +7,10 @@
   --yellow: #fed318;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   padding: 0;
@@ -277,7 +281,7 @@ fieldset p label input {
 
   background-color: #fff;
   border-radius: 4px;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
 
   margin: 30px auto;
 
@@ -305,4 +309,45 @@ fieldset p label input {
   .link {
     grid-template-columns: auto;
   }
+}
+
+.tile-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 1rem;
+}
+
+.tile {
+  background: black;
+  padding: 1rem;
+  display: grid;
+  place-items: center;
+
+  position: relative;
+}
+
+.tile::before {
+  content: "";
+  display: block;
+  padding-bottom: 80%;
+  padding-left: 80%;
+
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.tile__image {
+  max-height: 80%;
+  max-width: 80%;
+  height: 80%;
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.tile__title {
+  position: absolute;
+  bottom: 0;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px #333;
+  margin: 5px;
 }
