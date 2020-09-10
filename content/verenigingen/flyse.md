@@ -17,6 +17,10 @@ social:
     link: https://twitter.com/FLYSE_BE
 themas:
   -  economie-development
+showcase:
+  - photo: /assets/logos/flyseA.jpg
+  - photo: /assets/logos/flyseB.jpg
+  - photo: /assets/logos/flyseC.jpg
 ---
 
 De Flanders Youth Society for Entrepreneurship, kortweg FLYSE, inspireert reeds 9 jaar tot ondernemerschap in het Gentse studentenmilieu. Het FLYSE-bestuur en alle FLYSE-leden zijn stuk voor stuk jonge, gemotiveerde studenten die ernaar streven om ondernemerschap te promoten.
