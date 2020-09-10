@@ -15,4 +15,6 @@ themas:
   -  faculteit
 ---
 
-Dentalia, opgericht in 1941, is de Gentse Studentenvereniging der Tandheelkunde.
+Dentalia is dé studentenvereniging bij uitstek voor alle tandartsen in spé. Door de gezellige grootte van onze studierichting, bestaat een hechte band tussen alle leden; iedereen kent iedereen! Over de jaren heen smeed je hechte vriendschappen die levenslang meegaan. Tenslotte worden we ook elkaars collega’s.
+Waar de UGent stopt, gaat Dentalia verder. Dit door het organiseren van tal van feest- en sportactiviteiten, waaronder het jaarlijkse Galabal, een kaas- & wijnavond, de legendarische sneukeltochten, een tweejaarlijkse sportdag met onze Leuvense collega's en uiteraard de onvergetelijke cantussen. Ook met bevriende kringen slaan we de handen in elkaar: Doctors VS Dentists, 12-urenloop, zwemmarathon, Halloweenparty met VTK, dagdisco met de UZ-kringen,… Wij zorgen voor het nodige vertier en afleiding om de zorgen van het dagelijks leven in de P8 te vergeten. Je bent méér dan welkom op een activiteit om van ons charmant studentleven te proeven. 
+
