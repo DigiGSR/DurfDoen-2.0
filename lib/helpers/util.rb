@@ -1,8 +1,4 @@
 module UtilHelper
-    # def truncate(string, max=30)
-    #     string.length > max ? "#{string[0...max]}..."  : string
-    # end
-
     def truncate(string, max=20, delim=" ")
         parts = string.split(delim)
         parts.length > max ?

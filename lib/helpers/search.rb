@@ -29,7 +29,7 @@ module SearchHelper
     def partial_verenigingen
         @items.find_all("**/verenigingen/*").map do |x|
         {
-            titel: x[:titel],
+            titel: x[:titel] || x[:naam],
             url: x.path,
             konvent: x[:konvent],
             abbrev: abbreviation(x),

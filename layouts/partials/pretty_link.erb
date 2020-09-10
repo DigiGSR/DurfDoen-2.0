@@ -4,7 +4,7 @@
     </div>
     <div class="link__content">
         <h3 class="link__title">
-            <%= item[:titel] %>
+            <%= item[:titel] || item[:naam] %>
         </h3>
         <p class="link__text">
             <%= text_segment(item.compiled_content) %>

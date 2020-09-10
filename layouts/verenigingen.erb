@@ -12,8 +12,7 @@
     <h1> Konventen en projecten </h1>
     <ul>
       <% for item in konventen_and_projecten %>
-        <%= image_tag item %>
-        <li> <%= link_to(item[:naam], item) %> </li>
+        <%= render '/partials/pretty_link.*', :item => item %>
       <% end %>
     </ul>
   </div>
