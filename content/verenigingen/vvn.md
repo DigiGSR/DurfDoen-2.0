@@ -13,7 +13,9 @@ social:
   - platform: facebook
     link: https://www.facebook.com/vvn.ugent
 showcase:
-  - photo: image.png
+  - photo: /assets/logos/VVNA.jpg
+  - photo: /assets/logos/VVNB.jpg
+  - photo: /assets/logos/VVNC.jpg
 ---
 
 # Over ons
