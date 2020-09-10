@@ -15,8 +15,9 @@ social:
   - platform: twitter
     link: https://twitter.com/IAASBelgium
 themas:
-  -  internationaal
+  - internationaal
   - wetenschap-techniek
+  - duurzaamheid-groen
 showcase:
   - photo: /assets/logos/IAASA.jpg
   - photo: /assets/logos/IAASB.jpg
