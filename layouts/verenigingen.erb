@@ -1,22 +1,23 @@
 <div>
-  <%# <div class="horz-child">
+  <div class="horz-child">
     <h1> Thema's </h1>
     <ul>
       <% for thema in themas %>
-      <%#  <%= image_tag thema %>
-        <%#<li> <%= link_to(thema[:naam], thema) %> </li>
-     <%# <% end %>
-    <%#</ul>
-  </div> %>
+        <li> <%= thema[:naam] %> </li>
+      <% end %>
+    </ul>
+  </div>
+  <div>
     <h1> Konventen en projecten </h1>
     <div class="tile-grid">
       <% for item in konventen %>
-        <div class="tile clickable" onclick="window.location.href = '<%= item.path %>'">
+        <div class="tile clickable tile--medium" onclick="window.location.href = '<%= item.path %>'">
           <img class="tile__image" src="https://dsa.ugent.be/api/verenigingen/<%= abbreviation(item) %>/logo?size=medium" alt="<%= item[:naam] %>">
-          <p class="tile__title"> <%= item[:titel] || item[:naam] %> </p>
+          <p class="tile__title tile__title--medium"> <%= item[:titel] || item[:naam] %> </p>
         </div>
       <% end %>
     </div>
+  </div>
 </div>
 
 <style>
