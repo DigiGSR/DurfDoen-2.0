@@ -15,7 +15,7 @@ social:
   - platform: youtube
     link: https://www.youtube.com/channel/UCkVWU6oSMq0IZWHbOa7WrVw
 themas:
-  -  faculteiten
+  -  faculteit
 showcase:
   - photo: /assets/logos/VTKA.jpg
   - photo: /assets/logos/VTKB.jpg
