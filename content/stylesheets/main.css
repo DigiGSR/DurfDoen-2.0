@@ -283,15 +283,18 @@ fieldset p label input {
   border-radius: 4px;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
 
+  transition: 0.3s;
+  transition-property: box-shadow;
+
   margin: 30px auto;
 
   gap: 20px;
-
   padding: 0.5rem;
 }
 
 .link:hover {
   cursor: pointer;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 .link__img {
