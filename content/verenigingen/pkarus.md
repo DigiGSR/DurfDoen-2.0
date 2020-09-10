@@ -14,7 +14,7 @@ social:
   - platform: instagram
     link: https://www.instagram.com/pkarusgent/
 themas:
-  -  wetenschap en techniek
+  -  wetenschap-techniek
 showcase:
   - photo: /assets/logos/PkarusA.jpg
   - photo: /assets/logos/PkarusB.jpg
