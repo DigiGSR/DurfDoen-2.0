@@ -12,7 +12,7 @@ social:
   - platform: twitter
     link: https://twitter.com/OAKGent
 themas:
-  -  faculteiten
+  -  faculteit
 ---
 
 De Oosterse Afrikaanse Kring, kortweg de OAK, is de studentenkring voor leerlingen van de richtingen sinologie, indologie, arabistiek en afrikanistiek. Naast het organiseren van de boekenverkoop en het voorzien van studietips waar nodig, verzorgt
