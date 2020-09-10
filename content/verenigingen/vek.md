@@ -7,7 +7,7 @@ konvent: fk
 website: http://www.vek.be/
 contact: praeses@vek.be
 themas:
-  -  faculteiten
+  -  faculteit
 ---
 Als sinds 1923 is de Vlaamse Economische Kring de studentenvereniging van de hele Faculteit Economie en Bedrijfskunde. Onze kalender staat bol van studentikoze activiteiten: van bierbowlen tot paintballen, van citytrips tot skireizen en van kroegentochten tot ons befaamd galabal.
 Het centrum van onze vereniging is de Yucca, het enige studentencafé in Gent waar je aan zeer studentikoze prijzen een dik feestje kan bouwen of gewoon kan genieten van ons geweldig terras!
