@@ -14,6 +14,10 @@ social:
     link: https://fetlife.com/users/4967510
 themes:
   -  lifestyle
+showcase:
+  - photo: /assets/logos/KajiraA.jpg
+  - photo: /assets/logos/KajiraB.jpg
+  - photo: /assets/logos/KajiraC.jpg
 ---
 
 Wie zijn we?
