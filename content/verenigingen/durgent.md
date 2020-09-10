@@ -1,7 +1,7 @@
 ---
-naam: d'Urgent
-verkorte_naam: d'Urgent
-titel: UGent1010
+naam: D'URGENT
+verkorte_naam: D'URGENT
+titel: D'URGENT
 id: ugent1010
 naam: UGent1010
 konvent: wvk
