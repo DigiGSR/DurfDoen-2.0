@@ -6,8 +6,8 @@ id: stuveco
 naam: Studentenraad Faculteit Economie en Bedrijfskunde
 konvent: gsr
 website: stuveco.ugent.be
-themes:
-  -  studentenraad
+themas:
+  -  engagement
 showcase:
   - photo: /assets/logos/StuvecoA.jpg
   - photo: /assets/logos/StuvecoB.jpg
