@@ -7,7 +7,7 @@ konvent: fk
 website: www.vrg-gent.be
 contact: praeses@vrg-gent.be
 themas:
-  -  faculteiten
+  -  faculteit
 showcase:
   - photo: /assets/logos/VRGA.jpg
   - photo: /assets/logos/VRGB.jpg
