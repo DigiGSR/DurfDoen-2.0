@@ -273,15 +273,17 @@ fieldset p label input {
 
 .link {
   display: grid;
-  grid-template-columns: minmax(min-content, 20%) 80%;
+  grid-template-columns: minmax(min-content, 25%) 80%;
 
   background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
 
   margin: 30px auto;
 
   gap: 20px;
+
+  padding: 0.5rem;
 }
 
 .link:hover {
@@ -293,6 +295,10 @@ fieldset p label input {
   align-self: center;
 
   min-width: 100px;
+}
+
+.link__content {
+  margin-right: 20px;
 }
 
 @media only screen and (max-width: 400px) {

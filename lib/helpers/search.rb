@@ -32,8 +32,9 @@ module SearchHelper
             titel: x[:titel],
             url: x.path,
             konvent: x[:konvent],
-            themas: x[:themas],
-            kind: "vereniging"
+            abbrev: abbreviation(x),
+            kind: "vereniging",
+            text: text_segment(x.compiled_content)
         }
         end
     end
@@ -41,9 +42,11 @@ module SearchHelper
     def partial_konventen
         @items.find_all("**/konventen/*").map do |x|
         {
-            titel: x[:titel],
+            titel: x[:titel] || x[:naam],
             url: x.path,
-            kind: "konvent"
+            abbrev: abbreviation(x),
+            kind: "konvent",
+            text: text_segment(x.compiled_content)
         }
         end
     end

@@ -7,7 +7,7 @@
             <%= item[:titel] %>
         </h3>
         <p class="link__text">
-            <%= make_some(truncate(item.compiled_content)) %>
+            <%= text_segment(item.compiled_content) %>
         </p>
     </div>
 </div>

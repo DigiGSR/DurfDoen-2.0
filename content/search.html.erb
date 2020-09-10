@@ -55,27 +55,25 @@ function ready() {
     function render_results(div, partials) {
         const create_wrapper= document.createElement('div');
         for(let partial of partials) {
-            let html = "";
-            switch (partial.kind) {
-                case "vereniging":
-                    html = `<div class="search__partial" onclick="location.href='${partial.url}';">
-                        <p class="search__partial__titel">${partial.titel}</p>` +
-                        (partial.themas ? `<p class="search__partial__themas"> Themas: ${(partial.themas || []).join(", ")}</p>` : "") +
-                        `</div>`;
-                    break;
-                case "konvent":
-                    html = `<div class="search__partial" onclick="location.href='${partial.url}';">
-                        <p class="search__partial__titel">${partial.titel}</p>
-                    </div>`;
-                    break;
-                default:
-                    break;
-            }
+            const html = `<div class="link" onclick="window.location.href = '${partial.url}'">
+                    <div class="link__img">
+                        <img src="https://dsa.ugent.be/api/verenigingen/${partial.abbrev}/logo?size=small" alt="${partial.titel}">
+                    </div>
+                    <div class="link__content">
+                        <h3 class="link__title">
+                            ${partial.titel} (${partial.kind})
+                        </h3>
+                        <p class="link__text">
+                            ${partial.text}
+                        </p>
+                    </div>
+                </div>`;
 
             if(html) {
                 create_wrapper.innerHTML = html;
-
                 div.appendChild(create_wrapper.firstChild);
+
+                console.log(create_wrapper.firstChild);
             }
         }
     }
