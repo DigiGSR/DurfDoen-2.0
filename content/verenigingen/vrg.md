@@ -9,6 +9,9 @@ contact: praeses@vrg-gent.be
 themas:
   -  faculteiten
 ---
-Speelde jij vroeger al voor advocaatje? Win jij elke discussie met een vurig pleidooi? Weet jij iedereen te overtuigen met je retorisch talent? Jij klinkt als een toekomstige jurist! Voor de Gentse juristen in spe is er het Vlaams Rechtsgenootschap. Het VRG is de grootste studentenvereniging van Gent, waar iedereen terecht kan voor inspanning én ontspanning.
-Natuurlijk is er elk jaar onze grootse openingsTD in de Vooruit, waar we met meer dan 1000 confraters uit de bol gaan. In... maart doen we dat nog eens over op het galabal. Maar ook sporters komen aan hun trekken op de vele wedstrijden en tornooien waaraan het VRG deelneemt. Cultuurliefhebbers kunnen genieten van een jaarlijks toneel of revue, of van verschillende andere uitstappen zoals de cultuurreis.
-Maar dat is lang niet alles! Ook op gebied van studie heeft het VRG veel in petto. Je boeken en wetboeken kan je steeds aan de scherpste prijs bekomen op onze eigen VRG-cursusdienst. Verwacht je daarnaast maar aan een uitgebreide examenbrochure met hints & tips, leerstofoverzichten en representatieve examenvragen. Ook jobinfoavonden en de jobbeurs staan jaarlijks op het programma. Om je retorische vaardigheden te testen? kan je deelnemen aan onze pleitwedstrijden in de Gentse hoven en rechtbanken.
+Het Vlaams Rechtsgenootschap Gent is de grootste Gentse studentenvereniging voor de juristen in opleiding. Wij zorgen doorheen het hele jaar voor tal van activiteiten die het studentenleven de mooiste tijd van het leven maken!
+
+Zo organiseren we elk jaar een OpeningsTD in de Vooruit, waar we met meer dan 1000 confraters de boel op stelten zetten. In het tweede semester pakken we uit met een fantastisch Galabal. Ook de sportievelingen komen aan hun trekken, aangezien we wekelijks aan wedstrijden en toernooien meedoen van meer dan 15 verschillende sporten.
+Cultuur mag zeker ook niet missen. Geniet mee van een zelfgeschreven toneelstuk en waaier aan interessante en verrijkende uitstapjes en activiteiten!
+
+Daarnaast helpen we de studenten waar nodig door boeken te verkopen aan de scherpste prijzen. We bieden eveneens tal van tips & tricks, notities, samenvattingen en examenvragen aan die we verzameld hebben in de afgelopen jaren. Ook jobinfoavonden, pleitworkshops, pleitwedstrijden en onze fameuze VRG Jobbeurs (de grootste in België voor juridische beroepen) zijn fantastische evenementen om de student voor te bereiden op het latere werkleven.
