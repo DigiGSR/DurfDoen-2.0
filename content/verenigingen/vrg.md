@@ -8,6 +8,10 @@ website: www.vrg-gent.be
 contact: praeses@vrg-gent.be
 themas:
   -  faculteiten
+showcase:
+  - photo: /assets/logos/VRGA.jpg
+  - photo: /assets/logos/VRGB.jpg
+  - photo: /assets/logos/VRGC.jpg
 ---
 Het Vlaams Rechtsgenootschap Gent is de grootste Gentse studentenvereniging voor de juristen in opleiding. Wij zorgen doorheen het hele jaar voor tal van activiteiten die het studentenleven de mooiste tijd van het leven maken!
 
