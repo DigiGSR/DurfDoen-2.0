@@ -13,6 +13,10 @@ social:
     link: https://www.facebook.com/hilok.gent/
 themas:
   -  faculteit
+showcase:
+  - photo: /assets/logos/HILOKA.jpg
+  - photo: /assets/logos/HILOKB.jpg
+  - photo: /assets/logos/HILOKC.jpg
 ---
 
 Het 'Hoger Instituut voor Lichamelijke Opvoeding en Kinesitherapie', kortom HILOK, is bij uitstek de sportiefste studentenvereniging van Gent. Zij voorzien de Kine en LO studenten van de nodige studentikoze activiteiten, maar uiteraard is iedereen telkens welkom! Het activiteitenaanbod bestaat uit klein - en grootschalige fuiven, een spetterend galabal, culturele uitstappen, een fantastische skireis, sportwedstrijden en zoveel meer.
