@@ -3,7 +3,7 @@
   <p>
     Geef je postcode in
   </p>
-  <input id="postcodeField" type=number>
+  <input id="postcodeField" type=number placeholder=9000>
 <%else%>
 <form id="<%= number %>_form">
   <fieldset>
@@ -49,7 +49,7 @@
 
     const handler = () => {
       const selected = postcodes[postcodeField.value] || [];
-      
+
       // Update results
       save_answers(selected);
       del_answers(last_answered);
@@ -77,7 +77,7 @@
       <% end %>
 
       const formElement = document.getElementById("<%= number %>_form");
-  
+
       formElement.addEventListener('change', () => {
           for (let la of last_answered) {
               if (sub_questions[la]) {
@@ -90,12 +90,12 @@
                   if (sub) {
 
                     [...sub.elements].filter(e => e.nodeName == "INPUT").forEach(e => e.checked = false);
-                    
+
                     sub.dispatchEvent(new Event('change'));
                   }
               }
           }
-  
+
           const selected = [...formElement.elements].filter(e => e.nodeName == "INPUT").filter(e => e.checked).map(e => e.value || e.text);
 
           // Update results

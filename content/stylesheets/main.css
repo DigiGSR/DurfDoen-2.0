@@ -315,42 +315,62 @@ fieldset p label input {
 }
 
 .tile-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  grid-gap: 1rem;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .tile {
-  background: black;
-  padding: 1rem;
-  display: grid;
-  place-items: center;
+  min-width: 200px;
+  max-width: 300px;
+  flex: 1 0 calc(25% - 10px);
+  margin: 5px;
+  background: #111;
 
   position: relative;
 }
 
 .tile::before {
   content: "";
-  display: block;
-  padding-bottom: 80%;
-  padding-left: 80%;
-
-  grid-area: 1 / 1 / 2 / 2;
+  float: left;
+  padding-top: 100%;
 }
 
 .tile__image {
-  max-height: 80%;
-  max-width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   height: 80%;
-  grid-area: 1 / 1 / 2 / 2;
+  width: auto;
 }
 
 .tile__title {
   position: absolute;
   bottom: 0;
-  font-weight: bold;
+  left: 0;
+  width: 100%;
+  max-width: 100%;
+
+  font-size: 1.5rem;
+
   text-align: center;
+  font-weight: bold;
   color: white;
   text-shadow: 2px 2px #333;
-  margin: 5px;
+
+  padding: 5px;
+}
+
+.clickable {
+  transform: scale(1);
+  transition: ease-in 0.2s;
+
+  transition-property: transform;
+}
+
+.clickable:hover {
+  cursor: pointer;
+  transform: scale(1.05);
 }

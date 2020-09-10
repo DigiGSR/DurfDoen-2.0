@@ -11,9 +11,9 @@
     <h1> Konventen en projecten </h1>
     <div class="tile-grid">
       <% for item in konventen %>
-        <div class="tile" onclick="window.location.href = '<%= item.path %>'">
+        <div class="tile clickable" onclick="window.location.href = '<%= item.path %>'">
           <img class="tile__image" src="https://dsa.ugent.be/api/verenigingen/<%= abbreviation(item) %>/logo?size=medium" alt="<%= item[:naam] %>">
-          <h3 class="tile__title"> <%= item[:titel] || item[:naam] %> </h3>
+          <p class="tile__title"> <%= item[:titel] || item[:naam] %> </p>
         </div>
       <% end %>
     </div>
