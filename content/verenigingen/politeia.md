@@ -14,6 +14,6 @@ social:
   - platform: facebook
     link: https://www.facebook.com/politeiaonline/
 themas:
-  -  faculteiten
+  -  faculteit
 ---
 Politeia is dé studentenkring voor Pol en Soc’ers. Naast de klassieke activiteiten die studentenverenigingen organiseren – zoals cantussen en feestjes- staat Politeia garant voor een breed spectrum aan diverse culturele, sportieve en creatieve activiteiten. Gaande van het uittesten van nieuwe sporten, lezingen, de jaarlijkse skireis, praatcafés tot verhitte debatten. Iedereen vindt dus zonder twijfel zijn gading in dit ruime aanbod!
