@@ -12,6 +12,10 @@ social:
     link: http://www.facebook.com/HomeBoudewijn
 themas:
   -  home
+showcase:
+  - photo: /assets/logos/BoudewijnA.PNG
+  - photo: /assets/logos/BoudewijnB.jpg
+  - photo: /assets/logos/BoudewijnC.jpg
 ---
 
 Home Boudewijn wordt niet voor niets “De Home van ‘t stad!” genoemd. Deze meest excentrisch gelegen Home (aan het UZ) telt 14 verdiepen en 455 kamers, goed voor enorm veel sfeer en activiteit! Het praesidium bestaat uit zo goed als enkel bewoners van de home. Iedere bewoner is ook automatisch lid van de vereniging, maar individuen die zich iets meer willen engageren kunnen zich ook laten dopen en zo dat mooie blauwwitte lint bemachtigen.
