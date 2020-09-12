@@ -1,5 +1,5 @@
 ---
-naam: Ontdek verenigingen
+naam: Ontdek
 navigable: true
 order: 2
 ---

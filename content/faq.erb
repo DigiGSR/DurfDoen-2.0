@@ -3,6 +3,7 @@ naam: FAQ
 navigable: true
 order: 3
 ---
+<div>
 <h1>FAQ — Vaakgestelde vragen</h1>
 <% @items.find_all('/faq/*').each do |question| %>
   <details>
@@ -15,3 +16,4 @@ order: 3
   </details>
 <% end %>
 <p>Geen antwoord gevonden op jouw vraag? <a href="mailto:durfdoen@gentsestudentenraad.be?Subject=Vraag Durf Doen">Contacteer ons!</a></p>
+</div>

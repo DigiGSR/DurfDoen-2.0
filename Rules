@@ -40,6 +40,7 @@ end
 compile '/homepage.md' do
   filter :kramdown
   layout '/homepage.*'
+  layout '/default.*'
   layout '/base.*'
   write '/index.html'
 end

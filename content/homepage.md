@@ -1,5 +1,5 @@
 ---
 naam: Home
-navigable: true
+navigable: false
 order: 1
 ---
