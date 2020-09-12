@@ -323,19 +323,21 @@ fieldset p label input {
 
 .tile-grid {
   display: grid;
-  gap: 0.5rem;
+  column-gap: 0.5rem;
+  row-gap: 0.5rem;
 
   align-items: center;
   justify-items: center;
-  grid-template-columns: repeat(3, minmax(33%, 12vw));
+  align-content: center;
+  grid-template-columns: repeat(3, minmax(33%, 170px));
 }
 
 .tile {
   min-width: 200px;
   max-width: 300px;
   flex: 1 0 calc(25% - 10px);
-  margin: 5px;
-  background: #111;
+  /* margin: 5px; */
+  /* background: #111; */
 
   position: relative;
 }
@@ -347,7 +349,7 @@ fieldset p label input {
 
 .tile--medium {
   min-width: 150px;
-  max-width: 33%;
+  max-width: 200px;
 }
 
 .tile--blue {
@@ -365,7 +367,7 @@ fieldset p label input {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 80%;
+  height: 95%;
   width: auto;
 
   transition: ease-in 0.2s;
@@ -436,34 +438,24 @@ fieldset p label input {
   flex-wrap: wrap;
 
   justify-content: space-evenly;
-}
 
-.split-2-1,
-.split-2-2 {
-  min-width: 400px;
-  flex-basis: 1;
-}
-
-.split-2-2,
-.split-2-1 {
-  width: 45%;
+  gap: 1rem;
 }
 
 .split-title {
   text-align: center;
+
+  min-width: 400px;
 }
 
 @media only screen and (max-width: 600px) {
   .tile-grid {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 0.1rem;
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 300px) {
   .tile-grid {
     grid-template-columns: auto;
-
-    gap: 0.1rem;
   }
 }

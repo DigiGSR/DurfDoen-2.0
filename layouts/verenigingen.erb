@@ -14,7 +14,7 @@
   </div>
   <div class="split-2-2">
     <h1 class="split-title"> Konventen en projecten </h1>
-    <div class="tile-grid--flex">
+    <div class="tile-grid">
       <% for item in konventen %>
         <div class="tile clickable tile--medium" onclick="window.location.href = '<%= item.path %>'">
           <img class="tile__image" src="https://dsa.ugent.be/api/verenigingen/<%= abbreviation(item) %>/logo?size=medium" alt="<%= item[:naam] %>">
