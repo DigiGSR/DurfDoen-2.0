@@ -14,9 +14,9 @@ social:
 themas:
   -  home
 showcase:
-  - photo: https://via.placeholder.com/300.png/09f/fff
-  - photo: https://via.placeholder.com/300.png/09f/fff
-  - photo: https://via.placeholder.com/300.png/09f/fff
+  - photo: /assets/logos/HKA.jpg
+  - photo: /assets/logos/HKB.PNG
+  - photo: /assets/logos/HKC.PNG
 verenigingen:
   - verkorte_naam: vereniging1
     photo: https://via.placeholder.com/200.png/90f/fff
