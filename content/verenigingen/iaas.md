@@ -15,8 +15,13 @@ social:
   - platform: twitter
     link: https://twitter.com/IAASBelgium
 themas:
-  -  internationaal
+  - internationaal
   - wetenschap en techniek
+  - duurzaamheid en groen
+showcase:
+  - photo: /assets/logos/IAASA.jpg
+  - photo: /assets/logos/IAASB.jpg
+  - photo: /assets/logos/IAASC.jpg
 ---
 
 IAAS is THE association for life science students. We have internships, global projects, world congresses, conferences, seminars, exchange weeks but most importantly we have our #familIAAS.

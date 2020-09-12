@@ -10,6 +10,10 @@ social:
     link: https://www.facebook.com/klassiekekring/
 themas:
   -  cultuur
+showcase:
+  - photo: /assets/logos/KlassiekeKringA.jpg
+  - photo: /assets/logos/KlassiekeKringB.jpg
+  - photo: /assets/logos/KlassiekeKringC.jpg
 ---
 
 De Klassieke Kring, kortweg KK, is een studentenvereniging, gericht op de Taal- en Letterkundestudenten Twee Talen die Latijn en/of Grieks als opleiding aan de Universiteit Gent volgen of gevolgd hebben.

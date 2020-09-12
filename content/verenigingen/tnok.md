@@ -13,6 +13,10 @@ social:
 themas:
   -  diversiteit
   -  internationaal
+showcase:
+  - photo: /assets/logos/TomonokaiA.jpg
+  - photo: /assets/logos/TomonokaiB.jpg
+  - photo: /assets/logos/TomonokaiC.jpg
 ---
 
 Tomo no Kai is a student association of Japanologists, aiming for a cultural exchange between Japanese and Belgian students.

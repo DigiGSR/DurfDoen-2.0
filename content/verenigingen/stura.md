@@ -9,8 +9,8 @@ website: https://stura.ugent.be/
 social:
   - platform: facebook
     link: https://www.facebook.com/StuRaPSW
-themes:
-  -  faculteit
+themas:
+  -  engagement
 ---
 
 StuRa is de studentenraad voor en door studenten van de faculteit Politieke en Sociale Wetenschappen aan de Universiteit Gent. Onze voornaamste opdracht is de belangen van de studenten Politieke Wetenschappen, Sociologie en Communicatiewetenschappen het hele jaar door te behartigen. Concreet wil dit zeggen dat we zetelen in allerlei vergaderingen met professoren en universiteitsmedewerkers.

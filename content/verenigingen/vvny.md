@@ -10,7 +10,8 @@ social:
   - platform: facebook
     link: https://www.facebook.com/UNYAGent/
 themas:
-  -  politiek en filosofisch
+  - politiek en filosofisch
+  - internationaal
 ---
 
 United Nations Youth Association Gent is de jongerenafdeling van de Vereniging voor de Verenigde Naties te Gent waarbij de beginselen en principes van de VN een belangrijke leidraad zijn.
