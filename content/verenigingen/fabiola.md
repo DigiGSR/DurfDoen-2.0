@@ -11,6 +11,10 @@ social:
     link: http://www.facebook.com/groups/229033760483915/
 themas:
   -  home
+showcase:
+  - photo: /assets/logos/FabiolaA.jpg
+  - photo: /assets/logos/FabiolaB.jpg
+  - photo: /assets/logos/FabiolaC.jpg
 ---
 
 Op maar een paar meter afstand van de befaamde Overpoortstraat, het studentenrestaurant Kantienberg en de Albert Heyn, is Home Fabiola ideaal gelegen voor de student die dagelijkse wandelingen liever tot een minimum beperkt. Het gebouw werd gebouwd in de jaren '60 en telt 224 kamers van 12 m². Verder is de home ook voorzien van een ruime studeerzaal, een solarium met dakterras, en een ontspanningszaal waar je met je kotgenoten naar tv kunt kijken, kunt kickeren, pingpongen, poolen of elke woensdag van een drankje kunt genieten op onze baravond.
