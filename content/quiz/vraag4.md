@@ -2,74 +2,89 @@
 vraag: Wat zijn je interesses?
 type: meerkeuze
 antwoorden:
-  - tekst: Andere studenten ondersteunen
-    verenigingen:
-      - naam: flux
-      - naam: cultour
-      - naam: bemsa
-
   - tekst: Archeologie
     verenigingen:
       - naam: aw
 
-  - tekst: Armenië
-    verenigingen:
-      - naam: hayasa
-
   - tekst: BDSM
     verenigingen:
       - naam: kajira
-  - tekst: Consulting
 
+  - tekst: Consulting
     verenigingen:
       - naam: oedc
-      - naam: feunig
 
-  - tekst: Dansen
-    verenigingen:
-      - naam: gudc
+  - tekst: Cultuur en creatief zijn
+    vraag: Wat zijn je interesses?
+    type: meerkeuze
+    antwoorden:
+      - tekst: Culturele voorstellingen bijwonen
+        verenigingen:
+          - naam: cultour
+      - tekst: Dansen
+        verenigingen:
+          - naam: gudc
+      - tekst: Dichtkunst en gesproken woord
+        verenigingen:
+          - naam: auwla
+          - naam: prometheus
+      - tekst: Fotografie
+        verenigingen:
+          - naam: schamper
+      - tekst: Illusionisme
+        verenigingen:
+          - naam: illusiona
+      - tekst: Muziek spelen
+        verenigingen:
+          - naam: guho
+          - naam: guso
+          - naam: sf
+      - tekst: Schilderen en tekenen
+        verenigingen:
+          - naam: schilder
+      - tekst: Schrijven
+        verenigingen:
+          - naam: schamper
+          - naam: auwla
+      - tekst: Theater
+        verenigingen:
+          - naam: matrak
+      - tekst: Zingen
+        verenigingen:
+          - naam: guk
 
-  - tekst: Dichtkunst en gesproken woord
-    verenigingen:
-      - naam: auwla
-      - naam: prometheus
+  - tekst: De pers
+    vraag: Wat zijn je interesses?
+    type: meerkeuze
+    antwoorden:
+      - tekst: Fotografie
+        verenigingen:
+          - naam: schamper
+      - tekst: Journalistiek
+        verenigingen:
+          - naam: schamper
+          - naam: urgent
+      - tekst: Lay-out
+        verenigingen:
+          - naam: schamper
+      - tekst: Schrijven
+        verenigingen:
+          - naam: schamper
+          - naam: auwla
 
   - tekst: Duurzaamheid
     verenigingen:
-      - naam: urgent
+      - naam: durgent
 
-  - tekst: Europese politiek
+  - tekst: Economie
     verenigingen:
-      - naam: minos
+      - naam: flyse
+      - naam: capitant
+      - naam: re9000
 
-  - tekst: Evenementen helpen organiseren
-    verenigingen:
-      - naam: vtk
-
-  - tekst: Financiële markten
+  - tekst: Finance
     verenigingen:
       - naam: capitant
-
-  - tekst: Fotografie
-    verenigingen:
-      - naam: schamper
-
-  - tekst: Fysica en sterrenkunde
-    verenigingen:
-      - naam: vvn
-
-  - tekst: Informatica
-    verenigingen:
-      - naam: zeus
-
-  - tekst: Japan
-    verenigingen:
-      - naam: tnok
-
-  - tekst: Journalistiek
-    verenigingen:
-      - naam: schamper
-      - naam: urgent
 
   - tekst: Kritisch denken en debat
     verenigingen:
@@ -81,109 +96,112 @@ antwoorden:
       - naam: gk
       - naam: stujardin
 
-  - tekst: Lay-out
-    verenigingen:
-      - naam: schamper
-
-  - tekst: mentale gezondheid
-    verenigingen:
-      - naam: bemsa
-
-  - tekst: Muziek spelen
-    verenigingen:
-      - naam: guho
-      - naam: guso
-      - naam: sf
+  - tekst: Me inzetten voor anderen
+    vraag: Wat zijn je interesses?
+    type: meerkeuze
+    antwoorden:
+      - tekst: Andere studenten ondersteunen
+        verenigingen:
+          - naam: flux
+          - naam: cultour
+          - naam: stt
+      - tekst: Cultuur promoten
+        verenigingen:
+          - naam: cultour
+      - tekst: mentale gezondheid
+        verenigingen:
+          - naam: stt
+      - tekst: studentenvertegenwoordiging
+        verenigingen:
+          - naam: gsr
 
   - tekst: ondernemen
     verenigingen:
       - naam: flyse
 
   - tekst: Politiek
-    vraag: Welke overtuiging?
-    type: dropdown
+    vraag: Waar ben je specifiek in geïnteresseerd?
+    type: meerkeuze
     antwoorden:
-      - tekst: Vlaams-Nationalistisch en conservatief
-        verenigingen:
-          - naam: kvhv
-          - naam: nsv
+      - tekst: Vlaamse en nationale politiek
+        vraag: Welke overtuiging?
+        type: dropdown
+        antwoorden:
+          - tekst: Vlaams-Nationalistisch
+            verenigingen:
+              - naam: nsv
 
-      - tekst: Antikapitalistisch
-        verenigingen:
-          - naam: als
+          - tekst: Conservatief en Vlaams-Nationalistisch
+            verenigingen:
+              - naam: kvhv
 
-      - tekst: Christendemocraat
-        verenigingen:
-          - naam: cds
+          - tekst: Antikapitalistisch
+            verenigingenen:
+              - naam: als
 
-      - tekst: Zeer socialistisch
-        verenigingen:
-          - naam: comac
+          - tekst: Christendemocratisch
+            verenigingenen:
+              - naam: cds
 
-      - tekst: Groen en links
-        verenigingen:
-          - naam: jgroen
+          - tekst: Marxistisch
+            verenigingenen:
+              - naam: comac
 
-      - tekst: Vlaams-republikeins
-        verenigingen:
-          - naam: jongnva
+          - tekst: Ecologistisch
+            verenigingenen:
+              - naam: jgroen
+              - naam: durgent
 
-      - tekst: Socialistisch
-        verenigingen:
-          - naam: js
+          - tekst: Vlaams-republikeins
+            verenigingenen:
+              - naam: jongnva
 
-      - tekst: Liberaal
+          - tekst: Socialistisch
+            verenigingenen:
+              - naam: js
+
+          - tekst: Liberaal
+            verenigingenen:
+              - naam: lvsv
+
+      - tekst: Europese politiek
         verenigingen:
-          - naam: lvsv
+          - naam: minos
+
+      - tekst: Internationale politiek, Verenigde Naties en debat
+        verenigingen:
+          - naam: vvny
+
+  - tekst: STEM
+    vraag: Wat zijn je interesses?
+    type: meerkeuze
+    antwoorden:
+      - tekst: Techniek
+        verenigingen:
+          - naam: ieee
+          - naam: best
+      - tekst: Wiskunde
+        verenigingen:
+          - naam: prime
+      - tekst: Fysica en sterrenkunde
+        verenigingen:
+          - naam: vvn
+      - tekst: Informatica
+        verenigingen:
+          - naam: zeus
 
   - tekst: radio maken
     verenigingen:
       - naam: urgent
 
-  - tekst: Schilderen
-    verenigingen:
-      - naam: schilder
-
-  - tekst: Schrijven
-    verenigingen:
-      - naam: schamper
-      - naam: auwla
-
-  - tekst: studentenvertegenwoordiging
-    verenigingen:
-      - naam: gsr
-
-  - tekst: Techniek
-    verenigingen:
-      - naam: ieee
-      - naam: best
-
-  - tekst: Theater
-    verenigingen:
-      - naam: matrak
-
-  - tekst: Wereldpolitiek
-    verenigingen:
-      - naam: vvny
-
-  - tekst: Wiskunde
-    verenigingen:
-      - naam: prime
-
-  - tekst: Zingen
-    verenigingen:
-      - naam: guk
-
-  - tekst: Culturele Voorstellingen bijwonen
-    verenigingen:
-      - naam: cultour
-
-  - tekst: Economie
-    verenigingen:
-      - naam: flyse
-      - naam: capitant
-
-  - tekst: Illusionisme
-    verenigingen:
-      - naam: illusiona
+  - tekst: Verschillende culturen
+    vraag: Wat zijn je interesses?
+    type: meerkeuze
+    antwoorden:
+      - tekst: Armenië
+        verenigingen:
+          - naam: hayasa
+      - tekst: Japan
+        verenigingen:
+          - naam: tnok
 ---
