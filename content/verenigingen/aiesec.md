@@ -11,7 +11,7 @@ social:
   - platform: facebook
     link: https://www.facebook.com/AIESECinBelgium/
 themas:
-  - economie en develpment
+  - economie en development
   - internationaal
 ---
 

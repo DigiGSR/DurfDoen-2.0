@@ -350,6 +350,10 @@ fieldset p label input {
   max-width: 33%;
 }
 
+.tile--white {
+  background-color: antiquewhite;
+}
+
 .tile::before {
   content: "";
   float: left;
@@ -411,7 +415,8 @@ fieldset p label input {
   flex-basis: 1;
 }
 
-.split-2-2 {
+.split-2-2,
+.split-2-1 {
   width: 45%;
 }
 

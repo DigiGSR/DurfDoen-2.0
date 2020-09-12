@@ -4,5 +4,5 @@ id: feunig
 naam: Feunig
 konvent: wvk
 themas:
-  -  economie en develpment
+  -  economie en development
 ---

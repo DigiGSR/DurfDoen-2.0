@@ -9,7 +9,7 @@ social:
   - platform: facebook
     link: https://www.facebook.com/180DegreesConsultingGhent
 themas:
-  -  economie en develpment
+  -  economie en development
 ---
 
 180 Degrees Consulting is the world’s largest student-driven consultancy. The Ghent branch was founded on July 1, 2014 and operates at Ghent University. We bring top university talent to the non-profit sector, transforming good organizations into great ones via our high-quality and uniquely affordable consulting services. Our mission is to strengthen the ability of socially conscious organizations and to achieve high impact social outcomes trough the development of innovative, practical and sustainable solutions.

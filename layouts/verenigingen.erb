@@ -3,8 +3,8 @@
     <h1 class="split-title"> Thema's </h1>
     <div class="tile-grid">
       <% for thema in themas %>
-        <div class="tile clickable tile--medium" onclick="window.location.href = '<%= thema.path %>'">
-          <img class="tile__image" src="/content/assets/themas/<%= thema[:naam] %>.jpg" alt="<%= thema[:naam] %>">
+        <div class="tile clickable tile--medium tile--white" onclick="window.location.href = '<%= thema.path %>'">
+          <img class="tile__image" src="/assets/themas_icon/<%= thema[:naam] %>.svg" alt="<%= thema[:naam] %>">
           <p class="tile__title tile__title--medium"> <%= thema[:naam] %> </p>
         </div>
       <% end %>
