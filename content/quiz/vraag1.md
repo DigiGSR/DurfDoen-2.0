@@ -8,56 +8,56 @@ antwoorden:
     antwoorden:
       - tekst: Afrikaanse talen en culturen
         verenigingen:
-          - naam: stura
+          - naam: stuart
           - naam: oak
 
       - tekst: Archeologie
         verenigingen:
-          - naam: stura
+          - naam: stuart
           - naam: aw
           - naam: khk
 
       - tekst: Geschiedenis
         verenigingen:
-          - naam: stura
+          - naam: stuart
           - naam: vgkflwi
           - naam: isha
 
       - tekst: Kunstwetenschappen
         verenigingen:
-          - naam: stura
+          - naam: stuart
           - naam: khk
 
       - tekst: Moraalwetenschappen
         verenigingen:
-          - naam: stura
+          - naam: stuart
           - naam: kmf
 
       - tekst: Oosterse talen en culturen
         verenigingen:
-          - naam: stura
+          - naam: stuart
           - naam: oak
           - naam: tnok
 
       - tekst: Oost- Europese talen en culturen
         verenigingen:
-          - naam: stura
+          - naam: stuart
           - naam: slavia
 
       - tekst: Taal- en letterkunde
         verenigingen:
-          - naam: stura
+          - naam: stuart
           - naam: kk
           - naam: filologica
 
       - tekst: Toegepaste taalkunde
         verenigingen:
-          - naam: stura
+          - naam: stuart
           - naam: veto
 
       - tekst: Wijsbegeerte
         verenigingen:
-          - naam: stura
+          - naam: stuart
           - naam: kmf
 
   - tekst: Recht en criminologie
@@ -394,7 +394,7 @@ antwoorden:
       - tekst: Farmaceutische wetenschappen
         verenigingen:
           - naam: stuff
-          - naam: bfk
+          - naam: gfk
           - naam: bemsa
 
   - tekst: Politieke en sociale wetenschappen
