@@ -13,6 +13,10 @@ social:
     link: https://www.instagram.com/dentalia_gent/
 themas:
   -  faculteit
+showcase:
+  - photo: /assets/logos/DentaliaA.jpg
+  - photo: /assets/logos/DentaliaB.jpg
+  - photo: /assets/logos/DentaliaC.jpg
 ---
 
 Dentalia is dé studentenvereniging bij uitstek voor alle tandartsen in spé. Door de gezellige grootte van onze studierichting, bestaat een hechte band tussen alle leden; iedereen kent iedereen! Over de jaren heen smeed je hechte vriendschappen die levenslang meegaan. Tenslotte worden we ook elkaars collega’s.
