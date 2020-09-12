@@ -16,6 +16,10 @@ module VerenigingenHelper
     @items.find_all("**/themas/*")
   end
 
+  def verenigingen_voor_thema(thema)
+    @items.filter{|i| i[:themas] and i[:themas].include?(thema)}.to_a
+  end
+
   def konventen
     @items.find_all("**/konventen/*").to_a
   end
@@ -48,7 +52,7 @@ module VerenigingenHelper
       "id" => x[:id]
     } }.flatten.to_a
   end
-  
+
 
   def abbreviation(item)
     item.identifier.without_ext.split('/').last

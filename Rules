@@ -6,8 +6,7 @@ preprocess do
   themas.each do |thema|
     content = ''
     attributes = {
-        naam: thema,
-        verenigingen: @items.filter{|i| i[:themas] and i[:themas].include?(thema)}.flatten.uniq.compact
+        naam: thema
     }
     identifier = "/themas/#{thema}"
 
@@ -42,6 +41,7 @@ end
 compile '/themas/*' do
   layout '/thema.*'
   layout '/default.*'
+  layout '/base.*'
   write ext: 'html'
 end
 
