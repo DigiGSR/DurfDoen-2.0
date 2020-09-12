@@ -23,3 +23,4 @@ verenigingen:
   - verkorte_naam: vereniging2
     photo: https://via.placeholder.com/200.png/90f/fff
 ---
+Het HK is een plaats waar de verschillende vereningingen van de 5 homes elkaar treffen.
