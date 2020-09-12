@@ -367,9 +367,21 @@ fieldset p label input {
   transform: translate(-50%, -50%);
   height: 80%;
   width: auto;
+
+  transition: ease-in 0.2s;
+  transition-property: filter;
+}
+
+.tile:hover .tile__image {
+  filter: blur(2px);
+}
+
+.tile:hover .tile__title {
+  opacity: 1;
 }
 
 .tile__title {
+  opacity: 0;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -384,6 +396,9 @@ fieldset p label input {
   text-shadow: 2px 2px #333;
 
   padding: 5px;
+
+  transition: ease-in 0.2s;
+  transition-property: opacity;
 }
 
 .tile__title--medium {
