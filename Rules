@@ -22,14 +22,6 @@ compile '/{verenigingen,projecten}/*.md' do
   write ext: 'html'
 end
 
-compile '/evenementen/*.md' do
-  filter :kramdown
-  layout '/evenement.*'
-  layout '/default.*'
-  layout '/base.*'
-  write ext: 'html'
-end
-
 compile '/konventen/*.md' do
   filter :kramdown
   layout '/konvent.*'
