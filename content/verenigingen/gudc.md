@@ -13,7 +13,7 @@ themas:
   -  cultuur
 showcase:
   - photo: /assets/logos/GUDcA.jpg
-  - photo: /assets/logos/GUDcB.jpg
+  - photo: /assets/logos/GUDcB.png
   - photo: /assets/logos/GUDcC.jpg
 ---
 
