@@ -10,7 +10,10 @@ social:
     link: http://www.facebook.com/groups/167090666639265/
 themas:
   -  home
-
+showcase:
+  - photo: /assets/logos/AstridA.jpg
+  - photo: /assets/logos/AstridB.jpg
+  - photo: /assets/logos/AstridC.jpg
 ---
 
 Gelegen aan het hectische verkeersknooppunt van de Sterre, lijkt de Astrid een oase van rust in het Gentse.
