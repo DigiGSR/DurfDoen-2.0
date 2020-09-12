@@ -9,6 +9,10 @@ social:
   - platform: facebook
 themas:
   -  home
+showcase:
+  - photo: /assets/logos/BerthaA.PNG
+  - photo: /assets/logos/BerthaB.jpg
+  - photo: /assets/logos/BerthaC.jpg
 ---
 
 Home Bertha de Vriese, de jongste Home van de universiteit, bevindt zich op campus de Sterre. De kamers zijn studio‘s, er mag immers al eens wat meer luxe en rust zijn ;)
