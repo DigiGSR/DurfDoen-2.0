@@ -13,6 +13,10 @@ social:
     link: https://www.instagram.com/homevermeylen/
 themas:
   -  home
+showcase:
+  - photo: /assets/logos/VermeylA.PNG
+  - photo: /assets/logos/VermeylB.PNG
+  - photo: /assets/logos/VermeylC.PNG
 ---
 
 Home Vermeylen is eveneens aan de Overpoort gelegen - naast de Fabiola - en biedt onderdak aan maar liefst 456 inwoners! De acht verdiepingen tellende home beschikt verder over alle faciliteiten voor studenten met een functiebeperking.
