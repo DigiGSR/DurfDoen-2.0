@@ -350,8 +350,8 @@ fieldset p label input {
   max-width: 33%;
 }
 
-.tile--white {
-  background-color: antiquewhite;
+.tile--blue {
+  background-color: var(--darkblue);
 }
 
 .tile::before {
@@ -370,6 +370,20 @@ fieldset p label input {
 
   transition: ease-in 0.2s;
   transition-property: filter;
+
+  display: flex;
+  justify-content: center;
+}
+
+.tile__image--svg {
+  width: 80%;
+  height: auto;
+
+  fill: var(--white);
+}
+
+.tile__image svg {
+  width: 100%;
 }
 
 .tile:hover .tile__image {
