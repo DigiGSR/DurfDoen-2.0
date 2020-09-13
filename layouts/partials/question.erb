@@ -63,6 +63,9 @@
   })();
 <%else%>
   {
+      // If false and the this question changes, all children should loose `checked`
+      // This might not actually work when questions are infinitely deep
+      const multiple_allowed = <%= question[:type] == "meerkeuze" %>;
       // Reference back to the last selected option
       // This way we can 'deselect' the question results
       let last_answered = [];
@@ -87,8 +90,7 @@
                   // When a parent is changed, it should notify it's last_answered child that it is changed
                   // Notice the replace, we move from an answer to a subquestion
                   const sub = document.getElementById(la.replace("#", ".")+"_form");
-                  if (sub) {
-
+                  if (sub && !multiple_allowed) {
                     [...sub.elements].filter(e => e.nodeName == "INPUT").forEach(e => e.checked = false);
 
                     sub.dispatchEvent(new Event('change'));
