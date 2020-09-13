@@ -34,8 +34,6 @@ main {
   justify-content: space-between;
   width: calc(100%-5rem);
 
-  min-height: 100%;
-
   padding: 2rem 2rem 0 2rem;
 }
 
@@ -84,14 +82,6 @@ footer {
   margin-top: auto;
 }
 
-.navbar:hover {
-  width: 16rem;
-}
-
-.navbar:hover .link-text {
-  display: block;
-}
-
 .nav-link {
   width: 100%;
   display: flex;
@@ -99,11 +89,12 @@ footer {
   height: 5rem;
   color: var(--yellow);
   text-decoration: none;
-  transition: 0.2s;
+  transition: 0.4s;
+  padding-right: 0.5rem;
 }
 
-.nav-link__logo {
-  justify-content: center;
+.nav-link a {
+  color: inherit;
 }
 
 .nav-link:hover {
@@ -138,6 +129,68 @@ footer {
 .nav-item input:focus {
   border: none;
   outline: none;
+}
+
+/* Small screens */
+@media only screen and (max-width: 600px) {
+  .navbar {
+    bottom: 0;
+    width: 100vw;
+    height: 5rem;
+    padding: 0;
+  }
+
+  .navbar-nav {
+    flex-direction: row;
+  }
+
+  .nav-link {
+    justify-content: center;
+  }
+
+  main {
+    margin: 0;
+    width: 100%;
+
+    padding: 0.5rem;
+  }
+}
+
+/* Large screens */
+@media only screen and (min-width: 600px) {
+  .navbar {
+    top: 0;
+    width: 5rem;
+    height: 100vh;
+  }
+
+  .nav-link__logo {
+    justify-content: center;
+    transform: rotate(-90deg);
+    transition: 0.4s;
+  }
+
+  .navbar:hover,
+  .navbar:focus,
+  .navbar:focus-within {
+    width: 16rem;
+  }
+
+  .navbar:hover .link-text,
+  .navbar:focus .link-text,
+  .navbar:focus-within .link-text {
+    display: block;
+  }
+
+  .navbar:hover .nav-link__logo,
+  .navbar:focus .nav-link__logo,
+  .navbar:focus-within .nav-link__logo {
+    transform: rotate(0deg);
+  }
+
+  main {
+    min-height: 100%;
+  }
 }
 
 form {
