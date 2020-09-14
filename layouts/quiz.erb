@@ -8,12 +8,16 @@
 <div id="resultWrapper" class="hidden">
 </div>
 <div class="buttons">
-  <button id="previousButton" onclick="window.history.back()">
-    Vorige
-  </button>
-  <button id="nextButton" onclick="goNext()">
-    Volgende
-  </button>
+  <div>
+    <button id="previousButton" onclick="goPrevious()">
+      Vorige
+    </button>
+  </div>
+  <div>
+    <button id="nextButton" onclick="goNext()">
+      Volgende
+    </button>
+  </div>
 </div>
 <script>
   const result_wrapper = document.getElementById("resultWrapper");
@@ -73,19 +77,22 @@
     resultWrapper.classList.add("hidden");
 
     if(state.question.index == 1) {
-      previousButton.disabled = true;
+      previousButton.style.display = "none";
     } else {
-      previousButton.disabled = false;
+      previousButton.style.display = "";
     }
 
     if(!state.question.element) {
-      nextButton.disabled = true;
+      nextButton.style.display = "none";
       resultWrapper.classList.remove("hidden");
 
       const result = {};
       for(let question of state.allQuestions) {
         const div = window.sessionStorage[question.id];
-        if(!div) continue;
+        if(!div) {
+          console.log("You didn't answer question "+question.id)
+          continue;
+        }
 
         const resultObj = JSON.parse(div);
         for (let key in resultObj) {
@@ -96,7 +103,7 @@
 
       show_result(result);
     } else {
-      nextButton.disabled = false;
+      nextButton.style.display = "";
       state.question.element.classList.remove("hidden");
     }
   };
@@ -122,9 +129,13 @@
         result_wrapper.removeChild(result_wrapper.lastElementChild);
     }
     for (let ver in result) {
-        const create_wrapper= document.createElement('div');
-        create_wrapper.innerHTML = _results["d_"+ver];
-        result_wrapper.appendChild(create_wrapper);
+      if(!(ver in _results)) {
+        console.error("No html found for '"+ver+"'");
+        continue;
+      }
+      const create_wrapper= document.createElement('div');
+      create_wrapper.innerHTML = _results[ver];
+      result_wrapper.appendChild(create_wrapper);
     }
   }
 
@@ -158,6 +169,8 @@
     if(depth > 1) {
       depth -= 1;
       window.history.replaceState("", "", createRelativeUrl(state.question.index - 1));
+    } else {
+      window.location.search = "vraag="+ (state.question.index - 1);
     }
 
     reset();

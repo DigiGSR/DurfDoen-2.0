@@ -6,7 +6,7 @@ module QuizHelper
         my_hash = {}
 
         items.each do |item|
-            my_hash["d_"+(item[:id] || "none")] = (render '/partials/pretty_link.*', :item => item).gsub("\n", '')
+            my_hash[(item[:id] || "none")] = (render '/partials/pretty_link.*', :item => item).gsub("\n", '')
         end
         my_hash.to_json
     end
