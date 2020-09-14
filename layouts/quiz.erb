@@ -153,12 +153,11 @@
   }
 
   function show_result(result) {
-    console.log(result);
     while (resultWrapper.lastElementChild) {
         resultWrapper.removeChild(resultWrapper.lastElementChild);
     }
 
-    for (let [ver, val] of Object.entries(result).sort(([k1, v1]) => k1).stableSort(([k1, v1], [k2, v2]) => v2 - v1)) {
+    for (let [ver, val] of Object.entries(result).sortByKey(([k1, v1]) => k1).stableSort(([k1, v1], [k2, v2]) => v2 - v1)) {
       if(!(ver in _results)) {
         console.error("No html found for '"+ver+"'");
         continue;
@@ -175,21 +174,6 @@
 
   function save_state() {
     window.sessionStorage.setItem(state.question.id, JSON.stringify(state.answers));
-  }
-
-  function getSelectValues(select) {
-    var result = [];
-    var options = select && select.options;
-    var opt;
-
-    for (var i=0, iLen=options.length; i<iLen; i++) {
-        opt = options[i];
-
-        if (opt.selected) {
-            result.push(opt.value || opt.text);
-        }
-    }
-    return result;
   }
 
   function goNext() {
