@@ -6,11 +6,6 @@
   <% end %>
 </div>
 <div id="resultWrapper" class="hidden">
-  <% all_groups().each do |group| %>
-    <div id="d_<%= group[:id] %>" style="display: none;">
-      <%= render '/partials/pretty_link.*', :item => group %>
-    </div>
-  <% end %>
 </div>
 <div class="buttons">
   <button id="previousButton" onclick="window.history.back()">
@@ -21,14 +16,8 @@
   </button>
 </div>
 <script>
-  // This is always the same, like a static macro
-  const _groups = (function resetGroups() {
-      const groups = {};
-      <% all_groups().each do |group| %>
-        groups["d_<%= group[:id] %>"] = document.getElementById("d_<%= group[:id] %>");
-      <% end %>
-    return groups;
-  })();
+  const result_wrapper = document.getElementById("resultWrapper");
+  const _results = <%= to_partials(all_groups()) %>;
 
   // This keeps the state of the current question/result
   // So navigating between questions works without reload
@@ -129,14 +118,14 @@
   }
 
   function show_result(result) {
-      for (let ver in result) {
-          if (result[ver] == 0) {
-              _groups["d_"+ver].style.display = "none";
-          } else {
-              _groups["d_"+ver].style.display = "block";
-              _groups["d_"+ver].style.order = -1 * result[ver];
-          }
-      }
+    while (result_wrapper.lastElementChild) {
+        result_wrapper.removeChild(result_wrapper.lastElementChild);
+    }
+    for (let ver in result) {
+        const create_wrapper= document.createElement('div');
+        create_wrapper.innerHTML = _results["d_"+ver];
+        result_wrapper.appendChild(create_wrapper);
+    }
   }
 
   function save_state() {
