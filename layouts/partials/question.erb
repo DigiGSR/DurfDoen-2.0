@@ -20,7 +20,7 @@
 </form>
 <% question[:antwoorden].sort_by{ |x| x[:tekst] }.each_with_index do |answer, idx|%>
   <% if answer[:vraag] %>
-    <div id='<%= number+"#"+idx.to_s %>' style="display:none;">
+    <div id='<%= number+"#"+idx.to_s %>' class="question_wrapper" style="display:none;">
       <%= render '/partials/question.*', question: answer, number:  number+"."+idx.to_s  %>
     </div>
   <% end %>

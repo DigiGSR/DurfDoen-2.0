@@ -77,6 +77,19 @@
 
     state.answers = {};
 
+    // Hide all subquestions
+    for(let form of [...document.querySelectorAll(`[id^="${state.question.index - 1}#"]`)]) {
+      form.style.display = "none";
+
+      // The vraag2 -> politiek -> Vlaamse en nationale politiek div wasn't set to none, because of the more complicated id.
+      form.querySelectorAll(".question_wrapper").forEach(e => e.style.display = "none");
+    }
+
+    // Set checked to false for everything in this question
+    for(let form of [...document.querySelectorAll(`[id^="${state.question.index - 1}"][id$="form"]`)]) {
+      [...form.elements].filter(e => e.nodeName == "INPUT").forEach(e => e.checked = false);
+    }
+
     save_state();
     showCorrectElements();
   }
