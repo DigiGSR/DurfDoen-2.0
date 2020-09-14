@@ -74,7 +74,7 @@
       const sub_questions = {};
       // Create list of all student organisations this answer entails
       const question_results = {};
-      <% question[:antwoorden].each_with_index do |answer, idx| %>
+      <% question[:antwoorden].sort_by{ |x| x[:tekst] }.each_with_index do |answer, idx| %>
       <% if answer[:vraag] %>sub_questions['<%= number+"#"+idx.to_s %>'] = document.getElementById('<%= number+"#"+idx.to_s %>');<% end %>
       question_results['<%= number+"#"+idx.to_s %>'] = <%= (answer[:verenigingen] || []).map { |vereniging| vereniging[:naam] }.to_a %>;
       <% end %>

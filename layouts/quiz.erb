@@ -42,6 +42,13 @@
     return this;
   }
 
+  Array.prototype.sortByKey = function(key) {
+    return this.sort(function(a, b) {
+      var x = key(a); var y = key(b);
+      return ((x < y) ? -1 : ((x > y) ? 1 : 0));
+    });
+  }
+
   const _results = <%= to_partials(all_groups()) %>;
 
   // This keeps the state of the current question/result
@@ -146,6 +153,7 @@
   }
 
   function show_result(result) {
+    console.log(result);
     while (resultWrapper.lastElementChild) {
         resultWrapper.removeChild(resultWrapper.lastElementChild);
     }
@@ -155,6 +163,8 @@
         console.error("No html found for '"+ver+"'");
         continue;
       }
+
+      if(!val) continue;
 
       const create_wrapper= document.createElement('div');
       create_wrapper.innerHTML = _results[ver];
