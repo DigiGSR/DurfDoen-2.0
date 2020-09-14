@@ -5,7 +5,10 @@
     </div>
   <% end %>
 </div>
-<div id="resultWrapper" class="hidden">
+<div class="hidden">
+  <h3> Deze verenigingen kan je eens uitchecken ;) </h3>
+  <div id="resultWrapper">
+  </div>
 </div>
 <div class="buttons">
   <div>
@@ -20,7 +23,25 @@
   </div>
 </div>
 <script>
-  const result_wrapper = document.getElementById("resultWrapper");
+  Array.prototype.stableSort = function(cmp) {
+    cmp = !!cmp ? cmp : (a, b) => {
+      if (a < b) return -1;
+      if (a > b) return 1;
+      return 0;
+    };
+    let stabilizedThis = this.map((el, index) => [el, index]);
+    let stableCmp = (a, b) => {
+      let order = cmp(a[0], b[0]);
+      if (order != 0) return order;
+      return a[1] - b[1];
+    }
+    stabilizedThis.sort(stableCmp);
+    for (let i=0; i<this.length; i++) {
+      this[i] = stabilizedThis[i][0];
+    }
+    return this;
+  }
+
   const _results = <%= to_partials(all_groups()) %>;
 
   // This keeps the state of the current question/result
@@ -74,7 +95,7 @@
     for(let question of state.allQuestions) {
       question.classList.add("hidden");
     }
-    resultWrapper.classList.add("hidden");
+    resultWrapper.parentNode.classList.add("hidden");
 
     if(state.question.index == 1) {
       previousButton.style.display = "none";
@@ -84,7 +105,7 @@
 
     if(!state.question.element) {
       nextButton.style.display = "none";
-      resultWrapper.classList.remove("hidden");
+      resultWrapper.parentNode.classList.remove("hidden");
 
       const result = {};
       for(let question of state.allQuestions) {
@@ -125,17 +146,20 @@
   }
 
   function show_result(result) {
-    while (result_wrapper.lastElementChild) {
-        result_wrapper.removeChild(result_wrapper.lastElementChild);
+    while (resultWrapper.lastElementChild) {
+        resultWrapper.removeChild(resultWrapper.lastElementChild);
     }
-    for (let ver in result) {
+
+    for (let [ver, val] of Object.entries(result).sort(([k1, v1]) => k1).stableSort(([k1, v1], [k2, v2]) => v2 - v1)) {
       if(!(ver in _results)) {
         console.error("No html found for '"+ver+"'");
         continue;
       }
+
       const create_wrapper= document.createElement('div');
       create_wrapper.innerHTML = _results[ver];
-      result_wrapper.appendChild(create_wrapper);
+      create_wrapper.style.order = val;
+      resultWrapper.appendChild(create_wrapper);
     }
   }
 

@@ -7,7 +7,7 @@
 <%else%>
 <form id="<%= number %>_form">
   <fieldset>
-  <% question[:antwoorden].each_with_index do |answer, idx| %>
+  <% question[:antwoorden].sort_by{ |x| x[:tekst] }.each_with_index do |answer, idx| %>
     <p>
     <label>
         <input type=<% if question[:type] == "meerkeuze" %>"checkbox"<% else %>"radio"<% end %>
