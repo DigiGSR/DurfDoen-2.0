@@ -18,7 +18,7 @@
   <% end %>
   </fieldset>
 </form>
-<% question[:antwoorden].each_with_index do |answer, idx|%>
+<% question[:antwoorden].sort_by{ |x| x[:tekst] }.each_with_index do |answer, idx|%>
   <% if answer[:vraag] %>
     <div id='<%= number+"#"+idx.to_s %>' style="display:none;">
       <%= render '/partials/question.*', question: answer, number:  number+"."+idx.to_s  %>
