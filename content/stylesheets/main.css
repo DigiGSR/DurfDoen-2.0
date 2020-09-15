@@ -527,6 +527,13 @@ fieldset p label input {
   padding: 1rem;
   display: flex;
   justify-content: center;
+
+  transform: scale(1);
+  transition: transform ease-in 0.1s;
+}
+
+.tile:hover .tile__image {
+  transform: scale(1.1);
 }
 
 .tile__image--svg {
@@ -560,18 +567,6 @@ fieldset p label input {
 
 .tile__title--medium {
   font-size: 1.2rem;
-}
-
-.clickable {
-  transform: scale(1);
-  transition: ease-in 0.1s;
-
-  transition-property: transform;
-}
-
-.clickable:hover {
-  cursor: pointer;
-  transform: scale(1.05);
 }
 
 .split-2 {
