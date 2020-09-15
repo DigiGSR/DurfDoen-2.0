@@ -10,8 +10,6 @@ gem 'nanoc'
 gem 'pdfkit'
 gem 'sass'
 gem 'nokogiri'
-gem 'sassc'
-gem 'slim'
 
 group :nanoc do
   gem 'guard-nanoc'
