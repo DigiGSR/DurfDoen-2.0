@@ -3,8 +3,6 @@ naam: D'URGENT
 id: durgent
 verkorte_naam: D'URGENT
 titel: D'URGENT
-id: ugent1010
-naam: UGent1010
 konvent: wvk
 website: https://www.greencommunity.be/durgent
 social:

@@ -42,12 +42,14 @@
 
       return postcodes;
     })();
-
+    console.log(postcodes);
     let last_answered = [];
 
     const postcodeField = document.getElementById("postcodeField");
 
     const handler = () => {
+      console.log(postcodeField.value);
+
       const selected = postcodes[postcodeField.value] || [];
 
       // Update results

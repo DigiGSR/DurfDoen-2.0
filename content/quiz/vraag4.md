@@ -125,7 +125,7 @@ antwoorden:
     antwoorden:
       - tekst: Vlaamse en nationale politiek
         vraag: Welke overtuiging?
-        type: dropdown
+        type: meerkeuze
         antwoorden:
           - tekst: Vlaams-Nationalistisch
             verenigingen:
@@ -136,32 +136,32 @@ antwoorden:
               - naam: kvhv
 
           - tekst: Antikapitalistisch
-            verenigingenen:
+            verenigingen:
               - naam: als
 
           - tekst: Christendemocratisch
-            verenigingenen:
+            verenigingen:
               - naam: cds
 
           - tekst: Marxistisch
-            verenigingenen:
+            verenigingen:
               - naam: comac
 
           - tekst: Ecologistisch
-            verenigingenen:
+            verenigingen:
               - naam: jgroen
               - naam: durgent
 
           - tekst: Vlaams-republikeins
-            verenigingenen:
+            verenigingen:
               - naam: jongnva
 
           - tekst: Socialistisch
-            verenigingenen:
+            verenigingen:
               - naam: js
 
           - tekst: Liberaal
-            verenigingenen:
+            verenigingen:
               - naam: lvsv
 
       - tekst: Europese politiek

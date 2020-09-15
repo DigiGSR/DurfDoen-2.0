@@ -11,7 +11,7 @@ social:
     link: https://www.facebook.com/MoederWestlandia/
 themas:
   - streek
-postcode:
+postcodes:
   - 8600
   - 8610
   - 8620
