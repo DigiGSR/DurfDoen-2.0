@@ -1,25 +1,27 @@
 <div class="split-2">
   <div class="split-2-1">
-    <h1 class="split-title"> Thema's </h1>
+    <h2 class="split-title">Thema's</h2>
     <div class="tile-grid">
       <% for thema in themas %>
-        <div class="tile clickable tile--medium tile--blue" onclick="window.location.href = '<%= thema.path %>'">
-          <div class="tile__image tile__image--svg">
+        <a class="tile clickable tile--medium" href="<%= thema.path %>">
+          <div class="tile__image tile__image--svg tile__image--blue">
             <%= @items["/assets/themas_icon/"+thema[:naam]+".svg"].compiled_content %>
           </div>
           <p class="tile__title tile__title--medium"> <%= thema[:naam] %> </p>
-        </div>
+        </a>
       <% end %>
     </div>
   </div>
   <div class="split-2-2">
-    <h1 class="split-title"> Konventen </h1>
+    <h2 class="split-title">Konventen</h2>
     <div class="tile-grid">
       <% for item in konventen %>
-        <div class="tile clickable tile--medium" onclick="window.location.href = '<%= item.path %>'">
-          <img class="tile__image" src="https://dsa.ugent.be/api/verenigingen/<%= abbreviation(item) %>/logo?size=medium" alt="<%= item[:naam] %>">
+        <a class="tile clickable tile--medium" href="<%= item.path %>">
+          <div class="tile__image">
+            <img src="https://dsa.ugent.be/api/verenigingen/<%= abbreviation(item) %>/logo?size=medium" alt="<%= item[:naam] %>">
+          </div>
           <p class="tile__title tile__title--medium"> <%= item[:titel] || item[:naam] %> </p>
-        </div>
+        </a>
       <% end %>
     </div>
   </div>

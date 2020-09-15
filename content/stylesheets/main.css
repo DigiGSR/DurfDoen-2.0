@@ -482,67 +482,64 @@ fieldset p label input {
   column-gap: 0.5rem;
   row-gap: 0.5rem;
 
-  align-items: center;
+  align-items: top;
   justify-items: center;
   align-content: center;
   grid-template-columns: repeat(3, minmax(33%, 170px));
 }
 
 .tile {
-  min-width: 200px;
-  max-width: 300px;
-  flex: 1 0 calc(25% - 10px);
+  flex-direction: column;
   position: relative;
-}
-
-.tile--small {
-  min-width: 50px;
-  max-width: 50px;
-}
-
-.tile--medium {
-  min-width: 150px;
-  max-width: 200px;
-}
-
-.tile--blue {
-  background-color: var(--darkblue);
-}
-
-.tile::before {
-  content: "";
-  float: left;
-  padding-top: 100%;
+  width: 200px;
+  text-decoration: none;
 }
 
 .tile__image {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height: 95%;
-  width: auto;
+  width: 200px;
+  height: 200px;
+}
 
-  transition: ease-in 0.2s;
-  transition-property: filter;
+.tile--small {
+  width: 50px;
+}
+.tile--small .tile__image {
+  width: 50px;
+  height: 50px;
+}
 
+.tile--medium {
+  width: 150px;
+}
+.tile--medium .tile__image {
+  width: 150px;
+  height: 150px;
+}
+
+.tile__image--blue {
+  background-color: var(--darkblue);
+}
+
+.tile__image {
+  height: 100%;
+  width: 100%;
+
+  padding: 1rem;
   display: flex;
   justify-content: center;
 }
 
 .tile__image--svg {
-  width: 80%;
-  height: auto;
-
-  fill: var(--white);
-}
-
-.tile__image svg {
   width: 100%;
+  height: 100%;
 }
 
-.tile:hover .tile__image {
-  filter: blur(2px);
+.tile__image img, .tile__image svg {
+  width: auto;
+  height: 100%;
+}
+.tile__image svg {
+  fill: var(--white);
 }
 
 .tile:hover .tile__title {
@@ -550,24 +547,15 @@ fieldset p label input {
 }
 
 .tile__title {
-  opacity: 0;
-  position: absolute;
-  bottom: 0;
-  left: 0;
+  color: black;
   width: 100%;
-  max-width: 100%;
 
   font-size: 1.5rem;
 
   text-align: center;
   font-weight: bold;
-  color: white;
-  text-shadow: 2px 2px #333;
 
   padding: 5px;
-
-  transition: ease-in 0.2s;
-  transition-property: opacity;
 }
 
 .tile__title--medium {
@@ -576,7 +564,7 @@ fieldset p label input {
 
 .clickable {
   transform: scale(1);
-  transition: ease-in 0.2s;
+  transition: ease-in 0.1s;
 
   transition-property: transform;
 }
