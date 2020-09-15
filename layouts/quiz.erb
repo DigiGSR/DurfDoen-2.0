@@ -57,7 +57,7 @@
     });
   }
 
-  const _results = <%= to_partials(all_groups()) %>;
+  const _results = <%= to_partials(all_groups() + projecten) %>;
 
   // This keeps the state of the current question/result
   // So navigating between questions works without reload
