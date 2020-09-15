@@ -87,7 +87,8 @@ function ready() {
     }
 
     const documents = <%=  CreateFullTextIndex.new(@items.find_all("**/verenigingen/*") + @items.find_all("**/konventen/*")).call.to_json %>;
-    partials = <%= to_partials_search(all_groups()) %>;
+    const partials = <%= to_partials_search(all_groups()) %>;
+
     const index = lunr(function () {
         this.field('id', {boost: 15});
         this.field('title', {boost: 10});
@@ -101,7 +102,7 @@ function ready() {
 
     doSearch = (query) => {
         clearDiv(wrapper);
-        render_results(wrapper, index.search(query).sortByKey(i => partials[i.ref].titel).stableSort((a, b) => b.score - a.score).map(i => partials[i.ref]));
+        render_results(wrapper, index.search(query).sortByKey(i => partials[i.ref].titel).stableSort((a, b) => b.score - a.score).map(i => partials[i.ref].html));
 
         window.history.pushState("search state", "", window.location.pathname + "?q="+query);
     };

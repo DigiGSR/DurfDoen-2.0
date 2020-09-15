@@ -30,7 +30,10 @@ module SearchHelper
         my_hash = {}
 
         items.each do |item|
-          my_hash[(item.path)] = (render '/partials/pretty_link.*', :item => item).gsub("\n", '')
+          my_hash[(item.path)] = {
+              html: (render '/partials/pretty_link.*', :item => item).gsub("\n", ''),
+              titel: item[:titel] || item[:naam]
+          }
         end
         my_hash.to_json
     end

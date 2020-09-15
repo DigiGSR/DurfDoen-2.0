@@ -435,7 +435,7 @@ fieldset p label input {
 
   gap: 20px;
   padding: 0.5rem;
-  max-width: 700px;
+  max-width: 600px;
   flex-grow: 1;
   min-width: 20%;
 }
@@ -446,7 +446,6 @@ fieldset p label input {
   gap: 20px;
   flex-wrap: wrap;
   justify-content: space-evenly;
-
 }
 
 .link:hover {

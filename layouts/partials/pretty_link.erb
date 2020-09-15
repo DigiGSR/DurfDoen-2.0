@@ -1,4 +1,4 @@
-<a class="link" href="<%= item.path %>">
+<div class="link" onclick="window.location.href='<%= item.path %>'">
     <div class="link__img">
         <img src="https://dsa.ugent.be/api/verenigingen/<%= abbreviation(item) %>/logo?size=small" alt="<%= item[:naam] %>">
     </div>
@@ -10,4 +10,4 @@
             <%= text_segment(item.compiled_content) %>
         </p>
     </div>
-</a>
+</div>
