@@ -27,6 +27,10 @@ body {
   font-family: futura, Avenir Next, Verdana, Geneva, Tahoma, sans-serif;
 }
 
+a {
+	color: inherit;
+}
+
 main {
   margin-left: 5rem;
   display: flex;
@@ -44,6 +48,16 @@ main {
 footer {
   width: 80%;
   margin: 0 auto;
+}
+
+details {
+	margin-bottom: 1rem;
+}
+summary {
+	cursor: pointer;
+}
+details[open] {
+	border-bottom: 1px solid #000;
 }
 
 .align {
