@@ -6,7 +6,8 @@ preprocess do
   themas.each do |thema|
     content = ''
     attributes = {
-        naam: thema
+        identifier: thema,
+        naam: thema.capitalize
     }
     identifier = "/themas/#{thema}"
 

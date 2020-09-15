@@ -5,7 +5,7 @@
       <% for thema in themas %>
         <a class="tile clickable tile--medium" href="<%= thema.path %>">
           <div class="tile__image tile__image--svg tile__image--blue">
-            <%= @items["/assets/themas_icon/"+thema[:naam]+".svg"].compiled_content %>
+            <%= @items["/assets/themas_icon/"+thema[:identifier]+".svg"].compiled_content %>
           </div>
           <p class="tile__title tile__title--medium"> <%= thema[:naam] %> </p>
         </a>
