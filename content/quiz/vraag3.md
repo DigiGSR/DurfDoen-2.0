@@ -49,4 +49,5 @@ antwoorden:
 
       - tekst: Sub-Sahara Afrika
         verenigingen:
+          - naam: umoja
 ---
