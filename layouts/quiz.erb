@@ -75,11 +75,13 @@
   const previousButton = document.getElementById("previousButton");
   const nextButton = document.getElementById("nextButton");
   const resultWrapper = document.getElementById("resultWrapper");
+  const quizIntro = document.getElementById("quiz_intro");
 
   function reset() {
     const params = getParams();
 
-    state.question.index = 'vraag' in params ? parseInt(params['vraag']) : 1;
+    state.question.index = 'vraag' in params ? parseInt(params['vraag']) : 0;
+    state.question.index = Math.max(state.question.index, 0);
     state.question.id = "question_"+state.question.index;
     state.question.element = document.getElementById(state.question.id);
 
@@ -115,7 +117,11 @@
   }
 
   function createRelativeUrl(newQuestionIndex) {
-    return window.location.pathname + "?vraag="+newQuestionIndex;
+    if(newQuestionIndex < 1) {
+      return window.location.pathname;
+    } else {
+      return window.location.pathname + "?vraag="+newQuestionIndex;
+    }
   }
 
   function showCorrectElements() {
@@ -124,11 +130,15 @@
       question.classList.add("hidden");
     }
     resultWrapper.parentNode.classList.add("hidden");
+    quizIntro.classList.add("hidden");
+    previousButton.style.display = "";
 
-    if(state.question.index == 1) {
+    console.log("here "+state.question.index)
+    if(state.question.index == 0) {
       previousButton.style.display = "none";
-    } else {
-      previousButton.style.display = "";
+      nextButton.style.display = "none";
+      quizIntro.classList.remove("hidden");
+      return;
     }
 
     if(!state.question.element) {
@@ -206,11 +216,15 @@
   }
 
   function goPrevious() {
-    if(depth > 1) {
+    if(depth > 0) {
       depth -= 1;
       window.history.replaceState("", "", createRelativeUrl(state.question.index - 1));
     } else {
-      window.location.search = "vraag="+ (state.question.index - 1);
+      if(state.question.index - 1 != 0)
+        window.location.search = "vraag="+ (state.question.index - 1);
+      else {
+        window.location.search = "";
+      }
     }
 
     reset();
