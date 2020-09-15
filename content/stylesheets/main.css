@@ -61,7 +61,7 @@ footer {
   width: 5rem;
   height: 100vh;
   padding-bottom: 2rem;
-  transition: width 600ms ease;
+  transition: width 300ms ease;
 }
 
 .navbar-nav {
@@ -109,6 +109,9 @@ footer {
 
   font-weight: bolder;
 }
+
+.hidden{
+  display: none;}
 
 .nav-link svg {
   width: 2rem;
@@ -236,9 +239,10 @@ header {
   background-color: var(--lightCyan);
 }
 
+
 h2 {
   font-family: futura, Avenir Next, Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 3.4rem;
+  font-size: 2.8rem;
   color: var(--darkblue);
 }
 
@@ -588,6 +592,63 @@ fieldset p label input {
   text-align: center;
 
   min-width: 400px;
+}
+
+.details-logo>img{
+  width: 100px;
+}
+
+.details-logo{
+  display: flex;
+  justify-content: center;
+}
+
+.detail_title{
+  display: flex;
+  flex-direction: row;
+}
+.vereniging_themas{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0 3rem;
+  padding: 0;
+}
+.vereniging_thema{
+  width: 4rem;
+  height: 4rem;
+  margin: 0  1rem  0 0;
+}
+
+.vereniging_thema>a>svg:hover{
+  transform: scale(1.2);
+  transform-origin: center center;
+  transition: all 150ms ease;
+}
+
+.vereniging_thema>a>svg{
+  fill: #013e7a;
+  width: 3rem;
+  height: 3rem;
+}
+
+footer{
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.showcase-image>img{
+  flex-grow: 3;
+  height: 30rem;
+  max-width: 80vw;
+}
+
+.showcase-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
 }
 
 @media only screen and (max-width: 600px) {

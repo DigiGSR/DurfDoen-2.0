@@ -1,6 +1,23 @@
-<h1> <%= item[:naam] %> </h1>
 <div class="details-container details-logo">
     <img src="https://dsa.ugent.be/api/verenigingen/<%= abbreviation(item) %>/logo?size=huge" alt="<%= item[:naam] %>">
+</div>
+<div class="detail_title">
+    <h2>
+    <%= item[:naam] %>
+    </h2>
+    <% if item[:themas] %>
+                <ul class="vereniging_themas">
+                    <% for thema in item[:themas] %>
+                        <li>
+                        <div class="vereniging_thema">
+                        <a href="/themas/<%= thema %>.html">
+                        <%= @items["/assets/themas_icon/"+thema+".svg"].compiled_content %>
+                        </a>
+                        </div>
+                        </li>
+                    <% end %>
+                </ul>
+            <% end %>
 </div>
 <div class="details-container details-contact">
     <% if item[:deelname_link] %>
@@ -31,7 +48,7 @@
             </div>
         <% end %>
     <% end %>
-    <div class="thema-container">
+    <div class="thema-container hidden">
     <% if item[:themas] %>
         <p><span class="thema-title">Thema's:</span>
             <ul>
@@ -43,16 +60,6 @@
     <% end %>
     </div>
 </div>
-<% if item[:verenigingen] %>
-    <div class="details-container details-verenigingen">
-        <% for vereniging in item[:verenigingen] %>
-            <div class="vereninging-container">
-                <p><%= vereniging[:naam] %></p>
-                <img src="<%= vereniging[:photo] %>" alt="vereniging logo"></img>
-            </div>
-        <% end %>
-    </div>
-<% end %>
 <% if item.path.include? "konventen" %>
     <% for vereniging in verenigingen_voor_konvent(item[:id]) %>
         <div>

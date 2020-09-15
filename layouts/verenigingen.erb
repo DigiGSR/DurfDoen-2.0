@@ -1,6 +1,6 @@
 <div class="split-2">
   <div class="split-2-1">
-    <h1 class="split-title"> Thema's </h1>
+    <h2 class="split-title"> Thema's </h2>
     <div class="tile-grid">
       <% for thema in themas %>
         <div class="tile clickable tile--medium tile--blue" onclick="window.location.href = '<%= thema.path %>'">
@@ -13,7 +13,7 @@
     </div>
   </div>
   <div class="split-2-2">
-    <h1 class="split-title"> Konventen </h1>
+    <h2 class="split-title"> Konventen </h2>
     <div class="tile-grid">
       <% for item in konventen %>
         <div class="tile clickable tile--medium" onclick="window.location.href = '<%= item.path %>'">
