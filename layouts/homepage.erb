@@ -34,7 +34,20 @@
 <main id="main" class="align">
   <article>
     <h2>Kende je bijvoorbeeld deze vereniging al?</h2>
-    <div class="randomVerenigingenWrapper" id="display_repo"></div>
+    <div class="randomVerenigingenWrapper" id="display_repo">
+      <noscript>
+        <div class="randomVerenigingWrapper">
+          <a href="https://zeus.ugent.be">
+            <section class="randomVereniging">
+             <div class="randomVereniging_imageWrapper"><img loading=lazy src="https://zinc.zeus.gent" alt="logo van zeus %>" height="100"></div>
+              <hr class="randomVereniging_hr">
+              <h3>Zeus WPI</h3>
+              <p>Speciaal voor mensen zonder JavaScript</p>
+            </section>
+          </a>
+        </div>
+      </noscript>
+    </div>
     <div class="randomVerenigingenWrapper hidden" id="hidden_repo">
       <% for item in verenigingen %>
         <div class="randomVerenigingWrapper" <%= (item['id'] == "zeus") ? "data-iszeus" : "" %> >
