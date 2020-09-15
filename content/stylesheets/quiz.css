@@ -82,7 +82,19 @@ h3::first-letter {
 }
 
 .buttons {
+<<<<<<< HEAD
   padding: 10px;
+=======
+  width: 70%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons {
+  width: 70%;
+  margin: 20px auto;
+>>>>>>> 85fe081... style the quiz a little again
   display: flex;
   justify-content: space-between;
 }

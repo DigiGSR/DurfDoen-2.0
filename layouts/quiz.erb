@@ -2,8 +2,9 @@
   <h2 class="page-header-sub">Welke verenigingen passen bij jou?</h2>
   <p>Het invullen van deze quiz zal jou helpen de vereniging te vinden die bij jou past.</p>
   <p>Niet alle vragen hoeven ingevuld te worden en bij sommige vragen komen plots bijvragen tevoorschijn.</p>
+  <br>
   <div onclick="goNext()" class="quizSpotlight">
-    <a>Start</a>
+    <a>Start!</a>
   </div>
 </div>
 <div class="quiz_content">
@@ -133,7 +134,6 @@
     quizIntro.classList.add("hidden");
     previousButton.style.display = "";
 
-    console.log("here "+state.question.index)
     if(state.question.index == 0) {
       previousButton.style.display = "none";
       nextButton.style.display = "none";

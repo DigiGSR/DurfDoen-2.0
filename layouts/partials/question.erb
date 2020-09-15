@@ -5,18 +5,16 @@
   </p>
   <input id="postcodeField" type=number placeholder=9000>
 <%else%>
-<form id="<%= number %>_form">
-  <fieldset>
+<form id="<%= number %>_form" class="form">
   <% question[:antwoorden].sort_by{ |x| x[:tekst] }.each_with_index do |answer, idx| %>
-    <p>
-    <label>
+    <label class="form__element">
         <input type=<% if question[:type] == "meerkeuze" %>"checkbox"<% else %>"radio"<% end %>
           value='<%=number+"#"+idx.to_s%>' name=<%= number %> >
-        <%= answer[:tekst] %>
+        <span class="form__element__text">
+          <%= answer[:tekst] %>
+        </span>
     </label>
-    </p>
   <% end %>
-  </fieldset>
 </form>
 <% question[:antwoorden].sort_by{ |x| x[:tekst] }.each_with_index do |answer, idx|%>
   <% if answer[:vraag] %>
@@ -42,14 +40,11 @@
 
       return postcodes;
     })();
-    console.log(postcodes);
     let last_answered = [];
 
     const postcodeField = document.getElementById("postcodeField");
 
     const handler = () => {
-      console.log(postcodeField.value);
-
       const selected = postcodes[postcodeField.value] || [];
 
       // Update results
