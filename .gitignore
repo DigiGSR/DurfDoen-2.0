@@ -10,3 +10,6 @@ tmp/nanoc/
 crash.log
 
 .idea/
+
+
+.sass-cache/
