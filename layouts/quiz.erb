@@ -1,16 +1,24 @@
-<div>
-  <% @items.find_all("/quiz/*").each_with_index do |quest, i| %>
-    <div id="question_<%=i+1%>" class="question hidden">
+<div id="quiz_intro" class="hidden quiz_content">
+  <h2 class="page-header-sub">Welke verenigingen passen bij jou?</h2>
+  <p>Het invullen van deze quiz zal jou helpen de vereniging te vinden die bij jou past.</p>
+  <p>Niet alle vragen hoeven ingevuld te worden en bij sommige vragen komen plots bijvragen tevoorschijn.</p>
+  <div onclick="goNext()" class="quizSpotlight">
+    <a>Start</a>
+  </div>
+</div>
+<div class="quiz_content">
+  <% @items.find_all("/quiz/*").sort_by{ |x| x.path }.each_with_index do |quest, i| %>
+    <div id="question_<%=i+1%>" class="question question_wrapper hidden">
       <%= render '/partials/question.*', question: quest, number: i.to_s %>
     </div>
   <% end %>
 </div>
 <div class="hidden">
   <h3> Deze verenigingen kan je eens uitchecken ;) </h3>
-  <div id="resultWrapper">
+  <div id="resultWrapper" class="fancy_link_container">
   </div>
 </div>
-<div class="buttons">
+<div class="buttons quiz_content">
   <div>
     <button id="previousButton" onclick="goPrevious()">
       Vorige
@@ -180,7 +188,8 @@
 
       const create_wrapper= document.createElement('div');
       create_wrapper.innerHTML = _results[ver];
-      create_wrapper.style.order = val;
+      const el = create_wrapper.firstChild;
+      el.style.order = val;
       resultWrapper.appendChild(create_wrapper);
     }
   }

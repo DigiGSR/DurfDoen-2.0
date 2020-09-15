@@ -1,0 +1,88 @@
+.main_content {
+  margin-top: 5rem;
+}
+.quiz_content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.question_wrapper {
+  padding: 1rem 0 0 2rem;
+  position: relative;
+}
+
+.question_wrapper:before {
+  content: "";
+  position: absolute;
+  top: 2rem;
+  left: -7px;
+  background: silver;
+  height: calc(100% - 2rem);
+  width: 3px;
+}
+
+#postcodeField {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#postcodeField::-webkit-outer-spin-button,
+#postcodeField::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+#postcodeField[type="number"] {
+  -moz-appearance: textfield;
+}
+
+fieldset {
+  max-height: 60vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  overflow-y: auto;
+  margin: auto;
+}
+#postcodeField {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#postcodeField::-webkit-outer-spin-button,
+#postcodeField::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+#postcodeField[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
+
+.form__element {
+  margin: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.form__element__text {
+  margin-left: 10px;
+}
+.form__element__text::first-letter {
+  text-transform: uppercase;
+}
+
+h3::first-letter {
+  text-transform: uppercase;
+}
+
+.buttons {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
