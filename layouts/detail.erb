@@ -1,3 +1,4 @@
+<h1> <%= item[:naam] %> </h1>
 <div class="details-container details-logo">
     <img src="https://dsa.ugent.be/api/verenigingen/<%= abbreviation(item) %>/logo?size=huge" alt="<%= item[:naam] %>">
 </div>
@@ -51,4 +52,11 @@
             </div>
         <% end %>
     </div>
+<% end %>
+<% if item.path.include? "konventen" %>
+    <% for vereniging in verenigingen_voor_konvent(item[:id]) %>
+        <div>
+            <%= vereniging[:naam] %>
+        </div>
+    <% end %>
 <% end %>
