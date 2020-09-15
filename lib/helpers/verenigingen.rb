@@ -61,7 +61,7 @@ module VerenigingenHelper
 
 
   def abbreviation(item)
-    item['id']
+    item.identifier.without_ext.split('/').last
   end
 
   def all_groups
