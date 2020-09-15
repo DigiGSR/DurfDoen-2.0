@@ -5,7 +5,7 @@
             <button type="submit">Zoek!</button>
         </form>
     </div>
-    <div id="search_wrapper" class="search__result"></div>
+    <div id="search_wrapper" class="fancy_link_container"></div>
 </div>
 <script src="https://unpkg.com/lunr/lunr.js"></script>
 
@@ -81,30 +81,13 @@ function ready() {
     function render_results(div, partials) {
         const create_wrapper= document.createElement('div');
         for(let partial of partials) {
-            const html = `<div class="link" onclick="window.location.href = '${partial.url}'">
-                    <div class="link__img">
-                        <img src="https://dsa.ugent.be/api/verenigingen/${partial.abbrev}/logo?size=small" alt="${partial.titel}">
-                    </div>
-                    <div class="link__content">
-                        <h3 class="link__title">
-                            ${partial.titel} (${partial.kind})
-                        </h3>
-                        <p class="link__text">
-                            ${partial.text}
-                        </p>
-                    </div>
-                </div>`;
-
-            if(html) {
-                create_wrapper.innerHTML = html;
-                div.appendChild(create_wrapper.firstChild);
-            }
+            create_wrapper.innerHTML = partial;
+            div.appendChild(create_wrapper.firstChild);
         }
     }
 
     const documents = <%=  CreateFullTextIndex.new(@items.find_all("**/verenigingen/*") + @items.find_all("**/konventen/*")).call.to_json %>;
-    const partials = <%= Hash[(partial_konventen + partial_verenigingen).map { |x| [x[:url], x] }].to_json  %>;
-
+    partials = <%= to_partials_search(all_groups()) %>;
     const index = lunr(function () {
         this.field('id', {boost: 15});
         this.field('title', {boost: 10});

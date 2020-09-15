@@ -26,28 +26,12 @@ module SearchHelper
         end
     end
 
-    def partial_verenigingen
-        @items.find_all("**/verenigingen/*").map do |x|
-        {
-            titel: x[:titel] || x[:naam],
-            url: x.path,
-            konvent: x[:konvent],
-            abbrev: abbreviation(x),
-            kind: "vereniging",
-            text: text_segment(x.compiled_content)
-        }
-        end
-    end
+    def to_partials_search(items)
+        my_hash = {}
 
-    def partial_konventen
-        @items.find_all("**/konventen/*").map do |x|
-        {
-            titel: x[:titel] || x[:naam],
-            url: x.path,
-            abbrev: abbreviation(x),
-            kind: "konvent",
-            text: text_segment(x.compiled_content)
-        }
+        items.each do |item|
+          my_hash[(item.path)] = (render '/partials/pretty_link.*', :item => item).gsub("\n", '')
         end
+        my_hash.to_json
     end
 end
