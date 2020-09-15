@@ -421,6 +421,8 @@ fieldset p label input {
 }
 
 .link {
+  color: inherit;
+  text-decoration: none;
   display: grid;
   grid-template-columns: minmax(min-content, 25%) 80%;
 
@@ -431,10 +433,18 @@ fieldset p label input {
   transition: 0.3s;
   transition-property: box-shadow;
 
-  margin: 30px auto;
-
   gap: 20px;
   padding: 0.5rem;
+  max-width: 50%;
+  flex-grow: 1;
+}
+
+.fancy_link_container {
+  display: flex;
+  margin: auto;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .link:hover {

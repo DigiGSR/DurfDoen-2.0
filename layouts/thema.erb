@@ -3,7 +3,9 @@
   <div class="details-container details-text">
     <%= yield %>
   </div>
-  <% verenigingen_voor_thema(item[:naam]).each do |ver| %>
-    <%= render '/partials/pretty_link.*', :item => ver %>
-  <% end %>
+  <div class="fancy_link_container">
+    <% verenigingen_voor_thema(item[:naam]).each do |ver| %>
+      <%= render '/partials/pretty_link.*', :item => ver %>
+    <% end %>
+  </div>
 </div>
