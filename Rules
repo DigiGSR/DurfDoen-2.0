@@ -14,17 +14,9 @@ preprocess do
   end
 end
 
-compile '/{verenigingen,projecten}/*.md' do
+compile '/{verenigingen,projecten,konventen}/*.md' do
   filter :kramdown
-  layout '/vereniging.*'
-  layout '/default.*'
-  layout '/base.*'
-  write ext: 'html'
-end
-
-compile '/konventen/*.md' do
-  filter :kramdown
-  layout '/konvent.*'
+  layout '/detail.*'
   layout '/default.*'
   layout '/base.*'
   write ext: 'html'

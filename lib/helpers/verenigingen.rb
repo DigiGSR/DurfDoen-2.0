@@ -20,6 +20,10 @@ module VerenigingenHelper
     @items.filter{|i| i[:themas] and i[:themas].include?(thema)}.to_a
   end
 
+  def verenigingen_voor_konvent(konvent)
+    @items.find_all("**/verenigingen/*").filter { |i| i[:konvent] == konvent }.to_a
+  end
+
   def konventen
     @items.find_all("**/konventen/*").to_a
   end
