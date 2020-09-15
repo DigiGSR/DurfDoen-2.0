@@ -9,7 +9,7 @@
     <% for i in navigables %>
       <li class="nav-item">
         <a href="<%= i.path %>" class="nav-link">
-          <%= @items["/assets/navbar_icons/"+i[:naam]+".svg"].compiled_content %>
+          <%= @items["/assets/navbar_icons/"+i.identifier.without_ext[1..]+".svg"].compiled_content %>
           <span class="link-text"><%= i[:naam] %> </span>
         </a>
       </li>
@@ -27,7 +27,7 @@
 </nav>
 
 <script>
-  const nav_links = document.querySelectorAll(".nav_link");
+  const nav_links = document.querySelectorAll(".nav-link");
   nav_links.forEach(nav_link => {
     if (nav_link.getAttribute("href") === window.location.pathname) {
       nav_link.classList.add("active_link");
