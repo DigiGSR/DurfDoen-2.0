@@ -48,7 +48,8 @@ module VerenigingenHelper
         "themas" => x[:themas],
         "postcodes" => x[:postcodes].to_a,
         "id" => x[:id],
-        "path" => x.path
+        "path" => x.path,
+        "image_url" => image_url(x)
     } }.to_a
   end
 

@@ -53,7 +53,7 @@
         <div class="randomVerenigingWrapper" <%= (item['id'] == "zeus") ? "data-iszeus" : "" %> >
           <a href="<%= item['path'] || test %>">
             <section class="randomVereniging">
-             <div class="randomVereniging_imageWrapper"><img loading=lazy src="<%= image_url(item) %>" alt="logo van <%= item['naam'] %>" height="100"></div>
+             <div class="randomVereniging_imageWrapper"><img loading=lazy src="<%= item["image_url"] %>" alt="logo van <%= item['naam'] %>" height="100"></div>
               <hr class="randomVereniging_hr">
               <h3><%= item['naam'] %></h3>
             </section>

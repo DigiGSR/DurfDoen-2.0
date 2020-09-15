@@ -11,6 +11,6 @@ window.addEventListener('load', function() {
   let destination = document.getElementById("display_repo");
   for (node of selected) {
     node.getElementsByTagName("img")[0].setAttribute("loading", "eager");
-    destination.appendChild(node);
+    destination.prepend(node);
   }
 });
