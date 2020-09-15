@@ -47,6 +47,8 @@ module VerenigingenHelper
         "konvent" => x[:konvent],
         "themas" => x[:themas],
         "postcodes" => x[:postcodes].to_a,
+        "id" => x[:id],
+        "path" => x.path
     } }.to_a
   end
 
@@ -59,7 +61,7 @@ module VerenigingenHelper
 
 
   def abbreviation(item)
-    item.identifier.without_ext.split('/').last
+    item['id']
   end
 
   def all_groups
@@ -72,15 +74,6 @@ module VerenigingenHelper
     else
       item[:image]
     end
-  end
-
-  def verenigingen_random(amount)
-    @items.find_all("**/verenigingen/*").map { |x| {
-        "titel" => x[:titel],
-        "naam" => x[:naam],
-        "konvent" => x[:konvent],
-        "themas" => x[:themas]
-    } }.to_a.shuffle[0..amount]
   end
 
   def image_tag(item)

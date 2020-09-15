@@ -34,10 +34,19 @@
 <main id="main" class="align">
   <article>
     <h2>Kende je bijvoorbeeld deze vereniging al?</h2>
-
-    <section class="randomVereniging">
-      <h3>Weus ZPI</h3>
-      <p>Weus ZPI is de studentenvereniging voor InFoRmAtIcA aan de UGent. Ons doel is een bullshitty omgeving te bullshitten voor bullshitted studenten die hun bullshit willen uitbreiden door zich te engageren voor bullshitprojecten.</p>
-    </section>
+    <div class="randomVerenigingenWrapper" id="display_repo"></div>
+    <div class="randomVerenigingenWrapper hidden" id="hidden_repo">
+      <% for item in verenigingen %>
+        <div class="randomVerenigingWrapper" <%= (item['id'] == "zeus") ? "data-iszeus" : "" %> >
+          <a href="<%= item['path'] || test %>">
+            <section class="randomVereniging">
+             <div class="randomVereniging_imageWrapper"><img loading=lazy src="<%= image_url(item) %>" alt="logo van <%= item['naam'] %>" height="100"></div>
+              <hr class="randomVereniging_hr">
+              <h3><%= item['naam'] %></h3>
+            </section>
+          </a>
+        </div>
+      <% end %>
+    </div>
   </article>
 </main>
