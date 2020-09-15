@@ -55,7 +55,7 @@ compile '/quiz.md' do
   layout '/quiz.*'
   layout '/default.*'
   layout '/base.*'
-  write ext: 'html'
+  write '/quiz/index.html'
 end
 
 compile '/search.html.erb' do
