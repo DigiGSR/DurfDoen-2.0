@@ -1,7 +1,6 @@
 ---
 naam: Kultureel Konvent
 verkorte_naam: Kultureel Konvent
-logo: placeholder.png
 contact: kultureelkonvent@gmail.com
 website: http://student.ugent.be/kultkcentraal/index.html
 social:

@@ -1,7 +1,6 @@
 ---
 naam: Politiek en Filosofisch Konvent
 verkorte_naam: PFK
-logo: placeholder.png
 contact: pfk@student.ugent.be
 website: https://pfk.ugent.be/
 social:

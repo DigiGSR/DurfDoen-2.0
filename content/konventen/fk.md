@@ -1,7 +1,6 @@
 ---
 naam: Faculteiten Konvent Gent vzw
 verkorte_naam: FK Gent
-logo: placeholder.png
 contact: fk@student.ugent.be
 website: https://www.fkgent.be/
 social:

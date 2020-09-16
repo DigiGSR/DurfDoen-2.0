@@ -1,7 +1,6 @@
 ---
 naam: Home Konvent
 verkorte_naam: HK
-logo: placeholder.png
 contact: hk@student.ugent.be
 website: https://www.homekonvent.be/
 social:
