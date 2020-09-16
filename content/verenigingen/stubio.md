@@ -2,10 +2,9 @@
 naam: StuBio
 verkorte_naam: StuBio
 titel: Faculteitsraad Bio-ingenieurswetenschappen
-id: fbw
+id: stubio
 naam: Faculteitsraad Bio-ingenieurswetenschappen
 konvent: gsr
-logo: /assets/sfeerfotos/logostubio.png
 website: stubio.ugent.be
 contact: stubio@ugent.be
 social:
