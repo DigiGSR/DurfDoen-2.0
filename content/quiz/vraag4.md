@@ -38,10 +38,10 @@ antwoorden:
         verenigingen:
           - naam: guho
           - naam: guso
-          - naam: sf
+          - naam: studentenfanfare
       - tekst: Schilderen en tekenen
         verenigingen:
-          - naam: schilder
+          - naam: modelstudies
       - tekst: Schrijven
         verenigingen:
           - naam: schamper
@@ -89,7 +89,7 @@ antwoorden:
   - tekst: Kritisch denken en debat
     verenigingen:
       - naam: engage
-      - naam: tzal
+      - naam: tsg
 
   - tekst: land- en tuinbouw
     verenigingen:
@@ -149,16 +149,16 @@ antwoorden:
 
           - tekst: Ecologistisch
             verenigingen:
-              - naam: jgroen
+              - naam: groen
               - naam: durgent
 
           - tekst: Vlaams-republikeins
             verenigingen:
-              - naam: jongnva
+              - naam: nva
 
           - tekst: Socialistisch
             verenigingen:
-              - naam: js
+              - naam: socialisten
 
           - tekst: Liberaal
             verenigingen:
@@ -203,5 +203,5 @@ antwoorden:
           - naam: hayasa
       - tekst: Japan
         verenigingen:
-          - naam: tnok
+          - naam: tnk
 ---
