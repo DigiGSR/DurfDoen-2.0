@@ -27,7 +27,6 @@ antwoorden:
       - tekst: Dichtkunst en gesproken woord
         verenigingen:
           - naam: auwla
-          - naam: prometheus
       - tekst: Fotografie
         verenigingen:
           - naam: schamper
@@ -46,6 +45,7 @@ antwoorden:
         verenigingen:
           - naam: schamper
           - naam: auwla
+          - naam: prometheus
       - tekst: Theater
         verenigingen:
           - naam: matrak
@@ -71,6 +71,7 @@ antwoorden:
         verenigingen:
           - naam: schamper
           - naam: auwla
+          - naam: prometheus
 
   - tekst: Duurzaamheid
     verenigingen:
@@ -108,9 +109,6 @@ antwoorden:
       - tekst: Cultuur promoten
         verenigingen:
           - naam: cultour
-      - tekst: mentale gezondheid
-        verenigingen:
-          - naam: stt
       - tekst: studentenvertegenwoordiging
         verenigingen:
           - naam: gsr
