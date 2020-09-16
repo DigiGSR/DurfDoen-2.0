@@ -20,24 +20,26 @@
             <% end %>
 </div>
 <div class="details-container details-contact">
+    <h3>contact</h3>
     <% if item[:deelname_link] %>
         <a href="<%= item[:deelname_link] %>"><%= item[:deelname_link] %></a>
     <% end %>
     <div class="contact-container">
-        <p><a href="<%= item[:contact] %>"><%= item[:contact] %></a></p>
-        <p><a href="<%= item[:website] %>"><%= item[:website] %></a></p>
+        <p>Email-adres: <a href="<%= item[:contact] %>"><%= item[:contact] %></a></p>
+        <p>Website: <a href="<%= item[:website] %>"><%= item[:website] %></a></p>
     </div>
+    <% if item[:social] %>
     <div class="social-container">
+    <h4>sociale media</h4>
         <ul>
-            <% if item[:social] %>
                 <% for social in item[:social] %>
                     <li class="social social-<%= social[:platform] %>">
                     <a href="<%= social[:link] %>"><p class="link"><%= social[:link] %></p><p><%= social[:platform] %></p></a>
                     </li>
                 <% end %>
-            <% end %>
         </ul>
     </div>
+    <% end %>
 </div>
 <div class="details-container details-photo">
     <div class="showcase-container">

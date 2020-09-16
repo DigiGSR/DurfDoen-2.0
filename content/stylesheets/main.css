@@ -625,7 +625,7 @@ fieldset p label input {
 }
 
 .social>a>p{
-  padding-top: 50px;
+  padding-top: 65px;
   text-align: center;
 }
 
@@ -660,6 +660,7 @@ fieldset p label input {
 .social-container>ul{
   list-style: none;
   display: flex;
+  padding: 0;
   gap: 1rem;
 }
 
