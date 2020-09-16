@@ -7,7 +7,7 @@ preprocess do
     content = ''
     attributes = {
         identifier: thema,
-        naam: thema.capitalize
+        naam: thema.downcase
     }
     identifier = "/themas/#{thema}"
 
