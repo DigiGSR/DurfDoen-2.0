@@ -1,6 +1,6 @@
 ---
 titel: Studentenfanfare
-id: sf
+id: studentenfanfare
 naam: Studentenfanfare
 verkorte_naam: Studentenfanfare
 konvent: kultk

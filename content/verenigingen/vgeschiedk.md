@@ -1,6 +1,6 @@
 ---
 titel: Vlaamse Geschiedkundige Kring
-id: vgkflwi
+id: vgeschiedk
 naam: Vlaamse Geschiedkundige Kring
 verkorte_naam: Vlaamse Geschiedkundige Kring
 konvent: fk

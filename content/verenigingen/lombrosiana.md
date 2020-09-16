@@ -1,6 +1,6 @@
 ---
 titel: Lombrosiana
-id: lombro
+id: lombrosiana
 naam: Lombrosiana
 verkorte_naam: Lombrosiana
 konvent: fk

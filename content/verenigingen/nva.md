@@ -1,6 +1,6 @@
 ---
 titel: Jong N-VA UGent
-id: jongnva
+id: nva
 naam: Jong N-VA UGent
 verkorte_naam: Jong N-VA UGent
 konvent: pfk

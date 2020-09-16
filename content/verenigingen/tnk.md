@@ -1,6 +1,6 @@
 ---
 titel: Tomo No Kai
-id: tnok
+id: tnk
 naam: Tomo No Kai
 verkorte_naam: Tomo No Kai
 konvent: ik

@@ -1,6 +1,6 @@
 ---
 titel: "'t Zal Wel Gaan"
-id: tzal
+id: tsg
 naam: "'t Zal Wel Gaan"
 verkorte_naam: "'t Zal Wel Gaan"
 konvent: pfk

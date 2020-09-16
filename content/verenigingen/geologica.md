@@ -1,6 +1,6 @@
 ---
 titel: Geologica
-id: geologic
+id: geologica
 naam: Geologica
 verkorte_naam: Geologica
 konvent: fk

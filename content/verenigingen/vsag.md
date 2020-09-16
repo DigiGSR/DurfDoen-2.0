@@ -1,6 +1,6 @@
 ---
 titel: Vinasag
-id: vinasag
+id: vsag
 naam: Vinasag
 verkorte_naam: Vinasag
 konvent: ik

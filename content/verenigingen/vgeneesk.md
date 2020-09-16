@@ -1,6 +1,6 @@
 ---
 titel: Vlaamse Geneeskundige Kring
-id: vgkfgen
+id: vgeneesk
 naam: Vlaamse Geneeskundige Kring
 verkorte_naam: Vlaamse Geneeskundige Kring
 konvent: fk

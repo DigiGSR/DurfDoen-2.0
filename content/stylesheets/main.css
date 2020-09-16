@@ -198,6 +198,10 @@ details[open] {
   flex: 1;
 }
 
+.randomVerenigingWrapper img {
+  max-width: 100%;
+}
+
 .randomVerenigingenWrapper {
   display: flex;
   flex-wrap: wrap;

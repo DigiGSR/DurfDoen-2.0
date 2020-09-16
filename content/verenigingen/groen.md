@@ -2,7 +2,7 @@
 naam: Jong Groen StuGent
 verkorte_naam: Jong Groen StuGent
 titel: JGroen StuGent
-id: jgroen
+id: groen
 naam: JGroen StuGent
 konvent: pfk
 contact: stugent@jonggroen.be

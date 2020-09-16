@@ -1,6 +1,6 @@
 ---
 titel: Atelier Modelstudies
-id: schilder
+id: modelstudies
 naam: Atelier Modelstudies
 verkorte_naam: Atelier Modelstudies
 konvent: kultk

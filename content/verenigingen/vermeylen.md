@@ -1,6 +1,6 @@
 ---
 titel: Home Vermeylen
-id: vermeyl
+id: vermeylen
 naam: Home Vermeylen
 verkorte_naam: Home Vermeylen
 konvent: hk

@@ -1,6 +1,6 @@
 ---
 titel: Geografica
-id: geografi
+id: geografica
 naam: Geografica
 verkorte_naam: Geografica
 konvent: fk
