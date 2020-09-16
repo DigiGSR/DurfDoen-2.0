@@ -453,16 +453,19 @@ h2 {
   gap: 20px;
   padding: 0.5rem;
   max-width: 600px;
-  flex-grow: 1;
-  min-width: 20%;
 }
 
 .fancy_link_container {
-  display: flex;
+  display: grid;
+  grid-template-columns: 50% 50%;
   margin: auto;
   gap: 20px;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 900px) {
+  .fancy_link_container {
+    grid-template-columns: auto;
+  }
 }
 
 .link:hover {
