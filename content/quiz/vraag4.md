@@ -31,9 +31,6 @@ antwoorden:
       - tekst: Fotografie
         verenigingen:
           - naam: schamper
-      - tekst: Illusionisme
-        verenigingen:
-          - naam: illusiona
       - tekst: Muziek spelen
         verenigingen:
           - naam: guho
