@@ -7,6 +7,11 @@
   --yellow: #fed318;
 }
 
+@font-face {
+  font-family: "MyWebFont";
+  src: url("/static/Bebas Neue.otf"); /* IE9 Compat Modes */
+}
+
 * {
   box-sizing: border-box;
 }
@@ -70,6 +75,10 @@ main {
   padding: 1rem 2rem;
   margin-right: 3rem;
 }
+.quizSpotlight a {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
 .quizSpotlight a:hover {
   background-color: var(--lightblue);
   border: 0.4rem solid var(--lightblue);
@@ -123,8 +132,8 @@ details[open] {
   width: 100%;
 }
 
-.nav-item:last-child {
-  margin-top: auto;
+.nav-link__logo__wrapper {
+  padding: 2rem 0;
 }
 
 .nav-link {
@@ -258,7 +267,7 @@ details[open] {
     justify-content: center;
     transform: rotate(-90deg);
     transition: 0.4s;
-    margin-bottom: 0.7rem;
+    padding: 2rem;
   }
 
   .navbar:hover,
@@ -330,8 +339,11 @@ header {
 }
 
 h2 {
-  font-family: futura, Avenir Next, Verdana, Geneva, Tahoma, sans-serif;
+  font-family: MyWebFont, futura, Avenir Next, Verdana, Geneva, Tahoma,
+    sans-serif;
   font-size: 3.4rem;
+
+  font-weight: lighter;
   color: var(--darkblue);
 }
 
@@ -568,6 +580,10 @@ h2 {
 }
 .tile__image svg {
   fill: var(--white);
+}
+
+.tile__title::first-letter {
+  text-transform: capitalize;
 }
 
 .tile:hover .tile__title {

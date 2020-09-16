@@ -1,10 +1,12 @@
 .main_content {
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
+
 .quiz_content {
-  max-width: 900px;
+  max-width: 1100px;
   margin: 0 auto;
 }
+
 .question_wrapper {
   padding: 1rem 0 0 2rem;
   position: relative;
@@ -82,19 +84,17 @@ h3::first-letter {
 }
 
 .buttons {
-<<<<<<< HEAD
   padding: 10px;
-=======
-  width: 70%;
-  margin: 20px auto;
   display: flex;
   justify-content: space-between;
 }
 
-.buttons {
-  width: 70%;
-  margin: 20px auto;
->>>>>>> 85fe081... style the quiz a little again
-  display: flex;
-  justify-content: space-between;
+.question__ {
+  font-size: 2rem;
+}
+
+.small {
+  padding: 1rem 1.5rem !important;
+  font-size: 1rem !important;
+  border-width: 4px !important;
 }

@@ -14,9 +14,12 @@
     </div>
   <% end %>
 </div>
-<div class="hidden">
-  <h3> Deze verenigingen kan je eens uitchecken ;) </h3>
+<div class="hidden quiz_content">
+  <h2> Misschien is een van deze verenigingen iets voor jou </h2>
   <div id="resultWrapper" class="fancy_link_container">
+  </div>
+    <div onclick="window.location.href='/quiz'" class="quizSpotlight">
+    <a class="small">Opnieuw</a>
   </div>
 </div>
 <div class="buttons quiz_content">
@@ -142,6 +145,7 @@
     }
 
     if(!state.question.element) {
+      previousButton.style.display = "none";
       nextButton.style.display = "none";
       resultWrapper.parentNode.classList.remove("hidden");
 
