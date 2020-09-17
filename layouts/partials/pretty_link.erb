@@ -1,4 +1,4 @@
-<div class="link" onclick="window.location.href='<%= item.path %>'">
+<a class="link" href="<%=item.path%>">
     <div class="link__img">
         <img src="<%= small_image_url(item) %>" alt="<%= item[:naam] %>" height=100>
     </div>
@@ -10,4 +10,4 @@
             <%= text_segment(item.compiled_content) %>
         </p>
     </div>
-</div>
+</a>
