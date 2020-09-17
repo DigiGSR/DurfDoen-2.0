@@ -309,7 +309,14 @@ input {
 }
 
 button {
+  color: var(--darkblue);
   border: 0.15em solid var(--darkblue);
+}
+
+button:hover {
+  background-color: var(--lightblue);
+  border: 0.15rem solid var(--lightblue);
+  color: var(--white);
 }
 
 input {
