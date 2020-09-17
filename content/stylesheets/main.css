@@ -115,7 +115,7 @@ details[open] {
   width: 5rem;
   height: 100vh;
   padding-bottom: 2rem;
-  transition: width 600ms ease;
+  transition: width 300ms ease;
 }
 
 .navbar-nav {
@@ -163,6 +163,10 @@ details[open] {
   overflow: hidden;
 
   font-weight: bolder;
+}
+
+.hidden {
+  display: none;
 }
 
 .nav-link svg {
@@ -341,7 +345,7 @@ header {
 h2 {
   font-family: MyWebFont, futura, Avenir Next, Verdana, Geneva, Tahoma,
     sans-serif;
-  font-size: 3.4rem;
+  font-size: 2.8rem;
 
   font-weight: lighter;
   color: var(--darkblue);
@@ -590,6 +594,10 @@ h2 {
   opacity: 1;
 }
 
+.title_link {
+  text-decoration: none;
+}
+
 .tile__title {
   color: black;
   width: 100%;
@@ -621,6 +629,150 @@ h2 {
   min-width: 400px;
 }
 
+.details-logo > img {
+  width: 100px;
+}
+
+.details-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.detail_title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+.detail_title h2 {
+  margin: 0;
+  text-align: center;
+}
+
+.social > a {
+  display: block;
+  background-size: 50px;
+  background-repeat: no-repeat;
+  background-position: top center;
+
+  width: 100px;
+  height: 100px;
+}
+
+.social > a > .link {
+  display: none;
+}
+
+.social > a > p {
+  padding-top: 65px;
+  text-align: center;
+}
+
+.social-facebook > a {
+  background-image: url(/assets/social/facebook_small.png);
+}
+
+.social-instagram > a {
+  background-image: url(/assets/social/instagram_small.png);
+}
+
+.social-twitter > a {
+  background-image: url(/assets/social/twitter_small.png);
+}
+
+.social-youtube > a {
+  background-image: url(/assets/social/youtube_small.png);
+}
+
+.social-tiktok > a {
+  background-image: url(/assets/social/tiktok_small.png);
+}
+
+.social-linkedin > a {
+  background-image: url(/assets/social/linkedIn_small.png);
+}
+
+.social-fetlife > a {
+  background-image: url(/assets/social/fetLife_small.png);
+}
+
+.social-container > ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  /* gap: 0.5rem; */
+  margin: auto;
+  justify-content: space-around;
+}
+
+.detail-body {
+  margin: auto;
+  max-width: 1200px;
+  padding: 2rem 10%;
+
+  position: relative;
+}
+
+.social {
+  width: 52px;
+  height: 52px;
+}
+
+.social > img {
+  width: 52px;
+  height: 52px;
+}
+
+.social + .social {
+  margin-left: 20px;
+}
+
+.vereniging_themas {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0 3rem;
+  padding: 0;
+}
+/* .vereniging_thema {
+  width: 4rem;
+  height: 4rem;
+} */
+
+.vereniging_thema > a > svg:hover {
+  transform: scale(1.2);
+  transform-origin: center center;
+  transition: all 150ms ease;
+}
+
+.vereniging_thema > a > svg {
+  fill: #013e7a;
+  width: 3rem;
+  height: 3rem;
+}
+
+footer {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.showcase-image > img {
+  flex-grow: 3;
+  height: 30rem;
+  max-width: 80vw;
+}
+
+.showcase-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
 @media only screen and (max-width: 600px) {
   .tile-grid {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -638,5 +790,29 @@ h2 {
 @media only screen and (max-width: 300px) {
   .tile-grid {
     grid-template-columns: auto;
+  }
+}
+
+.detail-content {
+  max-width: 1100px;
+}
+
+.details-contact {
+  padding: 1rem;
+  float: right;
+  margin: auto;
+}
+
+@media only screen and (max-width: 700px) {
+  .details-contact {
+    float: none;
+    width: 300px;
+    padding-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .detail-body {
+    width: 100%;
   }
 }
