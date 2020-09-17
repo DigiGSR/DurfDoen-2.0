@@ -70,10 +70,10 @@ module VerenigingenHelper
   end
 
   def image_url(item)
-    if item[:image].nil?
+    if item[:logo].nil?
       "https://dsa.ugent.be/api/verenigingen/#{ abbreviation item }/logo?size=medium"
     else
-      item[:image]
+      item[:logo]
     end
   end
 

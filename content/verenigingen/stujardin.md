@@ -4,6 +4,7 @@ id: stujardin
 naam: StuJardin
 verkorte_naam: StuJardin
 konvent: gsr
+logo: /assets/sfeerfotos/stujardin.png
 contact: http://stujardin@gmail.com/
 website: http://student.ugent.be/stujardin/
 social:

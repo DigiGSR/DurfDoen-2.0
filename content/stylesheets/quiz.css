@@ -98,3 +98,7 @@ h3::first-letter {
   font-size: 1rem !important;
   border-width: 4px !important;
 }
+
+.quizSpotlight {
+  margin: 0;
+}

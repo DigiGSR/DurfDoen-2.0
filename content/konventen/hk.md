@@ -1,7 +1,7 @@
 ---
 naam: Home Konvent
+id: hk
 verkorte_naam: HK
-logo: placeholder.png
 contact: hk@student.ugent.be
 website: https://www.homekonvent.be/
 social:
@@ -12,7 +12,7 @@ social:
   - platform: instagram
     link: https://www.instagram.com/homekonventgent/
 themas:
-  -  home
+  - home
 showcase:
   - photo: /assets/logos/HKA.jpg
   - photo: /assets/logos/HKB.PNG
@@ -23,4 +23,5 @@ verenigingen:
   - verkorte_naam: vereniging2
     photo: https://via.placeholder.com/200.png/90f/fff
 ---
+
 Het HK is een plaats waar de verschillende vereningingen van de 5 homes elkaar treffen.
