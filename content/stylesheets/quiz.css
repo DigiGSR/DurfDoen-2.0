@@ -84,7 +84,7 @@ h3::first-letter {
 }
 
 .buttons {
-  padding: 10px;
+  padding: 2em 10px;
   display: flex;
   justify-content: space-between;
 }
@@ -97,8 +97,4 @@ h3::first-letter {
   padding: 1rem 1.5rem !important;
   font-size: 1rem !important;
   border-width: 4px !important;
-}
-
-.quizSpotlight {
-  margin: 0;
 }
