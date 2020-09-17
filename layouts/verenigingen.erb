@@ -18,7 +18,7 @@
       <% for item in konventen %>
         <a class="tile clickable tile--medium" href="<%= item.path %>">
           <div class="tile__image">
-            <img src="https://dsa.ugent.be/api/verenigingen/<%= abbreviation(item) %>/logo?size=medium" alt="<%= item[:naam] %>">
+            <img src="<%= image_url(item) %>" alt="<%= item[:naam] %>">
           </div>
           <p class="tile__title tile__title--medium"> <%= item[:titel] || item[:naam] %> </p>
         </a>

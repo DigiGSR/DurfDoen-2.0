@@ -21,7 +21,7 @@
         <% end %>
     </div>
     <div class="detail_title">
-        <a target="_blank" href="<%= item[:website] %>"><img src="https://dsa.ugent.be/api/verenigingen/<%= abbreviation(item) %>/logo?size=small" alt="<%= item[:naam] %>"></a>
+        <a target="_blank" href="<%= item[:website] %>"><img src="<%= small_image_url(item) %>" alt="<%= item[:naam] %>" height=100></a>
         <h2><%= item[:naam] %></h2>
         <% if item[:themas] %>
             <% for thema in item[:themas] %>

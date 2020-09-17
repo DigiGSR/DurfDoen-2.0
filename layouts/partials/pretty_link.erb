@@ -1,6 +1,6 @@
 <div class="link" onclick="window.location.href='<%= item.path %>'">
     <div class="link__img">
-        <img src="https://dsa.ugent.be/api/verenigingen/<%= abbreviation(item) %>/logo?size=small" alt="<%= item[:naam] %>">
+        <img src="<%= small_image_url(item) %>" alt="<%= item[:naam] %>" height=100>
     </div>
     <div class="link__content">
         <h3 class="link__title">

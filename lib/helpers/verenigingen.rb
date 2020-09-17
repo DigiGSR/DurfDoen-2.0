@@ -77,6 +77,14 @@ module VerenigingenHelper
     end
   end
 
+  def small_image_url(item)
+    if item[:logo].nil?
+      "https://dsa.ugent.be/api/verenigingen/#{ abbreviation item }/logo?size=small"
+    else
+      item[:logo]
+    end
+  end
+
   def image_tag(item)
     "<img src='#{ image_url item }' alt='#{ item[:naam] } logo' />"
   end
