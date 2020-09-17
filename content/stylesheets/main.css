@@ -133,6 +133,10 @@ details[open] {
   width: 100%;
 }
 
+.nav-item:last-child {
+  margin-top: auto;
+}
+
 .nav-link__logo__wrapper {
   padding: 2rem 0;
 }
