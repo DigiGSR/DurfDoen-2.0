@@ -497,6 +497,11 @@ h2 {
   height: 100%;
 }
 
+.link a {
+  display: block;
+  text-decoration: none;
+}
+
 .fancy_link_container {
   display: grid;
   grid-template-columns: 50% 50%;
