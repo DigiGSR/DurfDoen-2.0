@@ -59,36 +59,6 @@ main {
   padding: 4rem;
 }
 
-.quizSpotlight {
-  margin: 2rem 0;
-  font-size: 2rem;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-}
-
-.quizSpotlight:hover {
-  cursor: pointer;
-}
-
-.quizSpotlight a {
-  position: relative;
-  text-decoration: none;
-  background: var(--white);
-  color: var(--darkblue);
-  border: 0.4rem solid var(--darkblue);
-  padding: 1rem 2rem;
-  margin-right: 3rem;
-}
-.quizSpotlight a {
-  padding: 0.5rem 1rem;
-  font-size: 1rem;
-}
-.quizSpotlight a:hover {
-  background-color: var(--lightblue);
-  border: 0.4rem solid var(--lightblue);
-  color: var(--white);
-}
-
 details {
   margin-bottom: 1rem;
 }
