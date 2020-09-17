@@ -58,7 +58,6 @@ main {
   flex-direction: column;
   justify-content: space-around;
   padding: 4rem;
-  /* background-color: #fbc707; */
 }
 
 .quizSpotlight {
@@ -209,7 +208,7 @@ details[open] {
 }
 
 .randomVereniging {
-  border: 2px solid var(--yellow);
+  border: 7px solid var(--yellow);
   padding: 1rem;
   margin: 1rem;
 }
@@ -443,10 +442,8 @@ h2 {
 
 .beforeTheFold article::before {
   opacity: 0.2;
-  /* backdrop-filter: blur(2px); */
-  background-color: #fff;
   z-index: -1;
-  /* background-color: var(--white); */
+  background-color: var(--white);
   content: "";
   top: 0;
   bottom: 0;
