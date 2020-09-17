@@ -48,15 +48,21 @@ main {
 
 .main_content {
   width: 100%;
+  height: 100%;
   margin: 0 auto;
 }
 
 .beforeTheFold {
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 4rem;
+  /* background-color: #fbc707; */
 }
 
 .quizSpotlight {
-  margin-top: 2rem;
+  margin: 2rem 0;
   font-size: 2rem;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -102,6 +108,8 @@ details[open] {
 
 .align {
   max-width: 1280px;
+  margin: auto;
+  padding: 3rem;
 }
 
 .align .large {
@@ -359,11 +367,6 @@ h2 {
   position: relative;
 }
 
-.studentZijn {
-  margin: 4rem 0 2rem 3rem;
-  margin: 11vh 0 2rem 3rem;
-}
-
 .hidden {
   display: none;
 }
@@ -373,14 +376,7 @@ h2 {
   display: flex;
   position: relative;
   z-index: 2;
-}
-.quote img {
-  width: 103px;
-  height: 185px;
-  margin-right: 2rem;
-}
 
-.quote p {
   max-width: 25rem;
   font-size: 1.5rem;
   font-family: Avenir Next, Verdana, Geneva, Tahoma, sans-serif;
@@ -419,11 +415,11 @@ h2 {
   background: linear-gradient(hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, 0.6));
 }
 
-.backgroundSquare {
+/* .backgroundSquare {
   z-index: -2;
   position: absolute;
   background-color: var(--lightCyan);
-}
+} */
 
 .header_blueSquare {
   right: 20%;
@@ -436,13 +432,40 @@ h2 {
   z-index: -3;
 }
 
-.header_photo {
-  background: url(/assets/placeholder.jpg) center center;
-  background-size: cover;
-  right: 0;
-  left: 50%;
+.beforeTheFold article {
+  position: relative;
+  max-width: 500px;
+  padding: 2rem 3rem;
+  z-index: 2;
+  margin: unset;
+  backdrop-filter: blur(2px);
+}
+
+.beforeTheFold article::before {
+  opacity: 0.2;
+  /* backdrop-filter: blur(2px); */
+  background-color: #fff;
+  z-index: -1;
+  /* background-color: var(--white); */
+  content: "";
+  top: 0;
   bottom: 0;
-  top: 20%;
+  left: 0;
+  right: 0;
+  /* width: 200vw; */
+  position: absolute;
+}
+
+.header_photo {
+  /* background: url(/assets/placeholder.png) center center; */
+  /* background-size: cover; */
+  /* background-size: contain; */
+  /* background-repeat: no-repeat; */
+  position: absolute;
+  width: auto;
+  height: 100vh;
+  right: 0;
+  top: 0;
 }
 
 .underline {
@@ -496,6 +519,7 @@ h2 {
   align-self: center;
 
   min-width: 100px;
+  margin: auto 2rem;
 }
 
 .link__content {
@@ -656,9 +680,6 @@ h2 {
 
 .social > a {
   display: block;
-  background-size: 50px;
-  background-repeat: no-repeat;
-  background-position: top center;
 
   width: 100px;
   height: 100px;
@@ -671,34 +692,6 @@ h2 {
 .social > a > p {
   padding-top: 65px;
   text-align: center;
-}
-
-.social-facebook > a {
-  background-image: url(/assets/social/facebook_small.png);
-}
-
-.social-instagram > a {
-  background-image: url(/assets/social/instagram_small.png);
-}
-
-.social-twitter > a {
-  background-image: url(/assets/social/twitter_small.png);
-}
-
-.social-youtube > a {
-  background-image: url(/assets/social/youtube_small.png);
-}
-
-.social-tiktok > a {
-  background-image: url(/assets/social/tiktok_small.png);
-}
-
-.social-linkedin > a {
-  background-image: url(/assets/social/linkedIn_small.png);
-}
-
-.social-fetlife > a {
-  background-image: url(/assets/social/fetLife_small.png);
 }
 
 .social-container > ul {
@@ -779,6 +772,20 @@ footer {
 @media only screen and (max-width: 600px) {
   .tile-grid {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+
+  .header_photo {
+    display: none;
+  }
+
+  .beforeTheFold {
+    width: 100%;
+    padding: 0;
+    min-height: unset;
+  }
+
+  .scroll {
+    display: none;
   }
 }
 
