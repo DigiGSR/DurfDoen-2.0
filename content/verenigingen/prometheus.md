@@ -4,6 +4,7 @@ id: prometheus
 naam: Prometheus
 verkorte_naam: Prometheus
 konvent: kultk
+logo: /assets/sfeerfotos/logoprometheus.jpg
 contact: prometheusgent@gmail.com
 website: https://prometheusgent.wordpress.com/
 social:

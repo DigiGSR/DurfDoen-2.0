@@ -5,6 +5,7 @@ titel: Studentenraad Dierengeneeskunde
 id: fde
 naam: Studentenraad Dierengeneeskunde
 konvent: gsr
+logo: /assets/sfeerfotos/LogoDSR.png
 themas:
   - engagement
 website: http://www.vlaamsdiergeneeskundigekring.be/Studentenraad.php

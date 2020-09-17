@@ -1,7 +1,6 @@
 ---
-naam: Gentse Studentenraad 
+naam: Gentse Studentenraad
 verkorte_naam: GSR
-logo: placeholder.png
 contact: info@gentsestudentenraad.be
 website: https://www.gentsestudentenraad.be
 social:

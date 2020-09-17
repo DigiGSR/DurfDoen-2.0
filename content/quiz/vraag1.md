@@ -352,39 +352,39 @@ antwoorden:
     antwoorden:
       - tekst: biw - Bos- en natuurbeheer
         verenigingen:
-          - naam: fbw
+          - naam: stubio
           - naam: vlk
 
       - tekst: biw - cel- en genbiotechnologie
         verenigingen:
-          - naam: fbw
+          - naam: stubio
           - naam: vlk
 
       - tekst: biw - Chemie en voedingstechnologie
         verenigingen:
-          - naam: fbw
+          - naam: stubio
           - naam: vlk
 
       - tekst: biw - Landbouwkunde
         verenigingen:
-          - naam: fbw
+          - naam: stubio
           - naam: vlk
           - naam: gk
           - naam: iaas
 
       - tekst: biw - Land- en waterbeheer
         verenigingen:
-          - naam: fbw
+          - naam: stubio
           - naam: vlk
 
       - tekst: biw - Milieutechnologie
         verenigingen:
-          - naam: fbw
+          - naam: stubio
           - naam: vlk
 
       - tekst: Biowetenschappen
         verenigingen:
-          - naam: fbw
+          - naam: stubio
           - naam: lila
 
   - tekst: Farmaceutische wetenschappen
