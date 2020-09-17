@@ -1,3 +1,5 @@
+
+
 .main_content {
   margin-top: 2rem;
 }
@@ -84,7 +86,7 @@ h3::first-letter {
 }
 
 .buttons {
-  padding: 10px;
+  padding: 2em 10px;
   display: flex;
   justify-content: space-between;
 }
@@ -100,5 +102,31 @@ h3::first-letter {
 }
 
 .quizSpotlight {
-  margin: 0;
+  margin: 2rem 0;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.quizSpotlight:hover {
+  cursor: pointer;
+}
+
+.quizSpotlight a {
+  position: relative;
+  text-decoration: none;
+  background: var(--white);
+  color: var(--darkblue);
+  border: 0.4rem solid var(--darkblue);
+  padding: 1rem 2rem;
+  margin-right: 3rem;
+}
+.quizSpotlight a {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+.quizSpotlight a:hover {
+  background-color: var(--lightblue);
+  border: 0.4rem solid var(--lightblue);
+  color: var(--white);
 }
