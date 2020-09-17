@@ -110,8 +110,9 @@ footer {
   font-weight: bolder;
 }
 
-.hidden{
-  display: none;}
+.hidden {
+  display: none;
+}
 
 .nav-link svg {
   width: 2rem;
@@ -238,7 +239,6 @@ header {
   position: relative;
   background-color: var(--lightCyan);
 }
-
 
 h2 {
   font-family: futura, Avenir Next, Verdana, Geneva, Tahoma, sans-serif;
@@ -542,7 +542,7 @@ fieldset p label input {
   opacity: 1;
 }
 
-.title_link{
+.title_link {
   text-decoration: none;
 }
 
@@ -598,116 +598,149 @@ fieldset p label input {
   min-width: 400px;
 }
 
-.details-logo>img{
+.details-logo > img {
   width: 100px;
 }
 
-.details-logo{
+.details-logo {
   display: flex;
   justify-content: center;
 }
 
-.detail_title{
+.detail_title {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
 }
 
-.social>a {
+.detail_title h2 {
+  margin: 0;
+  text-align: center;
+}
 
+.social > a {
   display: block;
   background-size: 50px;
   background-repeat: no-repeat;
   background-position: top center;
+
+  width: 100px;
+  height: 100px;
 }
 
-.social>a>.link{
+.social > a > .link {
   display: none;
 }
 
-.social>a>p{
+.social > a > p {
   padding-top: 65px;
   text-align: center;
 }
 
-.social-facebook>a{
+.social-facebook > a {
   background-image: url(/assets/social/facebook_small.png);
 }
 
-.social-instagram>a{
+.social-instagram > a {
   background-image: url(/assets/social/instagram_small.png);
 }
 
-.social-twitter>a{
+.social-twitter > a {
   background-image: url(/assets/social/twitter_small.png);
 }
 
-.social-youtube>a{
+.social-youtube > a {
   background-image: url(/assets/social/youtube_small.png);
 }
 
-.social-tiktok>a{
+.social-tiktok > a {
   background-image: url(/assets/social/tiktok_small.png);
 }
 
-.social-linkedin>a{
+.social-linkedin > a {
   background-image: url(/assets/social/linkedIn_small.png);
 }
 
-.social-fetlife>a{
+.social-fetlife > a {
   background-image: url(/assets/social/fetLife_small.png);
 }
 
-.social-container>ul{
+.social-container > ul {
   list-style: none;
   display: flex;
   padding: 0;
-  gap: 1rem;
+  /* gap: 0.5rem; */
+  margin: auto;
+  justify-content: space-around;
 }
 
-.vereniging_themas{
+.detail-body {
+  margin: auto;
+  max-width: 1200px;
+  padding: 2rem 10%;
+
+  position: relative;
+}
+
+.social {
+  width: 52px;
+  height: 52px;
+}
+
+.social > img {
+  width: 52px;
+  height: 52px;
+}
+
+.social + .social {
+  margin-left: 20px;
+}
+
+.vereniging_themas {
   list-style: none;
   display: flex;
   align-items: center;
   margin: 0 3rem;
   padding: 0;
 }
-.vereniging_thema{
+/* .vereniging_thema {
   width: 4rem;
   height: 4rem;
-  margin: 0  1rem  0 0;
-}
+} */
 
-.vereniging_thema>a>svg:hover{
+.vereniging_thema > a > svg:hover {
   transform: scale(1.2);
   transform-origin: center center;
   transition: all 150ms ease;
 }
 
-.vereniging_thema>a>svg{
+.vereniging_thema > a > svg {
   fill: #013e7a;
   width: 3rem;
   height: 3rem;
 }
 
-footer{
+footer {
   padding-top: 1rem;
   display: flex;
   justify-content: space-between;
 }
 
-.showcase-image>img{
+.showcase-image > img {
   flex-grow: 3;
   height: 30rem;
   max-width: 80vw;
 }
 
-.showcase-container{
+.showcase-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
 }
-
 
 @media only screen and (max-width: 600px) {
   .tile-grid {
@@ -718,5 +751,29 @@ footer{
 @media only screen and (max-width: 300px) {
   .tile-grid {
     grid-template-columns: auto;
+  }
+}
+
+.detail-content {
+  max-width: 1100px;
+}
+
+.details-contact {
+  padding: 1rem;
+  float: right;
+  margin: auto;
+}
+
+@media only screen and (max-width: 700px) {
+  .details-contact {
+    float: none;
+    width: 300px;
+    padding-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .detail-body {
+    width: 100%;
   }
 }

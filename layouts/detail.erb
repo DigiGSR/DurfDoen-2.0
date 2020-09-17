@@ -1,45 +1,41 @@
-<div class="details-container details-logo">
-    <a target="_blank" href="<%= item[:website] %>"><img src="https://dsa.ugent.be/api/verenigingen/<%= abbreviation(item) %>/logo?size=small" alt="<%= item[:naam] %>"></a>
-</div>
-<div class="detail_title">
-    <a class="title_link" target="_blank" href="<%= item[:website] %>"><h2>
-    <%= item[:naam] %>
-    </h2></a>
-    <% if item[:themas] %>
-                <ul class="vereniging_themas">
-                    <% for thema in item[:themas] %>
-                        <li>
-                        <div class="vereniging_thema">
-                        <a href="/themas/<%= thema %>.html">
-                        <%= @items["/assets/themas_icon/"+thema+".svg"].compiled_content %>
-                        </a>
-                        </div>
-                        </li>
-                    <% end %>
-                </ul>
-            <% end %>
-</div>
-<div class="details-container details-contact">
-    <h3>contact</h3>
-    <% if item[:deelname_link] %>
-        <a href="<%= item[:deelname_link] %>"><%= item[:deelname_link] %></a>
-    <% end %>
-    <div class="contact-container">
-        <p>Email-adres: <a href="<%= item[:contact] %>"><%= item[:contact] %></a></p>
-        <p>Website: <a href="<%= item[:website] %>"><%= item[:website] %></a></p>
-    </div>
-    <% if item[:social] %>
-    <div class="social-container">
-    <h4>sociale media</h4>
-        <ul>
+<div class="detail-body">
+    <div class="details-contact">
+        <%if item[:deelname_link] || item[:contact] || item[:website]%>
+        <h3>Contact</h3>
+        <% if item[:deelname_link] %><a href="<%= item[:deelname_link] %>"><%= item[:deelname_link] %></a><% end %>
+        <div class="contact-container">
+            <% if item[:contact] %><p>Email-adres: <a href="<%= item[:contact] %>"><%= item[:contact] %></a></p><%end%>
+            <% if item[:website] %><p>Website: <a href="<%= item[:website] %>"><%= item[:website] %></a></p><%end%>
+        </div><%end%>
+        <% if item[:social] %>
+        <div class="social-container">
+        <h4>Sociale media</h4>
+            <ul>
                 <% for social in item[:social] %>
-                    <li class="social social-<%= social[:platform] %>">
-                    <a href="<%= social[:link] %>"><p class="link"><%= social[:link] %></p><p><%= social[:platform] %></p></a>
-                    </li>
+                    <a class="social" href="<%= social[:link] %>">
+                        <img src="/assets/social/<%= social[:platform].downcase %>_small.png">
+                    </a>
                 <% end %>
-        </ul>
+            </ul>
+        </div>
+        <% end %>
     </div>
-    <% end %>
+    <div class="detail_title">
+        <a target="_blank" href="<%= item[:website] %>"><img src="https://dsa.ugent.be/api/verenigingen/<%= abbreviation(item) %>/logo?size=small" alt="<%= item[:naam] %>"></a>
+        <h2><%= item[:naam] %></h2>
+        <% if item[:themas] %>
+            <% for thema in item[:themas] %>
+                <div class="vereniging_thema">
+                    <a href="/themas/<%= thema %>.html">
+                        <%= @items["/assets/themas_icon/"+thema+".svg"].compiled_content %>
+                    </a>
+                </div>
+            <% end %>
+        <% end %>
+    </div>
+    <div class="detail-content">
+        <%= yield%>
+    </div>
 </div>
 <div class="details-container details-photo">
     <div class="showcase-container">
@@ -65,7 +61,7 @@
 <% if item.path.include? "konventen" %>
     <% for vereniging in verenigingen_voor_konvent(item[:id]) %>
         <div>
-            <%= vereniging[:naam] %>
+            <%= render '/partials/pretty_link.*', item: vereniging %>
         </div>
     <% end %>
 <% end %>
