@@ -46,28 +46,8 @@
             </div>
         <% end %>
     <% end %>
-    <div class="thema-container">
-    <% if item[:themas] %>
-        <p><span class="thema-title">Thema's:</span>
-            <ul>
-                <% for thema in item[:themas] %>
-                    <li><%= thema %></li>
-                <% end %>
-            </ul>
-        </p>
-    <% end %>
     </div>
 </div>
-<% if item[:verenigingen] %>
-    <div class="details-container details-verenigingen">
-        <% for vereniging in item[:verenigingen] %>
-            <div class="vereninging-container">
-                <p><%= vereniging[:naam] %></p>
-                <img src="<%= vereniging[:photo] %>" alt="vereniging logo"></img>
-            </div>
-        <% end %>
-    </div>
-<% end %>
 <% if item.path.include? "konventen" %>
     <div class="fancy_link_container">
     <% verenigingen_voor_konvent(item[:id]).sort_by{ |x| x[:naam] }.each do |vereniging|  %>

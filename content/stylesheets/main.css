@@ -469,6 +469,7 @@ h2 {
   gap: 20px;
   padding: 0.5rem;
   max-width: 600px;
+  width: 100%;
 }
 
 .fancy_link_container {
@@ -476,6 +477,7 @@ h2 {
   grid-template-columns: 50% 50%;
   margin: auto;
   gap: 20px;
+  place-items: center;
 }
 
 @media only screen and (max-width: 900px) {
@@ -641,7 +643,7 @@ h2 {
 .detail_title {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: baseline;
   flex-wrap: wrap;
   gap: 12px;
   justify-content: center;
@@ -771,6 +773,7 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
+  width: 100%;
 }
 
 @media only screen and (max-width: 600px) {

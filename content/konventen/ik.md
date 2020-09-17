@@ -1,6 +1,7 @@
 ---
 naam: Internationaal Konvent
 verkorte_naam: IK Gent
+id: ik
 contact: ik@student.ugent.be
 website: https://internationaalkonv.wixsite.com/internationalkonvent
 social:
@@ -23,6 +24,7 @@ verenigingen:
   - verkorte_naam: vereniging2
     photo: https://via.placeholder.com/200.png/90f/fff
 ---
+
 Het IK probeert de buitenlandse studenten en internationale studentenverenigingen te helpen in hun zoektocht naar informatie & ontspanning.
 
 We want international students to feel included by providing information concerning student activities and the university whilst working with internationally minded people and organisations.
