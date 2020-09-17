@@ -202,4 +202,8 @@ antwoorden:
       - tekst: Japan
         verenigingen:
           - naam: tnk
+      - tekst: De Klassieke Oudheid
+        verenigingen:
+          - naam: kk
+
 ---

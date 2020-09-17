@@ -4,12 +4,16 @@ id: oedc
 naam: 180 degrees consulting
 verkorte_naam: 180 degrees consulting
 konvent: wvk
-website: http://www.180dc.org/ghent
+website: https://www.180ghent.com/
 social:
   - platform: facebook
     link: https://www.facebook.com/180DegreesConsultingGhent
 themas:
   - economie en development
+showcase:
+  - photo: /assets/logos/oedcA.jpg
+  - photo: /assets/logos/oedcB.jpg
+  - photo: /assets/logos/oedcV.jpg
 ---
 
 180 Degrees Consulting is the world’s largest student-driven consultancy. The Ghent branch was founded on July 1, 2014 and operates at Ghent University. We bring top university talent to the non-profit sector, transforming good organizations into great ones via our high-quality and uniquely affordable consulting services. Our mission is to strengthen the ability of socially conscious organizations and to achieve high impact social outcomes trough the development of innovative, practical and sustainable solutions.
