@@ -282,7 +282,7 @@ details[open] {
     justify-content: center;
     transform: rotate(-90deg);
     transition: 0.4s;
-    padding: 2rem;
+    padding: 0;
   }
 
   .navbar:hover,
