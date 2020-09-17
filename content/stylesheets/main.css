@@ -477,7 +477,7 @@ h2 {
   color: inherit;
   text-decoration: none;
   display: grid;
-  grid-template-columns: minmax(min-content, 25%) 80%;
+  grid-template-columns: minmax(min-content, 25%) 1fr;
 
   background-color: #fff;
   border-radius: 4px;
@@ -490,6 +490,7 @@ h2 {
   padding: 0.5rem;
   max-width: 600px;
   width: 100%;
+  height: 100%;
 }
 
 .fancy_link_container {
@@ -500,7 +501,7 @@ h2 {
   place-items: center;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1100px) {
   .fancy_link_container {
     grid-template-columns: auto;
   }
