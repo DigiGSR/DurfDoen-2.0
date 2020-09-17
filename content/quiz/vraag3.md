@@ -19,7 +19,7 @@ antwoorden:
       - naam: esn
       - naam: International students association gent
 
-  - tekst: Ik ben holebistudent en zou graag andere holebistudenten ontmoeten
+  - tekst: Ik ben LGBTQI+ student en zou graag andere LGBTQI+ studenten ontmoeten
     verenigingen:
       - naam: vg
 
