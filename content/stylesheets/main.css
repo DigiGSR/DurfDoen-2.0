@@ -672,8 +672,9 @@ h2 {
 }
 
 .detail_title > a > img {
-  max-width:100px;
-  max-height:100px;
+  max-height: 100px;
+  max-width: 100%;
+  min-width: 52px;
 }
 
 .detail_title h2 {

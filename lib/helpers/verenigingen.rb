@@ -69,20 +69,16 @@ module VerenigingenHelper
     @items.find_all("**/verenigingen/*") + @items.find_all("**/konventen/*")
   end
 
-  def image_url(item)
+  def image_url(item, size="medium")
     if item[:logo].nil?
-      "https://dsa.ugent.be/api/verenigingen/#{ abbreviation item }/logo?size=medium"
+      "https://dsa.ugent.be/api/verenigingen/#{ abbreviation item }/logo?size=#{ size }"
     else
       item[:logo]
     end
   end
 
   def small_image_url(item)
-    if item[:logo].nil?
-      "https://dsa.ugent.be/api/verenigingen/#{ abbreviation item }/logo?size=small"
-    else
-      item[:logo]
-    end
+    image_url(item, size="small")
   end
 
   def image_tag(item)
