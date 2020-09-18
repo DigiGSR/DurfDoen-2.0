@@ -489,6 +489,7 @@ h2 {
   margin: auto;
   gap: 20px;
   place-items: center;
+  max-width: 1100px;
 }
 
 @media only screen and (max-width: 1100px) {
@@ -777,16 +778,21 @@ h2 {
 .showcase-image > img {
   flex-grow: 3;
   max-height: 20rem;
-  max-width: 80vw;
+  max-width: 100%;
   object-fit: scale-down;
 }
 
 .showcase-container {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
   width: 100%;
+}
+
+@media only screen and (max-width: 1100px) {
+  .showcase-container {
+    flex-wrap: wrap;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -826,6 +832,14 @@ h2 {
 .detail-content {
   max-width: 1100px;
   margin: auto;
+}
+
+.details-photo {
+  max-width: 1100px;
+  padding: 2rem 10%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .details-contact {
