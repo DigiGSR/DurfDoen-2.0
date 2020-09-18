@@ -6,7 +6,7 @@ verkorte_naam: stt
 konvent: gsr
 logo: /assets/sfeerfotos/logostt.jpeg
 contact: starttotalk@bemsa-gent.be
-website: https://bemsa-gent.be/scoph/start-to-talk/?fbclid=IwAR0nSY-mojzm1Ou7IRVCjdWXqdner0_H2f5QTr55DZVcAUfj6ArEL5OrIuQ
+website: https://bemsa-gent.be/scoph/start-to-talk
 social:
   - platform: facebook
     link: facebook.com/starttotalkgent/
