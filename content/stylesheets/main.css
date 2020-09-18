@@ -825,6 +825,7 @@ h2 {
 
 .detail-content {
   max-width: 1100px;
+  margin: auto;
 }
 
 .details-contact {
