@@ -719,8 +719,8 @@ h2 {
 
 .detail-body {
   margin: auto;
-  max-width: 1200px;
-  padding: 2rem 10%;
+  max-width: 1100px;
+  padding: 2rem 0;
 
   display: flex;
   flex-direction: column;
@@ -830,8 +830,8 @@ h2 {
 }
 
 .detail-content {
-  max-width: 1100px;
   margin: auto;
+  padding: 2rem 10%;
 }
 
 .details-photo {
