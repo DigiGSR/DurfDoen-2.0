@@ -661,9 +661,14 @@ h2 {
   display: flex;
   flex-direction: row;
   align-items: baseline;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 12px;
+}
+
+.detail_title > a {
+  text-align: center;
+  flex: 1;
 }
 
 .detail_title > a > img {
@@ -675,6 +680,14 @@ h2 {
   margin: 0;
   text-align: center;
 }
+
+.detail_title_themas {
+  display: flex;
+  gap: inherit;
+  justify-content: center;
+  flex: 1;
+}
+
 
 .social > a {
   display: block;
@@ -747,12 +760,6 @@ h2 {
   fill: #013e7a;
   width: 3rem;
   height: 3rem;
-}
-
-.detail_title_themas {
-  display: flex;
-  gap: inherit;
-
 }
 
 .footer {
