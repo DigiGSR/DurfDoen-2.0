@@ -2,17 +2,15 @@
     <div class="detail_title">
         <a target="_blank" href="<%= item[:website] %>"><img src="<%= image_url(item, size="large") %>" alt="<%= item[:naam] %>" width=auto height=auto></a>
         <h2><%= item[:naam] %></h2>
-        <% if item[:themas] %>
-            <div class="detail_title_themas">
-                <% for thema in item[:themas] %>
-                    <div class="vereniging_thema">
-                        <a href="/themas/<%= thema %>.html">
-                            <%= @items["/assets/themas_icon/"+thema+".svg"].compiled_content %>
-                        </a>
-                    </div>
-                <% end %>
-            </div>
-        <% end %>
+        <div class="detail_title_themas">
+            <% for thema in item.fetch(:themas, []) %>
+                <div class="vereniging_thema">
+                    <a href="/themas/<%= thema %>.html">
+                        <%= @items["/assets/themas_icon/"+thema+".svg"].compiled_content %>
+                    </a>
+                </div>
+            <% end %>
+        </div>
     </div>
     <div class="details-contact">
     <%if item[:deelname_link] || item[:contact] || item[:website]%>
