@@ -1,25 +1,4 @@
 <div class="detail-body">
-    <div class="details-contact">
-        <%if item[:deelname_link] || item[:contact] || item[:website]%>
-        <h3>Contact</h3>
-        <% if item[:deelname_link] %><a href="<%= item[:deelname_link] %>"><%= item[:deelname_link] %></a><% end %>
-        <div class="contact-container">
-            <% if item[:contact] %><p>Email-adres: <a href="<%= item[:contact] %>"><%= item[:contact] %></a></p><%end%>
-            <% if item[:website] %><p>Website: <a href="<%= item[:website] %>"><%= item[:website] %></a></p><%end%>
-        </div><%end%>
-        <% if item[:social] %>
-        <div class="social-container">
-        <h4>Sociale media</h4>
-            <ul>
-                <% for social in item[:social] %>
-                    <a class="social" href="<%= social[:link] %>">
-                        <img src="/assets/social/<%= social[:platform].downcase %>_small.png">
-                    </a>
-                <% end %>
-            </ul>
-        </div>
-        <% end %>
-    </div>
     <div class="detail_title">
         <a target="_blank" href="<%= item[:website] %>"><img src="<%= small_image_url(item) %>" alt="<%= item[:naam] %>" height=100></a>
         <h2><%= item[:naam] %></h2>
@@ -33,6 +12,26 @@
             <% end %>
         <% end %>
     </div>
+    <div class="details-contact">
+    <%if item[:deelname_link] || item[:contact] || item[:website]%>
+    <% if item[:deelname_link] %><a href="<%= item[:deelname_link] %>"><%= item[:deelname_link] %></a><% end %>
+    <div class="contact-container">
+        <% if item[:contact] %><p>Email: <a href="<%= item[:contact] %>"><%= item[:contact] %></a></p><%end%>
+        <% if item[:website] %><p>Website: <a href="<%= item[:website] %>"><%= item[:website] %></a></p><%end%>
+    </div><%end%>
+    <% if item[:social] %>
+    <div class="social-container">
+        <ul>
+            <% for social in item[:social] %>
+                <a class="social" href="<%= social[:link] %>">
+                    <img src="/assets/social/<%= social[:platform].downcase %>_small.png">
+                </a>
+            <% end %>
+        </ul>
+    </div>
+    <% end %>
+</div>
+
     <div class="detail-content">
         <%= yield%>
     </div>

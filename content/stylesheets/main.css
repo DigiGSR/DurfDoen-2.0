@@ -661,6 +661,11 @@ h2 {
   gap: 12px;
 }
 
+.detail_title > a > img {
+  max-width:100px;
+  max-height:100px;
+}
+
 .detail_title h2 {
   margin: 0;
   text-align: center;
@@ -684,7 +689,6 @@ h2 {
 
 .social-container > ul {
   list-style: none;
-  display: flex;
   padding: 0;
   /* gap: 0.5rem; */
   margin: auto;
@@ -803,15 +807,14 @@ h2 {
 
 .details-contact {
   padding: 1rem;
-  float: right;
+  padding-left: 100px;
   margin: auto;
 }
 
 @media only screen and (max-width: 700px) {
   .details-contact {
-    float: none;
-    max-width: 300px;
     padding-bottom: 2rem;
+    padding-left: 1rem;
   }
 }
 
