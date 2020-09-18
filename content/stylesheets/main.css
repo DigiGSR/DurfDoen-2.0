@@ -773,6 +773,7 @@ h2 {
   justify-content: space-between;
 
   color: var(--white);
+  padding: .5em 3em;
 }
 
 .showcase-image > img {
