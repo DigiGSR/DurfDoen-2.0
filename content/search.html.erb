@@ -84,6 +84,10 @@ function ready() {
             create_wrapper.innerHTML = partial;
             div.appendChild(create_wrapper.firstChild);
         }
+        if (partials.length == 0) {
+            create_wrapper.innerHTML = "Geen verenigingen gevonden :(";
+            div.appendChild(create_wrapper);
+        }
     }
 
     const documents = <%=  CreateFullTextIndex.new(@items.find_all("**/verenigingen/*") + @items.find_all("**/konventen/*")).call.to_json %>;
