@@ -4,7 +4,7 @@ id: urgent
 naam: Urgent.fm
 verkorte_naam: Urgent.fm
 konvent: urgent
-website: www.urgent.fm
+website: https://www.urgent.fm
 social:
   - platform: facebook
     link: https://www.facebook.com/urgent.fm/

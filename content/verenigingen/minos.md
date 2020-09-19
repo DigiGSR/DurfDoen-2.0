@@ -8,9 +8,9 @@ contact: info@minosgent.gmail.com
 website: https://minosgent.com/
 social:
   - platform: facebook
-    link: www.facebook.com/MinosGent
+    link: https://www.facebook.com/MinosGent
   - platform: instagram
-    link: www.instagram.com/minosgent
+    link: https://www.instagram.com/minosgent
 themas:
   -  politiek en filosofisch
   - internationaal

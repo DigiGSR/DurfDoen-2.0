@@ -1,7 +1,7 @@
 ---
 naam: StuReC
 verkorte_naam: StuReC
-website: sturec.ugent.be
+website: https://sturec.ugent.be
 contact: sturec@ugent.be
 social:
   - platform: facebook

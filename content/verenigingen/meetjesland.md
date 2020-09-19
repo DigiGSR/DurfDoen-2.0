@@ -4,7 +4,7 @@ id: meetjesland
 naam: Moeder Meetjesland
 verkorte_naam: Moeder Meetjesland
 konvent: sk
-website: www.moeder-meetjesland.be
+website: https://www.moeder-meetjesland.be
 social:
   - platform: facebook
     link: https://www.facebook.com/MoederMeetjesland

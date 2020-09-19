@@ -9,7 +9,7 @@ contact: starttotalk@bemsa-gent.be
 website: https://bemsa-gent.be/scoph/start-to-talk
 social:
   - platform: facebook
-    link: facebook.com/starttotalkgent/
+    link: https://facebook.com/starttotalkgent/
 themas:
   - lifestyle
   - engagement

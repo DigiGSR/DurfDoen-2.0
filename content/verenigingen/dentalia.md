@@ -5,7 +5,7 @@ naam: Dentalia
 verkorte_naam: Dentalia
 konvent: fk
 contact: dentaliaghent@gmail.com
-website: www.dentalia.be
+website: https://www.dentalia.be
 social:
   - platform: facebook
     link: https://www.facebook.com/Dentalia/
