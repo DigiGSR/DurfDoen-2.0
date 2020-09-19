@@ -4,7 +4,7 @@ id: geeraard
 naam: Geeraard
 verkorte_naam: Geeraard
 konvent: sk
-website: www.degeeraard.be
+website: https://www.degeeraard.be
 social:
   - platform: instagram
   - platform: facebook

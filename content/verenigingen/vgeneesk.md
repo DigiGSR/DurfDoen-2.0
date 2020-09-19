@@ -4,7 +4,7 @@ id: vgeneesk
 naam: Vlaamse Geneeskundige Kring
 verkorte_naam: Vlaamse Geneeskundige Kring
 konvent: fk
-website: www.vgk.be
+website: https://www.vgk.be
 contact: vgk@vgk.be
 themas:
   -  faculteit

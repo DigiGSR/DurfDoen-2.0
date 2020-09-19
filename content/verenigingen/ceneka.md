@@ -4,7 +4,7 @@ id: ceneka
 naam: CenEka
 verkorte_naam: CenEka
 konvent: wvk
-website: www.ceneka.be
+website: https://www.ceneka.be
 contact: info@ceneka.be
 social:
   - platform: facebook

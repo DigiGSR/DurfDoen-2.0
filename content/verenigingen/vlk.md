@@ -4,7 +4,7 @@ id: vlk
 naam: Vlaamse Levenstechnische Kring
 verkorte_naam: Vlaamse Levenstechnische Kring
 konvent: fk
-website: www.boerekot.be
+website: https://www.boerekot.be
 contact: info@boerekot.be
 social:
   - platform: facebook

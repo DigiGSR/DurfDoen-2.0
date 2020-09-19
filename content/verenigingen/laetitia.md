@@ -4,7 +4,7 @@ id: laetitia
 naam: Laetitia
 verkorte_naam: Laetitia
 konvent: sk
-website: www.laetitia-gent.be
+website: http://www.laetitia-gent.be
 social:
   - platform: facebook
     link: https://www.facebook.com/studentenclub.laetitia

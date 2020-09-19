@@ -5,7 +5,7 @@ naam: Deliria
 verkorte_naam: Deliria
 konvent: sk
 contact: deliriagent@gmail.com
-website: www.deliriagent.be
+website: http://www.deliriagent.be
 social:
   - platform: facebook
 themas:

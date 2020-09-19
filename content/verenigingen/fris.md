@@ -6,7 +6,7 @@ id: fris
 naam: Faculteitsraad Ingenieurswetenschappen en Architectuur
 konvent: gsr
 contact: fris@ugent.be
-website: fris.ugent.be
+website: https://fris.ugent.be
 themas:
   -  engagement
 ---
