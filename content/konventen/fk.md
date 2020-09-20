@@ -1,5 +1,5 @@
 ---
-naam: Faculteiten Konvent Gent vzw
+naam: FaculteitenKonvent Gent vzw
 verkorte_naam: FK Gent
 id: fk
 contact: fk@student.ugent.be
@@ -9,10 +9,6 @@ social:
     link: https://www.facebook.com/FaculteitenKonventGent
 themas:
   - faculteit
-showcase:
-  - photo: https://via.placeholder.com/300.png/09f/fff
-  - photo: https://via.placeholder.com/300.png/09f/fff
-  - photo: https://via.placeholder.com/300.png/09f/fff
 verenigingen:
   - verkorte_naam: vereniging1
     photo: https://via.placeholder.com/200.png/90f/fff
