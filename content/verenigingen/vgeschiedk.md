@@ -4,7 +4,7 @@ id: vgeschiedk
 naam: Vlaamse Geschiedkundige Kring
 verkorte_naam: Vlaamse Geschiedkundige Kring
 konvent: fk
-website: www.vgkgent.be
+website: https://www.vgkgent.com/
 contact: vgkgent@gmail.com
 themas:
   -  faculteit

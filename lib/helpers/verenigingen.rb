@@ -84,4 +84,8 @@ module VerenigingenHelper
   def image_tag(item)
     "<img src='#{ image_url item }' alt='#{ item[:naam] } logo' />"
   end
+
+  def is_email(item)
+    item.match URI::MailTo::EMAIL_REGEXP
+  end
 end

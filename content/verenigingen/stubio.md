@@ -5,7 +5,7 @@ titel: Faculteitsraad Bio-ingenieurswetenschappen
 id: stubio
 naam: Faculteitsraad Bio-ingenieurswetenschappen
 konvent: gsr
-website: stubio.ugent.be
+website: https://stubio.ugent.be
 contact: stubio@ugent.be
 social:
   - platform: facebook

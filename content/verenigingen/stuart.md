@@ -5,7 +5,7 @@ titel: Studentenraad Faculteit Letteren en Wijsbegeerte
 id: stuart
 naam: Studentenraad Faculteit Letteren en Wijsbegeerte
 konvent: gsr
-website: stuart.ugent.be
+website: https://stuart.ugent.be
 contact: stuart@ugent.be
 social:
   - platform: facebook

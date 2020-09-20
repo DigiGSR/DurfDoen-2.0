@@ -16,7 +16,7 @@
     <%if item[:deelname_link] || item[:contact] || item[:website]%>
     <% if item[:deelname_link] %><a href="<%= item[:deelname_link] %>"><%= item[:deelname_link] %></a><% end %>
     <div class="contact-container">
-        <% if item[:contact] %><a href="<%= item[:contact] %>"><%= item[:contact] %></a><%end%>
+        <% if item[:contact] %><a href="<%= "mailto:" if is_email item[:contact] %><%= item[:contact] %>"><%= item[:contact] %></a><%end%>
         <% if item[:website] %><a href="<%= item[:website] %>"><%= item[:website] %></a><%end%>
     </div><%end%>
     <% if item[:social] %>

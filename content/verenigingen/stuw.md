@@ -9,7 +9,7 @@ website: https://stuw.ugent.be/
 contact: stuw@ugent.be
 social:
   - platform: facebook
-    link: facebook.com/stuwugent
+    link: https://facebook.com/stuwugent
 themas:
   -  engagement
 ---

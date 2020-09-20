@@ -5,7 +5,7 @@ naam: FLYSE
 verkorte_naam: FLYSE
 konvent: wvk
 contact: info@flyse.be
-website: www.flyse.be
+website: https://www.flyse.be
 social:
   - platform: instagram
     link: https://www.instagram.com/flysegent/

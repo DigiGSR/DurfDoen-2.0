@@ -3,7 +3,7 @@ naam: Schamper
 id: schamper
 verkorte_naam: Schamper
 konvent: schamper
-website: schamper.ugent.be
+website: https://www.schamper.ugent.be
 contact: kernredactie@schamper.be
 social:
   - platform: facebook
