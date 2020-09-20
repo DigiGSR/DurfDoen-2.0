@@ -40,6 +40,10 @@
   -moz-appearance: textfield;
 }
 
+#resultWrapper {
+  padding-top: 2em;
+}
+
 fieldset {
   max-height: 60vh;
   display: grid;
