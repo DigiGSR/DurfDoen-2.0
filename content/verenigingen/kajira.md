@@ -12,7 +12,7 @@ social:
     link: https://www.instagram.com/kajira_gent/
   - platform: fetlife
     link: https://fetlife.com/users/4967510
-themes:
+themas:
   -  lifestyle
 showcase:
   - photo: /assets/logos/KajiraA.jpg
