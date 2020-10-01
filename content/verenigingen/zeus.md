@@ -32,4 +32,4 @@ wisselen.
 
 Ook voor een Linux-install (er is ook de Linux Install Party, een event waar we Linux installeren) kan je altijd bij ons terecht!
 
-Voor een lijstje van projecten waar we mee bezig zijn, zie onze [GitHub](https://github.com/ZeusWPI)
+Voor een lijstje van projecten waar we mee bezig zijn, zie onze [GitHub](https://github.com/ZeusWPI).
