@@ -24,7 +24,7 @@ antwoorden:
 
       - tekst: Home Vermeylen
         verenigingen:
-          - naam: vermeyl
+          - naam: vermeylen
           
   - tekst: Nee
 ---
