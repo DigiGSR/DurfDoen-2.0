@@ -16,8 +16,11 @@ antwoorden:
 
   - tekst: Internationale studenten
     vereningingen:
+      - naam: aiesec
+      - naam: best
       - naam: esn
-      - naam: International students association gent
+      - naam: iaas
+      - naam: isag
 
   - tekst: Ik ben LGBTQI+ student en zou graag andere LGBTQI+ studenten ontmoeten
     verenigingen:
