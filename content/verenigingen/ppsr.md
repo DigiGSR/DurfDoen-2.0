@@ -4,8 +4,9 @@ verkorte_naam: PPSR
 titel: De Psychologische en Pedagogische StudentenRaad
 id: ppsr
 naam: De Psychologische en Pedagogische StudentenRaad
-contact: ppsr@student.ugent.be
 konvent: gsr
+website: https://ppsr.ugent.be
+contact: ppsr@student.ugent.be
 themas:
   -  engagement
 ---
