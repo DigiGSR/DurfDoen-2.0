@@ -1,8 +1,8 @@
 ---
-titel: Vlaamse Rechtsgenootschap
+titel: Vlaams Rechtsgenootschap
 id: vrg
-naam: Vlaamse Rechtsgenootschap
-verkorte_naam: Vlaamse Rechtsgenootschap
+naam: Vlaams Rechtsgenootschap
+verkorte_naam: Vlaams Rechtsgenootschap
 konvent: fk
 website: https://www.vrg-gent.be
 contact: praeses@vrg-gent.be
