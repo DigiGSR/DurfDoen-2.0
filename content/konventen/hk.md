@@ -3,7 +3,7 @@ naam: Home Konvent
 id: hk
 verkorte_naam: HK
 contact: hk@student.ugent.be
-website: https://www.homekonvent.be/
+website: http://www.homekonvent.be/
 social:
   - platform: facebook
     link: https://www.facebook.com/hkgent
