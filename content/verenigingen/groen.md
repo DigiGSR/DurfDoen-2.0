@@ -9,6 +9,7 @@ contact: stugent@jonggroen.be
 website: https://www.jonggroen.be/stugent
 social:
   - platform: facebook
+    link: https://www.facebook.com/Jong-Groen-StuGent-794541110577767/
 themas:
   -  politiek en filosofisch
 ---
