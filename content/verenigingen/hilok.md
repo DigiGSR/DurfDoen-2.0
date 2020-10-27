@@ -5,7 +5,7 @@ naam: HILOK
 verkorte_naam: HILOK
 konvent: fk
 contact: praeses.hilok@gmail.com
-website: http://hilok-gent.be
+website: https://hilok.ugent.be/
 social:
   - platform: instagram
     link: https://www.instagram.com/hilok.gent/
