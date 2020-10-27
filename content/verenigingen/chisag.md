@@ -5,7 +5,7 @@ naam: ChiSAG
 verkorte_naam: ChiSAG
 konvent: ik
 contact: Chisag.gent@yahoo.com
-website: https://ugent.club/
+website: http://ugent.cloud.ac.cn/
 social: 
   - platform: facebook
     link: https://www.facebook.com/GentChisag/
