@@ -5,6 +5,11 @@ naam: Comac
 verkorte_naam: Comac
 konvent: pfk
 website: https://www.comac-studenten.be/
+social:
+  - platform: facebook
+    link: https://www.facebook.com/comacstudenten/
+  - platform: instagram
+    link: https://www.instagram.com/comac_studenten/
 themas:
   - politiek en filosofisch
 showcase:
