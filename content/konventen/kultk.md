@@ -11,4 +11,4 @@ themas:
   - cultuur
 ---
 
-Het KultK telt acht vereningen die elk een eigen deel van de Kultuur met de grote K proberen te introduceren aan de medestudenten.
+Het KultK telt acht verenigingen die elk een eigen deel van de Kultuur met de grote K proberen te introduceren aan de medestudenten.
