@@ -11,7 +11,7 @@ social:
 themas:
   - politiek en filosofisch
 showcase:
-  - photo: /assets/logos/CDSA.jpg
+  - photo: /assets/logos/CDSA.JPG
   - photo: /assets/logos/CDSB.jpg
   - photo: /assets/logos/CDSC.jpg
 ---
