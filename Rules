@@ -100,6 +100,10 @@ compile '/*.erb' do
   write item.identifier.without_ext + '/index.html'
 end
 
+compile '/greeter.html' do
+  write '/index.html'
+end
+
 layout '/**/*', :erb
 
 # Catch-all
