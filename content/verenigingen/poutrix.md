@@ -10,7 +10,7 @@ social:
   - platform: facebook
     link: https://www.facebook.com/Poutrix/
 themas:
-  - wetenschap en techniek
+  - wetenschap
 showcase:
   - photo: /assets/logos/PoutrixA.jpg
   - photo: /assets/logos/PoutrixB.jpg

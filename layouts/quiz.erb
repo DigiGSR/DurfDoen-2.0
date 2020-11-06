@@ -8,7 +8,7 @@
   </div>
 </div>
 <div class="quiz_content">
-  <% @items.find_all("/quiz/*").sort_by{ |x| x.path }.each_with_index do |quest, i| %>
+  <% quiz.sort_by{ |x| x.path }.each_with_index do |quest, i| %>
     <div id="question_<%=i+1%>" class="question question_wrapper hidden">
       <%= render '/partials/question.*', question: quest, number: i.to_s %>
     </div>

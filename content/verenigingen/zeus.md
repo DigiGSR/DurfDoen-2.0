@@ -4,7 +4,7 @@ id: zeus
 naam: Zeus WPI
 verkorte_naam: Zeus WPI
 themas:
-  - wetenschap en techniek
+  - wetenschap
 konvent: wvk
 contact: bestuur@zeus.ugent.be
 website: https://zeus.ugent.be/
@@ -17,6 +17,7 @@ showcase:
   - photo: /assets/logos/ZeusC.jpg
 ---
 
+%lang=nl
 Heb je je altijd al willen verdiepen in de duistere kunsten en willen leren hoe je computers kan laten doen wat je wil? Dan is Zeus WPI (of kort: Zeus) de vereniging voor jou! Zeus heeft haar lokaal in de kerkers (kelder) van S9, want informatici hebben toch geen zonlicht nodig...
 
 Zeus WPI is dé studentenvereniging voor iedereen die geïntereseerd is in computers, informatica en alles daarrond.
@@ -32,3 +33,7 @@ Tijdens de week ben je ook altijd welkom om je passie voor informatica te delen 
 Ook voor een Linux-install (er is ook de Linux Install Party, een event waar we Linux installeren) kan je altijd bij ons terecht!
 
 Voor een lijstje van projecten waar we mee bezig zijn, zie onze [GitHub](https://github.com/ZeusWPI).
+%langend
+%lang=en
+Something English
+%langend

@@ -16,7 +16,7 @@ social:
   - platform: twitter
     link: https://twitter.com/FLYSE_BE
 themas:
-  - economie en development
+  - economie
 showcase:
   - photo: /assets/logos/flyseA.jpg
   - photo: /assets/logos/flyseB.jpg

@@ -11,7 +11,7 @@ social:
   - platform: facebook
     link: https://www.facebook.com/Jong-Groen-StuGent-794541110577767/
 themas:
-  -  politiek en filosofisch
+  - politiek
 ---
 
 Jong Groen StuGent is een alternatieve vereniging die zich op studenten met een inzet voor een duurzame en sociaal rechtvaardige maatschappij. We maken via debatten en lezingen ruimte voor een kritische benadering van culturele en wetenschappelijke vragen.

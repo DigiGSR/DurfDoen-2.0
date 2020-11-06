@@ -10,7 +10,7 @@ social:
   - platform: facebook
     link: https://www.facebook.com/UNYAGent/
 themas:
-  - politiek en filosofisch
+  - politiek
   - internationaal
 ---
 

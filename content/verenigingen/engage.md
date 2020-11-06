@@ -12,7 +12,7 @@ social:
   - platform: instagram
     link: https://www.instagram.com/engage.ugent/
 themas:
-  -  politiek en filosofisch
+  - politiek
   -  lifestyle
   - engagement
 showcase:

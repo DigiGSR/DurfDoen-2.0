@@ -12,7 +12,7 @@ social:
   - platform: instagram
     link: https://www.instagram.com/bemsa_gent/
 themas:
-  -  wetenschap en techniek
+  - wetenschap
 showcase:
   - photo: /assets/logos/bemsaA.jpg
   - photo: /assets/logos/BemsaB.jpg

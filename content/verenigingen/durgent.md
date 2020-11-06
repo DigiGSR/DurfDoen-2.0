@@ -12,7 +12,7 @@ social:
   - platform: instagram
     link: https://www.instagram.com/_durgent/
 themas:
-  - duurzaamheid en groen
+  - groen
 showcase:
   - photo: /assets/logos/durgentA.jpg
   - photo: /assets/logos/durgentB.jpg

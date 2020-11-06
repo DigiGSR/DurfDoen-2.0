@@ -11,7 +11,7 @@ social:
   - platform: instagram
     link: https://www.instagram.com/comac_studenten/
 themas:
-  - politiek en filosofisch
+  - politiek
 showcase:
   - photo: /assets/logos/ComacA.jpg
   - photo: /assets/logos/ComacB.jpg

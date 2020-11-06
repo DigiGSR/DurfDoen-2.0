@@ -8,7 +8,7 @@ social:
   - platform: facebook
     link: https://www.facebook.com/PFKGent/
 themas:
-  - politiek en filosofisch
+  - politiek
 ---
 
 Het PFK groepeert de politieke, filosofische en levensbeschouwelijke verenigingen aan de UGent. Dit konvent is de uitgelezen plaats om je aan te sluiten bij een ideologische, filosofische of politieke beweging.

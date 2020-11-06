@@ -12,7 +12,7 @@ social:
   - platform: twitter
     link: https://twitter.com/ArcusCoTangens
 themas:
-  -  politiek en filosofisch
+  - politiek
 ---
 
 Het Liberaal Vlaams Studentenverbond (LVSV) Gent is een politiek-filosofische studentenvereniging, reeds actief sinds 1930.

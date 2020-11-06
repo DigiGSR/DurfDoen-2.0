@@ -8,7 +8,7 @@ social:
   - platform: facebook
     link: https://www.facebook.com/GroeneKring-BIOT-901093239976866/
 themas:
-  - duurzaamheid en groen
+  - groen
 ---
 
 Wij zijn een vereniging voor studenten in Gent die interesse hebben in de land- en tuinbouwsector.

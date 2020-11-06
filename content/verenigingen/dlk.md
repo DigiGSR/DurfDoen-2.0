@@ -12,7 +12,7 @@ social:
   - platform: instagram
     link: http://www.instagram.com/deloeiendekoe/
 themas:
-  - wetenschap en techniek
+  - wetenschap
   - cultuur
 showcase:
   - photo: /assets/logos/dlkA.jpg

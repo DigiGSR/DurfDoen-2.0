@@ -1,7 +1,7 @@
 <nav class="navbar">
   <ul class="navbar-nav">
     <li class="nav-item nav-link__logo__wrapper">
-      <a href="/" class="nav-link nav-link__logo">
+      <a href="/<%= item[:lang]%>/" class="nav-link nav-link__logo">
         <img src="/assets/durfDoenClean.png" alt="" class="logo__image">
       </a>
     </li>
@@ -9,7 +9,8 @@
     <% for i in navigables %>
       <li class="nav-item">
         <a href="<%= i.path %>" class="nav-link">
-          <%= @items["/assets/navbar_icons/"+i.identifier.without_ext[1..]+".svg"].compiled_content %>
+          <% "TODO REMOVE THIS USELESS OR" %>
+          <%= (@items["/assets/navbar_icons/"+i.identifier.without_ext[4..]+".svg"] || @items["/assets/navbar_icons/"+i.identifier.without_ext[1..]+".svg"]).compiled_content %>
           <span class="link-text"><%= i[:naam] %> </span>
         </a>
       </li>
@@ -17,8 +18,8 @@
 
     <li class="nav-item">
       <div class="nav-link">
-        <a href="/search.html"><%= @items["/assets/navbar_icons/search.svg"].compiled_content %></a>
-        <form class="link-text" action="/search.html">
+        <a href="/<%= item[:lang]%>/search"><%= @items["/assets/navbar_icons/search.svg"].compiled_content %></a>
+        <form class="link-text" action="/<%=item[:lang]%>/search/index.html">
           <input type="search" name="q" placeholder="Zoek…">
         </form>
       </a>

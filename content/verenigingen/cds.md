@@ -9,7 +9,7 @@ social:
   - platform: facebook
     link: https://www.facebook.com/cds.gent/
 themas:
-  - politiek en filosofisch
+  - politiek
 showcase:
   - photo: /assets/logos/CDSA.JPG
   - photo: /assets/logos/CDSB.jpg

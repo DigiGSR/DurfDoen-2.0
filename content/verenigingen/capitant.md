@@ -7,7 +7,7 @@ konvent: wvk
 contact: info@capitant.be
 website: https://capitant.be/
 themas:
-  - economie en development
+  - economie
 showcase:
   - photo: /assets/logos/CapitantA.jpg
   - photo: /assets/logos/CapitantB.jpg

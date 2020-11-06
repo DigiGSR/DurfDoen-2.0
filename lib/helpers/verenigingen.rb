@@ -13,35 +13,40 @@ module VerenigingenHelper
 
   # Data helpers
   def themas
-    @items.find_all("**/themas/*")
+    @items.find_all("**/themas/*").select{|i| i[:lang] == item[:lang]}
   end
 
   def verenigingen_voor_thema(thema)
-    @items.filter{|i| i[:themas] and i[:themas].include?(thema)}.to_a
+    @items.select{|i| i[:lang] == item[:lang]}.filter{|i| i[:themas] and i[:themas].include?(thema)}.to_a
   end
 
   def verenigingen_voor_konvent(konvent)
-    @items.find_all("**/verenigingen/*").filter { |i| i[:konvent] == konvent }.to_a
+    @items.find_all("**/verenigingen/*").select{|i| i[:lang] == item[:lang]}.filter { |i| i[:konvent] == konvent }.to_a
   end
 
   def konventen
-    @items.find_all("**/konventen/*").to_a
+    @items.find_all("**/konventen/*").select{|i| i[:lang] == item[:lang]}.to_a
   end
 
   def evenementen
-    @items.find_all("**/evenementen/*")
+    @items.find_all("**/evenementen/*").select{|i| i[:lang] == item[:lang]}
   end
 
   def projecten
-    @items.find_all("**/projecten/*").to_a
+    @items.find_all("**/projecten/*").select{|i| i[:lang] == item[:lang]}.to_a
   end
+
+  def quiz
+    @items.find_all("**/quiz/*").select{|i| i[:lang] == item[:lang]}.to_a
+  end
+
 
   def konventen_and_projecten
     konventen.union(projecten)
   end
 
   def verenigingen
-    @items.find_all("**/verenigingen/*").map { |x| {
+    @items.find_all("**/verenigingen/*").select{|i| i[:lang] == item[:lang]}.map { |x| {
         "naam" => x[:naam],
         "verkorte_naam" => x[:verkorte_naam],
         "konvent" => x[:konvent],
@@ -54,7 +59,7 @@ module VerenigingenHelper
   end
 
   def postcodes_per_vereniging
-    @items.find_all("**/verenigingen/*").map { |x| {
+    @items.find_all("**/verenigingen/*").select{|i| i[:lang] == item[:lang]}.map { |x| {
       "postcodes" => x[:postcodes],
       "id" => x[:id]
     } }.flatten.to_a
@@ -65,7 +70,7 @@ module VerenigingenHelper
   end
 
   def all_groups
-    @items.find_all("**/verenigingen/*") + @items.find_all("**/konventen/*")
+    @items.find_all("**/verenigingen/*").select{|i| i[:lang] == item[:lang]} + @items.find_all("**/konventen/*").select{|i| i[:lang] == item[:lang]}
   end
 
   def image_url(item, size="medium")

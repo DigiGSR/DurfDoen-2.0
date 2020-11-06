@@ -90,7 +90,7 @@ function ready() {
         }
     }
 
-    const documents = <%=  CreateFullTextIndex.new(@items.find_all("**/verenigingen/*") + @items.find_all("**/konventen/*")).call.to_json %>;
+    const documents = <%=  CreateFullTextIndex.new(all_groups).call.to_json %>;
     const partials = <%= to_partials_search(all_groups()) %>;
 
     const index = lunr(function () {
