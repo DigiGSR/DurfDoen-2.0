@@ -60,7 +60,6 @@ module VerenigingenHelper
     } }.flatten.to_a
   end
 
-
   def abbreviation(item)
     item.identifier.without_ext.split('/').last
   end

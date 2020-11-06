@@ -20,6 +20,7 @@ compile '/{verenigingen,projecten,konventen}/*.md' do
   layout '/detail.*'
   layout '/default.*'
   layout '/base.*'
+  filter :relativize_paths, type: :html
   write ext: 'html'
 end
 
@@ -27,6 +28,7 @@ compile '/themas/*' do
   layout '/thema.*'
   layout '/default.*'
   layout '/base.*'
+  filter :relativize_paths, type: :html
   write ext: 'html'
 end
 
@@ -35,6 +37,7 @@ compile '/homepage.md' do
   layout '/homepage.*'
   layout '/default.*'
   layout '/base.*'
+  filter :relativize_paths, type: :html
   write '/index.html'
 end
 
@@ -47,6 +50,7 @@ compile '/verenigingen.md' do
   layout '/verenigingen.*'
   layout '/default.*'
   layout '/base.*'
+  filter :relativize_paths, type: :html
   write '/verenigingen/index.html'
 end
 
@@ -55,6 +59,7 @@ compile '/quiz.md' do
   layout '/quiz.*'
   layout '/default.*'
   layout '/base.*'
+  filter :relativize_paths, type: :html
   write '/quiz/index.html'
 end
 
@@ -62,6 +67,7 @@ compile '/search.html.erb' do
   filter :erb
   layout '/default.*'
   layout '/base.*'
+  filter :relativize_paths, type: :html
   write ext: 'html'
 end
 
@@ -69,6 +75,7 @@ compile '/*.md' do
   filter :kramdown
   layout '/default.*'
   layout '/base.*'
+  filter :relativize_paths, type: :html
   write ext: 'html'
 end
 
@@ -82,6 +89,7 @@ compile '/*.erb' do
   filter :erb
   layout '/default.*'
   layout '/base.*'
+  filter :relativize_paths, type: :html
   write item.identifier.without_ext + '/index.html'
 end
 
