@@ -91,7 +91,11 @@ function ready() {
     }
 
     const documents = <%=  CreateFullTextIndex.new(all_groups).call.to_json %>;
+<<<<<<< HEAD:layouts/search.erb
     const partials = <%= to_partials_search(all_groups()) %>;
+=======
+    const partials = <%= to_partials_search(all_groups) %>;
+>>>>>>> 85bd3a5 (Fix search for projects, and correct project files):content/search.html.erb
 
     const index = lunr(function () {
         this.field('id', {boost: 15});
