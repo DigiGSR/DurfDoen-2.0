@@ -44,11 +44,11 @@ antwoorden:
 
       - tekst: Japan
         verenigingen:
-          - naam: tnok
+          - naam: tnk
 
       - tekst: Vietnam
         verenigingen:
-          - naam: vinasag
+          - naam: vsag
 
       - tekst: Sub-Sahara Afrika
         verenigingen:
