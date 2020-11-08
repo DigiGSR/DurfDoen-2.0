@@ -44,11 +44,11 @@ antwoorden:
 
       - tekst: $lang=nl$ Japan $lang=en$ Japan
         verenigingen:
-          - naam: tnok
+          - naam: tnk
 
       - tekst: $lang=nl$ Vietnam $lang=en$ Vietnam
         verenigingen:
-          - naam: vinasag
+          - naam: vsag
 
       - tekst: $lang=nl$ Sub-Sahara Afrika $lang=en$ Sub-Sahara Afrika
         verenigingen:

@@ -19,7 +19,7 @@ antwoorden:
       - tekst: $lang=nl$ Geschiedenis $lang=en$ History
         verenigingen:
           - naam: stuart
-          - naam: vgkflwi
+          - naam: vgeschiedk
           - naam: isha
       - tekst: $lang=nl$ Kunstwetenschappen $lang=en$ Art Sciences
         verenigingen:
@@ -35,7 +35,7 @@ antwoorden:
         verenigingen:
           - naam: stuart
           - naam: oak
-          - naam: tnok
+          - naam: tnk
 
       - tekst: $lang=nl$ Oost-Europese talen en culturen $lang=en$ East European languages and cultures
         verenigingen:
@@ -70,7 +70,7 @@ antwoorden:
       - tekst: $lang=nl$ Criminologische wetenschappen $lang=en$ Criminological Sciences
         verenigingen:
           - naam: fre
-          - naam: lombro
+          - naam: lombrosiana
 
   - tekst: $lang=nl$ Wetenschappen $lang=en$ Sciences
     vraag: $lang=nl$ Welke richting? $lang=en$ What field of study?
@@ -98,11 +98,11 @@ antwoorden:
       - tekst: $lang=nl$ Geografie en de geomatica $lang=en$ Geography and Geomatics
         verenigingen:
           - naam: stuw
-          - naam: geografi
+          - naam: geografica
       - tekst: $lang=nl$ Geologie $lang=en$ Geology
         verenigingen:
           - naam: stuw
-          - naam: geologic
+          - naam: geologica
 
       - tekst: $lang=nl$ Informatica $lang=en$ Informatics
         verenigingen:
@@ -130,7 +130,7 @@ antwoorden:
       - tekst: $lang=nl$ Geneeskunde $lang=en$ Medicine
         verenigingen:
           - naam: stugg
-          - naam: vgkfgen
+          - naam: vgeneesk
           - naam: bemsa
 
       - tekst: $lang=nl$ Lichamelijke opvoeding en de bewegingswetenschappen $lang=en$ Physical Education and the Movement Sciences
@@ -203,7 +203,7 @@ antwoorden:
       - tekst: $lang=nl$ ir - Bouwkunde $lang=en$ ir -
         verenigingen:
           - naam: fris
-          - naam: Poutrix
+          - naam: poutrix
           - naam: vtk
 
       - tekst: $lang=nl$ ir - Chemische technologie en materiaalkunde $lang=en$ ir -
