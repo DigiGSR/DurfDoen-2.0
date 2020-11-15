@@ -15,7 +15,7 @@ antwoorden:
       - naam: theepot
 
   - tekst: Internationale studenten
-    vereningingen:
+    verenigingen:
       - naam: aiesec
       - naam: best
       - naam: esn
