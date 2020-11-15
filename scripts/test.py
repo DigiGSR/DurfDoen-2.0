@@ -85,9 +85,9 @@ def checkQuiz(header, verenigingen, id):
                     if ver["naam"] not in verenigingen:
                         min_v, dist_v = fuzzy_closest(ver['naam'], verenigingen)
                         if dist_v < 4:
-                            print(f"{id}:{ver['__line__']} unknown '{ver['naam']}' did you mean: '{min_v}'")
+                            assert ver["naam"] not in verenigingen, f"{id}:{ver['__line__']} unknown '{ver['naam']}' did you mean: '{min_v}'"
                         else:
-                            print(f"{id}:{ver['__line__']} unknown '{ver['naam']}'")
+                            assert ver["naam"] not in verenigingen, f"{id}:{ver['__line__']} unknown '{ver['naam']}'"
 
             if "antwoorden" in antwoord:
                 checkQuiz(antwoord, verenigingen, id)
