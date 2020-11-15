@@ -20,7 +20,7 @@ antwoorden:
       - tekst: Geschiedenis
         verenigingen:
           - naam: stuart
-          - naam: vgkflwi
+          - naam: vgeschiedk
           - naam: isha
 
       - tekst: Kunstwetenschappen
@@ -37,7 +37,7 @@ antwoorden:
         verenigingen:
           - naam: stuart
           - naam: oak
-          - naam: tnok
+          - naam: tnk
 
       - tekst: Oost- Europese talen en culturen
         verenigingen:
@@ -72,7 +72,7 @@ antwoorden:
       - tekst: Criminologische wetenschappen
         verenigingen:
           - naam: fre
-          - naam: lombro
+          - naam: lombrosiana
 
   - tekst: Wetenschappen
     vraag: Welke richting?
@@ -102,12 +102,12 @@ antwoorden:
       - tekst: Geografie en de geomatica
         verenigingen:
           - naam: stuw
-          - naam: geografi
+          - naam: geografica
 
       - tekst: Geologie
         verenigingen:
           - naam: stuw
-          - naam: geologic
+          - naam: geologica
 
       - tekst: Informatica
         verenigingen:
@@ -135,7 +135,7 @@ antwoorden:
       - tekst: Geneeskunde
         verenigingen:
           - naam: stugg
-          - naam: vgkfgen
+          - naam: vgeneesk
           - naam: bemsa
 
       - tekst: Lichamelijke opvoeding en de bewegingswetenschappen
@@ -208,7 +208,7 @@ antwoorden:
       - tekst: ir - Bouwkunde
         verenigingen:
           - naam: fris
-          - naam: Poutrix
+          - naam: poutrix
           - naam: vtk
 
       - tekst: ir - Chemische technologie en materiaalkunde

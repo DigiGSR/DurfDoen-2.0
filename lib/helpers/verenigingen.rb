@@ -66,7 +66,7 @@ module VerenigingenHelper
   end
 
   def all_groups
-    @items.find_all("**/verenigingen/*") + @items.find_all("**/konventen/*")
+    @items.find_all("**/verenigingen/*") + @items.find_all("**/konventen/*") + @items.find_all("**/projecten/*")
   end
 
   def image_url(item, size="medium")
