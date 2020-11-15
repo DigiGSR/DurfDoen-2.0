@@ -4,12 +4,14 @@ from yaml.loader import SafeLoader
 
 from fuzzy import string_dist
 
+
 class SafeLineLoader(SafeLoader):
     def construct_mapping(self, node, deep=False):
         mapping = super(SafeLineLoader, self).construct_mapping(node, deep=deep)
         # Add 1 so line numbering starts at 1
         mapping['__line__'] = node.start_mark.line + 1
         return mapping
+
 
 KONVENTEN = "content/konventen/*"
 VERENIGINGEN = "./content/verenigingen/*"
@@ -29,14 +31,16 @@ def loadHeader(filename):
         if loading:
             lines.append(line)
 
+
 def checkAllSyntax():
     for location in [KONVENTEN, VERENIGINGEN, PROJECTEN, QUIZ]:
         for f in glob.glob(location, recursive=True):
             try:
                 loadHeader(f)
             except yaml.parser.ParserError as e:
-                print("Yaml error in "+f)
+                print("Yaml error in " + f)
                 print(e)
+
 
 def getIds(location):
     out = []
@@ -44,14 +48,16 @@ def getIds(location):
         if ver[-2:] != "md":
             continue
         header = loadHeader(ver)
-        if "id" in header:
+        if header and "id" in header:
             out.append(header["id"])
         else:
-            print("NO ID FOUND "+ver)
+            print("NO ID FOUND " + ver)
     return out
+
 
 def getVerIds():
     return getIds(VERENIGINGEN)
+
 
 def checkVerHasExistingKonvent():
     konventen = getIds(KONVENTEN)
@@ -65,9 +71,11 @@ def checkVerHasExistingKonvent():
         else:
             print("NO KONVENT FOUND " + ver)
 
+
 def fuzzy_closest(x, xs):
     min_v = min(xs, key=lambda y: string_dist(x, y))
     return (min_v, string_dist(x, min_v))
+
 
 def checkQuiz(header, verenigingen, id):
     if "antwoorden" in header:
@@ -84,8 +92,12 @@ def checkQuiz(header, verenigingen, id):
             if "antwoorden" in antwoord:
                 checkQuiz(antwoord, verenigingen, id)
 
+
 def checkQuizUsesCorrectId():
     verenigingen = getIds(VERENIGINGEN)
+    verenigingen += getIds(PROJECTEN)
+
+
     for quiz in glob.glob(QUIZ, recursive=True):
         if quiz[-2:] != "md":
             continue
@@ -93,5 +105,5 @@ def checkQuizUsesCorrectId():
         checkQuiz(header, verenigingen, quiz)
 
 for f in [checkAllSyntax, getVerIds, checkVerHasExistingKonvent, checkQuizUsesCorrectId]:
-    print("---------------------------- "+f.__name__ +" ----------------------------")
+    print("---------------------------- " + f.__name__ + " ----------------------------")
     f()
