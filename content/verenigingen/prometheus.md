@@ -14,8 +14,8 @@ themas:
   - cultuur
 showcase:
   - photo: /assets/logos/PrometheusA.jpg
-  - photo: /assets/logos/PrometheusB.jpg
-  - photo: /assets/logos/PrometheusC.jpg
+  - photo: /assets/logos/PrometheusB.JPG
+  - photo: /assets/logos/PrometheusC.JPG
 ---
 
 $lang=nl$ 
