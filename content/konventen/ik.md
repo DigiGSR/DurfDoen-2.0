@@ -2,7 +2,7 @@
 naam: Internationaal Konvent
 verkorte_naam: IK Gent
 id: ik
-contact: ik@student.ugent.be
+contact: internationaalkonvent@gmail.com
 website: https://internationaalkonv.wixsite.com/internationalkonvent
 social:
   - platform: facebook
