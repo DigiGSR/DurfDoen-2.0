@@ -92,6 +92,15 @@ compile '/stylesheets/*.{sass,scss}' do
   write ext: 'css'
 end
 
+compile '/greeter.html' do
+  filter :kramdown
+  layout '/greeter.*'
+  layout '/default.*'
+  layout '/base.*'
+  filter :relativize_paths, type: :html
+  write '/index.html'
+end
+
 compile '/*.erb' do
   filter :erb
   layout '/default.*'
@@ -100,9 +109,6 @@ compile '/*.erb' do
   write item.identifier.without_ext + '/index.html'
 end
 
-compile '/greeter.html' do
-  write '/index.html'
-end
 
 layout '/**/*', :erb
 

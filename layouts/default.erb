@@ -7,8 +7,14 @@
   <footer class="align footer">
     <p>©2020 Gentse studentenraad</p>
     <div lang="en" style="display: flex; gap: 20px;">
-      <div><p><a href="/en/">English</a></p><p><a href="/nl/">Nederlands</a></p></div>
-      <p>Made with ♥ by <a href="https://zeus.gent">Zeus WPI</a></p>
-    </div>
+      <p>
+        <% if item[:lang] == "nl" %>
+          <a href="/en/">English</a>
+        <% else %>
+          <a href="/nl/">Nederlands</a></p>
+        <% end %>
+        <p>Made with ♥ by <a href="https://zeus.gent">Zeus WPI</a></p>
+
+        </div>
   </footer>
 </main>

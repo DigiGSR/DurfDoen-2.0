@@ -28,4 +28,6 @@ module Custom
     def lang_start(line)
         line.start_with?("%lang=")
     end
+
+
 end
