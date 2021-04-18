@@ -15,4 +15,8 @@ themas:
   -  faculteit
 ---
 
-%lang=nl Faculteitskring voor de studenten farmaceutische wetenschappen. %langend %lang=en Faculty association for Pharmaceutical Sciences students. %langend
+%lang=nl 
+Faculteitskring voor de studenten farmaceutische wetenschappen. %langend 
+%lang=en 
+Faculty association for Pharmaceutical Sciences students. 
+%langend
