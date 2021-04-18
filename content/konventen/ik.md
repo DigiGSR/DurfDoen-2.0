@@ -25,6 +25,11 @@ verenigingen:
     photo: https://via.placeholder.com/200.png/90f/fff
 ---
 
-%lang=nl Het IK probeert de buitenlandse studenten en internationale studentenverenigingen te helpen in hun zoektocht naar informatie & ontspanning. %langend %lang=en The platform for all students with an international mindset at Ghent University.
+%lang=nl 
+Het IK probeert de buitenlandse studenten en internationale studentenverenigingen te helpen in hun zoektocht naar informatie & ontspanning. 
+%langend 
+%lang=en 
+The platform for all students with an international mindset at Ghent University.
 
-We want international students to feel included by providing information concerning student activities and the university whilst working with internationally minded people and organisations. %langend
+We want international students to feel included by providing information concerning student activities and the university whilst working with internationally minded people and organisations. 
+%langend
