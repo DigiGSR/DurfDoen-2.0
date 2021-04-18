@@ -14,4 +14,9 @@ socials:
   - platform: facebook
     link: https://www.facebook.com/SeniorenKonventGhendt
 ---
-%lang=nl Het SK is de verzamelplaats voor streekgebonden studentikoze clubs. %langend %lang=en The SK is the meeting point of the regional student associations. %langend
+%lang=nl 
+Het SK is de verzamelplaats voor streekgebonden studentikoze clubs. 
+%langend 
+%lang=en 
+The SK is the meeting point of the regional student associations. 
+%langend
