@@ -15,4 +15,9 @@ themas:
   - internationaal
 ---
 
-%lang=nl AIESEC is the biggest youth organization worldwide. We provide opportunities for young people to develop their leadership skills through cross-cultural exchanges. Our offers in exchange include paid and volunteer internships. %langend %lang=en AIESEC is the biggest youth organization worldwide. We provide opportunities for young people to develop their leadership skills through cross-cultural exchanges. Our offers in exchange include paid and volunteer internships. %langend
+%lang=nl 
+AIESEC is the biggest youth organization worldwide. We provide opportunities for young people to develop their leadership skills through cross-cultural exchanges. Our offers in exchange include paid and volunteer internships. 
+%langend 
+%lang=en 
+AIESEC is the biggest youth organization worldwide. We provide opportunities for young people to develop their leadership skills through cross-cultural exchanges. Our offers in exchange include paid and volunteer internships. 
+%langend
