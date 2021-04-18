@@ -31,4 +31,9 @@ postcodes:
   - 8587
 ---
 
-%lang=nl De club voor studenten uit Kortrijk. %langend %lang=en The club for students from Kortrijk. %langend
+%lang=nl 
+De club voor studenten uit Kortrijk. 
+%langend 
+%lang=en 
+The club for students from Kortrijk. 
+%langend
