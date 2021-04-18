@@ -18,4 +18,4 @@ postcodes:
   - 8890
 ---
 
-Wij verzamelen de in Gent studerende Roeselaarse jeugd (en die van de omstreken) om samen met een frisse Rodenbach in de hand studentikoze activiteiten te doen.
+%lang=nl Wij verzamelen de in Gent studerende Roeselaarse jeugd (en die van de omstreken) om samen met een frisse Rodenbach in de hand studentikoze activiteiten te doen. %langend %lang=en We unite the young people from Roeselare and its environs that study in Ghent to enjoy some collegiate activities with a fresh Rodenbach in our hands. %langend
