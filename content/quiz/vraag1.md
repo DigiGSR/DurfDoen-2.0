@@ -131,6 +131,7 @@ antwoorden:
           - naam: beam
           - naam: bemsa
           - naam: vbk
+          - naam: bsr
 
       - tekst: Geneeskunde
         verenigingen:
