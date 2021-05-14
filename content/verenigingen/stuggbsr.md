@@ -1,6 +1,6 @@
 ---
 titel: Biomedische Studentenraad
-id: bsr
+id: stuggbsr
 naam: Biomedische Studentenraad
 verkorte_naam: Biomedische Studentenraad
 konvent: gsr

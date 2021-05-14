@@ -126,7 +126,7 @@ antwoorden:
           - naam: beam
           - naam: bemsa
           - naam: vbk
-          - naam: bsr
+          - naam: stuggbsr
 
       - tekst: $lang=nl$ Geneeskunde $lang=en$ Medicine
         verenigingen:
