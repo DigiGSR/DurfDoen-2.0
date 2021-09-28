@@ -1,9 +1,9 @@
 ---
-vraag: Zit je op een home?
+vraag: $lang=nl$ Zit je op een home? $lang=en$ Are you in a home?
 type: dropdown
 antwoorden:
-  - tekst: Ja
-    vraag: Welke home?
+  - tekst: $lang=nl$ Ja $lang=en$ Yes
+    vraag: $lang=nl$ Welke home? $lang=en$ Which home?
     type: dropdown
     antwoorden:
       - tekst: Home Astrid
@@ -26,5 +26,5 @@ antwoorden:
         verenigingen:
           - naam: vermeylen
 
-  - tekst: Nee
+  - tekst: $lang=nl$ Nee $lang=en$ No
 ---

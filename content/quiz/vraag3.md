@@ -119,87 +119,87 @@ antwoorden:
     type: meerkeuze
     antwoorden:
       - tekst: $lang=nl$ Vlaamse en nationale politiek $lang=en$ Flemish and national politics
-        vraag: $lang=nl$ Welke overtuiging? $lang=en$
+        vraag: $lang=nl$ Welke overtuiging? $lang=en$ What conviction
         type: meerkeuze
         antwoorden:
-          - tekst: $lang=nl$ Vlaams-Nationalistisch $lang=en$
+          - tekst: $lang=nl$ Vlaams-Nationalistisch $lang=en$ Flemish Nationalist
             verenigingen:
               - naam: nsv
 
-          - tekst: $lang=nl$ Conservatief en Vlaams-Nationalistisch $lang=en$
+          - tekst: $lang=nl$ Conservatief en Vlaams-Nationalistisch $lang=en$ Conservative and Flemish Nationalist
             verenigingen:
               - naam: kvhv
 
-          - tekst: $lang=nl$ Antikapitalistisch $lang=en$
+          - tekst: $lang=nl$ Antikapitalistisch $lang=en$ Anti-capitalist
             verenigingen:
               - naam: als
 
-          - tekst: $lang=nl$ Christendemocratisch $lang=en$
+          - tekst: $lang=nl$ Christendemocratisch $lang=en$ Christian Democrat
             verenigingen:
               - naam: cds
 
-          - tekst: $lang=nl$ Marxistisch $lang=en$
+          - tekst: $lang=nl$ Marxistisch $lang=en$ Marxist
             verenigingen:
               - naam: comac
 
-          - tekst: $lang=nl$ Ecologistisch $lang=en$
+          - tekst: $lang=nl$ Ecologistisch $lang=en$ Ecologist
             verenigingen:
               - naam: groen
               - naam: durgent
 
-          - tekst: $lang=nl$ Vlaams-republikeins $lang=en$
+          - tekst: $lang=nl$ Vlaams-republikeins $lang=en$ Flemish-Republican
             verenigingen:
               - naam: nva
 
-          - tekst: $lang=nl$ Socialistisch $lang=en$
+          - tekst: $lang=nl$ Socialistisch $lang=en$ Socialist
             verenigingen:
               - naam: socialisten
 
-          - tekst: $lang=nl$ Liberaal $lang=en$
+          - tekst: $lang=nl$ Liberaal $lang=en$ Liberal
             verenigingen:
               - naam: lvsv
 
-      - tekst: $lang=nl$ Europese politiek $lang=en$
+      - tekst: $lang=nl$ Europese politiek $lang=en$ European politics
         verenigingen:
           - naam: minos
 
-      - tekst: $lang=nl$ Internationale politiek, Verenigde Naties en debat $lang=en$
+      - tekst: $lang=nl$ Internationale politiek, Verenigde Naties en debat $lang=en$ International politics, United Nations and debate
         verenigingen:
           - naam: vvny
 
-  - tekst: $lang=nl$ STEM $lang=en$
-    vraag: $lang=nl$ Wat zijn je interesses? $lang=en$
+  - tekst: STEM
+    vraag: $lang=nl$ Wat zijn je interesses? $lang=en$ What are your interests?
     type: meerkeuze
     antwoorden:
-      - tekst: $lang=nl$ Techniek $lang=en$
+      - tekst: $lang=nl$ Techniek $lang=en$ Engineering
         verenigingen:
           - naam: ieee
           - naam: best
-      - tekst: $lang=nl$ Wiskunde $lang=en$
+      - tekst: $lang=nl$ Wiskunde $lang=en$ Mathematics
         verenigingen:
           - naam: prime
-      - tekst: $lang=nl$ Fysica en sterrenkunde $lang=en$
+      - tekst: $lang=nl$ Fysica en sterrenkunde $lang=en$ Physics and astronomy
         verenigingen:
           - naam: vvn
-      - tekst: $lang=nl$ Informatica $lang=en$
+      - tekst: $lang=nl$ Informatica $lang=en$ Informatics
         verenigingen:
           - naam: zeus
 
-  - tekst: $lang=nl$ radio maken $lang=en$
+  - tekst: $lang=nl$ radio maken $lang=en$ radio
     verenigingen:
       - naam: urgent
 
-  - tekst: $lang=nl$ Verschillende culturen $lang=en$
-    vraag: $lang=nl$ Wat zijn je interesses? $lang=en$
+  - tekst: $lang=nl$ Verschillende culturen $lang=en$ Different cultures
+    vraag: $lang=nl$ Wat zijn je interesses? $lang=en$ What are your interests?
     type: meerkeuze
     antwoorden:
-      - tekst: $lang=nl$ Armenië $lang=en$
+      - tekst: $lang=nl$ Armenië $lang=en$ Armenia
         verenigingen:
           - naam: hayasa
-      - tekst: $lang=nl$ Japan $lang=en$
+      - tekst: Japan
         verenigingen:
           - naam: tnk
-      - tekst: $lang=nl$ De Klassieke Oudheid $lang=en$
+      - tekst: $lang=nl$ De Klassieke Oudheid $lang=en$ Classical Antiquity
         verenigingen:
           - naam: kk
 ---
