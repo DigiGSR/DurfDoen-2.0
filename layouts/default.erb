@@ -5,9 +5,19 @@
     <%= yield %>
   </div>
   <footer class="align footer">
-    <p>©2020 <a href="https://gentsestudentenraad.be/">Gentse Studentenraad</a></p>
-    <div lang="en">
-      <p>Made with ♥ by <a href="https://zeus.gent">Zeus WPI</a></p>
-    </div>
+    <p>©2020 Gentse studentenraad</p>
+    <div lang="en" style="display: flex; gap: 20px;">
+      <p>
+
+        <% if item[:lang] == "nl" %>
+          <a href="/en/<%= @item.path[4..] %>">English</a>
+        <% else %>
+          <a href="/nl/<%= @item.path[4..] %>">Nederlands</a>
+        <% end %>
+
+        </p>
+        <p>Made with ♥ by <a href="https://zeus.gent">Zeus WPI</a></p>
+
+        </div>
   </footer>
 </main>

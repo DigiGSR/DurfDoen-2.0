@@ -5,7 +5,7 @@
         <div class="detail_title_themas">
             <% for thema in item.fetch(:themas, []) %>
                 <div class="vereniging_thema">
-                    <a href="/themas/<%= thema %>.html">
+                    <a href="/<%=item[:lang]%>/themas/<%= thema %>.html">
                         <%= @items["/assets/themas_icon/"+thema+".svg"].compiled_content %>
                     </a>
                 </div>

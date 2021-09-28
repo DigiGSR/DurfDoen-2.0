@@ -24,4 +24,9 @@ verenigingen:
     photo: https://via.placeholder.com/200.png/90f/fff
 ---
 
-Het HK is een plaats waar de verschillende verenigingen van de 5 homes elkaar treffen.
+$lang=nl$
+Het HK is een plaats waar de verschillende vereningingen van de 5 homes elkaar treffen.
+$langend$
+$lang=en$
+The HK is a place where the associations connected to the 5 homes meet.
+$langend$

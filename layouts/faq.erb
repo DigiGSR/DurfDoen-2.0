@@ -1,11 +1,6 @@
----
-naam: FAQ
-navigable: true
-order: 3
----
 <div>
 <h2>FAQ — Vaakgestelde vragen</h2>
-<% @items.find_all('/faq/*').each do |question| %>
+<% @items.find_all("/"+item[:lang]+'/faq/*').each do |question| %>
   <details>
     <summary>
       <%= question[:vraag] %>

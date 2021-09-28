@@ -1,0 +1,4 @@
+---
+identifier: lifestyle
+naam: Lifestyle
+---

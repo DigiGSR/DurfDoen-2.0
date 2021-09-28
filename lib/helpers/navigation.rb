@@ -14,6 +14,6 @@ module NavigationHelper
   # A navigable item contains the :navigable attribute
   # Optionally contains an order attribute, determining the order in the navbar
   def navigables
-    items.select { |i| i[:navigable] }.sort_by { |x| x[:order] || 10_000 }
+    items.select { |i| i[:navigable] }.select{|i| i[:lang] == item[:lang]}.sort_by { |x| x[:order] || 10_000 }
   end
 end

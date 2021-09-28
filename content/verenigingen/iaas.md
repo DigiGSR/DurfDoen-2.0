@@ -16,8 +16,8 @@ social:
     link: https://twitter.com/IAASBelgium
 themas:
   - internationaal
-  - wetenschap en techniek
-  - duurzaamheid en groen
+  - wetenschap
+  - groen
 showcase:
   - photo: /assets/logos/IAASA.jpg
   - photo: /assets/logos/IAASB.jpg
