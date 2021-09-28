@@ -1,12 +1,12 @@
 ---
-vraag: Wat zijn je interesses?
+vraag: $lang=nl$ Wat zijn je interesses? $lang=en$ What are your interests?
 type: meerkeuze
 antwoorden:
-  - tekst: Archeologie
+  - tekst: $lang=nl$ Archeologie $lang=en$ Archaeology
     verenigingen:
       - naam: aw
 
-  - tekst: BDSM
+  - tekst: $lang=nl$ BDSM $lang=en$ BDSM
     verenigingen:
       - naam: kajira
 
@@ -14,192 +14,192 @@ antwoorden:
     verenigingen:
       - naam: oedc
 
-  - tekst: Cultuur en creatief zijn
-    vraag: Wat zijn je interesses?
+  - tekst: $lang=nl$ Cultuur en creatief zijn $lang=en$ Culture and being creative
+    vraag: $lang=nl$ Wat zijn je interesses? $lang=en$
     type: meerkeuze
     antwoorden:
-      - tekst: Culturele voorstellingen bijwonen
+      - tekst: $lang=nl$ Culturele voorstellingen bijwonen $lang=en$ Attend cultural performances
         verenigingen:
           - naam: cultour
-      - tekst: Dansen
+      - tekst: $lang=nl$ Dansen $lang=en$ Dancing
         verenigingen:
           - naam: gudc
-      - tekst: Dichtkunst en gesproken woord
+      - tekst: $lang=nl$ Dichtkunst en gesproken woord $lang=en$ Poetry and the spoken word
         verenigingen:
           - naam: auwla
-      - tekst: Fotografie
+      - tekst: $lang=nl$ Fotografie $lang=en$ Photography
         verenigingen:
           - naam: schamper
-      - tekst: Muziek spelen
+      - tekst: $lang=nl$ Muziek spelen $lang=en$ Performing music
         verenigingen:
           - naam: guho
           - naam: guso
           - naam: studentenfanfare
-      - tekst: Schilderen en tekenen
+      - tekst: $lang=nl$ Schilderen en tekenen $lang=en$ Painting and drawing
         verenigingen:
           - naam: modelstudies
-      - tekst: Schrijven
+      - tekst: $lang=nl$ Schrijven $lang=en$ Writing
         verenigingen:
           - naam: schamper
           - naam: auwla
           - naam: prometheus
-      - tekst: Theater
+      - tekst: $lang=nl$ Theater $lang=en$ Theater
         verenigingen:
           - naam: matrak
-      - tekst: Zingen
+      - tekst: $lang=nl$ Zingen $lang=en$ Singing
         verenigingen:
           - naam: guk
 
-  - tekst: De pers
-    vraag: Wat zijn je interesses?
+  - tekst: $lang=nl$ De pers $lang=en$ The press
+    vraag: $lang=nl$ Wat zijn je interesses? $lang=en$ What are your interests?
     type: meerkeuze
     antwoorden:
-      - tekst: Fotografie
+      - tekst: $lang=nl$ Fotografie $lang=en$ Photography
         verenigingen:
           - naam: schamper
-      - tekst: Journalistiek
+      - tekst: $lang=nl$ Journalistiek $lang=en$ Journalism
         verenigingen:
           - naam: schamper
           - naam: urgent
-      - tekst: Lay-out
+      - tekst: $lang=nl$ Lay-out $lang=en$ Lay-out
         verenigingen:
           - naam: schamper
-      - tekst: Schrijven
+      - tekst: $lang=nl$ Schrijven $lang=en$ Writing
         verenigingen:
           - naam: schamper
           - naam: auwla
           - naam: prometheus
 
-  - tekst: Duurzaamheid
+  - tekst: $lang=nl$ Duurzaamheid $lang=en$ Sustainability
     verenigingen:
       - naam: durgent
 
-  - tekst: Economie
+  - tekst: $lang=nl$ Economie $lang=en$ Economy
     verenigingen:
       - naam: flyse
       - naam: capitant
       - naam: re9000
 
-  - tekst: Finance
+  - tekst: $lang=nl$ Finance $lang=en$ Finance
     verenigingen:
       - naam: capitant
 
-  - tekst: Kritisch denken en debat
+  - tekst: $lang=nl$ Kritisch denken en debat $lang=en$ Critical thinking and debate
     verenigingen:
       - naam: engage
       - naam: tsg
 
-  - tekst: land- en tuinbouw
+  - tekst: $lang=nl$ land- en tuinbouw $lang=en$ agriculture and horticulture
     verenigingen:
       - naam: gk
       - naam: stujardin
 
-  - tekst: Me inzetten voor anderen
-    vraag: Wat zijn je interesses?
+  - tekst: $lang=nl$ Me inzetten voor anderen $lang=en$ Engage myself for others
+    vraag: $lang=nl$ Wat zijn je interesses? $lang=en$ What are your interests?
     type: meerkeuze
     antwoorden:
-      - tekst: Andere studenten ondersteunen
+      - tekst: $lang=nl$ Andere studenten ondersteunen $lang=en$ Support other students
         verenigingen:
           - naam: flux
           - naam: cultour
           - naam: stt
-      - tekst: Cultuur promoten
+      - tekst: $lang=nl$ Cultuur promoten $lang=en$ Promote culture
         verenigingen:
           - naam: cultour
-      - tekst: studentenvertegenwoordiging
+      - tekst: $lang=nl$ Studentenvertegenwoordiging $lang=en$ Student representation
         verenigingen:
           - naam: gsr
 
-  - tekst: ondernemen
+  - tekst: $lang=nl$ ondernemen $lang=en$ entrepreneurship
     verenigingen:
       - naam: flyse
 
-  - tekst: Politiek
-    vraag: Waar ben je specifiek in geïnteresseerd?
+  - tekst: $lang=nl$ Politiek $lang=en$ Politics
+    vraag: $lang=nl$ Waar ben je specifiek in geïnteresseerd? $lang=en$ What specifically are you interested in?
     type: meerkeuze
     antwoorden:
-      - tekst: Vlaamse en nationale politiek
-        vraag: Welke overtuiging?
+      - tekst: $lang=nl$ Vlaamse en nationale politiek $lang=en$ Flemish and national politics
+        vraag: $lang=nl$ Welke overtuiging? $lang=en$
         type: meerkeuze
         antwoorden:
-          - tekst: Vlaams-Nationalistisch
+          - tekst: $lang=nl$ Vlaams-Nationalistisch $lang=en$
             verenigingen:
               - naam: nsv
 
-          - tekst: Conservatief en Vlaams-Nationalistisch
+          - tekst: $lang=nl$ Conservatief en Vlaams-Nationalistisch $lang=en$
             verenigingen:
               - naam: kvhv
 
-          - tekst: Antikapitalistisch
+          - tekst: $lang=nl$ Antikapitalistisch $lang=en$
             verenigingen:
               - naam: als
 
-          - tekst: Christendemocratisch
+          - tekst: $lang=nl$ Christendemocratisch $lang=en$
             verenigingen:
               - naam: cds
 
-          - tekst: Marxistisch
+          - tekst: $lang=nl$ Marxistisch $lang=en$
             verenigingen:
               - naam: comac
 
-          - tekst: Ecologistisch
+          - tekst: $lang=nl$ Ecologistisch $lang=en$
             verenigingen:
               - naam: groen
               - naam: durgent
 
-          - tekst: Vlaams-republikeins
+          - tekst: $lang=nl$ Vlaams-republikeins $lang=en$
             verenigingen:
               - naam: nva
 
-          - tekst: Socialistisch
+          - tekst: $lang=nl$ Socialistisch $lang=en$
             verenigingen:
               - naam: socialisten
 
-          - tekst: Liberaal
+          - tekst: $lang=nl$ Liberaal $lang=en$
             verenigingen:
               - naam: lvsv
 
-      - tekst: Europese politiek
+      - tekst: $lang=nl$ Europese politiek $lang=en$
         verenigingen:
           - naam: minos
 
-      - tekst: Internationale politiek, Verenigde Naties en debat
+      - tekst: $lang=nl$ Internationale politiek, Verenigde Naties en debat $lang=en$
         verenigingen:
           - naam: vvny
 
-  - tekst: STEM
-    vraag: Wat zijn je interesses?
+  - tekst: $lang=nl$ STEM $lang=en$
+    vraag: $lang=nl$ Wat zijn je interesses? $lang=en$
     type: meerkeuze
     antwoorden:
-      - tekst: Techniek
+      - tekst: $lang=nl$ Techniek $lang=en$
         verenigingen:
           - naam: ieee
           - naam: best
-      - tekst: Wiskunde
+      - tekst: $lang=nl$ Wiskunde $lang=en$
         verenigingen:
           - naam: prime
-      - tekst: Fysica en sterrenkunde
+      - tekst: $lang=nl$ Fysica en sterrenkunde $lang=en$
         verenigingen:
           - naam: vvn
-      - tekst: Informatica
+      - tekst: $lang=nl$ Informatica $lang=en$
         verenigingen:
           - naam: zeus
 
-  - tekst: radio maken
+  - tekst: $lang=nl$ radio maken $lang=en$
     verenigingen:
       - naam: urgent
 
-  - tekst: Verschillende culturen
-    vraag: Wat zijn je interesses?
+  - tekst: $lang=nl$ Verschillende culturen $lang=en$
+    vraag: $lang=nl$ Wat zijn je interesses? $lang=en$
     type: meerkeuze
     antwoorden:
-      - tekst: Armenië
+      - tekst: $lang=nl$ Armenië $lang=en$
         verenigingen:
           - naam: hayasa
-      - tekst: Japan
+      - tekst: $lang=nl$ Japan $lang=en$
         verenigingen:
           - naam: tnk
-      - tekst: De Klassieke Oudheid
+      - tekst: $lang=nl$ De Klassieke Oudheid $lang=en$
         verenigingen:
           - naam: kk
 ---

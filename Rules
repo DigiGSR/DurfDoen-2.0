@@ -1,75 +1,90 @@
 #!/usr/bin/env ruby
 
 preprocess do
-  # Fetch a list of theme names from all items and construct items from them
-  themas = @items.map { |i| i[:themas] }.flatten.uniq.compact
-  themas.each do |thema|
-    content = ''
-    attributes = {
-        identifier: thema,
-        naam: thema.downcase
-    }
-    identifier = "/themas/#{thema}"
+  include Custom
 
-    @items.create(content, attributes, identifier)
+  @items.find_all("**/*.md").reject{|x| x.binary? }.each do |x|
+    ["nl", "en"].each do |lang|
+      content = filter_lang(x.raw_content.clone, lang)
+      attributes = x.attributes.clone
+      attributes = filter_lang(attributes, lang)
+      attributes[:lang] = lang
+      attributes[:should_delete] = false
+
+      identifier = "/"+lang+x.identifier
+
+      @items.create(content, attributes, identifier)
+
+      x.attributes[:should_delete] = true
+    end
   end
+
+  @items.delete_if {|i| i[:should_delete]}
 end
 
-compile '/{verenigingen,projecten,konventen}/*.md' do
+
+ignore '/{verenigingen,projecten,konventen}/*.md'
+
+compile '/{nl,en}/{verenigingen,projecten,konventen}/*.md' do
   filter :kramdown
   layout '/detail.*'
   layout '/default.*'
   layout '/base.*'
+  filter :relativize_paths, type: :html
   write ext: 'html'
 end
 
-compile '/themas/*' do
+compile '/{nl,en,fr}/themas/*' do
   layout '/thema.*'
   layout '/default.*'
   layout '/base.*'
+  filter :relativize_paths, type: :html
   write ext: 'html'
 end
 
-compile '/homepage.md' do
+compile '/{nl,en,fr}/homepage.md' do
   filter :kramdown
   layout '/homepage.*'
   layout '/default.*'
   layout '/base.*'
-  write '/index.html'
+  filter :relativize_paths, type: :html
+  write "/"+item[:lang]+ '/index.html'
 end
 
-compile '/faq/*' do
-  filter :kramdown
-end
-
-compile '/verenigingen.md' do
+compile '/{nl,en,fr}/verenigingen.md' do
   filter :kramdown
   layout '/verenigingen.*'
   layout '/default.*'
   layout '/base.*'
-  write '/verenigingen/index.html'
+  filter :relativize_paths, type: :html
+  write item.identifier.without_ext + '/index.html'
 end
 
-compile '/quiz.md' do
+compile '/{nl,en,fr}/quiz.md' do
   filter :kramdown
   layout '/quiz.*'
   layout '/default.*'
   layout '/base.*'
-  write '/quiz/index.html'
+  filter :relativize_paths, type: :html
+  write item.identifier.without_ext + '/index.html'
 end
 
-compile '/search.html.erb' do
-  filter :erb
-  layout '/default.*'
-  layout '/base.*'
-  write ext: 'html'
-end
-
-compile '/*.md' do
+compile '/{nl,en,fr}/search.md' do
   filter :kramdown
+  layout '/search.*'
   layout '/default.*'
   layout '/base.*'
-  write ext: 'html'
+  filter :relativize_paths, type: :html
+  write item.identifier.without_ext + '/index.html'
+end
+
+compile '/{nl,en,fr}/faq.md' do
+  filter :kramdown
+  layout '/faq.*'
+  layout '/default.*'
+  layout '/base.*'
+  filter :relativize_paths, type: :html
+  write item.identifier.without_ext + '/index.html'
 end
 
 compile '/stylesheets/*.{sass,scss}' do
@@ -78,12 +93,23 @@ compile '/stylesheets/*.{sass,scss}' do
   write ext: 'css'
 end
 
+compile '/greeter.html' do
+  filter :kramdown
+  layout '/greeter.*'
+  layout '/default.*'
+  layout '/base.*'
+  filter :relativize_paths, type: :html
+  write '/index.html'
+end
+
 compile '/*.erb' do
   filter :erb
   layout '/default.*'
   layout '/base.*'
+  filter :relativize_paths, type: :html
   write item.identifier.without_ext + '/index.html'
 end
+
 
 layout '/**/*', :erb
 

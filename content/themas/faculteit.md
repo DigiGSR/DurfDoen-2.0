@@ -1,0 +1,4 @@
+---
+identifier: faculteit
+naam: Faculteit
+---

@@ -1,56 +1,56 @@
 ---
-vraag: Wie wil je ontmoeten?
+vraag: $lang=nl$ Wie wil je ontmoeten? $lang=en$ Who do you want to meet?
 type: meerkeuze
 antwoorden:
-  - tekst: Studenten die uit dezelfde streek afkomstig zijn
-    vraag: Uit welke streek ben jij afkomstig?
+  - tekst: $lang=nl$ Studenten die uit dezelfde streek afkomstig zijn $lang=en$ Students who are from the same region
+    vraag: $lang=nl$ Uit welke streek ben jij afkomstig? $lang=en$ What region are you from?
     type: specialCase1
     antwoorden:
       - tekst: TODO
         verenigingen:
           - naam: TODO
 
-  - tekst: Eender wie, onafhankelijk van interesses, studies of andere aspecten
+  - tekst: $lang=nl$ Eender wie, onafhankelijk van interesses, studies of andere aspecten $lang=en$ Anybody, regardless of interests, studies or other aspects
     verenigingen:
       - naam: theepot
 
-  - tekst: Internationale studenten
-    verenigingen:
+  - tekst: $lang=nl$ Internationale studenten $lang=en$ International students
+    vereningingen:
       - naam: aiesec
       - naam: best
       - naam: esn
       - naam: iaas
       - naam: isag
 
-  - tekst: Ik ben LGBTQI+ student en zou graag andere LGBTQI+ studenten ontmoeten
+  - tekst: $lang=nl$ Ik ben LGBTQI+ student en zou graag andere LGBTQI+ studenten ontmoeten $lang=en$ I'm a LGBTQI+ student and would like to meet other LGBTQI+ students
     verenigingen:
       - naam: vg
 
-  - tekst: Ik heb een migratieachtergond en zou graag mensen met eenzelfde achtergrond als mezelf ontmoeten
-    vraag: Je gaf aan een migratieachtergrond te hebben en graag andere studenten te ontmoeten met dezelfde achtergrond. Wat is jouw culturele achtergrond?
+  - tekst: $lang=nl$ Ik heb een migratieachtergond en zou graag mensen met eenzelfde achtergrond als mezelf ontmoeten $lang=en$ I have a migrant background and would like to meet people with a similar background to myself
+    vraag: $lang=nl$ Je gaf aan een migratieachtergrond te hebben en graag andere studenten te ontmoeten met dezelfde achtergrond. Wat is jouw culturele achtergrond? $lang=en$ You indicated that you have a migrant background and would like to meet other students from the same background. What is your cultural background?
     type: dropdown
     antwoorden:
       - tekst: China
         verenigingen:
           - naam: chisag
 
-      - tekst: Armenië
+      - tekst: $lang=nl$ Armenië $lang=en$ Armenia
         verenigingen:
           - naam: hayasa
 
-      - tekst: Indonesië
+      - tekst: $lang=nl$ Indonesië $lang=en$ Indonesia
         verenigingen:
           - naam: indosag
 
-      - tekst: Japan
+      - tekst: $lang=nl$ Japan $lang=en$ Japan
         verenigingen:
           - naam: tnk
 
-      - tekst: Vietnam
+      - tekst: $lang=nl$ Vietnam $lang=en$ Vietnam
         verenigingen:
           - naam: vsag
 
-      - tekst: Sub-Sahara Afrika
+      - tekst: $lang=nl$ Sub-Sahara Afrika $lang=en$ Sub-Sahara Afrika
         verenigingen:
           - naam: umoja
 ---

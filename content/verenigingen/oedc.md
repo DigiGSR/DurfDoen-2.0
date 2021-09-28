@@ -9,7 +9,7 @@ social:
   - platform: facebook
     link: https://www.facebook.com/180DegreesConsultingGhent
 themas:
-  - economie en development
+  - economie
 showcase:
   - photo: /assets/logos/oedcA.jpg
   - photo: /assets/logos/oedcB.jpg

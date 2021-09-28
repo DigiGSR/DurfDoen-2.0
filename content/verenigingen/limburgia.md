@@ -86,6 +86,11 @@ postcodes:
   - 3990
 ---
 
+$lang=nl$ 
 Gezellige, sociale en familiale vereniging door en voor Limburgers die studeren of gaan studeren in Gent.
 Wij zijn een club die kameraadschap hoog in het vaandel draagt. Wij zijn niet zomaar een club met leden, wij vormen een hechte groep van vrienden die openstaat voor nieuwe vrienden. Wij zijn een groep die niet enkel in Gent bestaat maar blijft bestaan als wij terug naar Limburg keren. Daarom spreken vele van onze leden ook af in Limburg zelf. Limburgia zorgt voor blijvende kameraadschap!
-Onze bierbeurs-activiteit is de topper van ons jaar. Wij, als Limburgia, zijn met dit concept begonnen (bierprijzen naargelang consumptie) en niemand in Gent kan ons dit evenaren. Ons assortiment in combinatie met voordelige prijzen (nooit meer als 1,50) en zelfs de crash(alles aan 50cent) zorgt telkens voor een onvergetelijk evenement.
+Onze bierbeurs-activiteit is de topper van ons jaar. Wij, als Limburgia, zijn met dit concept begonnen (bierprijzen naargelang consumptie) en niemand in Gent kan ons dit evenaren. Ons assortiment in combinatie met voordelige prijzen (nooit meer als 1,50) en zelfs de crash(alles aan 50cent) zorgt telkens voor een onvergetelijk evenement. 
+$langend$ 
+$lang=en$ 
+A cozy, sociable and familial association for and by people from Limburg who study or have studied in Ghent. We are an association that cares a lot about companionship. We are not just a club with members, but form a group of close friends open to new friends. We are not just a group in Ghent, but stick together when we return to Limburg. Our beer fair activity is the climax of the academic year. As Limburgia, we started this concept (prices of the beers depending on consumption) and nobody in Ghent can match this. Our assortment in combination with the reasonable prices (nothing above 1,50) and even the crash (everything at 50 cents) guarantee an unforgettable event. 
+$langend$
