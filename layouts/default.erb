@@ -8,11 +8,14 @@
     <p>©2020 Gentse studentenraad</p>
     <div lang="en" style="display: flex; gap: 20px;">
       <p>
+
         <% if item[:lang] == "nl" %>
-          <a href="/en/">English</a>
+          <a href="/en/<%= @item.path[4..] %>">English</a>
         <% else %>
-          <a href="/nl/">Nederlands</a></p>
+          <a href="/nl/<%= @item.path[4..] %>">Nederlands</a>
         <% end %>
+
+        </p>
         <p>Made with ♥ by <a href="https://zeus.gent">Zeus WPI</a></p>
 
         </div>
