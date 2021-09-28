@@ -1,5 +1,5 @@
 ---
-vraag: $lang=nl$ $lang=nl$ Wat is je faculteit? $lang=en$ What is your faculty? $lang=en$
+vraag: $lang=nl$ $lang=nl$ Wat is je faculteit? $lang=en$ What is your faculty?
 type: dropdown
 antwoorden:
   - tekst: $lang=nl$ Letteren en Wijsbegeerte $lang=en$ Arts And Philosophy
@@ -168,7 +168,7 @@ antwoorden:
     vraag: $lang=nl$ Welke richting? $lang=en$ What field of study?
     type: dropdown
     antwoorden:
-      - tekst: $lang=nl$ iw - Bouwkunde $lang=en$ iw - Architecture
+      - tekst: $lang=nl$ iw - Bouwkunde $lang=en$ iw - Architectural engineering
         verenigingen:
           - naam: fris
           - naam: hermes
@@ -189,31 +189,31 @@ antwoorden:
           - naam: fris
           - naam: hermes
 
-      - tekst: $lang=nl$ iw - Informatica $lang=en$ iw -
+      - tekst: $lang=nl$ iw - Informatica $lang=en$ iw - Informatics
         verenigingen:
           - naam: fris
           - naam: zeus
           - naam: hermes
 
-      - tekst: $lang=nl$ ir - Architectuur $lang=en$ ir -
+      - tekst: $lang=nl$ ir - Architectuur $lang=en$ ir - Architecture
         verenigingen:
           - naam: fris
           - naam: dlk
           - naam: vtk
 
-      - tekst: $lang=nl$ ir - Bouwkunde $lang=en$ ir -
+      - tekst: $lang=nl$ ir - Bouwkunde $lang=en$ ir - Architectural engineering
         verenigingen:
           - naam: fris
           - naam: poutrix
           - naam: vtk
 
-      - tekst: $lang=nl$ ir - Chemische technologie en materiaalkunde $lang=en$ ir -
+      - tekst: $lang=nl$ ir - Chemische technologie en materiaalkunde $lang=en$ ir - Chemical Engineering and Materials Science
         verenigingen:
           - naam: fris
           - naam: macht
           - naam: vtk
 
-      - tekst: $lang=nl$ ir - Computerwetenschappen $lang=en$ ir -
+      - tekst: $lang=nl$ ir - Computerwetenschappen $lang=en$ ir - Computer Sciences
         verenigingen:
           - naam: fris
           - naam: ceneka
@@ -221,19 +221,19 @@ antwoorden:
           - naam: zeus
           - naam: vtk
 
-      - tekst: $lang=nl$ ir - Elektrotechniek $lang=en$ ir -
+      - tekst: $lang=nl$ ir - Elektrotechniek $lang=en$ ir - electrical engineering
         verenigingen:
           - naam: fris
           - naam: ceneka
           - naam: ieee
           - naam: vtk
 
-      - tekst: $lang=nl$ ir - Toegepaste natuurkunde $lang=en$ ir -
+      - tekst: $lang=nl$ ir - Toegepaste natuurkunde $lang=en$ ir - Applied Physics
         verenigingen:
           - naam: fris
           - naam: vtk
 
-      - tekst: $lang=nl$ ir - Werktuigkunde-elektrotechniek $lang=en$ ir -
+      - tekst: $lang=nl$ ir - Werktuigkunde-elektrotechniek $lang=en$ ir - Mechanical Electrical Engineering
         verenigingen:
           - naam: fris
           - naam: ceneka
@@ -241,173 +241,173 @@ antwoorden:
           - naam: pkarus
           - naam: vtk
 
-      - tekst: $lang=nl$ ir - Biomedische ingenieurstechnieken $lang=en$ ir -
+      - tekst: $lang=nl$ ir - Biomedische ingenieurstechnieken $lang=en$ ir - Biomedical Engineering Techniques
         verenigingen:
           - naam: fris
           - naam: beam
           - naam: vtk
 
-      - tekst: $lang=nl$ iw - Industrieel ontwerpen $lang=en$
+      - tekst: $lang=nl$ iw - Industrieel ontwerpen $lang=en$ iw - Industrial design
         verenigingen:
           - naam: fris
           - naam: hermes
 
-      - tekst: $lang=nl$ iw - Machine- en productieautomatisering $lang=en$
+      - tekst: $lang=nl$ iw - Machine- en productieautomatisering $lang=en$ iw - Machine and production automation
         verenigingen:
           - naam: fris
           - naam: hermes
 
-  - tekst: $lang=nl$ Economie en bedrijfskude $lang=en$
-    vraag: $lang=nl$ Welke richting? $lang=en$
+  - tekst: $lang=nl$ Economie en bedrijfskude $lang=en$ Economics And Business Administration
+    vraag: $lang=nl$ Welke richting? $lang=en$ What field of study?
     type: dropdown
     antwoorden:
-      - tekst: $lang=nl$ Handelsingenieur $lang=en$
+      - tekst: $lang=nl$ Handelsingenieur $lang=en$ Commercial Engineer
         verenigingen:
           - naam: stuveco
           - naam: capitant
           - naam: flyse
           - naam: vek
 
-      - tekst: $lang=nl$ Bestuurskunde en het publiek management $lang=en$
+      - tekst: $lang=nl$ Bestuurskunde en het publiek management $lang=en$ Public administration and public management
         verenigingen:
           - naam: stuveco
           - naam: lies
 
-      - tekst: $lang=nl$ Economische wetenschappen $lang=en$
+      - tekst: $lang=nl$ Economische wetenschappen $lang=en$ Economical sciences
         verenigingen:
           - naam: stuveco
           - naam: capitant
           - naam: flyse
           - naam: vek
 
-      - tekst: $lang=nl$ Handelswetenschappen $lang=en$
+      - tekst: $lang=nl$ Handelswetenschappen $lang=en$ Commercial Sciences
         verenigingen:
           - naam: stuveco
           - naam: capitant
           - naam: flyse
           - naam: lies
 
-      - tekst: $lang=nl$ Toegepaste economische wetenschappen $lang=en$
+      - tekst: $lang=nl$ Toegepaste economische wetenschappen $lang=en$ Applied Economic Sciences
         verenigingen:
           - naam: stuveco
           - naam: capitant
           - naam: flyse
           - naam: vek
 
-  - tekst: $lang=nl$ Diergeneeskunde $lang=en$
-    vraag: $lang=nl$ Welke richting? $lang=en$
+  - tekst: $lang=nl$ Diergeneeskunde $lang=en$ Veterinary
+    vraag: $lang=nl$ Welke richting? $lang=en$ What field of study?
     type: dropdown
     antwoorden:
-      - tekst: $lang=nl$ Diergeneeskunde $lang=en$
+      - tekst: $lang=nl$ Diergeneeskunde $lang=en$ Veterinary
         verenigingen:
           - naam: fde
           - naam: vdk
 
-  - tekst: $lang=nl$ Psychologie en pedagogische wetenschappen $lang=en$
-    vraag: $lang=nl$ Welke richting? $lang=en$
+  - tekst: $lang=nl$ Psychologie en pedagogische wetenschappen $lang=en$ Psychology And Educational Sciences
+    vraag: $lang=nl$ Welke richting? $lang=en$ What field of study?
     type: dropdown
     antwoorden:
-      - tekst: $lang=nl$ Pedagogie - Klinische orthopedagogiek en disability studies $lang=en$
+      - tekst: $lang=nl$ Pedagogie - Klinische orthopedagogiek en disability studies $lang=en$ Pedagogy - Clinical remedial education and disability studies
         verenigingen:
           - naam: ppsr
           - naam: vppk
 
-      - tekst: $lang=nl$ Pedagogie - Pedagogiek en onderwijskunde $lang=en$
+      - tekst: $lang=nl$ Pedagogie - Pedagogiek en onderwijskunde $lang=en$ Pedagogy - Pedagogy and Educational Science
         verenigingen:
           - naam: ppsr
           - naam: vppk
 
-      - tekst: $lang=nl$ Pedagogie - Sociale agogiek $lang=en$
+      - tekst: $lang=nl$ Pedagogie - Sociale agogiek $lang=en$ Pedagogy - Social agogics
         verenigingen:
           - naam: ppsr
           - naam: vppk
 
-      - tekst: $lang=nl$ Psychologie - Bedrijfspsychologie en personeelsbeleid $lang=en$
+      - tekst: $lang=nl$ Psychologie - Bedrijfspsychologie en personeelsbeleid $lang=en$ Psychology - Business Psychology and Human Resources
         verenigingen:
           - naam: ppsr
           - naam: vppk
 
-      - tekst: $lang=nl$ Psychologie - Klinische psychologie $lang=en$
+      - tekst: $lang=nl$ Psychologie - Klinische psychologie $lang=en$ Psychology - Clinical Psychology
         verenigingen:
           - naam: ppsr
           - naam: vppk
 
-      - tekst: $lang=nl$ Psychologie - onderwijs $lang=en$
+      - tekst: $lang=nl$ Psychologie - onderwijs $lang=en$ Psychology - Education
         verenigingen:
           - naam: ppsr
           - naam: vppk
 
-      - tekst: $lang=nl$ Psychologie - Theoretische en experimentele psychologie $lang=en$
+      - tekst: $lang=nl$ Psychologie - Theoretische en experimentele psychologie $lang=en$ Psychology - Theoretical and Experimental Psychology
         verenigingen:
           - naam: ppsr
           - naam: vppk
 
-  - tekst: $lang=nl$ Bio-ingenieurswetenschappen $lang=en$
-    vraag: $lang=nl$ Welke richting? $lang=en$
+  - tekst: $lang=nl$ Bio-ingenieurswetenschappen $lang=en$ Bioscience Engineering
+    vraag: $lang=nl$ Welke richting? $lang=en$ What field of study?
     type: dropdown
     antwoorden:
-      - tekst: $lang=nl$ biw - Bos- en natuurbeheer $lang=en$
+      - tekst: $lang=nl$ biw - Bos- en natuurbeheer $lang=en$ biw - Forest and Nature Management
         verenigingen:
           - naam: stubio
           - naam: vlk
 
-      - tekst: $lang=nl$ biw - cel- en genbiotechnologie $lang=en$
+      - tekst: $lang=nl$ biw - cel- en genbiotechnologie $lang=en$ biw - cell and gene biotechnology
         verenigingen:
           - naam: stubio
           - naam: vlk
 
-      - tekst: $lang=nl$ biw - Chemie en voedingstechnologie $lang=en$
+      - tekst: $lang=nl$ biw - Chemie en voedingstechnologie $lang=en$ biw - Chemistry and food technology
         verenigingen:
           - naam: stubio
           - naam: vlk
 
-      - tekst: $lang=nl$ biw - Landbouwkunde $lang=en$
+      - tekst: $lang=nl$ biw - Landbouwkunde $lang=en$ biw - Agronomy
         verenigingen:
           - naam: stubio
           - naam: vlk
           - naam: gk
           - naam: iaas
 
-      - tekst: $lang=nl$ biw - Land- en waterbeheer $lang=en$
+      - tekst: $lang=nl$ biw - Land- en waterbeheer $lang=en$ biw - Land and water management
         verenigingen:
           - naam: stubio
           - naam: vlk
 
-      - tekst: $lang=nl$ biw - Milieutechnologie $lang=en$
+      - tekst: $lang=nl$ biw - Milieutechnologie $lang=en$ biw - Environmental technology
         verenigingen:
           - naam: stubio
           - naam: vlk
 
-      - tekst: $lang=nl$ Biowetenschappen $lang=en$
+      - tekst: $lang=nl$ Biowetenschappen $lang=en$ Bio Sciences
         verenigingen:
           - naam: stubio
           - naam: lila
 
-  - tekst: $lang=nl$ Farmaceutische wetenschappen $lang=en$
-    vraag: $lang=nl$ Welke richting? $lang=en$
+  - tekst: $lang=nl$ Farmaceutische wetenschappen $lang=en$ Pharmaceutical Sciences
+    vraag: $lang=nl$ Welke richting? $lang=en$ What field of study?
     type: dropdown
     antwoorden:
-      - tekst: $lang=nl$ Farmaceutische wetenschappen $lang=en$
+      - tekst: $lang=nl$ Farmaceutische wetenschappen $lang=en$ Pharmaceutical Sciences
         verenigingen:
           - naam: stuff
           - naam: gfk
           - naam: bemsa
 
-  - tekst: $lang=nl$ Politieke en sociale wetenschappen $lang=en$
-    vraag: $lang=nl$ Welke richting? $lang=en$
+  - tekst: $lang=nl$ Politieke en sociale wetenschappen $lang=en$ Political And Social Sciences
+    vraag: $lang=nl$ Welke richting? $lang=en$ What field of study?
     type: dropdown
     antwoorden:
-      - tekst: $lang=nl$ Communicatiewetenschappen $lang=en$
+      - tekst: $lang=nl$ Communicatiewetenschappen $lang=en$ Communication Sciences
         verenigingen:
           - naam: stura
           - naam: politeia
 
-      - tekst: $lang=nl$ Politieke wetenschappen $lang=en$
+      - tekst: $lang=nl$ Politieke wetenschappen $lang=en$ Political Sciences
         verenigingen:
           - naam: stura
           - naam: politeia
 
-      - tekst: $lang=nl$ Sociologie $lang=en$
+      - tekst: $lang=nl$ Sociologie $lang=en$ Sociology
         verenigingen:
           - naam: stura
           - naam: politeia
