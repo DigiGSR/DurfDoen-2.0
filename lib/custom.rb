@@ -1,4 +1,13 @@
 module Custom
+
+    def into_lang(item, dutch, english)
+        if item[:lang] == "nl"
+            dutch
+        else
+            english
+        end
+    end
+
     def filter_lang(content, lang)
         if content.class == Array
             content.map { |x| filter_lang(x, lang) }

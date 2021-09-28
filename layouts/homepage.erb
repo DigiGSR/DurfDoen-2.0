@@ -7,17 +7,20 @@
 <div class="beforeTheFold">
   <article class="align">
     <h2 class="studentZijn">
-      <span class="underline">Student</span> zijn is<br>
-      <span class="underline">meer</span> dan studeren alleen
+    <%= into_lang(item, %q{<span class="underline">Student</span> zijn is<br>
+      <span class="underline">meer</span> dan studeren alleen}, %q{
+        <span class="underline">Being</span> a student is<br>
+        <span class="underline">more</span> than just studying}) %>
     </h2>
-    <p class="quote">Durf Doen wil je helpen de vereniging te vinden waar jij je thuis zal voelen.</p>
+
+    <p class="quote"><%= into_lang(item, "Durf Doen wil je helpen de vereniging te vinden waar jij je thuis zal voelen.", "Durf Doen helps you find the association that makes you feel at home.") %></p>
     <div class="quizSpotlight">
-      <a href="/<%=item[:lang]%>/quiz/">Doe de test</a>
+      <a href="/<%=item[:lang]%>/quiz/"><%= into_lang(item, "Doe de test", "Take the test") %></a>
     </div>
   </article>
 
   <div class="scroll">
-    <a href="#main">Of scroll naar beneden voor meer info</a>
+    <a href="#main"><%= into_lang(item,  "Of scroll naar beneden voor meer info", "Scroll for more information")%></a>
   </div>
 
   <div class="shade"></div>
@@ -25,7 +28,7 @@
 
 <main id="main" class="align">
   <article>
-    <h2>Kende je bijvoorbeeld deze vereniging al?</h2>
+    <h2> <%= into_lang(item,  "Kende je bijvoorbeeld deze vereniging al?", "For example, did you know these associations?") %></h2>
     <div class="randomVerenigingenWrapper" id="display_repo">
       <noscript>
         <div class="randomVerenigingWrapper">

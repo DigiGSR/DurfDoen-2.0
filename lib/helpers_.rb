@@ -8,3 +8,4 @@ use_helper FontAwesomeHelper
 use_helper SearchHelper
 use_helper QuizHelper
 use_helper UtilHelper
+use_helper Custom

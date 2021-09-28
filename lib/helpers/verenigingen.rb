@@ -70,11 +70,7 @@ module VerenigingenHelper
   end
 
   def all_groups
-<<<<<<< HEAD
     @items.find_all("**/verenigingen/*").select{|i| i[:lang] == item[:lang]} + @items.find_all("**/konventen/*").select{|i| i[:lang] == item[:lang]}
-=======
-    @items.find_all("**/verenigingen/*") + @items.find_all("**/konventen/*") + @items.find_all("**/projecten/*")
->>>>>>> 85bd3a5 (Fix search for projects, and correct project files)
   end
 
   def image_url(item, size="medium")
