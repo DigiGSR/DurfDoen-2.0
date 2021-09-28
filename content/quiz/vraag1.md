@@ -1,5 +1,5 @@
 ---
-vraag: Wat is je faculteit?
+vraag: $lang=nl$ Wat is je faculteit? $lang=en$ What is your faculty?
 type: dropdown
 antwoorden:
   - tekst: Letteren en Wijsbegeerte
@@ -23,7 +23,7 @@ antwoorden:
           - naam: vgkflwi
           - naam: isha
 
-      - tekst: Kunstwetenschappen
+      - tekst: $lang=nl$ Kunstwetenschappen $lang=en$ Art Sciences
         verenigingen:
           - naam: stuart
           - naam: khk

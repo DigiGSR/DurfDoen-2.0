@@ -7,6 +7,7 @@ preprocess do
     ["nl", "en"].each do |lang|
       content = filter_lang(x.raw_content.clone, lang)
       attributes = x.attributes.clone
+      attributes = filter_lang(attributes, lang)
       attributes[:lang] = lang
       attributes[:should_delete] = false
 

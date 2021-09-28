@@ -33,7 +33,6 @@ Tijdens de week ben je ook altijd welkom om je passie voor informatica te delen 
 Ook voor een Linux-install (er is ook de Linux Install Party, een event waar we Linux installeren) kan je altijd bij ons terecht!
 
 Voor een lijstje van projecten waar we mee bezig zijn, zie onze [GitHub](https://github.com/ZeusWPI).
-%langend
 %lang=en
 Have you always wanted to delve into the dark arts and learn how to make computers do what you want them to? Then you've come to the right place. Zeus is situated in the basement of S9, because computer scientists don’t need any sunlight…
 
