@@ -45,9 +45,9 @@ postcodes:
   - 8980
 ---
 
-%lang=nl 
+$lang=nl$ 
 Ieper, Veurne en Poperinge. 
-%langend 
-%lang=en 
+$langend$ 
+$lang=en$ 
 Ieper, Veurne en Poperinge. 
-%langend
+$langend$

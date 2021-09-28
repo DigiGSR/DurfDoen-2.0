@@ -17,7 +17,7 @@ showcase:
   - photo: /assets/logos/ZeusC.jpg
 ---
 
-%lang=nl
+$lang=nl$
 Heb je je altijd al willen verdiepen in de duistere kunsten en willen leren hoe je computers kan laten doen wat je wil? Dan is Zeus WPI (of kort: Zeus) de vereniging voor jou! Zeus heeft haar lokaal in de kerkers (kelder) van S9, want informatici hebben toch geen zonlicht nodig...
 
 Zeus WPI is dé studentenvereniging voor iedereen die geïntereseerd is in computers, informatica en alles daarrond.
@@ -33,7 +33,7 @@ Tijdens de week ben je ook altijd welkom om je passie voor informatica te delen 
 Ook voor een Linux-install (er is ook de Linux Install Party, een event waar we Linux installeren) kan je altijd bij ons terecht!
 
 Voor een lijstje van projecten waar we mee bezig zijn, zie onze [GitHub](https://github.com/ZeusWPI).
-%lang=en
+$lang=en$
 Have you always wanted to delve into the dark arts and learn how to make computers do what you want them to? Then you've come to the right place. Zeus is situated in the basement of S9, because computer scientists don’t need any sunlight…
 
 Zeus WPI is the student association par excellence for everyone interested in computers, computer science and everything related to it.
@@ -49,4 +49,4 @@ During the week you are always welcome to share your passion for computer scienc
 You can also visit us for a Linux-install (there is a Linux Install Party, an event where we install Linux).
 
 For a list of our current projects please visit our GitHub.
-%langend
+$langend$

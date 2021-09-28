@@ -10,9 +10,9 @@ contact: wina@student.ugent.be
 website: https://wina-gent.be/
 ---
 
-%lang=nl 
+$lang=nl$ 
 WiNA is de faculteitskring van en voor de studenten Wiskunde, Informatica en Fysica & Sterrenkunde aan de Universiteit Gent. 
-%langend 
-%lang=en 
+$langend$ 
+$lang=en$ 
 WiNA is the faculty association for and by Ghent University Mathematics, Computer Science and Physics & Astronomy students. 
-%langend
+$langend$

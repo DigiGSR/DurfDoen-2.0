@@ -100,9 +100,9 @@ postcodes:
   - 2990
 ---
 
-%lang=nl 
+$lang=nl$ 
 Antwerpen Boven is een streekclub opgericht door Karel Hubert Roger Rottiers in 1929 voor alle Antwerpse studenten die in Gent studeren. 
-%langend 
-%lang=en 
+$langend$ 
+$lang=en$ 
 Antwerpen Boven is a regional association founded by Karel Hubert Roger Rottiers in 1929 for all Antwerp-based students in Ghent. 
-%langend
+$langend$
