@@ -73,6 +73,7 @@ antwoorden:
   - tekst: $lang=nl$ Duurzaamheid $lang=en$ Sustainability
     verenigingen:
       - naam: durgent
+      - naam: enactus
 
   - tekst: $lang=nl$ Economie $lang=en$ Economy
     verenigingen:
