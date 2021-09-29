@@ -20,7 +20,7 @@
     <één of meer lijnen beschrijving van de vereniging>
     ```
 3. sla dit bestand op
-4. surf naar https://github.ugent.be/ZeusWPI/durfdoen-2.0/tree/master/content/verenigingen
+4. surf naar https://gitlab.com/gentsestudentenraad/durfdoen-2.0/-/tree/master/content/verenigingen
 5. klik rechtsboven op de knop "upload files"
 6. upload het bestand dat je in stap 1 gemaakt hebt
 7. zorg ervoor dat je onderaan de pagina gekozen hebt voor "Create a *new branch* for this commit and start a pull request ..."

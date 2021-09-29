@@ -19,7 +19,6 @@ antwoorden:
       - naam: aiesec
       - naam: best
       - naam: esn
-      - naam: iaas
       - naam: isag
 
   - tekst: $lang=nl$ Ik ben LGBTQI+ student en zou graag andere LGBTQI+ studenten ontmoeten $lang=en$ I'm a LGBTQI+ student and would like to meet other LGBTQI+ students
@@ -50,7 +49,7 @@ antwoorden:
         verenigingen:
           - naam: vsag
 
-      - tekst: $lang=nl$ Sub-Sahara Afrika $lang=en$ Sub-Sahara Afrika
+      - tekst: $lang=nl$ Afrika $lang=en$ Africa
         verenigingen:
           - naam: umoja
 ---

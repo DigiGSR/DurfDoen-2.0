@@ -1,7 +1,11 @@
 <div id="quiz_intro" class="hidden quiz_content">
-  <h2 class="page-header-sub">Welke verenigingen passen bij jou?</h2>
-  <p>Het invullen van deze quiz zal jou helpen de vereniging te vinden die bij jou past.</p>
-  <p>Niet alle vragen hoeven ingevuld te worden en bij sommige vragen komen plots bijvragen tevoorschijn.</p>
+  <h2 class="page-header-sub"><%= into_lang(item, "Welke verenigingen passen bij jou?","Which associations may be of interest to you?") %></h2>
+  <%= into_lang(item, "<p>Het invullen van deze quiz zal jou helpen de vereniging te vinden die bij jou past.</p>
+                <p>Niet alle vragen hoeven ingevuld te worden en bij sommige vragen komen plots bijvragen tevoorschijn.</p>",
+                "<p>Filling in this quiz will help you find associations that may be of interest to you.</p>
+                  <p>Not all questions have to be answerd and for some questions there may appear a follow up question based on your answer.</p>"
+                ) %>
+
   <br>
   <div onclick="goNext()" class="quizSpotlight">
     <a>Start!</a>
@@ -15,23 +19,27 @@
   <% end %>
 </div>
 <div class="hidden quiz_content">
-  <h2> Misschien is een van deze verenigingen iets voor jou </h2>
-  <p>Nog dat extra zetje nodig om eens langs te gaan? Ga met een screenshot van je resultaat naar een activiteit van één van deze verenigingen en maak kans op een leuke prijs, zoals ontbijt aan huis, een krantenabonnement of een UGent-sweater!</p>
+  <h2> <%= into_lang(item,"Misschien is een van deze verenigingen iets voor jou", "Maybe some of these associations may peak your interest" ) %> </h2>
+  <%= into_lang(item,
+                "<p>Nog dat extra zetje nodig om eens langs te gaan? Ga met een screenshot van je resultaat naar een activiteit van één
+    van deze verenigingen en maak kans op een leuke prijs, zoals ontbijt aan huis, een krantenabonnement of een UGent-sweater!</p>",
+                "<p>Need some extra motivation? Take a screenshot of this page and go to an activity of one these associations to have
+                a chance of winning a price like a breakfast deliviry at home or a UGhent sweater! </p>")%>
   <div id="resultWrapper" class="fancy_link_container">
   </div>
     <div onclick="window.location.href='/quiz'" class="quizSpotlight">
-    <a class="small">Opnieuw</a>
+    <a class="small"> <%= into_lang(item, "Opnieuw", "Again") %></a>
   </div>
 </div>
 <div class="buttons quiz_content">
   <div>
     <button id="previousButton" onclick="goPrevious()">
-      Vorige
+      <%= into_lang(item, "Vorige", "Previous") %>
     </button>
   </div>
   <div>
     <button id="nextButton" onclick="goNext()">
-      Volgende
+      <%= into_lang(item, "Volgende","Next") %>
     </button>
   </div>
 </div>
