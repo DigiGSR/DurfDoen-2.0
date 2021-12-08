@@ -1,0 +1,21 @@
+version: "3"
+services:
+  durfdoen:
+    container_name: durfdoen
+    build:
+      target: release
+      context: .
+      dockerfile: Dockerfile
+    networks:
+      - server_default
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.durfdoen.rule=Host(`durfdoen.be`,`www.durfdoen.be`)"
+      - "traefik.http.routers.durfdoen.entrypoints=websecure"
+      - "traefik.http.routers.durfdoen.tls.certresolver=letsencrypt"
+      - "traefik.http.services.durfdoen.loadbalancer.server.port=80"
+
+
+networks:
+  server_default:
+    external: true
