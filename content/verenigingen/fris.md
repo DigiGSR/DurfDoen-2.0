@@ -9,6 +9,11 @@ contact: fris@ugent.be
 website: https://fris.ugent.be
 themas:
   -  engagement
+social:
+  - platform: facebook
+    link: https://facebook.com/FEA.FRIS
+  - platform: instagram
+    link: https://instagram.com/fea.fris
 ---
 $lang=nl$ 
 FRiS staat voor Facultaire Raad van Ingenieursstudenten, ofwel de overkoepelende raad van alle studentenvertegenwoordigers van de Faculteit Ingenieurswetenschappen en Architectuur. Onze studentenvertegenwoordigers komen van drie campussen, namelijk Kortrijk, Plateau en Schoonmeersen. FRiS verdedigt dus de belangen van zowel de burgerlijk ingenieurs, de burgerlijk ingenieur-architecten als de industrieel ingenieurs!

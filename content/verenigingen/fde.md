@@ -8,18 +8,25 @@ konvent: gsr
 logo: /assets/sfeerfotos/LogoDSR.png
 themas:
   - engagement
-website: http://www.vlaamsdiergeneeskundigekring.be/Studentenraad.php
+website: https://vdk.ugent.be/studentenraad/
 contact: dsr@student.ugent.be
+social:
+  - platform: instagram
+    link: https://www.instagram.com/diergeneeskundigestudentenraad/
 themas: 
   - engagement
 ---
-$lang=nl$ 
-De Diergeneeskundige Studentenraad is een facultaire studentenraad die zich inzet voor alle studenten op onze prachtige Faculteit. Wij bestaan voornamelijk uit de jaarverantwoordelijken, die iedereen van zijn/haar jaar natuurlijk wel kent, en de andere studentenvertegenwoordigers (oftewel stuvers). 
+$lang=nl$
+De Diergeneeskundige Studentenraad is een facultaire studentenraad die zich inzet voor alle studenten op de faculteit diergeneeskunde. Wij bestaan uit de jaarverantwoordelijken en de andere studentenvertegenwoordigers in de verschillende raden en commissies.
 
-Wat onze geweldige jaarverantwoordelijken allemaal voor ons doen (onze vragen beantwoorden, klachten doorgeven/oplossen, leswissels en natuurlijk de kliniekroosters) is alom bekend. Maar wat doen die andere stuvers nu eigenlijk? Zij zitten in de verschillende commissies en raden die onze Faculteit rijk is! Je kan het zo gek maar niet bedenken, of er is wel een commissie voor waar proffen, assistenten en studenten samen zitten om problemen aan te kaarten en oplossingen te bedenken. Ook in centrale raden zoals de Sociale Raad, de Gentse Studentenraad, de Onderwijsraad ed. is er plek voor Diergeneeskunde studenten en is het belangrijk dat wij, op ons eilandje in Merelbeke, niet worden vergeten! 
-$langend$ 
-$lang=en$ 
-The Student Council Veterinary Medicine is a faculty student council that makes an effort for all the students at our beloved Faculty. We consist mainly of the ‘year representatives’, with whom pretty much everyone is familiar, and the other student representatives.
+De jaarverantwoordelijken staan in voor de vlotte communicatie tussen proffen/ faculteit en hun studiejaar. Zo verzorgen ze leswissels, kliniekroosters, zaken die niet vlot lopen etc. Ze worden in de eerste lesweek van het academiejaar verkozen.
 
-What our wonderful ‘year representatives’ do for us (answer our questions, address/solve problems, changes in the courses, the hospital schedule…) is well known. But what do the other student representatives actually do? They take part in the many commissions and councils of our Faculty. It’s hard to imagine a topic without a commission made out of professors, assistens and students discussing everything related to it. In the central councils (Social Council, Ghent Student Council, Education Council) there is a place for Veterinary Medicine students as well. All of this to make sure that we, on our island in Merelbeke, are borne in mind. 
+De stuvers zitten in de verschillende commissies en raden die onze faculteit rijk is. Je kan het zo gek maar niet bedenken, of er is wel een commissie voor waar proffen, assistenten en studenten samen zitten om problemen aan te kaarten en oplossingen te bedenken. Ook in centrale raden zoals de Sociale Raad, de Gentse Studentenraad, de Onderwijsraad ed. is er plek voor Diergeneeskunde studenten en is het belangrijk dat wij, op ons eilandje in Merelbeke, niet worden vergeten!
+$langend$
+$lang=en$
+The Veterinary Student Council is a Faculty Student Council that is committed to all students at the Faculty of Veterinary Medicine. We consist of the annual representatives and the other student representatives in the various councils and committees.
+
+The year managers are responsible for smooth communication between professors/faculty and their academic year. They take care of lesson changes, clinic schedules, things that do not run smoothly, etc. They are elected in the first week of the academic year.
+
+The stuvers sit on the various committees and councils that our faculty has. There is also room for Veterinary Medicine students in central councils such as the Social Council, the Ghent Student Council, the Education Council, etc. and it is important that we, on our island in Merelbeke, are not forgotten!
 $langend$

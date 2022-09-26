@@ -7,7 +7,9 @@ konvent: pfk
 contact: nsv.gent@gmail.com
 social:
   - platform: facebook
-    link: https://www.facebook.com/NationalistischeStudentenverenigingGent/
+    link: https://www.facebook.com/NationalistischeStudentenverenigingGent
+  - platform: instagram
+    link: https://www.instagram.com/nsvibes/
 themas:
   - politiek
 ---

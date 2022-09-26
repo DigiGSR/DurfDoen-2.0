@@ -8,6 +8,7 @@ contact: membership.gent@aiesec.be
 website: https://aiesec.org/
 social:
   - platform: instagram
+    link: https://www.instagram.com/aiesecingent/
   - platform: facebook
     link: https://www.facebook.com/AIESECinBelgium/
 themas:

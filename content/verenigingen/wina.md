@@ -8,6 +8,11 @@ themas:
   -  faculteit
 contact: wina@student.ugent.be
 website: https://wina-gent.be/
+social:
+  - platform: facebook
+    link: https://www.facebook.com/wina.ugent
+  - platform: instagram
+    link: https://www.instagram.com/wina_gent
 ---
 
 $lang=nl$ 

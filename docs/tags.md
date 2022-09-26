@@ -24,3 +24,4 @@
 - PFK: Politiek en filosofisch
 - Schamper
 - Urgentfm
+- GSR: Gentse studentenraad
