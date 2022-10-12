@@ -10,6 +10,8 @@ contact: stubio@ugent.be
 social:
   - platform: facebook
     link: https://www.facebook.com/stubio.gent/
+  - platform: instagram
+    link: https://instagram.com/fbwugent
 themas:
   - engagement
 ---

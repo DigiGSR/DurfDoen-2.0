@@ -1,13 +1,17 @@
 ---
-titel: Jongsocialisten StuGent
+titel: Jongsocialisten Gent
 id: socialisten
-naam: Jongsocialisten StuGent
-verkorte_naam: Jongsocialisten StuGent
+naam: Jongsocialisten Gent
+verkorte_naam: Jongsocialisten Gent
 konvent: pfk
 contact: jongsocialisten_stugent@gmail.com
 social:
   - platform: facebook
-    link: https://www.facebook.com/js.stugent/
+    link: https://www.facebook.com/JSGent
+  - platform: instagram
+    link: https://www.instagram.com/js_gent/
+  - platform: twitter
+    link: https://twitter.com/JS_Gent
 themas:
   - politiek
 ---

@@ -12,15 +12,15 @@ social:
     link: https://twitter.com/Schamper
   - platform: instagram
     link: https://www.instagram.com/schamper_gent/
+  - platform: tiktok
+    link: https://www.tiktok.com/@schamper_gent
 themas:
   - cultuur
 ---
 
-$lang=nl$ 
-Schamper is anders dan de facultaire verenigingen omdat ze niet allemaal hetzelfde studeren. Ze zijn anders dan de streekgebonden studentenclubs, omdat ze niet allemaal uit dezelfde contreien komen. Ze zijn anders dan politiek-filosofische verenigingen omdat ze niet allemaal dezelfde ideologische mening hebben. Maar ze zijn vooral anders, omdat ze kritische, schampere studentenjournalistiek brengen.
-In de eerste plaats is Schamper trots op de journalistiek, literair en esthetisch hoogstaande pareltjes die tweewekelijks, in vijfduizendvoud, aan alle faculteiten en resto's afgeleverd worden.
-Daarnaast wagen zij zich ook wel aan activiteiten zoals de ondertussen beruchte Schamperfuif of Schamperquiz. 
+$lang=nl$
+Schamper is het onafhankelijke studentenblad van de UGent. Als vereniging biedt ze een thuis voor iedereen die interesse heeft in journalistiek en al wat komt kijken bij het uitgeven van een magazine. Schrijvers, fotografen, illustratoren, ICT'ers en grafici vanuit alle faculteiten komen samen om de studentenpers van onze universiteit vorm te geven. Naast het brengen van nieuws en informatie, organiseert Schamper ook allerlei sociale activiteiten voor hun leden. Zelfs als je (nog) geen deel uitmaakt van hun redactie, kan je nog altijd geïnformeerd blijven over alles wat er zich afspeelt aan onze universiteit, en daarbuiten. Dit kan je doen via hun website, of via hun driewekelijkse blad, dat op iedere faculteit te vinden is. 
 $langend$ 
-$lang=en$ 
-Schamper is different from the other faculty associations because its members do not follow the same programme. They differ from the regional student clubs because they do not come from the same place. They are different from the politico-philosophical association because they do not share the same ideological positions. But first and foremost they are different because they bring critical student journalism. Schamper is proud of the journalistic, literary and esthetical masterpieces it delivers biweekly to all the faculties and student restaurants. Besides all of this, they organise other, by now infamous, activities like the Schamperfuif, a big party, and the Schamperquiz. 
+$lang=en$
+Schamper is the independent student magazine of Ghent University. As an association, it offers a home for everyone who is interested in journalism and everything that is involved in publishing a magazine. Writers, photographers, illustrators, ICT specialists and graphic artists from all faculties come together to shape the student press of our university. Besides bringing news and information, Schamper also organizes all kinds of social activities for their members. Even if you are not (yet) part of their editorial team, you can still stay informed about everything that is happening at our university and beyond. You can do this via their website, or via their quarterly magazine, which can be found at every faculty.
 $langend$

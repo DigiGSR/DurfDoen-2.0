@@ -14,7 +14,7 @@ antwoorden:
     verenigingen:
       - naam: oedc
 
-  - tekst: $lang=nl$ Cultuur en creatief zijn $lang=en$ Culture and being creative
+  - tekst: $lang=nl$ Cultuur, muziek en creatief zijn $lang=en$ Culture, music and being creative
     vraag: $lang=nl$ Wat zijn je interesses? $lang=en$
     type: meerkeuze
     antwoorden:
