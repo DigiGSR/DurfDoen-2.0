@@ -12,7 +12,6 @@ social:
     link: https://www.facebook.com/stujardin/
 themas:
   - groen
-  - duurzaamheid
 ---
 
 $lang=nl$
