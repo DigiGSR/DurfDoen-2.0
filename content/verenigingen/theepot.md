@@ -20,5 +20,5 @@ $lang=nl$
 De warmste vereniging van Gent! Iedereen is bij ons welkom voor een stukje taart, tasje thee en een gezellige babbel. Daarnaast organiseren we ook allerlei leuke activiteiten en kransjes!
 $langend$ 
 $lang=en$ 
-The warmest student association in Ghent. We welcome everyone for a slice of cake, a cup of tea and a friendly chat. Furthermore, we organise various fun activities.
-$langend$
+The cosiest student association in Ghent! Everybody is welcome for a slice of cake, a cup of tea and a nice chat. We also host a lot of fun activities and tea-parties!
+$langend$      

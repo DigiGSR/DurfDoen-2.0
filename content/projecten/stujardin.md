@@ -21,3 +21,6 @@ $langend$
 $lang=en$
 StuJardin grows vegetables, fruit and herbs in the city together with students. With this we want to convince students that urban gardening is pleasant and necessary. The project is a step towards an urban society that is more based on self-sufficiency and a short chain. After all, it is more sustainable and environmentally friendly to consume your own locally grown vegetables than to buy food that has traveled long distances to reach your plate. We also try to make students aware of the production process by working with it in practice. In concrete terms, the project consists of two parts. On the one hand, we have a permanent vegetable garden in which we work at fixed working times, but where everyone is always welcome. On the other hand, various growth evenings are organised. These range from information evenings about permaculture to workshops on composting and cooking with forgotten vegetables. StuJardin is a proud project of the Ghent Student Council.
 $langend$
+
+
+

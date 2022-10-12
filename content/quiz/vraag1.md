@@ -228,6 +228,12 @@ antwoorden:
           - naam: ieee
           - naam: vtk
 
+      - tekst: $lang=nl$ ir. Photonica $lang=en$ ir. Photonics
+        verenigingen:
+          - naam: fris
+          - naam: vtk
+          - naam: ceneka
+
       - tekst: $lang=nl$ ir - Toegepaste natuurkunde $lang=en$ ir - Applied Physics
         verenigingen:
           - naam: fris
