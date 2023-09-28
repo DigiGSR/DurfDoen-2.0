@@ -3,7 +3,7 @@ Durf Doen 2.0
 
 ## Setup instructions
 
-1. Install Ruby, preferably the version specified in `.ruby-version`
+1. Install Ruby 2.7.1, preferably the version specified in `.ruby-version`
 2. Install bundler (`gem install bundler`)
 3. Install other dependencies (`bundle install`)
 4. Build and serve the site (`bundle exec nanoc live`)
