@@ -79,11 +79,14 @@ antwoorden:
     verenigingen:
       - naam: flyse
       - naam: capitant
-      - naam: re9000
 
   - tekst: $lang=nl$ Finance $lang=en$ Finance
     verenigingen:
       - naam: capitant
+
+  - tekst: $lang=nl$ Militair $lang=en$ Military
+    verenigingen:
+      - naam: mku
 
   - tekst: $lang=nl$ Kritisch denken en debat $lang=en$ Critical thinking and debate
     verenigingen:
@@ -175,7 +178,6 @@ antwoorden:
       - tekst: $lang=nl$ Techniek $lang=en$ Engineering
         verenigingen:
           - naam: ieee
-          - naam: best
       - tekst: $lang=nl$ Wiskunde $lang=en$ Mathematics
         verenigingen:
           - naam: prime
@@ -194,9 +196,6 @@ antwoorden:
     vraag: $lang=nl$ Wat zijn je interesses? $lang=en$ What are your interests?
     type: meerkeuze
     antwoorden:
-      - tekst: $lang=nl$ Armenië $lang=en$ Armenia
-        verenigingen:
-          - naam: hayasa
       - tekst: Japan
         verenigingen:
           - naam: tnk

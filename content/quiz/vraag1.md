@@ -20,7 +20,6 @@ antwoorden:
         verenigingen:
           - naam: stuart
           - naam: vgeschiedk
-          - naam: isha
       - tekst: $lang=nl$ Kunstwetenschappen $lang=en$ Art Sciences
         verenigingen:
           - naam: stuart
@@ -278,6 +277,7 @@ antwoorden:
         verenigingen:
           - naam: stuveco
           - naam: lies
+          - naam: vek
 
       - tekst: $lang=nl$ Economische wetenschappen $lang=en$ Economical sciences
         verenigingen:
@@ -292,6 +292,7 @@ antwoorden:
           - naam: capitant
           - naam: flyse
           - naam: lies
+          - naam: vek
 
       - tekst: $lang=nl$ Toegepaste economische wetenschappen $lang=en$ Applied Economic Sciences
         verenigingen:

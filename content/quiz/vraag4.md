@@ -17,13 +17,7 @@ antwoorden:
   - tekst: $lang=nl$ Internationale studenten $lang=en$ International students
     vereningingen:
       - naam: aiesec
-      - naam: best
       - naam: esn
-      - naam: isag
-
-  - tekst: $lang=nl$ Ik ben LGBTQI+ student en zou graag andere LGBTQI+ studenten ontmoeten $lang=en$ I'm a LGBTQI+ student and would like to meet other LGBTQI+ students
-    verenigingen:
-      - naam: vg
 
   - tekst: $lang=nl$ Ik heb een migratieachtergond en zou graag mensen met eenzelfde achtergrond als mezelf ontmoeten $lang=en$ I have a migrant background and would like to meet people with a similar background to myself
     vraag: $lang=nl$ Je gaf aan een migratieachtergrond te hebben en graag andere studenten te ontmoeten met dezelfde achtergrond. Wat is jouw culturele achtergrond? $lang=en$ You indicated that you have a migrant background and would like to meet other students from the same background. What is your cultural background?
@@ -32,10 +26,6 @@ antwoorden:
       - tekst: China
         verenigingen:
           - naam: chisag
-
-      - tekst: $lang=nl$ Armenië $lang=en$ Armenia
-        verenigingen:
-          - naam: hayasa
 
       - tekst: $lang=nl$ Indonesië $lang=en$ Indonesia
         verenigingen:
