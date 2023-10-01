@@ -65,6 +65,7 @@ antwoorden:
         verenigingen:
           - naam: fre
           - naam: vrg
+          - naam: elsa
 
       - tekst: $lang=nl$ Criminologische wetenschappen $lang=en$ Criminological Sciences
         verenigingen:
