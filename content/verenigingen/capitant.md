@@ -6,6 +6,13 @@ verkorte_naam: Capitant Gent
 konvent: wvk
 contact: info@capitant.be
 website: https://capitant.be/
+social:
+  - platform: facebook
+    link: https://www.facebook.com/CapitantGent
+  - platform: linkedin
+    link: https://www.linkedin.com/company/capitant
+  - platform: instagram
+    link: https://www.instagram.com/capitant_ghent/ 
 themas:
   - economie
 showcase:
